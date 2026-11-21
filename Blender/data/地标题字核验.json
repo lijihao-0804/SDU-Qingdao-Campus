@@ -1,0 +1,357 @@
+{
+  "title": "山东大学青岛校区既有地标实体题字独立复核",
+  "scope": "东南西北四座校门、育贤广场校训石、曦园餐厅及既有主要公共建筑。另行精修的十四座学院楼已单独建立铭牌记录。",
+  "evidence_method": "从学校发布、转载的照片原图独立目视，从校外向校内对照西门、图书馆、广场中轴。在近景核对具体载体、行列、文字与左右，活动通知及设计图仅辅助位置。",
+  "orientation": "X东、Z南。西门校外朝东，南塔在右。南门从山大南路朝校内看，西侧方塔在左、岗亭在右。北门向校内望，西侧收分石塔在右。",
+  "items": [
+    {
+      "key": "west_gate",
+      "name": "西门（礼仪正门）",
+      "status": "已复原校名与独立圆徽",
+      "physical_text": [
+        "山东大学"
+      ],
+      "carrier": "西侧入口南塔面向校外的立面。白底竖牌上自上而下为四个黑色行草字，上方另装深红色圆校徽。",
+      "photo_observation": "近照清楚显示上下两个独立载体。全景在同一画面中包含两塔、图书馆及广场，校外看南塔在右。图中北侧门塔的西面没有成对的第二块白底竖牌。",
+      "emblem": "校徽网格按山东大学官方网站的矢量标志轮廓构成，含山海图案、1901及环字。",
+      "model": "局部+X南塔、局部+Z朝外，节点旋转后朝世界西。校名牌宽1.81米、高6.82米。",
+      "sources": [
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1836/58443.htm",
+          "image": "https://www.qdxq.sdu.edu.cn/__local/F/21/EE/184DC465CFB636B118BCCD8D766_C7CCA9E3_2F1A7.png",
+          "year": 2024,
+          "owner": "山东大学（青岛）转载中国日报网",
+          "local": "实景参照/校门/西门-塔上校徽与竖额.png",
+          "pixels": [
+            1518,
+            1012
+          ],
+          "sha256": "4e5dcf1e4157c2f2f208dad25bf030a02986adda403a7f918f57a3d6c222ae70"
+        },
+        {
+          "article": "https://culture.sdu.edu.cn/sdyx/qdxq/6.htm",
+          "image": "https://culture.sdu.edu.cn/images/hangpaishanda01.jpg",
+          "year": null,
+          "owner": "山东大学文化网",
+          "local": "实景参照/校门/西门-校外望双塔与中轴.jpg",
+          "pixels": [
+            900,
+            506
+          ],
+          "sha256": "faaf58019441884452cb69946474ed60e29dcd84e76d6703e6c58c1055f0277b"
+        },
+        {
+          "article": "https://www.view.sdu.edu.cn/info/1012/194319.htm",
+          "role": "新生自述从西门入校时见“山东大学”四字"
+        },
+        {
+          "image": "https://www.sdu.edu.cn/images/logo.svg",
+          "role": "校名与校徽曲线"
+        }
+      ],
+      "geometry_check": {
+        "finish": "哑光题字",
+        "roughness": 0.92,
+        "metallic": 0.0,
+        "glyphs": "data/校门标准书法轮廓.json",
+        "source": "https://www.sdu.edu.cn/images/logo.svg",
+        "geometry": "每字独立有孔轮廓、正反表面与闭合的侧壁。四字按实拍竖排。",
+        "glyph_triangles": {
+          "山": 428,
+          "东": 532,
+          "大": 452,
+          "学": 936
+        },
+        "ink": "#192027",
+        "plate": "#f4f2ea"
+      }
+    },
+    {
+      "key": "south_gate",
+      "name": "南校门",
+      "status": "已补西侧门塔及实体四字题名",
+      "physical_text": [
+        "山东大学"
+      ],
+      "carrier": "西侧方塔朝南偏西、面向校外。白底黑色竖排四字，上方有圆形校徽，塔帽为红坡顶，车道东侧为低红瓦岗亭。",
+      "model": "西侧塔中心局部(-14.3,-2.5)；门外法向(-0.2924,0,0.9563)，塔高13.4米按实拍比例估计。2016年现场图标注南校门，2024年迎新报道复核同一立面。",
+      "geometry_check": {
+        "finish": "哑光题字",
+        "roughness": 0.92,
+        "metallic": 0.0,
+        "glyphs": "data/校门标准书法轮廓.json",
+        "source": "https://www.sdu.edu.cn/images/logo.svg",
+        "geometry": "每字独立有孔轮廓、正反表面与闭合的侧壁。四字按实拍竖排。",
+        "glyph_triangles": {
+          "山": 428,
+          "东": 532,
+          "大": 452,
+          "学": 936
+        },
+        "ink": "#20282c",
+        "plate": "#f4f2ea"
+      },
+      "sources": [
+        {
+          "article": "https://news.ifeng.com/c/7fbnahCCS8l",
+          "image": "https://p1.ifengimg.com/cmpp/2016/09/23/16/2ea85ac0-566b-478b-9c9d-54580ddf6376_size43_w600_h437.jpg",
+          "year": 2016,
+          "owner": "齐鲁网记者田进，凤凰网转载",
+          "local": "实景参照/校门/南门-两侧门体与交通岛-2016.jpg",
+          "pixels": [
+            600,
+            437
+          ],
+          "sha256": "4dedab2e4a3bca659d3c4e3601dc3ba1f82696726326fad385063be9f291a71b"
+        },
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1836/58105.htm",
+          "image": "https://www.qdxq.sdu.edu.cn/__local/2/57/FA/F07BB9ACD4FF5335471C2A8DF9D_B694A75E_80A75.jpg",
+          "year": 2024,
+          "owner": "齐鲁晚报·齐鲁壹点，山东大学（青岛）转载",
+          "local": "实景参照/校门/南门-校名塔和东岗亭-2024.jpg",
+          "pixels": [
+            900,
+            600
+          ],
+          "sha256": "e67ac28efa9396de639ef39a896a7252329f90c98431f2163f3ab37540bd2a1d"
+        },
+        {
+          "image": "https://www.sdu.edu.cn/images/logo.svg",
+          "role": "校名与校徽曲线"
+        }
+      ],
+      "approach_check": {
+        "basis": "2016年启用现场照片、2024年迎新实拍和卫星影像。局部铺装尺度为图上估计。",
+        "connections": [
+          "储才路",
+          "山大南路",
+          "诚信大道"
+        ],
+        "model_gate_width_m": 15.7,
+        "apron_area_m2": 568.75,
+        "both_masonry_bases_fully_on_paving": true,
+        "nearest_apron_edge_from_base_m": {
+          "west_tower": 2.01,
+          "east_kiosk": 1.28
+        },
+        "kiosk": "补全面向通道和校外的石券拱窗，浅檐下采用细石柱及凹进窗扇。"
+      }
+    },
+    {
+      "key": "east_gate",
+      "name": "东校门",
+      "status": "图书馆朝海实拍校正北高塔与南低亭",
+      "physical_text": [],
+      "carrier": "两门体相向夹着分流车道与中轴绿岛。北塔与南亭的校内立面都有成排拱洞；南亭接开放式弧廊。图3的拍摄距离只能辨认主要构件。",
+      "model": "北塔保留通高竖向石带和小坡顶，南亭设置三联拱窗与低屋面，弧廊连续衔接南亭。东门没有加入未经照片确认的实体文字。",
+      "sources": [
+        {
+          "image": "实景参照/校门/东门-图书馆朝海-用户图3局部.jpg",
+          "role": "用户图3，图书馆向东拍摄，建筑朝海的一面不在照片中。",
+          "original_pixels": [
+            2273,
+            1279
+          ],
+          "original_sha256": "8518a81b6836eba049abdf85b6b898a75649208bba9dae9d8596a18d41e279c9",
+          "crop_xyxy": [
+            305,
+            572,
+            799,
+            703
+          ]
+        },
+        {
+          "article": "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm",
+          "role": "校方说明东门为滨海景观入口"
+        },
+        {
+          "article": "https://www.google.com/maps/@36.36613071,120.68858070,130m/data=!3m1!1e3",
+          "role": "正射影像核对平面与廊顶，拍摄年份未明"
+        }
+      ]
+    },
+    {
+      "key": "yuxian",
+      "name": "育贤广场校训石",
+      "status": "已以照片手书替换通用字体",
+      "physical_text": [
+        "学无止境",
+        "气有浩然"
+      ],
+      "carrier": "西门内侧广场西段，靠西的一块浅色不规则长石。朝西的长石面，红色手书，从左至右横排八个大字，两句之间留空。照片可见右末另有小号落款/印记，字面不足以辨读。",
+      "geometry": "西面按照真实石网格横截面贴合，字面沿X向外偏移12毫米。照片手书笔画建成不透明三角面，画面可从西门向东读取。小号末款没有复刻。",
+      "source": "https://www.qdxq.sdu.edu.cn/info/1836/58443.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/F/21/EE/184DC465CFB636B118BCCD8D766_C7CCA9E3_2F1A7.png",
+      "year": 2024,
+      "corroboration": [
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1836/64665.htm",
+          "role": "2026年校区转载报道分别确认宗旨石和校训石及二者字面"
+        },
+        {
+          "image": "https://culture.sdu.edu.cn/images/hangpaishanda01.jpg",
+          "role": "广场及图书馆中轴全景"
+        }
+      ],
+      "maintenance": {
+        "glyph_data": "data/校训石手书字形.json",
+        "model": "tools/qd_civic.py",
+        "native_photo_dimensions": [
+          1518,
+          1012
+        ],
+        "visual_crop_xyxy": [
+          205,
+          724,
+          653,
+          829
+        ],
+        "right_end": "资料仅保留八个大字。书体依据2024年实拍逐像素提取，以该记录取代旧 civic_sources.json 中“书体作简化”的描述。"
+      },
+      "geometry_check": {
+        "quad_count": 505,
+        "triangles": 1010,
+        "ink_pixels": 6644,
+        "width_px": 602,
+        "height_px": 76,
+        "max_normal_x": -0.916935,
+        "x_clearance_m_range": [
+          0.012,
+          0.012
+        ],
+        "local_z_extent": [
+          -5.826,
+          5.226
+        ],
+        "local_y_extent": [
+          0.739,
+          1.867
+        ],
+        "west_projection_matches_reference_mask": true,
+        "material": "#ad3043"
+      }
+    },
+    {
+      "key": "xiyuan",
+      "name": "曦园餐厅",
+      "status": "实物字样确认，具体门侧保留待核",
+      "physical_text": [
+        "曦园",
+        "DINING",
+        "HALL"
+      ],
+      "carrier": "照片中浅色立体金属字有深色侧边。面对大拱洞，“曦园”在左侧，右侧英文两行，DINING在上、HALL在下。三组字共同位于大玻璃拱门左肩上方一块外凸的赭红墙体。",
+      "observation": "作者周鹏2024年照片呈近距离斜向取景，图中没有分门名称、方位或可唯一定位的周边建筑。另查学校资料提及南门、北门和西门，不能从餐厅名称推断有字的门侧。",
+      "model": "现有版本将实物字留在资料中，已移除南北门双面题写。恢复上墙需找到能把同一门形和字面连到方位的实拍。",
+      "sources": [
+        {
+          "article": "https://www.chem.sdu.edu.cn/info/1066/21255.htm",
+          "image": "https://www.chem.sdu.edu.cn/__local/4/06/E9/996CE564ABCD26FBB7B1FE02CDB_D93550F2_F5EB0.png",
+          "year": 2024,
+          "photographer": "周鹏",
+          "role": "参赛者实拍，文章由化学与化工学院发布"
+        },
+        {
+          "article": "https://www.view.sdu.edu.cn/info/1022/189156.htm",
+          "role": "后勤报道明确北门烘焙区、南门宣传栏"
+        },
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1820/54433.htm",
+          "role": "专题活动明确曦园西门，当场照片没有完整显示同一门头与字样"
+        }
+      ]
+    },
+    {
+      "key": "north_gate",
+      "name": "北校门",
+      "status": "已复原西塔格栅、外圈石砌与浅圆印",
+      "carrier": "西侧收分石塔朝外一面为棕色竖格栅。竣工验收照可辨格栅上方浅淡圆印的外缘，再小的笔画难以认读。",
+      "model": "2021年工程近照用于格栅与石缝，验收照用于浅棕圆印的圆形外缘；传达室与塔身无已核实可上墙的题字。",
+      "sources": [
+        {
+          "article": "https://jjc.qd.sdu.edu.cn/info/1022/1925.htm",
+          "image": "https://jjc.qd.sdu.edu.cn/__local/5/35/20/E451A4F1F6E15C2B6974C515535_56D88C5F_863D7.jpg",
+          "year": 2021,
+          "owner": "山东大学（青岛）基建处",
+          "local": "实景参照/校门/北门-竣工验收-2021.jpg",
+          "pixels": [
+            3840,
+            2880
+          ],
+          "sha256": "ca1fba757cc31472706619cb85aed13bcb72855e85610be9f6e82dca9f5a2e70"
+        },
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1819/56912.htm",
+          "image": "https://www.qdxq.sdu.edu.cn/__local/4/81/BD/DE876A9039E3B23EE0DF158FE7D_80E7953F_852D8.jpg",
+          "year": 2021,
+          "owner": "山东大学（青岛）基建处、组织宣传统战部",
+          "local": "实景参照/校门/北门-主塔格栅近景-2021.jpg",
+          "pixels": [
+            900,
+            600
+          ],
+          "sha256": "1d33170eba3f41b846540a4be36142c520e4106bd8331554cfd9315f470012d4"
+        }
+      ],
+      "physical_text": []
+    },
+    {
+      "key": "purpose_stone",
+      "name": "宗旨石",
+      "status": "与校训石分开记录",
+      "physical_text": [
+        "为天下储人才，为国家图富强"
+      ],
+      "carrier": "校区专题报道另称宗旨石，已与育贤广场八字校训石区别。此项未据可定方位照片绑定原版石面。",
+      "model": "不将这两句追加到育贤广场校训石背面。",
+      "sources": [
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1836/64665.htm",
+          "year": 2026,
+          "role": "文章明确分别说明两石所承载的不同文字"
+        }
+      ]
+    },
+    {
+      "key": "other_existing_landmarks",
+      "name": "原版其他公共建筑及场地",
+      "status": "保留地点元数据",
+      "keys": [
+        "library",
+        "museum",
+        "huagang",
+        "zhensheng",
+        "song_arena",
+        "blue_track",
+        "east_track"
+      ],
+      "observation": "本次限定为既有地标题字核查。复查公共建筑生成器和既有实景材料，馆名、苑名、场馆名是地点检索信息。现有公开航拍未能将可逐字辨读的题铭绑定到这些对象的某一扇入口，保持导航显示。",
+      "sources": [
+        {
+          "article": "https://hq.qd.sdu.edu.cn/info/1053/1824.htm",
+          "role": "校方校园地图，支持地名与建筑位置"
+        },
+        {
+          "article": "https://www.qdxq.sdu.edu.cn/info/1836/52034.htm",
+          "role": "体育馆竣工后实景资料，远景用于主体造型"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "no_duplicate_dining_wordmark": true,
+    "west_gate_inscription_towers": 1,
+    "literal_motto_copied_characters": 8,
+    "small_seal_omitted": true,
+    "updated_model_blocks": [
+      "qd_civic.plaza 的校训石字面",
+      "qd_gate_details.west_sign",
+      "qd_gate_details.south_tower",
+      "qd_gate_details.north_tower",
+      "qd_gate_details.east_details"
+    ],
+    "documentation": "校训石手书数据保留裁取参数。校门字形保留标准矢量的来源与SHA-256，实景参照/校门内保存6幅有来源记录的公开照片，供本地对照。",
+    "south_gate_inscription_towers": 1
+  }
+}

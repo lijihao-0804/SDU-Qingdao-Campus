@@ -1,0 +1,512 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "browser": "offline Chrome/WebGL",
+  "frames": [
+    {
+      "key": "film-gate",
+      "name": "西门双塔与中轴",
+      "clip": "V2",
+      "seconds": 2.5,
+      "eye": [
+        -250,
+        8.8,
+        -67
+      ],
+      "target": [
+        -142,
+        7.5,
+        -66
+      ],
+      "fov": 43,
+      "still": "实景参照/视频时码/V2-002.50.jpg",
+      "render": "preview/航拍对照/gate.jpg",
+      "referenceSHA256": "d3cd464895b35211b7c1ceef250ed69f66c255032f5d6105b659072443fb6d47",
+      "modelFrameSHA256": "a83192812459cde2ce4a02362bc98afa7a51addbdbd9d38b138581062cab5e2b",
+      "note": "双塔转角的石材分缝、中央绿岛、人行横道和两侧车道。"
+    },
+    {
+      "key": "film-library",
+      "name": "图书馆与育贤广场",
+      "clip": "V2",
+      "seconds": 18.5,
+      "eye": [
+        10,
+        31,
+        -65
+      ],
+      "target": [
+        176,
+        28,
+        -65
+      ],
+      "fov": 36,
+      "still": "实景参照/视频时码/V2-018.50.jpg",
+      "render": "preview/航拍对照/library.jpg",
+      "referenceSHA256": "da8a530b6092d7f8ec2551afa33a6f68c8765b44c514bb1733e8723f0b75fa68",
+      "modelFrameSHA256": "ddde80d4955532b99e45ba4017382ba1a9a7ee7b51d1db1b098e9e52192f0446",
+      "note": "沿西侧中轴可见五座拱门、浅色石材、橙红屋顶和广场旗台。"
+    },
+    {
+      "key": "film-roof",
+      "name": "图书馆屋冠内部",
+      "clip": "V2",
+      "seconds": 26.5,
+      "eye": [
+        117,
+        71,
+        -63
+      ],
+      "target": [
+        220,
+        64,
+        -64
+      ],
+      "fov": 48,
+      "still": "实景参照/视频时码/V2-026.50.jpg",
+      "render": "preview/航拍对照/roof.jpg",
+      "referenceSHA256": "41b5707ca803b7844aa3fe2a0ca6a3e45481c05db811f4a9a99b78e223af98d1",
+      "modelFrameSHA256": "ff43ccbd43c3f7847a7a711dbe09efd543c8d173c1c248a0186df80967d197c3",
+      "note": "屋冠的实孔后方能看见斜撑与内层玻璃采光顶。"
+    },
+    {
+      "key": "film-huagang",
+      "name": "华岗苑庭院",
+      "clip": "V2",
+      "seconds": 54.5,
+      "eye": [
+        -108,
+        129,
+        203
+      ],
+      "target": [
+        -28,
+        6,
+        123
+      ],
+      "fov": 55,
+      "still": "实景参照/视频时码/V2-054.50.jpg",
+      "render": "preview/航拍对照/huagang.jpg",
+      "referenceSHA256": "4dfc1c9260a6c78f8737070738686fe5c0b4334a7ee2e2d5bb56fd789f630ed8",
+      "modelFrameSHA256": "5784f3746402adf755549c3f98968bd5a6d2bbeb25e6a42a3fe1553207144393",
+      "note": "围合院落、内侧柱廊和红瓦屋面的分段高差。"
+    },
+    {
+      "key": "film-zhensheng",
+      "name": "振声苑入口与院落",
+      "clip": "V2",
+      "seconds": 70.5,
+      "eye": [
+        -89,
+        82,
+        423
+      ],
+      "target": [
+        -30,
+        13,
+        322
+      ],
+      "fov": 55,
+      "still": "实景参照/视频时码/V2-070.50.jpg",
+      "render": "preview/航拍对照/zhensheng.jpg",
+      "referenceSHA256": "5d50eb69f645bf692f08d7e28613a8a856efe9afb11d7c0de9ba80d13336a874",
+      "modelFrameSHA256": "e485b147def623cf4d19f2b427f4f1a9da1c167bf2a29f5be21aaf47af329681",
+      "note": "入口车道穿过门楼，围合建筑朝庭院的一侧可见窗列。"
+    },
+    {
+      "key": "film-museum",
+      "name": "博物馆北面",
+      "clip": "V2",
+      "seconds": 74.5,
+      "eye": [
+        69,
+        12,
+        416
+      ],
+      "target": [
+        69,
+        24,
+        504
+      ],
+      "fov": 41,
+      "still": "实景参照/视频时码/V2-074.50.jpg",
+      "render": "preview/航拍对照/museum.jpg",
+      "referenceSHA256": "d26337735f9c009f0a87a061e8215738d258a2fb43bf1c2795d9ca034e1e0ce5",
+      "modelFrameSHA256": "aa01aeedbbd7e5a7a8da937e5c398f2781ab032b29227aaffa557e175ffab86f",
+      "note": "白色馆名墙、中央宝蓝色玻璃展厅，以及两侧体块的出挑。"
+    },
+    {
+      "key": "film-arena",
+      "name": "宋君复体育馆西立面",
+      "clip": "V2",
+      "seconds": 78.5,
+      "eye": [
+        -206,
+        23,
+        713
+      ],
+      "target": [
+        -160,
+        25,
+        770
+      ],
+      "fov": 50,
+      "still": "实景参照/视频时码/V2-078.50.jpg",
+      "render": "preview/航拍对照/arena.jpg",
+      "referenceSHA256": "290f466c89a983bee18e1c5a49a19db0e43567675ccdfc043d2b23853fae3244",
+      "modelFrameSHA256": "8b94abfcb00ba6fabd06dc42e8a63641f2bcdd979bd818e768b93c270d7b0188",
+      "note": "穿孔铝板沿弧面连续展开，深蓝色玻璃带上方为中英文馆名。"
+    },
+    {
+      "key": "film-deck",
+      "name": "体育馆西平台和采光井",
+      "clip": "V2",
+      "seconds": 86.5,
+      "eye": [
+        -337,
+        135,
+        546
+      ],
+      "target": [
+        -144,
+        17,
+        710
+      ],
+      "fov": 52,
+      "still": "实景参照/视频时码/V2-086.50.jpg",
+      "render": "preview/航拍对照/deck.jpg",
+      "referenceSHA256": "1ecd38c58aedcc5a9a265edc5a1e686a9702f37de4ebd8bf78959ffc37067922",
+      "modelFrameSHA256": "3ced0902348fe5da89e05e10d63bbfd6548fc44e74b1d5456cf7e04ae6a2d8c4",
+      "note": "观察看台外部的架空平台、两处开口和弧形台阶。"
+    },
+    {
+      "key": "film-ganchang",
+      "name": "淦昌苑门楼群",
+      "clip": "V3",
+      "seconds": 26.5,
+      "eye": [
+        334,
+        50,
+        230
+      ],
+      "target": [
+        280,
+        11,
+        153
+      ],
+      "fov": 53,
+      "still": "实景参照/视频时码/V3-026.50.jpg",
+      "render": "preview/航拍对照/ganchang.jpg",
+      "referenceSHA256": "93b954662eece33b9f28da563dcefbef01ee85cc1bd1d9409e0af51a6b6f546d",
+      "modelFrameSHA256": "4929a09dd4deeb76c4b167b4643662deeea861a59ecea0328b2333a2f706ffbd",
+      "note": "相邻楼栋分别使用方塔、退进的顶层和有明显进深的门廊。"
+    },
+    {
+      "key": "film-dizhou",
+      "name": "第周苑坡顶与设备层",
+      "clip": "V3",
+      "seconds": 30.5,
+      "eye": [
+        473,
+        83,
+        424
+      ],
+      "target": [
+        364,
+        15,
+        311
+      ],
+      "fov": 52,
+      "still": "实景参照/视频时码/V3-030.50.jpg",
+      "render": "preview/航拍对照/dizhou.jpg",
+      "referenceSHA256": "e97131b9423e5a0b85771d1e9e3d7c98b33cf1ef47d7b6be7b61c679331275c5",
+      "modelFrameSHA256": "5b90b88d586a4a9d42351155187ba6f14e39b6a9da66025370d8cd52494a5cb4",
+      "note": "长翼红瓦、端山墙和局部蓝色弧形设备罩随视角分层。"
+    },
+    {
+      "key": "film-huiwen",
+      "name": "会文广场与南北楼",
+      "clip": "V3",
+      "seconds": 42.5,
+      "eye": [
+        610,
+        102,
+        30
+      ],
+      "target": [
+        427,
+        7,
+        -60
+      ],
+      "fov": 52,
+      "still": "实景参照/视频时码/V3-042.50.jpg",
+      "render": "preview/航拍对照/huiwen.jpg",
+      "referenceSHA256": "49ffd0c530dc9c872a851aa46a10a3a561175843d1670fd340a30642105c1f06",
+      "modelFrameSHA256": "cbb18620c170f2cdcf02500cb37c79c8e8b4e5bdecdb2f6eec07a401d9acb1b9",
+      "note": "广场两侧的长楼、坡顶、端部玻璃门厅和挑台。"
+    },
+    {
+      "key": "film-huiwen-portico",
+      "name": "会文北楼面广场的玻璃门廊",
+      "clip": "V3",
+      "seconds": 42.5,
+      "eye": [
+        472,
+        11,
+        -73
+      ],
+      "target": [
+        453,
+        7,
+        -111
+      ],
+      "fov": 44,
+      "still": "实景参照/视频时码/V3-042.50.jpg",
+      "render": "preview/航拍对照/huiwen-portico.jpg",
+      "referenceSHA256": "49ffd0c530dc9c872a851aa46a10a3a561175843d1670fd340a30642105c1f06",
+      "modelFrameSHA256": "7182695481d54dc653a4e0e0294307a10c12c2359189cc7de8af49ef0b8b19e6",
+      "note": "门廊挑板、浅石栏板、通高壁柱与蓝玻璃分格。右图从广场内走近观察。"
+    },
+    {
+      "key": "film-ganchang-b",
+      "name": "淦昌苑 B 座拱窗与柱廊",
+      "clip": "V2",
+      "seconds": 46.5,
+      "eye": [
+        268,
+        15,
+        138
+      ],
+      "target": [
+        247,
+        8,
+        94
+      ],
+      "fov": 48,
+      "still": "实景参照/视频时码/V2-046.50.jpg",
+      "render": "preview/航拍对照/ganchang-b.jpg",
+      "referenceSHA256": "135ef87b068544a4b89fc3c198b4111d80f4e5f60efdb36f42cade8f7a1da1fd",
+      "modelFrameSHA256": "630d8ffa23e316e836e83bf30996a92e7c649aaede0492e6d2a6e2a22db33576",
+      "note": "中央圆拱大窗、底层连续拱廊和红瓦坡顶。门楼结构补参照校方实拍。"
+    },
+    {
+      "key": "film-ganchang-c",
+      "name": "淦昌苑 C 座平顶门楼",
+      "clip": "V3",
+      "seconds": 38.5,
+      "eye": [
+        402,
+        13,
+        140
+      ],
+      "target": [
+        387,
+        8,
+        86
+      ],
+      "fov": 47,
+      "still": "实景参照/视频时码/V3-038.50.jpg",
+      "render": "preview/航拍对照/ganchang-c.jpg",
+      "referenceSHA256": "cc78062e47482870946e6d5b67e5f9afb3987013288867af97352a31ebc49fad",
+      "modelFrameSHA256": "74852a7178d0d8b099c161819b5cbc8403781f71953e54a76bacdfcac55ebe02",
+      "note": "凹院内的平顶石质门楼、大窗和窄侧窗，以及两翼端部的阶梯石框。"
+    },
+    {
+      "key": "film-ganchang-f",
+      "name": "淦昌苑 F 座双塔门廊",
+      "clip": "V3",
+      "seconds": 38.5,
+      "eye": [
+        258,
+        12,
+        232
+      ],
+      "target": [
+        243,
+        9,
+        187
+      ],
+      "fov": 49,
+      "still": "实景参照/视频时码/V3-038.50.jpg",
+      "render": "preview/航拍对照/ganchang-f.jpg",
+      "referenceSHA256": "cc78062e47482870946e6d5b67e5f9afb3987013288867af97352a31ebc49fad",
+      "modelFrameSHA256": "4a7f65e94d512df7a12976cf1c4e381a2c207b98bbcd8fd11f0e4ed4c56dc351",
+      "note": "两座窄缝窗方塔夹住入口，和相邻学院的拱窗门楼有各自的轮廓。"
+    },
+    {
+      "key": "film-dizhou-d",
+      "name": "第周苑 D 座的弧顶和设备平台",
+      "clip": "V3",
+      "seconds": 34.5,
+      "eye": [
+        446,
+        85,
+        398
+      ],
+      "target": [
+        501,
+        21,
+        326
+      ],
+      "fov": 50,
+      "still": "实景参照/视频时码/V3-034.50.jpg",
+      "render": "preview/航拍对照/dizhou-d.jpg",
+      "referenceSHA256": "fa4dbdb14cf152b71808ce1293289652337e463cdc9af07ded7870ea29afcdb2",
+      "modelFrameSHA256": "4a9961d9331d2674c4720c8035d9bfe69012894f2f8312fa7e193bfd7050db79",
+      "note": "南北两端的浅蓝弧形长棚、中央露台及机箱，均可绕至侧面查看。"
+    },
+    {
+      "key": "film-tennis",
+      "name": "网球场与东侧运动区",
+      "clip": "V3",
+      "seconds": 90.5,
+      "eye": [
+        265,
+        91,
+        375
+      ],
+      "target": [
+        429,
+        9,
+        488
+      ],
+      "fov": 54,
+      "still": "实景参照/视频时码/V3-090.50.jpg",
+      "render": "preview/航拍对照/tennis.jpg",
+      "referenceSHA256": "31700f95d988322dc999bf04348d4a51fd2d3dc275a8c5c48cbd4e14a45f3079",
+      "modelFrameSHA256": "bed27faa892c7c8315d3a32ac40ae6ea95ff325c24069c94ce432a9652f3b2df",
+      "note": "青绿色界内、蓝色缓冲区、成排围网和照明灯杆。"
+    },
+    {
+      "key": "film-track",
+      "name": "东侧田径场",
+      "clip": "V3",
+      "seconds": 98.5,
+      "eye": [
+        648,
+        139,
+        354
+      ],
+      "target": [
+        525,
+        8,
+        525
+      ],
+      "fov": 51,
+      "still": "实景参照/视频时码/V3-098.50.jpg",
+      "render": "preview/航拍对照/track.jpg",
+      "referenceSHA256": "b919c1184d13286b90effe52de309a0f617c4d1f95ac1c234b34d1850d432fe3",
+      "modelFrameSHA256": "90ba41cf9a9d1731d8af87a61f2549e6075726dc77c94b3500db9a6f5c056246",
+      "note": "红色跑道、足球场修剪草带、弯道旁的阶梯绿岸。"
+    },
+    {
+      "key": "film-phoenix",
+      "name": "凤凰居内院",
+      "clip": "V3",
+      "seconds": 106.5,
+      "eye": [
+        309,
+        77,
+        618
+      ],
+      "target": [
+        230,
+        19,
+        699
+      ],
+      "fov": 54,
+      "still": "实景参照/视频时码/V3-106.50.jpg",
+      "render": "preview/航拍对照/phoenix.jpg",
+      "referenceSHA256": "d4e3bf1192a609837e89a0771f165f4589157e06b9ba9f8280586b6b204b047e",
+      "modelFrameSHA256": "a19f9226e11fc43e51c1bfc51928102602f3bb1ddd10221edbf8b7d598cacd1d",
+      "note": "砖红色宿舍围合内院，端部与转角设置分层弧形阳台。"
+    },
+    {
+      "key": "film-hall",
+      "name": "风雨操场和蓝色田径场",
+      "clip": "V3",
+      "seconds": 126.5,
+      "eye": [
+        -417,
+        78,
+        390
+      ],
+      "target": [
+        -232,
+        16,
+        486
+      ],
+      "fov": 54,
+      "still": "实景参照/视频时码/V3-126.50.jpg",
+      "render": "preview/航拍对照/hall.jpg",
+      "referenceSHA256": "0bedd48b9050aff539f6122c4cab5f9bfed24004ab481ab4e40e2e8d6e48057c",
+      "modelFrameSHA256": "59cd571dfebd66781d48084f90a2eb2d8f9099dbd67114f7fe47aad8e0843ff0",
+      "note": "风雨操场的浅色拱顶和蓝色山墙，与露天蓝色跑道相邻。"
+    },
+    {
+      "key": "film-bay",
+      "name": "从西向海远眺校园",
+      "clip": "V1",
+      "seconds": 150.5,
+      "eye": [
+        -911,
+        217,
+        285
+      ],
+      "target": [
+        35,
+        26,
+        -42
+      ],
+      "fov": 53,
+      "still": "实景参照/视频时码/V1-150.50.jpg",
+      "render": "preview/航拍对照/bay.jpg",
+      "referenceSHA256": "30cd588d3a457336b0beba6e420deb62ff5d183555b535c7d8515220e7c86056",
+      "modelFrameSHA256": "0c216637bcb60c57cb735236439ee136a4b4ecedc88438838667ec24e3ae10a7",
+      "note": "近处为校园，沿海村落、岸线和海面构成远景；远景屋体使用概略高度。"
+    },
+    {
+      "key": "film-village",
+      "name": "从东田径场看向海边村落",
+      "clip": "V3",
+      "seconds": 92.0,
+      "eye": [
+        430,
+        120,
+        1018
+      ],
+      "target": [
+        910,
+        19,
+        792
+      ],
+      "fov": 52,
+      "still": "实景参照/视频时码/V3-092.00.jpg",
+      "render": "preview/航拍对照/village.jpg",
+      "referenceSHA256": "8bd8ea9b87801a8bca6ae660320e6a2a3503e521073695d663180e7ae61502c1",
+      "modelFrameSHA256": "06edee80d3cdfdd1b0fe09dc5c01cc86ee02fbbec26b961e13311b9ccdf357ec",
+      "note": "村落屋脊朝向、坡屋顶与多层平顶的尺度差异。可见的窗位、檐缘和行道树按近景概括。"
+    },
+    {
+      "key": "film-ridge",
+      "name": "由海岸回望内陆山脊",
+      "clip": "V1",
+      "seconds": 6.5,
+      "eye": [
+        804,
+        198,
+        707
+      ],
+      "target": [
+        -1600,
+        36,
+        -480
+      ],
+      "fov": 54,
+      "still": "实景参照/视频时码/V1-006.50.jpg",
+      "render": "preview/航拍对照/ridge.jpg",
+      "referenceSHA256": "278917cd8d1687a58c3bf82cf4caeb96f844e7dec3e211701c29437060585bbc",
+      "modelFrameSHA256": "35003d3eadfd3cdadad512319e255e1ff29303157379a96d9135932aa30f74f0",
+      "note": "校外村落、道路、成组住宅和多层山脊。地形来自高程栅格，照片用于判断轮廓。"
+    }
+  ]
+}

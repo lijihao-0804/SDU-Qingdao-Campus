@@ -1,0 +1,14 @@
+﻿# Local runtime environment (Chrome, Python, bpy, ffmpeg)
+Blender/运行环境/
+
+# Blender backup files
+*.blend1
+*.blend2
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db

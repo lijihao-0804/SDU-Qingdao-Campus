@@ -1,0 +1,79 @@
+{
+  "coreScope": "surveyed-nearshore-108m-v1",
+  "modelSHA256": "3087832aeb14e411409a6185d3d8c6a3d24600efea600d05435edf88eb7153da",
+  "environmentSHA256": "cfa740e381d97c08592bad0b072079d1922936895b059b618a45f50f8a6f8799",
+  "probes": [
+    {
+      "name": "华岗振声庭院",
+      "centre": [
+        -27,
+        12,
+        222
+      ],
+      "file": "华岗振声庭院.hdr",
+      "sha256": "a85bcd52ac0f884cd9cdb47d62967bade7eba598c2ff7ba91fc81d022f1d48cb",
+      "coreFile": "华岗振声庭院-建模区.hdr",
+      "coreSHA256": "4cf3c739f4b7ffc2d9c17262da6d2018c96f85648ed32d93297c044e9a7de781"
+    },
+    {
+      "name": "凤凰居中轴花圃",
+      "centre": [
+        309,
+        24,
+        888
+      ],
+      "file": "凤凰居中轴花圃.hdr",
+      "sha256": "2349316510c1d38916f8b11010d8b2227c89bc94d4d6835d5d84e48fd1bf7c00",
+      "coreFile": "凤凰居中轴花圃-建模区.hdr",
+      "coreSHA256": "8230d5663fcbd2b027c4ac9bba811711c5449b9d00b6e24d45fb8c8aba23f5f9"
+    },
+    {
+      "name": "图书馆前广场",
+      "centre": [
+        91,
+        13,
+        -64
+      ],
+      "file": "图书馆前广场.hdr",
+      "sha256": "d91cb8f4cce55bdb948c9708c526ce17be7b589413ee6fd14b43ec38d26827da",
+      "coreFile": "图书馆前广场-建模区.hdr",
+      "coreSHA256": "f3241b9f6c2eb97485401cb91ccf13d637cf54b35d8822b2d8c21b5fb10c2f38"
+    },
+    {
+      "name": "淦昌苑樱花庭院",
+      "centre": [
+        345,
+        10,
+        130
+      ],
+      "file": "淦昌苑樱花庭院.hdr",
+      "sha256": "77bdd5db725d193a38b2597dcf4674b1de42350a268f2cb4ca4d14d18e561090",
+      "coreFile": "淦昌苑樱花庭院-建模区.hdr",
+      "coreSHA256": "77bdd5db725d193a38b2597dcf4674b1de42350a268f2cb4ca4d14d18e561090"
+    },
+    {
+      "name": "北区湖畔",
+      "centre": [
+        32,
+        7,
+        -1050
+      ],
+      "file": "北区湖畔.hdr",
+      "sha256": "f1ccc756c5b5b70c9898888aa5d04f6e68bef396e1daa968ac6bb8c42750c878",
+      "coreFile": "北区湖畔-建模区.hdr",
+      "coreSHA256": "3eb040e67dd799def637506cdfa566d2df3bd8420f210ccee01592da3db0f5f4"
+    },
+    {
+      "name": "研究院室外庭院",
+      "centre": [
+        89,
+        11,
+        -455
+      ],
+      "file": "研究院室外庭院.hdr",
+      "sha256": "3a386e0fb82c123dbc5aad38ccbc0a62e50c912fddec4a8d983f4ae21b7cc4f0",
+      "coreFile": "研究院室外庭院-建模区.hdr",
+      "coreSHA256": "b5fcd4e7a2b9149ef91fc886a57b32d7a04ba37755fed182bae9bb5f692ec956"
+    }
+  ]
+}

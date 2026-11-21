@@ -1,0 +1,183 @@
+{
+  "title": "山东大学青岛校区地标建筑建模依据",
+  "coordinate_system": "WGS 84 (EPSG:4326). 经度与纬度为所列 OSM 建筑外轮廓包围盒中心。不是 GPS 测点。",
+  "geometry_notes": "图书馆体高和博物馆工程尺寸有公开数据。教学组团宽深取 OSM 外环，檐高按四层外观估算。没有取得建筑立面 CAD 或竣工测量图。窗格、石材分缝、铜板尺度、院内绿化据照片概化。真实照片仅用于核对形体，场景用原创几何与材质重建。",
+  "map_credit": "© OpenStreetMap contributors. https://www.openstreetmap.org/copyright",
+  "photographic_overview": {
+    "credit": "周青先／齐鲁晚报·齐鲁壹点，2019-09-16，青岛新闻网刊载",
+    "page": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+    "photos": [
+      {
+        "url": "https://house.qingdaonews.com/gb/images/2019-09/16/dd617da2-9fd7-49f2-8e1d-a1776950c2af.jpg.2",
+        "view": "图书馆屋顶近景，四边坡面、下凹中庭、浅色采光顶与高侧窗；后方可见华岗苑和博物馆。"
+      },
+      {
+        "url": "https://house.qingdaonews.com/gb/images/2019-09/16/efb6123a-21a9-47e9-acee-c058ff914482.jpg.2",
+        "view": "由南向北航拍；可辨博物馆基座、振声苑与华岗苑两个完整内院、图书馆和海岸相对位置。"
+      }
+    ]
+  },
+  "landmarks": [
+    {
+      "key": "library",
+      "name": "青岛校区图书馆",
+      "major_axis": "西立面面向泰安街、育贤广场和西门。",
+      "dimensions_m": {
+        "w": 96,
+        "d": 82,
+        "h": 66.3
+      },
+      "wgs84": [
+        120.68400395,
+        36.36617785
+      ],
+      "footprint": "https://www.openstreetmap.org/way/970257674",
+      "features": [
+        "西立面五个拱门、五列纵向凹入的阅览窗、巨型石质壁柱及水平檐口",
+        "上部体量退台、陶土瓦四面坡屋顶、屋内下凹露台及中央浅色拱形玻璃采光顶",
+        "西面阶梯及三根细旗杆"
+      ],
+      "sources": [
+        {
+          "publisher": "山东大学图书馆",
+          "url": "https://library.sdu.edu.cn/branch/view/17.html",
+          "use": "校名、馆址、正式分馆名。"
+        },
+        {
+          "publisher": "山大文化网",
+          "url": "https://culture.sdu.edu.cn/info/1040/1297.htm",
+          "use": "正立面夜景与白天照片、与西校门的关系。",
+          "photo": "https://culture.sdu.edu.cn/__local/2/A3/51/A65807F1D758626C9C95FFB694C_318F78A8_ED891.png"
+        },
+        {
+          "publisher": "青岛市建筑工务局交付资料，青岛新闻网记者朱颖",
+          "url": "https://news.qingdaonews.com/qingdao/2017-09/08/content_20011093.htm",
+          "use": "12层，66.3米，石材幕墙、陶土瓦坡顶与钢结构采光顶。"
+        },
+        {
+          "publisher": "青岛新闻网《青岛时尚》，引德才集团装饰设计院院长吴晓伟",
+          "url": "https://news.qingdaonews.com/qingdao/2019-10/30/content_20850676.htm",
+          "use": "设计方访谈及外观、内装设计分工。"
+        }
+      ]
+    },
+    {
+      "key": "museum",
+      "name": "山东大学博物馆（青岛）",
+      "major_axis": "模型+Z为北门入口广场方向，北门是馆方开放公告指定入馆口。",
+      "wgs84": [
+        120.68280425,
+        36.36088545
+      ],
+      "footprint": "https://www.openstreetmap.org/way/970257675",
+      "dimensions_m": {
+        "w": 118,
+        "d": 105,
+        "h": 41.7
+      },
+      "features": [
+        "白色石材的阶梯台基、中央高起并呈方鼎意象的体块",
+        "深蓝竖向玻璃幕墙、四角悬挑的绿铜竹简面板、两侧较矮的横向展厅",
+        "铜板分条与拼缝表现材质节奏，未重刻简牍原文"
+      ],
+      "sources": [
+        {
+          "publisher": "山东大学博物馆",
+          "url": "https://museum.sdu.edu.cn/info/1009/6878.htm",
+          "use": "建筑设计、立面实拍与竹简铜板设计细节。",
+          "photos": [
+            "https://museum.sdu.edu.cn/__local/A/B0/4C/BE347BB05842DB049B2D2C34524_D7089986_4E2FC.jpg",
+            "https://museum.sdu.edu.cn/__local/2/8F/F4/93E4B57A6B683674E4AF4098D28_880EE31F_498A3.jpg"
+          ]
+        },
+        {
+          "publisher": "山东大学博物馆",
+          "url": "https://museum.sdu.edu.cn/bggk/bgjj/bggk.htm",
+          "photo": "https://museum.sdu.edu.cn/__local/B/03/79/B4812A6A491D459278CE075C628_6066E720_C89C3.png",
+          "use": "建成后外部全貌、台阶与低区展厅。"
+        },
+        {
+          "publisher": "青岛新闻网记者朱颖，泰山杯工程资料",
+          "url": "https://news.qingdaonews.com/qingdao/2019-01/21/content_20277329.htm",
+          "use": "竣工长118米、宽105米、高41.7米。模型采用整体竣工尺寸，OSM仅用于定位。"
+        },
+        {
+          "publisher": "山东大学博物馆",
+          "url": "https://museum.sdu.edu.cn/info/1009/6868.htm",
+          "use": "北门入口。"
+        }
+      ]
+    },
+    {
+      "key": "zhensheng",
+      "name": "振声苑",
+      "wgs84": [
+        120.68170955,
+        36.36268175
+      ],
+      "footprint": "https://www.openstreetmap.org/relation/13110947",
+      "osm_outer_way": 868015924,
+      "osm_inner_way": 975037000,
+      "dimensions_m": {
+        "w": 122,
+        "d": 138,
+        "h_estimated": 21
+      },
+      "features": [
+        "四栋四层教学楼围成开敞内院，四翼互通",
+        "南楼中央通高玻璃人字山墙、低处石质圆拱入口、屋面小三角老虎窗",
+        "四周连续暖色壁柱、红瓦坡顶、内院配树"
+      ],
+      "sources": [
+        {
+          "publisher": "山东大学新闻网／青岛校区建设指挥，摄影徐长平",
+          "url": "https://www.view.sdu.edu.cn/info/1003/46267.htm",
+          "photo": "https://www.view.sdu.edu.cn/__local/7/1A/F4/B737498F8EEDA0D02B3053BB867_AFA48A3A_AE15.jpg?e=.jpg",
+          "use": "南楼正面和四楼围合关系；地上四层、雪松和白蜡庭院。"
+        },
+        {
+          "publisher": "山东大学新闻网",
+          "url": "https://www.view.sdu.edu.cn/info/1003/48260.htm",
+          "use": "教学楼E区命名及两苑揭牌时的圆拱入口实照。"
+        }
+      ]
+    },
+    {
+      "key": "huagang",
+      "name": "华岗苑",
+      "wgs84": [
+        120.68171925,
+        36.364477
+      ],
+      "footprint": "https://www.openstreetmap.org/relation/13110946",
+      "osm_outer_way": 868015925,
+      "osm_inner_way": 975037001,
+      "dimensions_m": {
+        "w": 125,
+        "d": 124,
+        "h_estimated": 22
+      },
+      "features": [
+        "四翼相连的近方形内院。模型依OSM内外尺寸分别搭建四楼，保留庭院",
+        "校方揭牌与航拍照片支持浅色立面、红瓦屋面、圆拱门厅及玻璃山墙；细部窗格按相邻楼翼简化"
+      ],
+      "sources": [
+        {
+          "publisher": "山东大学法学院",
+          "url": "https://www.law.sdu.edu.cn/info/1100/9528.htm",
+          "use": "南北东西楼围合、法学院在北楼。"
+        },
+        {
+          "publisher": "山东大学新闻网",
+          "url": "https://www.view.sdu.edu.cn/info/1003/48260.htm",
+          "use": "命名、人文社科与行政办公功能、在两苑入口揭牌的照片。"
+        },
+        {
+          "publisher": "齐鲁晚报·齐鲁壹点记者周青先",
+          "url": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+          "use": "位于振声苑以北的四翼环形布局、檐口高度与屋面颜色。"
+        }
+      ]
+    }
+  ]
+}

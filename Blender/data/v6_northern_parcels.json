@@ -1,0 +1,56 @@
+{
+  "coordinates": "平面横坐标向东、纵坐标向南，单位为米。",
+  "sources": {
+    "sports_site": "https://hq.qd.sdu.edu.cn/info/1017/2721.htm",
+    "pickleball_b1": "https://tyb.qd.sdu.edu.cn/info/1020/1833.htm",
+    "sports_open": "https://www.qdxq.sdu.edu.cn/info/1819/64729.htm",
+    "hall": "https://www.qdxq.sdu.edu.cn/info/1722/47541.htm",
+    "d_yard": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202609/t20260923_27392337.htm",
+    "orthophoto": "https://livingatlas.arcgis.com/wayback/#active=3692&mapCenter=120.68288%2C36.37141%2C19",
+    "satellite": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51STA_20261007_0_L2A"
+  },
+  "imagery_epoch": "Esri World Imagery Wayback 档案发布于2026-11-18，地表实拍日期未知。影像中阅海居西侧运动场尚未铺蓝色面层，研究院仍处于较早施工阶段。2026-10-07 Sentinel-2 以10米像元辨识了较新的运动场、研究院及已整地的范围。",
+  "sites": [
+    {
+      "name": "阅海居西侧运动场",
+      "bounds_xz_m": [
+        -121,
+        -1027,
+        -71,
+        -916
+      ],
+      "notes": "校方2025年12月记载宿舍西侧运动场施工，2026年5月赛事规程把匹克球场定位在阅海居B1正门，同年10月回顾确认北区体育场投用。场地蓝色区据十月影像。6片匹克球场、灯位、坐凳及具体分区为示意；南侧浅蓝面层未获细部影像。"
+    },
+    {
+      "name": "学生会堂 C1 及附属场地",
+      "notes": "沿 OSM way/1575469862 和高分影像划出会堂外圈、浅色通道及浩然大道两侧蓝白屋顶临建。三瓣会堂和树庭维持现有尺度。10月卫星只能確認配套用房组团级反射，单栋存留、檐高、内部用途未能测定。"
+    },
+    {
+      "name": "工程技术研究院 M、D 区",
+      "notes": "在用地范围内依据10月影像亮度及红光、近红外判读已整地部分。扣除已有建筑、道路和水面。2026年9月D区室外配套招标。浅色地面以施工整地示意，未归为已竣工路面或额外建筑。"
+    },
+    {
+      "name": "学生会堂东侧种植地",
+      "notes": "旧正射显示成排木本及纵横通道，10月影像与种植地色块吻合。行间通道限制在 OSM way/982199351 面内。植物种类、精确间距未实测。"
+    }
+  ],
+  "standalone_check": {
+    "module_sha256": "d7e197982d0755c82a6adb220824527bb82c748ee031f453c9b0b94b8c84aa63",
+    "input": "v6/data/map/campus.json 与 sentinel-20261007.npz，使用项目原生 CampusFile、Shape 和 Terrain，独立生成地块内容。",
+    "nodes": 22,
+    "triangles": 6474,
+    "polygons_valid": 7,
+    "intersection_with_existing_buildings_parking_water_and_roads_m2": 0,
+    "hall_courtyard_excluded_from_reserve": true,
+    "works_cabins_with_roofs_inside_compounds": 9,
+    "site_areas_m2": {
+      "north_court": 5550,
+      "hall_exterior": 15877,
+      "hall_work_lanes_subset": 3784,
+      "compound_yards": 6711,
+      "research_exposed_soil": 37801,
+      "nursery_tracks": 2065,
+      "entrance": 11
+    }
+  }
+}

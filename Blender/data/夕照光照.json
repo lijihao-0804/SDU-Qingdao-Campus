@@ -1,0 +1,61 @@
+{
+  "name": "鳌山湾 · 西南偏西斜阳",
+  "azimuthDeg": 254,
+  "elevationDeg": 12,
+  "sunDiameterDeg": 0.58,
+  "sunLinearRGB": [
+    1.0,
+    0.705,
+    0.465
+  ],
+  "blenderSunEnergy": 3.45,
+  "blenderWorldStrength": 1.03,
+  "threeSunIntensity": 1.62,
+  "threeExposure": 0.93,
+  "threeHemisphereIntensity": 0.54,
+  "panorama": "assets/鳌山湾-夕照环境.hdr",
+  "coordinates": "从真北顺时针测量方位角。Blender 使用 X 东 Y 北 Z 上，网页使用 X 东 Y 上 Z 南。",
+  "interpretation": "春日傍晚的美术设定。天空由程序生成，无拍摄日期和观测气象标定。",
+  "viewpoints": [
+    {
+      "key": "sunset-library",
+      "name": "图书馆 · 向西看夕照",
+      "group": "夕照时分",
+      "note": "从图书馆东侧望向西南偏西，瓦脊和院落正上方可见落日。",
+      "viewpoint": {
+        "eye": [
+          334,
+          78,
+          -119
+        ],
+        "target": [
+          158,
+          63,
+          -65
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "key": "sunset-glaze",
+      "name": "图书馆 · 南坡釉瓦掠光",
+      "group": "夕照时分",
+      "note": "从南坡镜面亮峰侧面观察陶瓦，亮带沿瓦棱延伸，瓦沟保留红褐色。",
+      "viewpoint": {
+        "eye": [
+          201.397,
+          68.85,
+          -17.034
+        ],
+        "target": [
+          176.26,
+          59.41,
+          -30.42
+        ],
+        "fov": 39
+      }
+    }
+  ],
+  "blenderExposureEV": 0.4,
+  "blenderLook": "None"
+}

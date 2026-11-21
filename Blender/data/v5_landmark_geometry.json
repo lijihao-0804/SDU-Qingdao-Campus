@@ -1,0 +1,56 @@
+{
+  "library": {
+    "triangles": 31900,
+    "crownOpeningsAndSolidWebs": [
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        11,
+        10
+      ]
+    ],
+    "westGlazingRecess_m": [
+      2.531,
+      2.63
+    ],
+    "flagPlatform_worldX": 62,
+    "flagpoles": 3
+  },
+  "museum": {
+    "triangles": 12292,
+    "unobstructedLetteringRays": 58,
+    "northLetteringExtent_m": [
+      [
+        -16.32,
+        20.43,
+        26.046
+      ],
+      [
+        -13.92,
+        36.42,
+        26.046
+      ]
+    ],
+    "entranceDoorBehindGlassProjection_m": 3.02
+  },
+  "zhensheng": {
+    "triangles": 20574,
+    "throughPortalRays": 80,
+    "courtyardMatureTrees": 52
+  },
+  "huagang": {
+    "triangles": 19988,
+    "throughPortalRays": 80,
+    "courtyardMatureTrees": 48
+  }
+}

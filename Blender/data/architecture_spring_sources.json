@@ -1,0 +1,362 @@
+{
+  "title": "山东大学青岛校区春日建筑实景与几何对照",
+  "coordinates": "项目世界坐标，单位米，X向东、Y向上、Z向南。相机按照照片可辨的立面与相邻屋顶定位，焦距及具体摄影点为近似。",
+  "coverage": "本轮将南北学生生活区的17个既有轮廓按证据独立建模。校方2017年教学楼与宿舍同页实拍清楚显示，浅色石材教学建筑和红砖公寓属于不同组。",
+  "references": [
+    {
+      "key": "S-LINK",
+      "name": "山东大学新闻网 · 青岛校区学生公寓建设项目破土动工",
+      "source": "https://www.view.sdu.edu.cn/info/1102/49513.htm",
+      "year": 2014,
+      "files": [],
+      "desc": "校建设指挥部基建管理部的工程介绍记载，S1至S10学生公寓采用U形布局和连廊。"
+    },
+    {
+      "key": "S-LINK-FILM",
+      "name": "凤凰居中轴补拍",
+      "files": ["实景参照/校园补拍/凤凰居中轴.jpg","实景参照/校园补拍/凤凰居中轴-2.70秒.jpg"],
+      "source": "项目内实拍，取帧和校验值见 data/校园补拍依据.json",
+      "desc": "中轴地面视角可辨平檐砖券、退后的拱口和贴接宿舍翼部的低矮连廊。"
+    },
+    {
+      "key": "S-PH",
+      "name": "凤凰居-2017年校园正面",
+      "files": [
+        "实景参照/春日建筑/凤凰居-2017年校园正面.jpg"
+      ],
+      "source": "https://www.view.sdu.edu.cn/info/1003/76009.htm",
+      "image": "https://www.view.sdu.edu.cn/__local/6/D3/6E/0CF12D6DBF3E0BA3F6619D7DE4C_2531DCD0_9EA7.jpg",
+      "year": 2017,
+      "desc": "校方正照，室外竖窗、中央深色玻璃及红瓦坡屋顶。"
+    },
+    {
+      "key": "S-AIR",
+      "name": "凤凰居-2021年航拍",
+      "files": [
+        "实景参照/春日建筑/凤凰居-2021年航拍.jpg"
+      ],
+      "source": "https://www.dailyqd.com/guanhai/121068_2.html",
+      "image": "https://img.guanhai.com.cn/a/10001/202110/cc5f7032179fe80556aa5c2a3d54d4d8.jpeg",
+      "year": 2021,
+      "desc": "青岛日报、观海新闻摄影，从北侧斜上方辨认六座相向U形的分翼和成组天井。"
+    },
+    {
+      "key": "S-AX",
+      "name": "凤凰居-2025年中央花圃与两翼",
+      "files": [
+        "实景参照/春日建筑/凤凰居-2025年中央花圃与两翼.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/3/4A/2E/81D4A9919AD320C7FDE528549E2_82EEAAB9_1A32AF.jpg",
+      "year": 2025,
+      "desc": "由南向北看中央路，能辨端部深拱、低廊、立窗两侧分格、檐下退台及弧形老虎窗。"
+    },
+    {
+      "key": "S-END",
+      "name": "凤凰居11至13-校方基建方案",
+      "files": [
+        "实景参照/春日建筑/凤凰居11至13-校方基建方案.jpg"
+      ],
+      "source": "https://jjc.qd.sdu.edu.cn/info/1022/1225.htm",
+      "image": "https://jjc.qd.sdu.edu.cn/__local/E/28/7C/F78057AAC745E84575B3B062E6F_88677415_3223E.png?e=.png",
+      "year": 2019,
+      "desc": "基建处工程开工时发布的设计效果图，4至6层，赤色入口体和浅带。不是竣工实拍。"
+    },
+    {
+      "key": "N-COMP",
+      "name": "阅海居与晨园-2022年承建方竣工航拍",
+      "files": [
+        "实景参照/春日建筑/阅海居与晨园-2022年承建方竣工航拍.jpg",
+        "实景参照/春日建筑/阅海居①-2022竣工航拍北翼东端局部.jpg"
+      ],
+      "source": "https://5bur.cscec.com/5bur/oa/dtxw/202209/3570666.html",
+      "image": "https://5bur.cscec.com/5bur/oa/dtxw/202209/W020220901439385130398.jpg",
+      "year": 2022,
+      "desc": "中建五局：U形住宅、较低的直条楼和两层餐厅，成排深蓝屋面组件及屋顶平台。 东侧俯视原图中，U楼的北翼东端可以独立辨出“阅海居①”和下行英文，位置在外拱以北、深色檐带下面；同楼南翼无此题字。"
+    },
+    {
+      "key": "N-COURT",
+      "name": "阅海居-2022年内庭",
+      "files": [
+        "实景参照/春日建筑/阅海居-2022年内庭.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/0/C3/31/2ECC1162D79DE27E8D0DDA0242B_8176E822_E2BE5.jpg",
+      "year": 2022,
+      "desc": "庭院环廊下部两层高的连续拱，中央玻璃山墙、外露两柱和顶部深色带。"
+    },
+    {
+      "key": "N-ID",
+      "name": "阅海居2-校方街角近照",
+      "files": [
+        "实景参照/春日建筑/阅海居2-校方街角近照.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/1/05/68/D8CA370B20E8C32E781923CAF16_627B0DB8_AC7A9.jpg",
+      "year": 2022,
+      "desc": "右上角外墙标记阅海居②、YUEHAI HALL。端面方向尚未充分确定，此图仅用于观测材料和构造。"
+    },
+    {
+      "key": "N-BASE",
+      "name": "阅海居-2025年中轴朝东",
+      "files": [
+        "实景参照/春日建筑/阅海居-2025年中轴朝东.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/E/BA/F3/3695BFB57F7EFCAC7044B5C8ED7_593546CE_148467.jpg",
+      "year": 2025,
+      "desc": "面朝海岸，狭长条楼中央玻璃三角门厅、宽弧入口和两层窗及深色顶层。"
+    },
+    {
+      "key": "N-STREET",
+      "name": "阅海居-2025年春季街立面",
+      "files": [
+        "实景参照/春日建筑/阅海居-2025年春季街立面.jpg",
+        "实景参照/春日花木/2025_阅海居1号楼_沿路粉白花树.jpg",
+        "实景参照/春日建筑/阅海居①-2025沿路题字局部.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/4/97/23/002472D4CC66D289F56B929D88E_EE56382B_16A9CF.jpg",
+      "year": 2025,
+      "desc": "2025年4月校区街拍。右楼北翼东端高拱红墙上两行白色墙字“阅海居①”“YUEHAI HALL”，圈号可读；暗色顶层压边，深灰色内拱。路向南，对面B2北侧短端可见。两处本地存档为同一照片。"
+    },
+    {
+      "key": "N-DINE",
+      "name": "晨园-校方入口近照",
+      "files": [
+        "实景参照/春日建筑/晨园-校方入口近照.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/D/D1/C6/4DDFBEDCD405146167C8F18B00B_CC4E004B_96C5A.jpg",
+      "year": 2022,
+      "desc": "两侧窄拱＋中央宽拱，上排竖向长窗，三角山墙下可读晨园与DINING HALL。"
+    }
+  ],
+  "groups": [
+    {
+      "name": "凤凰居1、5、9、2、6、10号楼",
+      "keys": [
+        "way-970257676",
+        "way-970257677",
+        "way-970257678",
+        "way-970257679",
+        "way-970257680",
+        "way-970257681"
+      ],
+      "evidence": [
+        "S-PH",
+        "S-AIR",
+        "S-AX"
+      ],
+      "confirmed": "六个U形红砖公寓沿中央步道镜像开口，高侧翼、端部大拱、顶部红瓦斜面、浅色檐带、弧形小老虎窗和重复集中竖窗。",
+      "estimated": "沿各实测轮廓布窗；窗柱、屋顶组件的逐栋数量及精确标高为估算。"
+    },
+    {
+      "name": "凤凰居花轴四段低连廊",
+      "keys": [
+        "way-970257682",
+        "way-970257683",
+        "way-970257684",
+        "way-970257685"
+      ],
+      "evidence": [
+        "S-AX",
+        "S-AIR",
+        "S-PH",
+        "S-LINK",
+        "S-LINK-FILM"
+      ],
+      "confirmed": "校方工程说明确认U形公寓配连廊。2025年中轴航拍和地面补拍可辨中段窄红瓦屋体、面向中轴的平檐，以及接入两旁宿舍翼部的低层开敞砖拱。",
+      "estimated": "按原有四段和相邻六座宿舍的模型位置补齐八个连接端。廊宽7.4米、拱跨、檐高、铺装和进入宿舍外墙的0.85米搭接均为建模值。部分远端由同组布局及底图推定；校方照片未提供竣工尺寸。"
+    },
+    {
+      "name": "凤凰居11至13号楼",
+      "keys": [
+        "way-982199358"
+      ],
+      "evidence": [
+        "S-END",
+        "S-AIR"
+      ],
+      "confirmed": "2019校方工程资料显示4至6层和红色主楼，现状屋面资料及轮廓支持斜向西长翼与院内低平台。",
+      "estimated": "基建图为建设阶段效果图；后勤面与绿化平台细部、各翼高度及开间没有竣工测绘。"
+    },
+    {
+      "name": "阅海居北区U形高楼",
+      "keys": [
+        "s2-b1",
+        "s2-b9"
+      ],
+      "evidence": [
+        "N-COMP",
+        "N-COURT",
+        "N-STREET"
+      ],
+      "confirmed": "红陶色实墙、下部连拱、中央三角玻璃门厅、深色顶层、外露暗色集热或光伏组件。 B1北翼的东端高拱外侧红墙有两行浅色墙字“阅海居①”“YUEHAI HALL”。",
+      "estimated": "北区轮廓原为影像描绘；楼层窗列和院落背面的开间位置为近似，内庭近照未注明B1或B9。"
+    },
+    {
+      "name": "阅海居北区较低直条楼",
+      "keys": [
+        "s2-b2",
+        "s2-b5",
+        "s2-b10"
+      ],
+      "evidence": [
+        "N-COMP",
+        "N-ID",
+        "N-BASE",
+        "N-STREET"
+      ],
+      "confirmed": "窄楼侧红色墙面、深色顶层；两座朝中轴的端面有高拱中央门厅与三角玻璃。",
+      "estimated": "个别院角、屋顶排列和B5的开窗按同组推定；在照片上可辨阅海居②及YUEHAI HALL，未能确认B2该处具体墙面，保留检索资料。"
+    },
+    {
+      "name": "晨园餐厅",
+      "keys": [
+        "s2-b6"
+      ],
+      "evidence": [
+        "N-COMP",
+        "N-DINE"
+      ],
+      "confirmed": "两层红棕馆体、东门一大两小入口拱、上排细长窗、赤色三角山墙，山墙可辨晨园、DINING、HALL，平屋顶机组与组件分区。",
+      "estimated": "三行实体字取自开学实拍，尺寸和安装高度为摄影估算；三个非主入口立面的分格和屋面设备数量概化。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "key": "way-970257678",
+      "name": "凤凰居花圃中轴向北",
+      "eye": [
+        309,
+        57,
+        1041
+      ],
+      "target": [
+        309,
+        15.5,
+        858
+      ],
+      "fov": 42,
+      "files": [
+        "实景参照/春日建筑/凤凰居-2025年中央花圃与两翼.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "note": "从两排 U 形住宅之间向北。实拍与模型相近视轴，精确焦距、海拔未经摄影测量。"
+    },
+    {
+      "key": "s2-b1",
+      "name": "阅海居内庭向西",
+      "eye": [
+        20,
+        -1.9,
+        -997
+      ],
+      "target": [
+        -28,
+        3.7,
+        -997
+      ],
+      "fov": 43,
+      "files": [
+        "实景参照/春日建筑/阅海居-2022年内庭.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "note": "B1院内向西看高拱、中央玻璃山墙。校方未注明照片在两座近似U楼中属哪一栋，采用B1作为同组对照。"
+    },
+    {
+      "key": "s2-b6",
+      "name": "晨园东门山墙",
+      "eye": [
+        42,
+        -3.65,
+        -903
+      ],
+      "target": [
+        29,
+        1.15,
+        -914
+      ],
+      "fov": 48,
+      "files": [
+        "实景参照/春日建筑/晨园-校方入口近照.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "note": "从晨园东侧路口向西略偏北看三开间拱廊和山墙校名，照片方向通过竣工航拍交叉定位。"
+    },
+    {
+      "key": "yuehai-north-inscription",
+      "name": "阅海居①北翼东端题字",
+      "eye": [
+        48.5,
+        9.4,
+        -1047.5
+      ],
+      "target": [
+        35.03,
+        13.65,
+        -1037.8
+      ],
+      "fov": 40,
+      "files": [
+        "实景参照/春日建筑/阅海居①-2025沿路题字局部.jpg",
+        "实景参照/春日建筑/阅海居①-2022竣工航拍北翼东端局部.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "note": "从东北侧望向面东红墙。2025年校方沿街近照和2022年竣工航拍均能辨出北翼高拱旁的阅海居①，底行为YUEHAI HALL。"
+    }
+  ],
+  "orthophoto": {
+    "source": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+    "role": "World Imagery 用于核对南区6个U院、4个轴侧连廊以及北区屋面与内部庭院、晨园东门的相对朝向。时相未标注，未用于精确量尺。"
+  },
+  "rights": "存档原图仅供工程实景对照，版权归相应原发布机构和摄影作者。S-END为工程效果图，其余九张为摄影。",
+  "signage": [
+    {
+      "owner": "s2-b1",
+      "ids": [
+        "yuehai-one-zh",
+        "yuehai-one-en"
+      ],
+      "text": [
+        "阅海居①",
+        "YUEHAI HALL"
+      ],
+      "normal": [
+        1,
+        0
+      ],
+      "sources": [
+        "N-STREET",
+        "N-COMP"
+      ],
+      "carrier": "北翼东端高拱外侧红墙，近北角、深灰顶层下",
+      "positionEvidence": "2025年照片左为B2北端短墙，右为B1北翼；2022年竣工航拍由东向西，图右为北，B1北翼端面可读同一圈号。",
+      "accuracy": "题字、墙面、朝向和两行次序有双来源。字高、水平偏移、缝距属摄影估算。",
+      "fabrication": "白色轮廓字面及与红色墙面相接的33毫米字侧壁；厚度用于表现照片可见的凸字阴影。"
+    }
+  ],
+  "photoStations": [
+    {
+      "key": "yuehai-one-street-axis",
+      "name": "阅海居①北端沿街向南",
+      "eye": [
+        44,
+        6.2,
+        -1065
+      ],
+      "target": [
+        42,
+        6.1,
+        -1005
+      ],
+      "fov": 51,
+      "files": [
+        "实景参照/春日花木/2025_阅海居1号楼_沿路粉白花树.jpg"
+      ],
+      "note": "北翼端墙向东，墙面在长街画面右缘；另存内庭相机供建筑正面对照。",
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm"
+    }
+  ]
+}

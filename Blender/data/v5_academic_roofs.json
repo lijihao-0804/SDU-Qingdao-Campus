@@ -1,0 +1,4121 @@
+{
+  "title": "v5 会文、淦昌苑、第周苑屋面、双坡窗与圆拱窗逐栋核验",
+  "units": "X东 Z南，Y高，单位米。屋面矩形在各楼平面中心局部坐标中，部件用各楼主轴微调旋转；剖面采自最终实体三角网格。",
+  "references": [
+    {
+      "title": "用户本地三段航拍，第2段00:46.50及第3段00:26.50–00:42.50",
+      "use": "区分拱形与三角屋窗，核对蓝灰色长棚和设备平台。",
+      "index": "data/v5_video_colleges.json"
+    },
+    {
+      "title": "Esri World Imagery，正射底图",
+      "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+      "use": "独立识别14栋灰色设备平台、横脊、连接翼和带状屋面构件，未离线分发影像瓦片。"
+    },
+    {
+      "title": "周青先2019年校园航拍",
+      "url": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "files": [
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2019_会文广场双楼_原图裁切.png"
+      ]
+    },
+    {
+      "title": "观海新闻2021年南向航拍",
+      "url": "https://www.dailyqd.com/guanhai/121068_2.html",
+      "files": [
+        "实景参照/第周苑/区域-2021-六楼南向航拍.jpg",
+        "实景参照/会文与淦昌/2021_淦昌前后院楼_原图裁切.png"
+      ]
+    },
+    {
+      "title": "山东大学青岛校区楼位图与工程档案",
+      "url": "https://hq.qd.sdu.edu.cn/info/1053/1824.htm",
+      "use": "核对第周苑A至F分组与楼位。"
+    }
+  ],
+  "interpretation": "部件立面和入口铭牌沿用原始实景登记。图中灰色顶面、连接翼和内凹的露天通行院分开制作。蓝灰长条的颜色、排列与体量可辨，采光、集热或设备用途尚无逐项竣工资料。高度、屋顶微小管罩、泛水及屋面构造尺寸属于建模估计。",
+  "method": "从十四栋原生成函数启用 componentRanges 后取每一个真实三角片。主瓦坡/防水面/泛水合并为外露围护投影，单独检验混凝土盖板与檐底。对每栋最大平台和凹院分别发射约1米间距的垂直射线，记录最高实际交点高度，null 表示该射线可直达露天。检查平面法线，比较顶面和老虎窗的封檐。投影求并的精度为1e-8米；网格闭合数值容差0.001平方米。凹院保护区扣除真实檐出挑及7厘米数值余量。",
+  "findings": [
+    "原会文双楼的两端与中段被统一斜屋面连接，灰色平顶连接翼位置与航拍不符。",
+    "原第周苑的灰色顶面在周围坡脊下方约2.14至2.64米，形成深槽；第周C、D、E、F的中央双坡三角片法线向下。",
+    "现有灰色设备平台均为实体承托的屋面，其与收边顶面高差约0.23米。每栋外挑檐有下表面以及可辨的封板；山墙和老虎窗补齐相应侧壁、檐底和前沿。"
+  ],
+  "buildings": [
+    {
+      "key": "way-868015915",
+      "name": "淦昌苑D座",
+      "roofSupportAreaM2": 4618.155,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 4852.377,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 824,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.255,
+        20.73
+      ],
+      "exemptOpenCourtAndRecessM2": 796.576,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -28.18,
+            2.536
+          ],
+          "end": [
+            22.62,
+            2.536
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.817,
+            18.374,
+            18.933,
+            19.495,
+            19.629,
+            19.75,
+            19.847,
+            19.9,
+            19.906,
+            19.911,
+            19.944,
+            19.988,
+            20.02,
+            20.051,
+            20.099,
+            20.227,
+            20.428,
+            20.634,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.674,
+            20.423,
+            20.314,
+            20.206,
+            20.071,
+            19.879,
+            19.631,
+            19.383,
+            19.145,
+            18.687,
+            18.08,
+            17.46,
+            null
+          ],
+          "sampleIntervalM": 0.9961
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -28.18,
+            21.885
+          ],
+          "end": [
+            22.62,
+            21.885
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.587,
+            18.016,
+            18.445,
+            18.874,
+            19.303,
+            19.732,
+            20.161,
+            20.59,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.5,
+            20.631,
+            20.329,
+            20.027,
+            19.726,
+            19.424,
+            19.122,
+            18.82,
+            18.519,
+            18.217,
+            17.915,
+            17.614,
+            17.312,
+            null
+          ],
+          "sampleIntervalM": 0.9961
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -34,
+          39
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -18,
+            -50,
+            8,
+            -41
+          ],
+          [
+            -0.8,
+            -23,
+            10.5,
+            28
+          ],
+          [
+            -18,
+            49,
+            8,
+            57
+          ]
+        ],
+        "mainAxis": "z",
+        "layoutRotationDegrees": 0.4215,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            511.42,
+            204.5603,
+            124.96
+          ],
+          "target": [
+            511.42,
+            21.1794,
+            124.92
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            427.749,
+            44.3901,
+            155.0416
+          ],
+          "target": [
+            511.42,
+            20.5294,
+            124.92
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 824,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 916,
+      "dormerWalls": {
+        "windows": 7,
+        "dualPitchWindows": 7,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 151,
+            "rays": 453,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 154,
+            "rays": 462,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 107,
+            "rays": 321,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 151,
+              "rays": 453,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 154,
+              "rays": 462,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 107,
+              "rays": 321,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-868015916",
+      "name": "第周苑D座",
+      "roofSupportAreaM2": 6937.59,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 7160.81,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 1074,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        18.305,
+        21.1
+      ],
+      "exemptOpenCourtAndRecessM2": 1369.646,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.2298,
+        0.23,
+        0.2298
+      ],
+      "photoBlueBands": 4,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -35.38,
+            0.565
+          ],
+          "end": [
+            28.11,
+            0.565
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            18.33,
+            18.569,
+            18.807,
+            19.045,
+            19.283,
+            19.522,
+            19.76,
+            19.998,
+            20.236,
+            20.474,
+            20.712,
+            20.95,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            21.048,
+            20.81,
+            20.573,
+            20.336,
+            20.099,
+            19.862,
+            19.625,
+            19.388,
+            19.151,
+            18.913,
+            18.676,
+            18.439,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.992
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -35.38,
+            -0.453
+          ],
+          "end": [
+            28.11,
+            -0.453
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            18.333,
+            18.571,
+            18.809,
+            19.047,
+            19.285,
+            19.522,
+            19.76,
+            19.998,
+            20.235,
+            20.472,
+            20.71,
+            20.948,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            20.87,
+            21.05,
+            20.813,
+            20.576,
+            20.339,
+            20.102,
+            19.865,
+            19.628,
+            19.391,
+            19.153,
+            18.916,
+            18.679,
+            18.442,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.992
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -42,
+          41
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -22,
+            -64,
+            12,
+            -54
+          ],
+          [
+            -4,
+            -32,
+            15,
+            33
+          ],
+          [
+            -23,
+            52,
+            12,
+            63
+          ]
+        ],
+        "mainAxis": "z",
+        "layoutRotationDegrees": 0.6745,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            502.01,
+            243.6267,
+            326.98
+          ],
+          "target": [
+            502.01,
+            25.0558,
+            326.94
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            402.7516,
+            52.6365,
+            364.2507
+          ],
+          "target": [
+            502.01,
+            24.4058,
+            326.94
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 1074,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 952,
+      "dormerWalls": {
+        "windows": 17,
+        "dualPitchWindows": 17,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 324,
+            "rays": 972,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 401,
+            "rays": 1203,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 537,
+            "rays": 1611,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 324,
+              "rays": 972,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 401,
+              "rays": 1203,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 537,
+              "rays": 1611,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-868015918",
+      "name": "第周苑C座",
+      "roofSupportAreaM2": 5361.826,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 5547.953,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 924,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.855,
+        20.65
+      ],
+      "exemptOpenCourtAndRecessM2": 1043.768,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 4,
+      "measuredCopingToDeckM": [
+        0.2298,
+        0.23,
+        0.23,
+        0.2298
+      ],
+      "photoBlueBands": 2,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -18.958,
+            -25.43
+          ],
+          "end": [
+            -18.958,
+            29.7
+          ],
+          "heights": [
+            null,
+            17.958,
+            18.274,
+            18.591,
+            18.908,
+            19.225,
+            19.542,
+            19.859,
+            20.176,
+            20.493,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.42,
+            20.584,
+            20.363,
+            20.143,
+            19.922,
+            19.702,
+            19.481,
+            19.261,
+            19.04,
+            18.82,
+            18.599,
+            18.379,
+            18.158,
+            17.938,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9845
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            0.926,
+            -25.43
+          ],
+          "end": [
+            0.926,
+            29.7
+          ],
+          "heights": [
+            null,
+            17.937,
+            18.417,
+            18.865,
+            19.174,
+            19.497,
+            19.819,
+            20.1,
+            20.235,
+            20.285,
+            20.334,
+            20.358,
+            20.376,
+            20.399,
+            20.423,
+            20.432,
+            20.444,
+            20.458,
+            20.472,
+            20.472,
+            20.457,
+            20.442,
+            20.422,
+            20.272,
+            20.246,
+            20.22,
+            20.169,
+            20.021,
+            19.967,
+            19.913,
+            19.813,
+            19.568,
+            19.251,
+            18.934,
+            18.607,
+            18.097,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9845
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -36.8,
+          35
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -53,
+            4,
+            -40,
+            19
+          ],
+          [
+            -32,
+            -16,
+            -6,
+            -3
+          ],
+          [
+            4,
+            -16,
+            29,
+            -3
+          ],
+          [
+            40,
+            4,
+            52,
+            20
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.2495,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            383.73,
+            212.2963,
+            275.41
+          ],
+          "target": [
+            383.73,
+            20.7758,
+            275.37
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            414.8424,
+            44.9973,
+            362.8901
+          ],
+          "target": [
+            383.73,
+            20.1258,
+            275.37
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 924,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 540,
+      "dormerWalls": {
+        "windows": 16,
+        "dualPitchWindows": 16,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 304,
+            "rays": 912,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 378,
+            "rays": 1134,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 535,
+            "rays": 1605,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 304,
+              "rays": 912,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 378,
+              "rays": 1134,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 535,
+              "rays": 1605,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-868015919",
+      "name": "第周苑A座",
+      "roofSupportAreaM2": 5797.302,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 6003.838,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 964,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.655,
+        20.45
+      ],
+      "exemptOpenCourtAndRecessM2": 1478.234,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.2298,
+        0.23,
+        0.2298
+      ],
+      "photoBlueBands": 2,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -26.51,
+            -0.597
+          ],
+          "end": [
+            31.43,
+            -0.597
+          ],
+          "heights": [
+            null,
+            17.757,
+            18.039,
+            18.322,
+            18.605,
+            18.888,
+            19.17,
+            19.453,
+            19.736,
+            20.018,
+            20.301,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.356,
+            20.15,
+            19.944,
+            19.738,
+            19.532,
+            19.326,
+            19.12,
+            18.914,
+            18.708,
+            18.502,
+            18.297,
+            18.091,
+            17.885,
+            17.679,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.999
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -26.51,
+            -1.397
+          ],
+          "end": [
+            31.43,
+            -1.397
+          ],
+          "heights": [
+            null,
+            17.754,
+            18.037,
+            18.32,
+            18.602,
+            18.885,
+            19.168,
+            19.45,
+            19.733,
+            20.016,
+            20.299,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.22,
+            20.358,
+            20.152,
+            19.946,
+            19.74,
+            19.534,
+            19.328,
+            19.122,
+            18.916,
+            18.71,
+            18.504,
+            18.298,
+            18.092,
+            17.887,
+            17.681,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.999
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -43,
+          40
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -10,
+            -62,
+            17,
+            -53
+          ],
+          [
+            -16,
+            -35,
+            -1,
+            34
+          ],
+          [
+            -10,
+            54,
+            16,
+            63
+          ]
+        ],
+        "mainAxis": "z",
+        "layoutRotationDegrees": 0.6517,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            137.24,
+            240.4255,
+            323.56
+          ],
+          "target": [
+            137.24,
+            23.2775,
+            323.52
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            236.7119,
+            50.6815,
+            288.8297
+          ],
+          "target": [
+            137.24,
+            22.6275,
+            323.52
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 964,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 988,
+      "dormerWalls": {
+        "windows": 14,
+        "dualPitchWindows": 14,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 265,
+            "rays": 795,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 325,
+            "rays": 975,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 450,
+            "rays": 1350,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 265,
+              "rays": 795,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 325,
+              "rays": 975,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 450,
+              "rays": 1350,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-868015920",
+      "name": "第周苑B座",
+      "roofSupportAreaM2": 4807.364,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 4992.058,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 833,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.555,
+        20.35
+      ],
+      "exemptOpenCourtAndRecessM2": 1265.516,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.2298,
+        0.23,
+        0.2298
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -0.536,
+            -29.55
+          ],
+          "end": [
+            -0.536,
+            22.26
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.605,
+            17.963,
+            18.322,
+            18.68,
+            19.039,
+            19.397,
+            19.755,
+            20.114,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.261,
+            19.964,
+            19.668,
+            19.371,
+            19.075,
+            18.778,
+            18.482,
+            18.185,
+            17.889,
+            17.592,
+            null
+          ],
+          "sampleIntervalM": 0.9963
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            0.01,
+            -29.55
+          ],
+          "end": [
+            0.01,
+            22.26
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.604,
+            17.962,
+            18.321,
+            18.679,
+            19.037,
+            19.396,
+            19.754,
+            20.113,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.12,
+            20.262,
+            19.965,
+            19.669,
+            19.372,
+            19.076,
+            18.779,
+            18.483,
+            18.186,
+            17.89,
+            17.593,
+            null
+          ],
+          "sampleIntervalM": 0.9963
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -38,
+          35.5
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -53,
+            -18,
+            -44,
+            -1
+          ],
+          [
+            -28,
+            1,
+            27,
+            12
+          ],
+          [
+            43,
+            -16,
+            52,
+            -0.5
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.3137,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            243.86,
+            213.8759,
+            277.14
+          ],
+          "target": [
+            243.86,
+            22.9062,
+            277.1
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            274.743,
+            47.0593,
+            364.4173
+          ],
+          "target": [
+            243.86,
+            22.2562,
+            277.1
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 833,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 688,
+      "dormerWalls": {
+        "windows": 19,
+        "dualPitchWindows": 0,
+        "archedWindows": 19,
+        "quantities": {
+          "前": {
+            "strips": 676,
+            "rays": 2028,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 674,
+            "rays": 2022,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 550,
+            "rays": 1650,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 676,
+              "rays": 2028,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 674,
+              "rays": 2022,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 550,
+              "rays": 1650,
+              "minUnderlapM": 0.085
+            }
+          }
+        },
+        "archedPerimeter": {
+          "roofSoffitThicknessM": [
+            0.075,
+            0.075
+          ],
+          "roofRimLengthM": 164.16,
+          "uncoveredWallToSoffitLengthM": 0.0,
+          "unsealedTileFasciaLengthM": 0.0,
+          "maxWallToSoffitHeightGapM": 0.0,
+          "reversedCapOrSoffitTriangles": 0
+        },
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-868015921",
+      "name": "第周苑F座",
+      "roofSupportAreaM2": 3656.05,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 3804.63,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 636,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.205,
+        20.0
+      ],
+      "exemptOpenCourtAndRecessM2": 230.379,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 2,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 2,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -23.517,
+            -20.15
+          ],
+          "end": [
+            -23.517,
+            18.67
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.483,
+            17.765,
+            18.047,
+            18.329,
+            18.612,
+            18.894,
+            19.176,
+            19.459,
+            19.741,
+            20.0,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.993,
+            19.662,
+            19.331,
+            19.0,
+            18.669,
+            18.338,
+            18.007,
+            17.676,
+            17.345,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9954
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -21.154,
+            -20.15
+          ],
+          "end": [
+            -21.154,
+            18.67
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.474,
+            17.756,
+            18.039,
+            18.321,
+            18.603,
+            18.885,
+            19.168,
+            19.45,
+            19.732,
+            20.0,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            19.77,
+            20.0,
+            19.672,
+            19.341,
+            19.01,
+            18.679,
+            18.348,
+            18.017,
+            17.686,
+            17.356,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9954
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -45,
+          41
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -40,
+            -5,
+            -7,
+            8
+          ],
+          [
+            4,
+            -5,
+            36,
+            8
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.7328,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            244.1,
+            209.7084,
+            372.47
+          ],
+          "target": [
+            244.1,
+            24.3997,
+            372.43
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            273.3525,
+            47.8498,
+            457.4008
+          ],
+          "target": [
+            244.1,
+            23.7497,
+            372.43
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 636,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 468,
+      "dormerWalls": {
+        "windows": 9,
+        "dualPitchWindows": 9,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 173,
+            "rays": 519,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 207,
+            "rays": 621,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 282,
+            "rays": 846,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 173,
+              "rays": 519,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 207,
+              "rays": 621,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 282,
+              "rays": 846,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257667",
+      "name": "淦昌苑C座",
+      "roofSupportAreaM2": 4560.795,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 4777.625,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 823,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        16.855,
+        20.53
+      ],
+      "exemptOpenCourtAndRecessM2": 1022.769,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 5,
+      "lowerFlatConnectors": 1,
+      "serviceTerraces": 4,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -21.46,
+            -20.89
+          ],
+          "end": [
+            -21.46,
+            28.05
+          ],
+          "heights": [
+            null,
+            17.08,
+            17.676,
+            18.272,
+            18.867,
+            19.463,
+            20.059,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.47,
+            20.159,
+            19.849,
+            19.539,
+            19.228,
+            18.918,
+            18.607,
+            18.297,
+            17.987,
+            17.676,
+            17.366,
+            17.055,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9988
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -2.206,
+            -20.89
+          ],
+          "end": [
+            -2.206,
+            28.05
+          ],
+          "heights": [
+            null,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            17.44,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9988
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -39,
+          -6.5,
+          5.5,
+          35.5
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -55,
+            2,
+            -45,
+            17
+          ],
+          [
+            -32,
+            -14,
+            -11,
+            -2
+          ],
+          [
+            7,
+            -14,
+            28,
+            -2
+          ],
+          [
+            42,
+            2,
+            51,
+            17
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.2849,
+        "flatLinkIndicesNorthOrWestFirst": [
+          2
+        ]
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            386.3,
+            207.8233,
+            77.31
+          ],
+          "target": [
+            386.3,
+            19.3016,
+            77.27
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            417.2683,
+            43.1507,
+            163.293
+          ],
+          "target": [
+            386.3,
+            18.6516,
+            77.27
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 823,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 860,
+      "dormerWalls": {
+        "windows": 11,
+        "dualPitchWindows": 11,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 236,
+            "rays": 708,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 235,
+            "rays": 705,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 163,
+            "rays": 489,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 236,
+              "rays": 708,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 235,
+              "rays": 705,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 163,
+              "rays": 489,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257668",
+      "name": "淦昌苑F座",
+      "roofSupportAreaM2": 4560.579,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 4777.403,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 819,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        16.755,
+        20.28
+      ],
+      "exemptOpenCourtAndRecessM2": 1023.174,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -1.958,
+            -20.89
+          ],
+          "end": [
+            -1.958,
+            28.05
+          ],
+          "heights": [
+            null,
+            16.916,
+            17.487,
+            18.058,
+            18.63,
+            19.201,
+            19.772,
+            20.28,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.253,
+            19.979,
+            19.704,
+            19.429,
+            19.155,
+            18.88,
+            18.605,
+            18.331,
+            18.056,
+            17.782,
+            17.507,
+            17.232,
+            16.958,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9988
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -2.206,
+            -20.89
+          ],
+          "end": [
+            -2.206,
+            28.05
+          ],
+          "heights": [
+            null,
+            16.916,
+            17.488,
+            18.059,
+            18.63,
+            19.202,
+            19.773,
+            20.28,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.05,
+            20.253,
+            19.978,
+            19.704,
+            19.429,
+            19.154,
+            18.88,
+            18.605,
+            18.331,
+            18.056,
+            17.781,
+            17.507,
+            17.232,
+            16.958,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9988
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -39,
+          35.5
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -54,
+            0.8,
+            -45,
+            17
+          ],
+          [
+            -32,
+            -14,
+            28,
+            -3
+          ],
+          [
+            42,
+            1,
+            51,
+            17
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.2849,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            244.64,
+            207.7745,
+            176.23
+          ],
+          "target": [
+            244.64,
+            19.2528,
+            176.19
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            275.6083,
+            43.1019,
+            262.213
+          ],
+          "target": [
+            244.64,
+            18.6028,
+            176.19
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 819,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 788,
+      "dormerWalls": {
+        "windows": 11,
+        "dualPitchWindows": 0,
+        "archedWindows": 11,
+        "quantities": {
+          "前": {
+            "strips": 394,
+            "rays": 1182,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 394,
+            "rays": 1182,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 308,
+            "rays": 924,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 394,
+              "rays": 1182,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 394,
+              "rays": 1182,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 308,
+              "rays": 924,
+              "minUnderlapM": 0.085
+            }
+          }
+        },
+        "archedPerimeter": {
+          "roofSoffitThicknessM": [
+            0.075,
+            0.075
+          ],
+          "roofRimLengthM": 95.04,
+          "uncoveredWallToSoffitLengthM": 0.0,
+          "unsealedTileFasciaLengthM": 0.0,
+          "maxWallToSoffitHeightGapM": 0.0,
+          "reversedCapOrSoffitTriangles": 0
+        },
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257669",
+      "name": "淦昌苑E座",
+      "roofSupportAreaM2": 4560.665,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 4777.495,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 894,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        16.855,
+        20.53
+      ],
+      "exemptOpenCourtAndRecessM2": 1023.071,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 4,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -20.028,
+            -27.61
+          ],
+          "end": [
+            -20.028,
+            20.88
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            16.903,
+            17.262,
+            17.621,
+            17.98,
+            18.339,
+            18.698,
+            19.057,
+            19.416,
+            19.775,
+            20.134,
+            20.493,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.3,
+            20.496,
+            20.099,
+            19.702,
+            19.305,
+            18.908,
+            18.511,
+            18.114,
+            17.717,
+            17.32,
+            16.923,
+            null
+          ],
+          "sampleIntervalM": 0.9896
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -2.025,
+            -27.61
+          ],
+          "end": [
+            -2.025,
+            20.88
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            16.881,
+            17.576,
+            18.178,
+            18.616,
+            19.01,
+            19.324,
+            19.638,
+            19.706,
+            19.764,
+            19.853,
+            19.936,
+            19.962,
+            19.994,
+            20.042,
+            20.076,
+            20.068,
+            20.06,
+            20.05,
+            20.029,
+            19.995,
+            19.949,
+            19.896,
+            19.829,
+            19.753,
+            19.652,
+            19.544,
+            19.11,
+            18.562,
+            18.113,
+            17.67,
+            17.02,
+            null
+          ],
+          "sampleIntervalM": 0.9896
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -39,
+          34
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -55,
+            -18,
+            -45,
+            -2
+          ],
+          [
+            -33,
+            0.3,
+            -7,
+            11
+          ],
+          [
+            4,
+            0.7,
+            27,
+            11
+          ],
+          [
+            42,
+            -17,
+            51,
+            -1
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.2849,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            385.32,
+            208.6536,
+            180.65
+          ],
+          "target": [
+            385.32,
+            20.1166,
+            180.61
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            416.2908,
+            43.9676,
+            266.64
+          ],
+          "target": [
+            385.32,
+            19.4666,
+            180.61
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 894,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 856,
+      "dormerWalls": {
+        "windows": 11,
+        "dualPitchWindows": 11,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 236,
+            "rays": 708,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 237,
+            "rays": 711,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 163,
+            "rays": 489,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 236,
+              "rays": 708,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 237,
+              "rays": 711,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 163,
+              "rays": 489,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257670",
+      "name": "淦昌苑A座",
+      "roofSupportAreaM2": 4898.666,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 5120.221,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 857,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        16.755,
+        20.38
+      ],
+      "exemptOpenCourtAndRecessM2": 1061.713,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -22.44,
+            0.009
+          ],
+          "end": [
+            29.59,
+            0.009
+          ],
+          "heights": [
+            null,
+            17.122,
+            17.834,
+            18.546,
+            19.143,
+            19.626,
+            20.109,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.377,
+            20.377,
+            20.377,
+            20.377,
+            20.376,
+            20.376,
+            20.375,
+            20.375,
+            20.222,
+            19.648,
+            19.074,
+            18.501,
+            17.872,
+            17.161,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9817
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -22.44,
+            0.013
+          ],
+          "end": [
+            29.59,
+            0.013
+          ],
+          "heights": [
+            null,
+            17.122,
+            17.834,
+            18.546,
+            19.143,
+            19.626,
+            20.108,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.15,
+            20.376,
+            20.376,
+            20.376,
+            20.376,
+            20.375,
+            20.375,
+            20.374,
+            20.373,
+            20.221,
+            19.648,
+            19.074,
+            18.5,
+            17.872,
+            17.16,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9817
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -38,
+          37
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -14,
+            -55,
+            14,
+            -46
+          ],
+          [
+            -16,
+            -26,
+            -4,
+            26
+          ],
+          [
+            -12,
+            47,
+            15,
+            56
+          ]
+        ],
+        "mainAxis": "z",
+        "layoutRotationDegrees": -0.0521,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            137.65,
+            205.4171,
+            126.04
+          ],
+          "target": [
+            137.65,
+            18.9609,
+            126.0
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            222.728,
+            42.5535,
+            95.3719
+          ],
+          "target": [
+            137.65,
+            18.3109,
+            126.0
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 857,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 672,
+      "dormerWalls": {
+        "windows": 10,
+        "dualPitchWindows": 10,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 211,
+            "rays": 633,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 222,
+            "rays": 666,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 149,
+            "rays": 447,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 211,
+              "rays": 633,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 222,
+              "rays": 666,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 149,
+              "rays": 447,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257671",
+      "name": "第周苑E座",
+      "roofSupportAreaM2": 4567.615,
+      "eaveOverhangM": 0.47,
+      "nominalWeatherAreaM2": 4753.731,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 825,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        17.705,
+        20.5
+      ],
+      "exemptOpenCourtAndRecessM2": 1546.473,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 3,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 4,
+      "measuredCopingToDeckM": [
+        0.2298,
+        0.23,
+        0.23,
+        0.2298
+      ],
+      "photoBlueBands": 2,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -19.546,
+            -31.82
+          ],
+          "end": [
+            -19.546,
+            22.7
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.806,
+            18.145,
+            18.484,
+            18.823,
+            19.162,
+            19.501,
+            19.84,
+            20.179,
+            20.5,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.27,
+            20.5,
+            20.231,
+            19.947,
+            19.663,
+            19.38,
+            19.096,
+            18.812,
+            18.528,
+            18.244,
+            17.96,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9913
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -1.798,
+            -31.82
+          ],
+          "end": [
+            -1.798,
+            22.7
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            17.79,
+            18.25,
+            18.667,
+            19.088,
+            19.513,
+            19.693,
+            19.783,
+            19.874,
+            19.964,
+            20.009,
+            20.049,
+            20.087,
+            20.123,
+            20.138,
+            20.153,
+            20.167,
+            20.172,
+            20.146,
+            20.121,
+            20.097,
+            20.057,
+            19.993,
+            19.935,
+            19.89,
+            19.752,
+            19.544,
+            19.33,
+            19.11,
+            18.705,
+            18.225,
+            17.725,
+            null
+          ],
+          "sampleIntervalM": 0.9913
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -38,
+          34.5
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -54,
+            -20,
+            -42,
+            -2
+          ],
+          [
+            -33,
+            0,
+            -6,
+            12
+          ],
+          [
+            2,
+            0,
+            28,
+            12
+          ],
+          [
+            39,
+            -19,
+            51,
+            -1
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.4464,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            384.25,
+            212.1681,
+            375.19
+          ],
+          "target": [
+            384.25,
+            22.8661,
+            375.15
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            414.6808,
+            46.8121,
+            461.7669
+          ],
+          "target": [
+            384.25,
+            22.2161,
+            375.15
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 825,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 964,
+      "dormerWalls": {
+        "windows": 12,
+        "dualPitchWindows": 12,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 229,
+            "rays": 687,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 281,
+            "rays": 843,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 386,
+            "rays": 1158,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 229,
+              "rays": 687,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 281,
+              "rays": 843,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 386,
+              "rays": 1158,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257672",
+      "name": "会文北楼",
+      "roofSupportAreaM2": 5978.586,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 6281.54,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 897,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        15.855,
+        18.78
+      ],
+      "exemptOpenCourtAndRecessM2": 1216.302,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 5,
+      "lowerFlatConnectors": 2,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            18.091,
+            -21.86
+          ],
+          "end": [
+            18.091,
+            21.53
+          ],
+          "heights": [
+            null,
+            15.86,
+            16.333,
+            16.847,
+            17.321,
+            17.794,
+            18.261,
+            18.701,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.667,
+            18.502,
+            18.345,
+            18.189,
+            18.141,
+            18.082,
+            18.024,
+            17.967,
+            17.941,
+            17.857,
+            17.772,
+            17.699,
+            17.628,
+            17.448,
+            17.268,
+            17.062,
+            16.769,
+            16.423,
+            16.011,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9861
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            52.666,
+            -21.86
+          ],
+          "end": [
+            52.666,
+            21.53
+          ],
+          "heights": [
+            null,
+            null,
+            16.143,
+            16.616,
+            17.09,
+            17.564,
+            18.037,
+            18.511,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.709,
+            18.408,
+            18.107,
+            17.805,
+            17.504,
+            17.202,
+            16.901,
+            16.6,
+            16.298,
+            15.997,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9861
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -49,
+          -33,
+          66,
+          72
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -94,
+            -3,
+            -52,
+            12
+          ],
+          [
+            -25,
+            -15,
+            61,
+            -1
+          ],
+          [
+            77,
+            -7,
+            90,
+            7
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.6572,
+        "flatLinkIndicesNorthOrWestFirst": [
+          1,
+          3
+        ]
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            433.79,
+            329.6398,
+            -131.09
+          ],
+          "target": [
+            433.79,
+            17.0963,
+            -131.13
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            485.1854,
+            56.3468,
+            11.635
+          ],
+          "target": [
+            433.79,
+            16.4463,
+            -131.13
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 897,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 896,
+      "dormerWalls": {
+        "windows": 7,
+        "dualPitchWindows": 7,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 147,
+            "rays": 441,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 148,
+            "rays": 444,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 103,
+            "rays": 309,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 147,
+              "rays": 441,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 148,
+              "rays": 444,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 103,
+              "rays": 309,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-970257673",
+      "name": "会文南楼",
+      "roofSupportAreaM2": 5409.187,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 5714.382,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 764,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        15.855,
+        18.78
+      ],
+      "exemptOpenCourtAndRecessM2": 1585.241,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 5,
+      "lowerFlatConnectors": 2,
+      "serviceTerraces": 3,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            13.865,
+            -22.7
+          ],
+          "end": [
+            13.865,
+            22.46
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            16.124,
+            16.501,
+            16.799,
+            17.012,
+            17.181,
+            17.35,
+            17.474,
+            17.604,
+            17.736,
+            17.877,
+            18.095,
+            18.339,
+            18.627,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.665,
+            18.276,
+            17.897,
+            17.535,
+            17.172,
+            16.786,
+            16.366,
+            15.941,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9817
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -12.014,
+            -22.7
+          ],
+          "end": [
+            -12.014,
+            22.46
+          ],
+          "heights": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            16.154,
+            16.702,
+            17.25,
+            17.797,
+            18.345,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.55,
+            18.78,
+            18.421,
+            18.032,
+            17.642,
+            17.253,
+            16.864,
+            16.475,
+            16.086,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9817
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -49,
+          -34,
+          63.5,
+          69.5
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -94,
+            -16,
+            -54,
+            -1
+          ],
+          [
+            -29,
+            -2,
+            57,
+            13
+          ],
+          [
+            75,
+            -12,
+            88,
+            1
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 1.3625,
+        "flatLinkIndicesNorthOrWestFirst": [
+          1,
+          3
+        ]
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            435.4,
+            326.4229,
+            5.59
+          ],
+          "target": [
+            435.4,
+            17.2913,
+            5.55
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            486.2334,
+            56.1181,
+            146.754
+          ],
+          "target": [
+            435.4,
+            16.6413,
+            5.55
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 764,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 768,
+      "dormerWalls": {
+        "windows": 6,
+        "dualPitchWindows": 6,
+        "archedWindows": 0,
+        "quantities": {
+          "前": {
+            "strips": 131,
+            "rays": 393,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 134,
+            "rays": 402,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 88,
+            "rays": 264,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 131,
+              "rays": 393,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 134,
+              "rays": 402,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 88,
+              "rays": 264,
+              "minUnderlapM": 0.085
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          }
+        },
+        "archedPerimeter": {},
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    },
+    {
+      "key": "way-1018848586",
+      "name": "淦昌苑B座",
+      "roofSupportAreaM2": 4179.033,
+      "eaveOverhangM": 0.58,
+      "nominalWeatherAreaM2": 4376.097,
+      "supportMissingFromStructureM2": 0.0,
+      "missingBodyUnderWeatherM2": 0.0,
+      "missingOuterWeatherM2": 0.0,
+      "unsealedEaveSoffitM2": 0.0,
+      "upwardWeatherTriangles": 816,
+      "downwardWeatherTriangles": 0,
+      "primaryCourseHeightM": [
+        16.555,
+        20.13
+      ],
+      "exemptOpenCourtAndRecessM2": 312.298,
+      "weatherInsideProtectedOpeningM2": 0.0,
+      "roofGroups": 5,
+      "lowerFlatConnectors": 0,
+      "serviceTerraces": 5,
+      "measuredCopingToDeckM": [
+        0.23,
+        0.23,
+        0.23,
+        0.23,
+        0.23
+      ],
+      "photoBlueBands": 0,
+      "retainedPlanHoles": 0,
+      "transects": [
+        {
+          "name": "最大平台横断面",
+          "start": [
+            -30.994,
+            -18.15
+          ],
+          "end": [
+            -30.994,
+            21.47
+          ],
+          "heights": [
+            null,
+            16.736,
+            17.107,
+            17.477,
+            17.848,
+            18.218,
+            18.589,
+            18.959,
+            19.33,
+            19.701,
+            20.071,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.905,
+            19.596,
+            19.287,
+            18.978,
+            18.669,
+            18.36,
+            18.05,
+            17.741,
+            17.432,
+            17.123,
+            16.814,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9905
+        },
+        {
+          "name": "开敞凹院横断面",
+          "start": [
+            -30.474,
+            -18.15
+          ],
+          "end": [
+            -30.474,
+            21.47
+          ],
+          "heights": [
+            null,
+            16.736,
+            17.106,
+            17.477,
+            17.847,
+            18.218,
+            18.588,
+            18.959,
+            19.33,
+            19.7,
+            20.071,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.9,
+            19.906,
+            19.597,
+            19.287,
+            18.978,
+            18.669,
+            18.36,
+            18.05,
+            17.741,
+            17.432,
+            17.123,
+            16.814,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "sampleIntervalM": 0.9905
+        }
+      ],
+      "photoPlan": {
+        "roofValleysLocalM": [
+          -50,
+          -10,
+          4,
+          39
+        ],
+        "rectanglesLocalXZ": [
+          [
+            -58,
+            -10,
+            -53,
+            5
+          ],
+          [
+            -45,
+            -8,
+            -17,
+            4
+          ],
+          [
+            -6,
+            -9,
+            0,
+            6
+          ],
+          [
+            9,
+            -9,
+            34,
+            4
+          ],
+          [
+            46,
+            -9,
+            56,
+            7
+          ]
+        ],
+        "mainAxis": "x",
+        "layoutRotationDegrees": 0.1624,
+        "flatLinkIndicesNorthOrWestFirst": []
+      },
+      "views": {
+        "roof_plan": {
+          "eye": [
+            246.97,
+            208.9172,
+            80.09
+          ],
+          "target": [
+            246.97,
+            18.7584,
+            80.05
+          ],
+          "fov": 42
+        },
+        "roof_edge": {
+          "eye": [
+            278.2079,
+            42.8108,
+            166.822
+          ],
+          "target": [
+            246.97,
+            18.1084,
+            80.05
+          ],
+          "fov": 53
+        }
+      },
+      "upwardSlopeAndDeckTriangles": 816,
+      "pitchedGableCapDownwardTriangles": 0,
+      "newPhysicalHipsTriangles": 1456,
+      "dormerWalls": {
+        "windows": 7,
+        "dualPitchWindows": 0,
+        "archedWindows": 7,
+        "quantities": {
+          "前": {
+            "strips": 248,
+            "rays": 744,
+            "minUnderlapM": 0.085
+          },
+          "后": {
+            "strips": 251,
+            "rays": 753,
+            "minUnderlapM": 0.085
+          },
+          "侧": {
+            "strips": 200,
+            "rays": 600,
+            "minUnderlapM": 0.085
+          }
+        },
+        "byShape": {
+          "双坡": {
+            "前": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "后": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            },
+            "侧": {
+              "strips": 0,
+              "rays": 0,
+              "minUnderlapM": null
+            }
+          },
+          "圆拱": {
+            "前": {
+              "strips": 248,
+              "rays": 744,
+              "minUnderlapM": 0.085
+            },
+            "后": {
+              "strips": 251,
+              "rays": 753,
+              "minUnderlapM": 0.085
+            },
+            "侧": {
+              "strips": 200,
+              "rays": 600,
+              "minUnderlapM": 0.085
+            }
+          }
+        },
+        "archedPerimeter": {
+          "roofSoffitThicknessM": [
+            0.075,
+            0.075
+          ],
+          "roofRimLengthM": 60.48,
+          "uncoveredWallToSoffitLengthM": 0.0,
+          "unsealedTileFasciaLengthM": 0.0,
+          "maxWallToSoffitHeightGapM": 0.0,
+          "reversedCapOrSoffitTriangles": 0
+        },
+        "minUnderlapM": 0.085,
+        "verified": true,
+        "method": "按独立相连顶盖计窗；逐一解包前墙、后墙和两侧封板的下边，在每小段2%、50%、98%处对主瓦面三角网格发射垂直射线。圆拱另核对弧形下檐与墙顶吻合、全部圆筒口封边、檐底厚度与法线。真正无盖无封板的类型计为零。"
+      },
+      "verified": true
+    }
+  ],
+  "areaUnits": "m²",
+  "verifiedBuildings": 14,
+  "dormerSummary": {
+    "windows": 157,
+    "dualPitchWindows": 120,
+    "archedWindows": 37,
+    "edgeRays": 35361
+  }
+}

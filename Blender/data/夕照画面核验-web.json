@@ -1,0 +1,188 @@
+{
+  "settings": "鳌山湾 · 西南偏西斜阳",
+  "canvas": [
+    1200,
+    675
+  ],
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "captures": {
+    "sunset-library": {
+      "lumaP01P10P50P90P99": [
+        43.9,
+        72.3,
+        143.3,
+        216.1,
+        225.1
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.014,
+      "centerMedianSRGB": [
+        81,
+        49,
+        46
+      ]
+    },
+    "sunset-glaze": {
+      "lumaP01P10P50P90P99": [
+        30.8,
+        63.7,
+        112.5,
+        179.2,
+        196.3
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        178,
+        89,
+        63
+      ]
+    },
+    "film-bay": {
+      "lumaP01P10P50P90P99": [
+        40.9,
+        85.4,
+        145.6,
+        199.6,
+        208.4
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        164,
+        157,
+        147
+      ]
+    },
+    "film-library": {
+      "lumaP01P10P50P90P99": [
+        50.3,
+        93.8,
+        182.0,
+        216.7,
+        225.1
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.002,
+      "centerMedianSRGB": [
+        228,
+        213,
+        195
+      ]
+    },
+    "film-roof": {
+      "lumaP01P10P50P90P99": [
+        32.6,
+        85.8,
+        157.5,
+        197.9,
+        204.9
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        64,
+        111,
+        136
+      ]
+    },
+    "film-ridge": {
+      "lumaP01P10P50P90P99": [
+        49.2,
+        83.6,
+        161.0,
+        214.0,
+        223.4
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.006,
+      "centerMedianSRGB": [
+        158,
+        149,
+        143
+      ]
+    },
+    "west-sun": {
+      "lumaP01P10P50P90P99": [
+        202.0,
+        207.2,
+        215.9,
+        226.0,
+        234.3
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.159,
+      "centerMedianSRGB": [
+        255,
+        255,
+        253
+      ]
+    },
+    "east-sky": {
+      "lumaP01P10P50P90P99": [
+        172.3,
+        177.1,
+        184.3,
+        192.5,
+        194.7
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        170,
+        186,
+        204
+      ]
+    }
+  },
+  "rig": {
+    "azimuthDeg": 254,
+    "elevationDeg": 12,
+    "direction": [
+      -0.9402558215593758,
+      0.20791169081775934,
+      0.26961401826500775
+    ],
+    "hdrSize": [
+      2048,
+      1024
+    ]
+  },
+  "directionalLights": [
+    {
+      "name": "",
+      "visible": true,
+      "direction": [
+        -0.9402558215593757,
+        0.2079116908177593,
+        0.2696140182650077
+      ],
+      "linearRGB": [
+        1,
+        0.705,
+        0.465
+      ],
+      "intensity": 1.62
+    },
+    {
+      "name": "SDU_Sunset_Key",
+      "visible": false,
+      "direction": [
+        -0.9402558215593757,
+        0.20791169081775923,
+        0.26961401826500814
+      ],
+      "linearRGB": [
+        1,
+        0.705,
+        0.465
+      ],
+      "intensity": 1.62
+    }
+  ],
+  "browserErrors": [],
+  "environmentSHA256": "cfa740e381d97c08592bad0b072079d1922936895b059b618a45f50f8a6f8799",
+  "embeddedGLBSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "renderAssetSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "passed": true
+}

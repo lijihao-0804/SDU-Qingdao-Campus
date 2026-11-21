@@ -1,0 +1,788 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "resolution_m": 0.26,
+  "planInset_m": 0.8,
+  "entries": [
+    {
+      "name": "蓝色田径场",
+      "key": "blue_track",
+      "group": "landmark",
+      "upwardHighTriangles": 12,
+      "downwardHighTriangles": 12,
+      "projectedAbove2m_m2": 5.9
+    },
+    {
+      "name": "东田径场",
+      "key": "east_track",
+      "group": "landmark",
+      "upwardHighTriangles": 12,
+      "downwardHighTriangles": 12,
+      "projectedAbove2m_m2": 7.8
+    },
+    {
+      "name": "专家公寓 T4",
+      "key": "s2-south-t4",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2102,
+      "downwardHighTriangles": 1482,
+      "projectedAbove2m_m2": 2365.1,
+      "footprintScreen": {
+        "interior_m2": 2008.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓 T5",
+      "key": "s2-south-t5",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2102,
+      "downwardHighTriangles": 1482,
+      "projectedAbove2m_m2": 2365.1,
+      "footprintScreen": {
+        "interior_m2": 2008.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓 T6",
+      "key": "s2-south-t6",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2390,
+      "downwardHighTriangles": 1770,
+      "projectedAbove2m_m2": 2365.1,
+      "footprintScreen": {
+        "interior_m2": 2008.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓 T7",
+      "key": "s2-south-t7",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2390,
+      "downwardHighTriangles": 1770,
+      "projectedAbove2m_m2": 2365.1,
+      "footprintScreen": {
+        "interior_m2": 2008.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓 T8",
+      "key": "s2-south-t8",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2102,
+      "downwardHighTriangles": 1482,
+      "projectedAbove2m_m2": 2365.1,
+      "footprintScreen": {
+        "interior_m2": 2008.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓3号楼",
+      "key": "way-970257686",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2563,
+      "downwardHighTriangles": 1782,
+      "projectedAbove2m_m2": 1997.6,
+      "footprintScreen": {
+        "interior_m2": 1627.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓2号楼",
+      "key": "way-970257687",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2614,
+      "downwardHighTriangles": 1782,
+      "projectedAbove2m_m2": 1997.2,
+      "footprintScreen": {
+        "interior_m2": 1627.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "专家公寓1号楼",
+      "key": "way-970257688",
+      "group": "专家公寓",
+      "upwardHighTriangles": 2604,
+      "downwardHighTriangles": 1822,
+      "projectedAbove2m_m2": 2276.5,
+      "footprintScreen": {
+        "interior_m2": 1887.0,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "学生会堂 C1",
+      "key": "assembly",
+      "group": "会堂",
+      "upwardHighTriangles": 3828,
+      "downwardHighTriangles": 0,
+      "projectedAbove2m_m2": 9370.4
+    },
+    {
+      "name": "淦昌苑B座",
+      "key": "way-1018848586",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2877,
+      "downwardHighTriangles": 637,
+      "projectedAbove2m_m2": 4450.9,
+      "footprintScreen": {
+        "interior_m2": 3953.5,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "淦昌苑D座",
+      "key": "way-868015915",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2466,
+      "downwardHighTriangles": 816,
+      "projectedAbove2m_m2": 4957.7,
+      "footprintScreen": {
+        "interior_m2": 4344.4,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "淦昌苑C座",
+      "key": "way-970257667",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2227,
+      "downwardHighTriangles": 552,
+      "projectedAbove2m_m2": 4872.1,
+      "footprintScreen": {
+        "interior_m2": 4312.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "淦昌苑F座",
+      "key": "way-970257668",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2463,
+      "downwardHighTriangles": 858,
+      "projectedAbove2m_m2": 4885.7,
+      "footprintScreen": {
+        "interior_m2": 4312.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "淦昌苑E座",
+      "key": "way-970257669",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2260,
+      "downwardHighTriangles": 489,
+      "projectedAbove2m_m2": 4861.7,
+      "footprintScreen": {
+        "interior_m2": 4313.1,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "淦昌苑A座",
+      "key": "way-970257670",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2122,
+      "downwardHighTriangles": 613,
+      "projectedAbove2m_m2": 5208.7,
+      "footprintScreen": {
+        "interior_m2": 4655.0,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "会文北楼",
+      "key": "way-970257672",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2648,
+      "downwardHighTriangles": 902,
+      "projectedAbove2m_m2": 6621.6,
+      "footprintScreen": {
+        "interior_m2": 5632.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "会文南楼",
+      "key": "way-970257673",
+      "group": "会文与淦昌",
+      "upwardHighTriangles": 2314,
+      "downwardHighTriangles": 859,
+      "projectedAbove2m_m2": 5903.7,
+      "footprintScreen": {
+        "interior_m2": 5069.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "宋君复体育馆",
+      "key": "song_arena",
+      "group": "体育馆",
+      "upwardHighTriangles": 5804,
+      "downwardHighTriangles": 5076,
+      "projectedAbove2m_m2": 33878.2
+    },
+    {
+      "name": "华岗苑",
+      "key": "huagang",
+      "group": "公共教学苑",
+      "upwardHighTriangles": 3912,
+      "downwardHighTriangles": 3832,
+      "projectedAbove2m_m2": 10946.8
+    },
+    {
+      "name": "振声苑",
+      "key": "zhensheng",
+      "group": "公共教学苑",
+      "upwardHighTriangles": 4259,
+      "downwardHighTriangles": 3927,
+      "projectedAbove2m_m2": 11876.9
+    },
+    {
+      "name": "工程技术研究院 D1",
+      "key": "s2-research-d1",
+      "group": "其他建筑",
+      "upwardHighTriangles": 1832,
+      "downwardHighTriangles": 838,
+      "projectedAbove2m_m2": 4313.8,
+      "footprintScreen": {
+        "interior_m2": 3820.1,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "工程技术研究院 D5",
+      "key": "s2-research-d5",
+      "group": "其他建筑",
+      "upwardHighTriangles": 2060,
+      "downwardHighTriangles": 994,
+      "projectedAbove2m_m2": 6961.4,
+      "footprintScreen": {
+        "interior_m2": 6439.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/1022925323",
+      "key": "way-1022925323",
+      "group": "其他建筑",
+      "upwardHighTriangles": 138,
+      "downwardHighTriangles": 80,
+      "projectedAbove2m_m2": 531.4,
+      "footprintScreen": {
+        "interior_m2": 433.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/982180796",
+      "key": "way-982180796",
+      "group": "其他建筑",
+      "upwardHighTriangles": 634,
+      "downwardHighTriangles": 484,
+      "projectedAbove2m_m2": 2724.7,
+      "footprintScreen": {
+        "interior_m2": 2477.1,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/982180797",
+      "key": "way-982180797",
+      "group": "其他建筑",
+      "upwardHighTriangles": 602,
+      "downwardHighTriangles": 460,
+      "projectedAbove2m_m2": 2513.1,
+      "footprintScreen": {
+        "interior_m2": 2274.5,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/982180798",
+      "key": "way-982180798",
+      "group": "其他建筑",
+      "upwardHighTriangles": 522,
+      "downwardHighTriangles": 400,
+      "projectedAbove2m_m2": 1978.0,
+      "footprintScreen": {
+        "interior_m2": 1766.5,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/982199360",
+      "key": "way-982199360",
+      "group": "其他建筑",
+      "upwardHighTriangles": 714,
+      "downwardHighTriangles": 544,
+      "projectedAbove2m_m2": 2089.3,
+      "footprintScreen": {
+        "interior_m2": 1793.2,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/982199361",
+      "key": "way-982199361",
+      "group": "其他建筑",
+      "upwardHighTriangles": 106,
+      "downwardHighTriangles": 64,
+      "projectedAbove2m_m2": 415.5,
+      "footprintScreen": {
+        "interior_m2": 318.4,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/985076862",
+      "key": "way-985076862",
+      "group": "其他建筑",
+      "upwardHighTriangles": 786,
+      "downwardHighTriangles": 612,
+      "projectedAbove2m_m2": 1628.7,
+      "footprintScreen": {
+        "interior_m2": 1288.6,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居1号楼",
+      "key": "way-970257676",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5814,
+      "downwardHighTriangles": 3236,
+      "projectedAbove2m_m2": 4829.7,
+      "footprintScreen": {
+        "interior_m2": 4204.7,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居5号楼",
+      "key": "way-970257677",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5563,
+      "downwardHighTriangles": 3032,
+      "projectedAbove2m_m2": 4852.1,
+      "footprintScreen": {
+        "interior_m2": 4215.6,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居9号楼",
+      "key": "way-970257678",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5578,
+      "downwardHighTriangles": 3032,
+      "projectedAbove2m_m2": 4852.5,
+      "footprintScreen": {
+        "interior_m2": 4209.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居2号楼",
+      "key": "way-970257679",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5912,
+      "downwardHighTriangles": 3236,
+      "projectedAbove2m_m2": 4827.5,
+      "footprintScreen": {
+        "interior_m2": 4217.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居6号楼",
+      "key": "way-970257680",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5544,
+      "downwardHighTriangles": 3032,
+      "projectedAbove2m_m2": 4849.4,
+      "footprintScreen": {
+        "interior_m2": 4217.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居10号楼",
+      "key": "way-970257681",
+      "group": "凤凰居",
+      "upwardHighTriangles": 5508,
+      "downwardHighTriangles": 3032,
+      "projectedAbove2m_m2": 4850.0,
+      "footprintScreen": {
+        "interior_m2": 4217.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/970257682",
+      "key": "way-970257682",
+      "group": "凤凰居",
+      "upwardHighTriangles": 233,
+      "downwardHighTriangles": 468,
+      "projectedAbove2m_m2": 521.6,
+      "footprintScreen": {
+        "interior_m2": 308.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/970257683",
+      "key": "way-970257683",
+      "group": "凤凰居",
+      "upwardHighTriangles": 224,
+      "downwardHighTriangles": 468,
+      "projectedAbove2m_m2": 528.5,
+      "footprintScreen": {
+        "interior_m2": 303.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/970257684",
+      "key": "way-970257684",
+      "group": "凤凰居",
+      "upwardHighTriangles": 235,
+      "downwardHighTriangles": 468,
+      "projectedAbove2m_m2": 497.9,
+      "footprintScreen": {
+        "interior_m2": 302.4,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/970257685",
+      "key": "way-970257685",
+      "group": "凤凰居",
+      "upwardHighTriangles": 223,
+      "downwardHighTriangles": 420,
+      "projectedAbove2m_m2": 489.3,
+      "footprintScreen": {
+        "interior_m2": 302.4,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "凤凰居11-13号楼",
+      "key": "way-982199358",
+      "group": "凤凰居",
+      "upwardHighTriangles": 2881,
+      "downwardHighTriangles": 2088,
+      "projectedAbove2m_m2": 4382.1,
+      "footprintScreen": {
+        "interior_m2": 4029.1,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "校园建筑 way/1020621360",
+      "key": "way-1020621360",
+      "group": "凤凰居六角亭",
+      "upwardHighTriangles": 374,
+      "downwardHighTriangles": 306,
+      "projectedAbove2m_m2": 110.2,
+      "footprintScreen": {
+        "interior_m2": 69.6,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "山东大学博物馆（青岛）",
+      "key": "museum",
+      "group": "博物馆",
+      "upwardHighTriangles": 1234,
+      "downwardHighTriangles": 1194,
+      "projectedAbove2m_m2": 9850.5
+    },
+    {
+      "name": "创新创业中心",
+      "key": "way-868015914",
+      "group": "双创中心",
+      "upwardHighTriangles": 4529,
+      "downwardHighTriangles": 1181,
+      "projectedAbove2m_m2": 8450.9,
+      "footprintScreen": {
+        "interior_m2": 7950.2,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "青岛校区图书馆",
+      "key": "library",
+      "group": "图书馆",
+      "upwardHighTriangles": 9188,
+      "downwardHighTriangles": 4016,
+      "projectedAbove2m_m2": 7738.8
+    },
+    {
+      "name": "晨园餐厅",
+      "key": "s2-b6",
+      "group": "晨园",
+      "upwardHighTriangles": 1798,
+      "downwardHighTriangles": 2066,
+      "projectedAbove2m_m2": 2492.5,
+      "footprintScreen": {
+        "interior_m2": 2250.5,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "曦园餐厅",
+      "key": "xiyuan",
+      "group": "曦园",
+      "upwardHighTriangles": 342,
+      "downwardHighTriangles": 272,
+      "projectedAbove2m_m2": 8876.7
+    },
+    {
+      "name": "东校门",
+      "key": "east_gate",
+      "group": "校门",
+      "upwardHighTriangles": 210,
+      "downwardHighTriangles": 136,
+      "projectedAbove2m_m2": 373.5
+    },
+    {
+      "name": "北校门",
+      "key": "north_gate",
+      "group": "校门",
+      "upwardHighTriangles": 234,
+      "downwardHighTriangles": 134,
+      "projectedAbove2m_m2": 147.2
+    },
+    {
+      "name": "南校门",
+      "key": "south_gate",
+      "group": "校门",
+      "upwardHighTriangles": 184,
+      "downwardHighTriangles": 138,
+      "projectedAbove2m_m2": 67.1
+    },
+    {
+      "name": "西门（礼仪正门）",
+      "key": "west_gate",
+      "group": "校门",
+      "upwardHighTriangles": 1894,
+      "downwardHighTriangles": 1654,
+      "projectedAbove2m_m2": 571.3
+    },
+    {
+      "name": "滨海公园 · 球壳观景建筑 1",
+      "key": "coastal-pavilion-1",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 2692,
+      "downwardHighTriangles": 1708,
+      "projectedAbove2m_m2": 217.3
+    },
+    {
+      "name": "滨海公园 · 球壳观景建筑 2",
+      "key": "coastal-pavilion-2",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 2612,
+      "downwardHighTriangles": 1588,
+      "projectedAbove2m_m2": 150.0
+    },
+    {
+      "name": "滨海公园 · 球壳观景建筑 3",
+      "key": "coastal-pavilion-3",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 2556,
+      "downwardHighTriangles": 1500,
+      "projectedAbove2m_m2": 137.8
+    },
+    {
+      "name": "滨海公园 · 球壳观景建筑 4",
+      "key": "coastal-pavilion-4",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 2596,
+      "downwardHighTriangles": 1516,
+      "projectedAbove2m_m2": 146.2
+    },
+    {
+      "name": "滨海公园 · 球壳观景建筑 5",
+      "key": "coastal-pavilion-5",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 2556,
+      "downwardHighTriangles": 1428,
+      "projectedAbove2m_m2": 129.3
+    },
+    {
+      "name": "滨海公园 · 红顶观景塔与曲廊",
+      "key": "coastal-red-tower",
+      "group": "海滨构筑",
+      "upwardHighTriangles": 622,
+      "downwardHighTriangles": 554,
+      "projectedAbove2m_m2": 214.6
+    },
+    {
+      "name": "工程技术研究院 M区",
+      "key": "s2-research-m",
+      "group": "研究院M区",
+      "upwardHighTriangles": 4082,
+      "downwardHighTriangles": 2274,
+      "projectedAbove2m_m2": 8569.4,
+      "footprintScreen": {
+        "interior_m2": 7557.7,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑D座",
+      "key": "way-868015916",
+      "group": "第周苑",
+      "upwardHighTriangles": 4322,
+      "downwardHighTriangles": 1815,
+      "projectedAbove2m_m2": 7326.8,
+      "footprintScreen": {
+        "interior_m2": 6630.5,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑C座",
+      "key": "way-868015918",
+      "group": "第周苑",
+      "upwardHighTriangles": 3122,
+      "downwardHighTriangles": 1272,
+      "projectedAbove2m_m2": 5673.7,
+      "footprintScreen": {
+        "interior_m2": 5100.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑A座",
+      "key": "way-868015919",
+      "group": "第周苑",
+      "upwardHighTriangles": 3894,
+      "downwardHighTriangles": 1959,
+      "projectedAbove2m_m2": 6148.8,
+      "footprintScreen": {
+        "interior_m2": 5503.9,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑B座",
+      "key": "way-868015920",
+      "group": "第周苑",
+      "upwardHighTriangles": 3603,
+      "downwardHighTriangles": 1719,
+      "projectedAbove2m_m2": 5113.4,
+      "footprintScreen": {
+        "interior_m2": 4544.7,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑F座",
+      "key": "way-868015921",
+      "group": "第周苑",
+      "upwardHighTriangles": 2795,
+      "downwardHighTriangles": 1013,
+      "projectedAbove2m_m2": 3898.5,
+      "footprintScreen": {
+        "interior_m2": 3457.1,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "第周苑E座",
+      "key": "way-970257671",
+      "group": "第周苑",
+      "upwardHighTriangles": 3587,
+      "downwardHighTriangles": 1146,
+      "projectedAbove2m_m2": 4853.1,
+      "footprintScreen": {
+        "interior_m2": 4301.0,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "风雨操场",
+      "key": "way-982199336",
+      "group": "训练馆",
+      "upwardHighTriangles": 1756,
+      "downwardHighTriangles": 120,
+      "projectedAbove2m_m2": 4195.1
+    },
+    {
+      "name": "阅海居 B1",
+      "key": "s2-b1",
+      "group": "阅海居",
+      "upwardHighTriangles": 5352,
+      "downwardHighTriangles": 5240,
+      "projectedAbove2m_m2": 4812.6,
+      "footprintScreen": {
+        "interior_m2": 4209.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "阅海居 B10",
+      "key": "s2-b10",
+      "group": "阅海居",
+      "upwardHighTriangles": 1922,
+      "downwardHighTriangles": 1972,
+      "projectedAbove2m_m2": 1847.4,
+      "footprintScreen": {
+        "interior_m2": 1597.8,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "阅海居 B2",
+      "key": "s2-b2",
+      "group": "阅海居",
+      "upwardHighTriangles": 1662,
+      "downwardHighTriangles": 1700,
+      "projectedAbove2m_m2": 1583.1,
+      "footprintScreen": {
+        "interior_m2": 1356.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "阅海居 B5",
+      "key": "s2-b5",
+      "group": "阅海居",
+      "upwardHighTriangles": 1710,
+      "downwardHighTriangles": 1730,
+      "projectedAbove2m_m2": 1613.1,
+      "footprintScreen": {
+        "interior_m2": 1382.3,
+        "unmatched_m2": 0.0
+      }
+    },
+    {
+      "name": "阅海居 B9",
+      "key": "s2-b9",
+      "group": "阅海居",
+      "upwardHighTriangles": 5338,
+      "downwardHighTriangles": 5274,
+      "projectedAbove2m_m2": 4569.8,
+      "footprintScreen": {
+        "interior_m2": 3967.2,
+        "unmatched_m2": 0.0
+      }
+    }
+  ],
+  "pages": [
+    "屋顶逐栋-01.jpg",
+    "屋顶逐栋-02.jpg",
+    "屋顶逐栋-03.jpg",
+    "屋顶逐栋-04.jpg",
+    "屋顶逐栋-05.jpg",
+    "屋顶逐栋-06.jpg"
+  ],
+  "interpretation": "正投影包含建筑各高度实有的面。底图内缩0.8米，与高于基点2.2米的实有三角面投影比较。平台边缘、院心及分栋轮廓结合屋面专项核验。负向高位三角也包含正常的檐底和底板。"
+}

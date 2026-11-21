@@ -1,0 +1,2292 @@
+{
+  "model_sha256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "camera_catalogue_sha256": "095a5fa3a1c3648b728a727d24865ab7a3fca4e58ed32dac8004575baca18989",
+  "method": "最终GLB实例世界变换和双面三角形射线。导航原始相机按locations.json；平行、扇形和横向视线两端按成品最上层地面加1.70米。排除本楼及其独立字面，其他楼、树和灌丛、草叶、道路和全部其他可相交几何保留。基础按成品外墙最低标高，沿源足迹每2米采样TIN；外鼻最近七点与接近侧可见行走表面对照。",
+  "limit": "视线和台阶为有限采样；门的位置和高程来自模型，建筑侧面、隐蔽门廊及绝对地坪未经现场测量。底部埋入TIN是基座搭接。石材步道覆面设计抬升约0.145米，报告将其与墙体基础或独立石台底部的离地分列。",
+  "screening_thresholds": {
+    "foundation_exposed_m": 0.05,
+    "toe_lower_than_approach_m": -0.04,
+    "high_first_rise_m": 0.23
+  },
+  "counts": {
+    "entrances": 14,
+    "sightlines": 182,
+    "clear": 182,
+    "hits": 0,
+    "full_GLB_tree_and_shrub_instances": 7634,
+    "full_GLB_groundcover_groups": 9461
+  },
+  "apron_minus_TIN_m": [
+    0.145,
+    0.145
+  ],
+  "apron_samples": 676,
+  "obstructions": [],
+  "first_rise_flags": [],
+  "entries": [
+    {
+      "key": "way-868015915",
+      "name": "淦昌苑D座",
+      "geometry_source": "临院门廊与通高窗带采用石材线脚，红瓦坡顶围合平屋面。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        475.77,
+        1.4598,
+        127.67
+      ],
+      "target_world": [
+        492.77,
+        3.0794,
+        127.67
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 0.1394,
+      "toe_normal_distance_from_target_m": 3.114,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.36,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            489.545,
+            121.315
+          ]
+        },
+        {
+          "lateral": -4.25,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            489.528,
+            123.425
+          ]
+        },
+        {
+          "lateral": -2.14,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            489.512,
+            125.535
+          ]
+        },
+        {
+          "lateral": -0.03,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            489.496,
+            127.645
+          ]
+        },
+        {
+          "lateral": 2.08,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            489.479,
+            129.755
+          ]
+        },
+        {
+          "lateral": 4.19,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            489.463,
+            131.865
+          ]
+        },
+        {
+          "lateral": 6.3,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            489.447,
+            133.974
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 201,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-868015916",
+      "name": "第周苑D座",
+      "geometry_source": "西侧深门廊，正射影像西台阶方框交叉标线与两次返校照片的黄色线相符。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        468.0517,
+        5.5984,
+        329.3032
+      ],
+      "target_world": [
+        485.05,
+        7.4558,
+        329.0652
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 4.4258,
+      "toe_normal_distance_from_target_m": 4.73,
+      "top_riser_range_m": [
+        0.025,
+        0.17
+      ],
+      "toe_samples": [
+        {
+          "lateral": -8.66,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            480.039,
+            320.479
+          ]
+        },
+        {
+          "lateral": -5.77,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.08,
+          "world_xz": [
+            480.08,
+            323.364
+          ]
+        },
+        {
+          "lateral": -2.89,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            480.12,
+            326.249
+          ]
+        },
+        {
+          "lateral": -0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            480.161,
+            329.134
+          ]
+        },
+        {
+          "lateral": 2.88,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            480.201,
+            332.018
+          ]
+        },
+        {
+          "lateral": 5.77,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.08,
+          "world_xz": [
+            480.241,
+            334.903
+          ]
+        },
+        {
+          "lateral": 8.65,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            480.282,
+            337.788
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.28,
+        -0.28
+      ],
+      "foundation_samples": 237,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ],
+      "integral_forecourt_bottom_minus_TIN_m": [
+        -0.15,
+        -0.0886
+      ]
+    },
+    {
+      "key": "way-868015918",
+      "name": "第周苑C座",
+      "geometry_source": "南向凹院与入口轴，左院名牌、右楼牌均据正面照片。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        384.4748,
+        2.5002,
+        303.1699
+      ],
+      "target_world": [
+        384.5428,
+        3.6258,
+        286.17
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 0.5958,
+      "toe_normal_distance_from_target_m": 3.63,
+      "top_riser_range_m": [
+        0.025,
+        0.17
+      ],
+      "toe_samples": [
+        {
+          "lateral": -7.51,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            377.023,
+            289.93
+          ]
+        },
+        {
+          "lateral": -5.0,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            379.524,
+            289.94
+          ]
+        },
+        {
+          "lateral": -2.5,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            382.026,
+            289.95
+          ]
+        },
+        {
+          "lateral": -0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            384.528,
+            289.96
+          ]
+        },
+        {
+          "lateral": 2.5,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            387.029,
+            289.97
+          ]
+        },
+        {
+          "lateral": 5.0,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            389.531,
+            289.98
+          ]
+        },
+        {
+          "lateral": 7.51,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            392.033,
+            289.99
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.28,
+        -0.28
+      ],
+      "foundation_samples": 197,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-868015919",
+      "name": "第周苑A座",
+      "geometry_source": "研究院办公楼。2023年两侧入口铭牌有旧照，2024年实验室重组；旧牌对应哪一面仍待确认。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        168.1592,
+        5.7319,
+        322.258
+      ],
+      "target_world": [
+        151.16,
+        6.3275,
+        322.088
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 3.2975,
+      "toe_normal_distance_from_target_m": 3.98,
+      "top_riser_range_m": [
+        0.0267,
+        0.1717
+      ],
+      "toe_samples": [
+        {
+          "lateral": -7.75,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1717,
+          "world_xz": [
+            155.222,
+            329.884
+          ]
+        },
+        {
+          "lateral": -5.17,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1717,
+          "world_xz": [
+            155.248,
+            327.299
+          ]
+        },
+        {
+          "lateral": -2.58,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0267,
+          "world_xz": [
+            155.274,
+            324.714
+          ]
+        },
+        {
+          "lateral": 0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0267,
+          "world_xz": [
+            155.3,
+            322.129
+          ]
+        },
+        {
+          "lateral": 2.59,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0267,
+          "world_xz": [
+            155.326,
+            319.545
+          ]
+        },
+        {
+          "lateral": 5.17,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1717,
+          "world_xz": [
+            155.351,
+            316.96
+          ]
+        },
+        {
+          "lateral": 7.76,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1717,
+          "world_xz": [
+            155.377,
+            314.375
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.2782,
+        -0.2782
+      ],
+      "foundation_samples": 219,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.0518,
+        0.0518
+      ]
+    },
+    {
+      "key": "way-868015920",
+      "name": "第周苑B座",
+      "geometry_source": "2026年正照核对半圆拱、楼牌及生命学院上牌。与微生物技术研究院共享。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        243.6473,
+        5.1255,
+        314.5998
+      ],
+      "target_world": [
+        243.7299,
+        6.0562,
+        299.85
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.865,
+      "eye_ground_type": "学院区道路两侧人行道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 3.0262,
+      "toe_normal_distance_from_target_m": 4.13,
+      "top_riser_range_m": [
+        0.005,
+        0.17
+      ],
+      "toe_samples": [
+        {
+          "lateral": -8.5,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            235.201,
+            304.092
+          ]
+        },
+        {
+          "lateral": -5.67,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.17,
+          "world_xz": [
+            238.036,
+            304.108
+          ]
+        },
+        {
+          "lateral": -2.83,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            240.871,
+            304.124
+          ]
+        },
+        {
+          "lateral": 0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.025,
+          "world_xz": [
+            243.706,
+            304.14
+          ]
+        },
+        {
+          "lateral": 2.84,
+          "surface": "学院区道路两侧人行道",
+          "first_rise_m": 0.005,
+          "world_xz": [
+            246.541,
+            304.156
+          ]
+        },
+        {
+          "lateral": 5.67,
+          "surface": "学院区道路两侧人行道",
+          "first_rise_m": 0.005,
+          "world_xz": [
+            249.376,
+            304.172
+          ]
+        },
+        {
+          "lateral": 8.51,
+          "surface": "学院区道路两侧人行道",
+          "first_rise_m": 0.005,
+          "world_xz": [
+            252.211,
+            304.188
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.28,
+        -0.28
+      ],
+      "foundation_samples": 196,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-868015921",
+      "name": "第周苑F座",
+      "geometry_source": "南立面玻璃山墙见2021年航拍，与研究院共享。入口牌文字待核。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        243.6903,
+        7.0753,
+        408.5284
+      ],
+      "target_world": [
+        243.9248,
+        7.8997,
+        391.78
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.91,
+      "eye_ground_type": "车道路缘",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 4.8697,
+      "toe_normal_distance_from_target_m": 3.33,
+      "top_riser_range_m": [
+        0.0295,
+        0.1745
+      ],
+      "toe_samples": [
+        {
+          "lateral": -7.0,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1745,
+          "world_xz": [
+            236.872,
+            395.171
+          ]
+        },
+        {
+          "lateral": -4.67,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1745,
+          "world_xz": [
+            239.206,
+            395.204
+          ]
+        },
+        {
+          "lateral": -2.33,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0295,
+          "world_xz": [
+            241.541,
+            395.237
+          ]
+        },
+        {
+          "lateral": 0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0295,
+          "world_xz": [
+            243.876,
+            395.269
+          ]
+        },
+        {
+          "lateral": 2.34,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0295,
+          "world_xz": [
+            246.211,
+            395.302
+          ]
+        },
+        {
+          "lateral": 4.67,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1745,
+          "world_xz": [
+            248.545,
+            395.335
+          ]
+        },
+        {
+          "lateral": 7.01,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1745,
+          "world_xz": [
+            250.88,
+            395.368
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.2756,
+        -0.2756
+      ],
+      "foundation_samples": 157,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.0544,
+        0.0544
+      ]
+    },
+    {
+      "key": "way-970257667",
+      "name": "淦昌苑C座",
+      "geometry_source": "海洋研究院的横牌位于入口左侧粗石墙上。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        384.3,
+        0.1825,
+        103.52
+      ],
+      "target_world": [
+        384.3,
+        1.4016,
+        86.52
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.5384,
+      "toe_normal_distance_from_target_m": 3.131,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.6,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            377.704,
+            89.779
+          ]
+        },
+        {
+          "lateral": -4.4,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            379.898,
+            89.79
+          ]
+        },
+        {
+          "lateral": -2.21,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            382.091,
+            89.8
+          ]
+        },
+        {
+          "lateral": -0.02,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            384.284,
+            89.811
+          ]
+        },
+        {
+          "lateral": 2.18,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            386.478,
+            89.821
+          ]
+        },
+        {
+          "lateral": 4.37,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            388.671,
+            89.832
+          ]
+        },
+        {
+          "lateral": 6.56,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            390.864,
+            89.842
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 186,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-970257668",
+      "name": "淦昌苑F座",
+      "geometry_source": "临院门廊与通高窗带采用石材线脚，红瓦坡顶围合平屋面。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        242.64,
+        0.8253,
+        202.44
+      ],
+      "target_world": [
+        242.64,
+        1.6028,
+        185.44
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.3372,
+      "toe_normal_distance_from_target_m": 3.131,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.45,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            236.194,
+            188.7
+          ]
+        },
+        {
+          "lateral": -4.3,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            238.338,
+            188.71
+          ]
+        },
+        {
+          "lateral": -2.16,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            240.481,
+            188.721
+          ]
+        },
+        {
+          "lateral": -0.02,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            242.624,
+            188.731
+          ]
+        },
+        {
+          "lateral": 2.13,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            244.768,
+            188.741
+          ]
+        },
+        {
+          "lateral": 4.27,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            246.911,
+            188.751
+          ]
+        },
+        {
+          "lateral": 6.41,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            249.054,
+            188.761
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 186,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-970257669",
+      "name": "淦昌苑E座",
+      "geometry_source": "双圆柱支撑石材门框。左侧是环境科学与工程学院横牌，右侧是楼座竖牌。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        383.82,
+        1.0658,
+        216.71
+      ],
+      "target_world": [
+        383.82,
+        2.2166,
+        200.21
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.865,
+      "eye_ground_type": "学院区道路两侧人行道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -0.7234,
+      "toe_normal_distance_from_target_m": 3.121,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.85,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            376.974,
+            203.457
+          ]
+        },
+        {
+          "lateral": -4.57,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            379.25,
+            203.468
+          ]
+        },
+        {
+          "lateral": -2.29,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            381.527,
+            203.48
+          ]
+        },
+        {
+          "lateral": -0.02,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            383.804,
+            203.491
+          ]
+        },
+        {
+          "lateral": 2.26,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            386.08,
+            203.502
+          ]
+        },
+        {
+          "lateral": 4.54,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            388.357,
+            203.514
+          ]
+        },
+        {
+          "lateral": 6.81,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            390.634,
+            203.525
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 186,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-970257670",
+      "name": "淦昌苑A座",
+      "geometry_source": "临院门廊与通高窗带采用石材线脚，红瓦坡顶围合平屋面。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        163.55,
+        -0.1332,
+        126.0
+      ],
+      "target_world": [
+        146.55,
+        1.2109,
+        126.0
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.845,
+      "eye_ground_type": "学院门前石材步道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.7291,
+      "toe_normal_distance_from_target_m": 3.204,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.52,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            150.035,
+            132.517
+          ]
+        },
+        {
+          "lateral": -4.32,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            149.994,
+            130.324
+          ]
+        },
+        {
+          "lateral": -2.13,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            149.954,
+            128.132
+          ]
+        },
+        {
+          "lateral": 0.06,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            149.914,
+            125.939
+          ]
+        },
+        {
+          "lateral": 2.25,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            149.874,
+            123.746
+          ]
+        },
+        {
+          "lateral": 4.45,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            149.834,
+            121.553
+          ]
+        },
+        {
+          "lateral": 6.64,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            149.794,
+            119.36
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 190,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-970257671",
+      "name": "第周苑E座",
+      "geometry_source": "2024年正面合影核对左侧三块院所牌与右侧楼牌。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        384.5876,
+        4.6598,
+        409.7497
+      ],
+      "target_world": [
+        384.6761,
+        5.8661,
+        398.25
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.91,
+      "eye_ground_type": "车道路缘",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": 2.8361,
+      "toe_normal_distance_from_target_m": 3.68,
+      "top_riser_range_m": [
+        0.0275,
+        0.1727
+      ],
+      "toe_samples": [
+        {
+          "lateral": -7.7,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1727,
+          "world_xz": [
+            376.942,
+            402.031
+          ]
+        },
+        {
+          "lateral": -5.14,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1726,
+          "world_xz": [
+            379.51,
+            402.05
+          ]
+        },
+        {
+          "lateral": -2.57,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0276,
+          "world_xz": [
+            382.078,
+            402.07
+          ]
+        },
+        {
+          "lateral": -0.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0275,
+          "world_xz": [
+            384.647,
+            402.09
+          ]
+        },
+        {
+          "lateral": 2.57,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0275,
+          "world_xz": [
+            387.215,
+            402.11
+          ]
+        },
+        {
+          "lateral": 5.14,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1725,
+          "world_xz": [
+            389.783,
+            402.129
+          ]
+        },
+        {
+          "lateral": 7.7,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.1724,
+          "world_xz": [
+            392.351,
+            402.149
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -0.2773,
+        -0.2773
+      ],
+      "foundation_samples": 197,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.0527,
+        0.0527
+      ]
+    },
+    {
+      "key": "way-970257672",
+      "name": "会文北楼",
+      "geometry_source": "长翼沿广场展开，观察凹进的中央窗带、侧翼与红瓦屋脊。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        389.29,
+        -0.1976,
+        -95.33
+      ],
+      "target_world": [
+        389.29,
+        0.9463,
+        -110.83
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.87,
+      "eye_ground_type": "会文广场 · 十字步道与中心铺石",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.9937,
+      "toe_normal_distance_from_target_m": 3.201,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -5.97,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            383.322,
+            -107.537
+          ]
+        },
+        {
+          "lateral": -3.99,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            385.298,
+            -107.514
+          ]
+        },
+        {
+          "lateral": -2.02,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            387.275,
+            -107.492
+          ]
+        },
+        {
+          "lateral": -0.04,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            389.251,
+            -107.469
+          ]
+        },
+        {
+          "lateral": 1.94,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            391.228,
+            -107.446
+          ]
+        },
+        {
+          "lateral": 3.91,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            393.205,
+            -107.424
+          ]
+        },
+        {
+          "lateral": 5.89,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            395.181,
+            -107.401
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 260,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-970257673",
+      "name": "会文南楼",
+      "geometry_source": "长翼和分段坡屋顶围合会文广场南侧；南向入口参照工程记录。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        453.4,
+        0.0788,
+        46.1
+      ],
+      "target_world": [
+        453.4,
+        1.1413,
+        25.85
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.865,
+      "eye_ground_type": "学院区道路两侧人行道",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.7987,
+      "toe_normal_distance_from_target_m": 3.08,
+      "top_riser_range_m": [
+        0.0651,
+        0.2101
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.31,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.2101,
+          "world_xz": [
+            447.095,
+            28.942
+          ]
+        },
+        {
+          "lateral": -4.23,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.2101,
+          "world_xz": [
+            449.171,
+            28.991
+          ]
+        },
+        {
+          "lateral": -2.15,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0651,
+          "world_xz": [
+            451.247,
+            29.041
+          ]
+        },
+        {
+          "lateral": -0.08,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0651,
+          "world_xz": [
+            453.323,
+            29.09
+          ]
+        },
+        {
+          "lateral": 2.0,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.0651,
+          "world_xz": [
+            455.399,
+            29.14
+          ]
+        },
+        {
+          "lateral": 4.08,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.2101,
+          "world_xz": [
+            457.475,
+            29.189
+          ]
+        },
+        {
+          "lateral": 6.15,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.2101,
+          "world_xz": [
+            459.551,
+            29.238
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 262,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "key": "way-1018848586",
+      "name": "淦昌苑B座",
+      "geometry_source": "临院门廊与通高窗带采用石材线脚，红瓦坡顶围合平屋面。",
+      "nearby_pavement_if_eye_is_over_lawn": null,
+      "eye_world": [
+        245.17,
+        -0.0138,
+        109.45
+      ],
+      "target_world": [
+        245.17,
+        1.2584,
+        98.45
+      ],
+      "eye_above_visible_surface_m": 1.7,
+      "eye_above_bare_TIN_m": 1.91,
+      "eye_ground_type": "车道路缘",
+      "sightlines": [
+        {
+          "line": "导航原始相机",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -2.50 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 -1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +0.00 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +1.25 m",
+          "clear": true
+        },
+        {
+          "line": "平行进门 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前扇形 +2.50 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 3 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 6 m",
+          "clear": true
+        },
+        {
+          "line": "门前横穿 10 m",
+          "clear": true
+        }
+      ],
+      "actual_triangle_candidates": 0,
+      "stair_toe_world_y": -1.6816,
+      "toe_normal_distance_from_target_m": 3.185,
+      "top_riser_range_m": [
+        0.065,
+        0.21
+      ],
+      "toe_samples": [
+        {
+          "lateral": -6.36,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            238.806,
+            101.73
+          ]
+        },
+        {
+          "lateral": -4.25,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            240.916,
+            101.752
+          ]
+        },
+        {
+          "lateral": -2.14,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            243.026,
+            101.773
+          ]
+        },
+        {
+          "lateral": -0.03,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            245.136,
+            101.795
+          ]
+        },
+        {
+          "lateral": 2.08,
+          "surface": "学院门前石材步道",
+          "first_rise_m": 0.065,
+          "world_xz": [
+            247.246,
+            101.817
+          ]
+        },
+        {
+          "lateral": 4.19,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            249.355,
+            101.838
+          ]
+        },
+        {
+          "lateral": 6.3,
+          "surface": "校园及滨海地形",
+          "first_rise_m": 0.21,
+          "world_xz": [
+            251.465,
+            101.86
+          ]
+        }
+      ],
+      "tread_levels_above_building_anchor_m": [
+        0.16,
+        0.32,
+        0.48,
+        0.64
+      ],
+      "foundation_bottom_minus_TIN_m": [
+        -1.95,
+        -1.95
+      ],
+      "foundation_samples": 169,
+      "foundation_exposed_over_5cm": 0,
+      "base_minus_TIN_m": [
+        0.05,
+        0.05
+      ]
+    }
+  ]
+}

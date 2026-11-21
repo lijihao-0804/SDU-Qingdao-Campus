@@ -1,0 +1,135 @@
+{
+  "modelSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "pageSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "scope": {
+    "full": {
+      "image": "preview/校园精修/全校-显示周边.jpg",
+      "sha256": "744ff651e423a48db330d02185e4ac402c5b3ed65ce5948518ae92b61b7d8d79"
+    },
+    "core": {
+      "image": "preview/校园精修/全校-仅看建模区.jpg",
+      "sha256": "9e3e6c7e6b2256d0bbfe7e667d9cca4315252ea058cbf4bb694f310af8761d94"
+    },
+    "initial": {
+      "scope": "full",
+      "outer": 93,
+      "visibleOuter": 93,
+      "offshore": 1,
+      "nearshoreSection": 0,
+      "selected": "overview",
+      "visibleCut": 0,
+      "glassMaps": [
+        "full"
+      ],
+      "kept": true,
+      "button": "false",
+      "outsideMenu": true
+    },
+    "filtered": {
+      "scope": "core",
+      "outer": 93,
+      "visibleOuter": 0,
+      "offshore": 0,
+      "nearshoreSection": 1,
+      "selected": "overview",
+      "visibleCut": 1,
+      "glassMaps": [
+        "core"
+      ],
+      "kept": true,
+      "button": "true",
+      "outsideMenu": false
+    },
+    "changedPixelFraction": 0.8487100424981523,
+    "restoredPixelMAE": 0.0,
+    "mobileWidth": 390
+  },
+  "frames": [
+    {
+      "key": "contact-dining",
+      "title": "曦园 · 坡侧基脚",
+      "eye": [
+        450.5,
+        9.15,
+        645.5
+      ],
+      "target": [
+        464.0,
+        8.75,
+        657.0
+      ],
+      "fov": 52,
+      "image": "preview/校园精修/contact-dining-after.jpg",
+      "sha256": "bff902c64cbac3324e6ebf952d15fff19b8e7deecb34f534d4dd1e02fede09b4"
+    },
+    {
+      "key": "contact-phoenix",
+      "title": "凤凰居五号楼 · 转角基脚",
+      "eye": [
+        286.5,
+        13.35,
+        771.8
+      ],
+      "target": [
+        274.0,
+        12.58,
+        785.2
+      ],
+      "fov": 50,
+      "image": "preview/校园精修/contact-phoenix-after.jpg",
+      "sha256": "56c61bf713096e16b978d6b5f331c50531dcd76b5b4c1125a1cc7e8f76fe93af"
+    },
+    {
+      "key": "botanic-cherry",
+      "title": "淦昌苑 · 枝头花序",
+      "eye": [
+        195.354,
+        0.774,
+        113.628
+      ],
+      "target": [
+        197.594,
+        1.314,
+        115.036
+      ],
+      "fov": 32,
+      "image": "preview/校园精修/botanic-cherry-after.jpg",
+      "sha256": "f799ffd75b2deadf245fa0d92b5df3fba25314a23ae135eb57463e768489fe36"
+    },
+    {
+      "key": "botanic-grass",
+      "title": "育贤广场 · 草丛叶鞘",
+      "eye": [
+        31.75,
+        -2.16,
+        -146.306
+      ],
+      "target": [
+        32.763,
+        -2.302,
+        -145.759
+      ],
+      "fov": 37,
+      "image": "preview/校园精修/botanic-grass-after.jpg",
+      "sha256": "f8d3ee1592ab0ef5adb0f7223097eaf9ed273ce9eae6e03e04b28c2998642aa7"
+    },
+    {
+      "key": "botanic-hedge",
+      "title": "图书馆花园 · 方篱嫩梢",
+      "eye": [
+        131.326,
+        -0.86,
+        29.133
+      ],
+      "target": [
+        130.659,
+        -1.206,
+        27.172
+      ],
+      "fov": 39,
+      "image": "preview/校园精修/botanic-hedge-after.jpg",
+      "sha256": "17484242cbd7023ea935a156b8dd46e3a6a59bc7d7d6820d847aa4586e8784f6"
+    }
+  ],
+  "browserErrors": []
+}

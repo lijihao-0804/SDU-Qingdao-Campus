@@ -1,0 +1,941 @@
+{
+  "title": "青岛校区公共建筑屋面和临海敞开构筑物 v4 核验",
+  "units": "局部坐标米；地理配准 X东、Y高、Z南，单体放射测量采用建筑局部坐标。",
+  "references": {
+    "aerial_photo": {
+      "url": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "credit": "齐鲁晚报·齐鲁壹点 周青先，2019-09-16，青岛新闻网转载",
+      "local": [
+        "实景参照/地标/航拍01_图书馆屋顶.png",
+        "实景参照/地标/航拍02_南向北鸟瞰.png",
+        "实景参照/地标/航拍06_教学楼群.png"
+      ]
+    },
+    "imagery": {
+      "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer",
+      "use": "正射影像仅用于目视量图、识别平面和相邻设施，不嵌入模型。下列bbox可独立复查；高层顶部存在非垂直成像的投影偏差，估读尺寸不是竣工测绘。"
+    },
+    "museum": {
+      "url": "https://museum.sdu.edu.cn/info/1009/6878.htm",
+      "publisher": "山东大学博物馆",
+      "use": "竣工实拍、四角体量与室内中庭。"
+    },
+    "library": {
+      "url": "https://news.qingdaonews.com/qingdao/2017-09/08/content_20011093.htm",
+      "publisher": "青岛新闻网，市建筑工务局工程交付信息",
+      "use": "陶土坡顶、钢结构采光顶与66.3米总高。"
+    },
+    "gate": {
+      "url": "https://jjc.qd.sdu.edu.cn/info/1022/1925.htm",
+      "publisher": "山东大学（青岛）基建处",
+      "use": "北门实景、主塔16.2米，传达室5.18米。"
+    },
+    "west_gate": {
+      "url": "https://culture.sdu.edu.cn/sdyx/qdxq/6.htm",
+      "publisher": "山大文化网",
+      "use": "西门石塔、灰坡顶及矮柱廊。"
+    },
+    "arena": {
+      "url": "https://jjc.qd.sdu.edu.cn/info/1022/1756.htm",
+      "publisher": "山东大学（青岛）基建处",
+      "use": "体育馆功能、看台和场馆结构。"
+    },
+    "track": {
+      "url": "https://www.qdxq.sdu.edu.cn/info/1720/51566.htm",
+      "publisher": "山东大学（青岛）",
+      "use": "蓝色田径场的夜间实拍可辨东侧临场的连续遮棚。"
+    },
+    "east_track": {
+      "url": "https://tyb.qd.sdu.edu.cn/info/1041/1118.htm",
+      "publisher": "山东大学体育学院（青岛）",
+      "use": "东田径场、网球场、风雨操场及其他场地的身份。"
+    },
+    "xiyuan": {
+      "url": "https://hq.qd.sdu.edu.cn/info/1020/1910.htm",
+      "publisher": "山东大学（青岛）后勤管理处",
+      "use": "曦园三层餐厅身份，屋面分区另据正射影像。"
+    },
+    "assembly": {
+      "url": "https://www.qdxq.sdu.edu.cn/info/1722/47541.htm",
+      "publisher": "山东大学（青岛）基建处",
+      "use": "三瓣贝壳式设计、五层与剧场等功能。另与可见吊机的影像及2026-10-07 Sentinel-2对照；开放日期未经核实。"
+    },
+    "coast": {
+      "url": "https://www.view.sdu.edu.cn/info/1003/76465.htm",
+      "publisher": "山东大学新闻网",
+      "local": [
+        "实景参照/滨海公园/02_山大实拍_球壳建筑与阶梯广场.jpg",
+        "实景参照/滨海公园/03_山大实拍_岸线步道和观景塔.jpg"
+      ],
+      "use": "球壳大拱洞、回退玻璃、外廊与红顶观景塔同框。"
+    },
+    "tower": {
+      "url": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "publisher": "青岛晚报 / 青岛新闻网",
+      "local": [
+        "实景参照/滨海公园/04_青岛晚报_观海弧桥航拍.jpg",
+        "实景参照/滨海公园/07_青岛晚报_沿湾望向弯道与平台.jpg"
+      ],
+      "use": "塔的敞开钢框、悬挑观景层、红色弯折顶盖，对照弧桥和浅湾方位。"
+    },
+    "four_gates": {
+      "url": "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm",
+      "publisher": "山东大学（青岛）基建处",
+      "use": "四座校门分工及东门临公园。"
+    },
+    "south_access": {
+      "url": "https://www.qdxq.sdu.edu.cn/info/1827/52661.htm",
+      "publisher": "山东大学（青岛）",
+      "use": "确认校园南门的开放交通入口及其与博物馆的关系。"
+    }
+  },
+  "objects": [
+    {
+      "key": "library",
+      "name": "青岛校区图书馆",
+      "reference_keys": [
+        "library",
+        "aerial_photo",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68319326%2C36.36552241%2C120.68480893%2C36.36682912&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "原有外坡与深色内墙共同形成封闭围板，内庭的实心阁楼与檐板贯穿采光顶下方。",
+      "v4_model": "四坡冠部内侧重建为开敞梁柱，最高区以下保留回廊、连续服务屋面；约30.8×31.2米的低矢拱采光顶有斜交钢骨，周边阁楼与檐梁留出29.8×30.2米洞口。"
+    },
+    {
+      "key": "museum",
+      "name": "山东大学博物馆（青岛）",
+      "reference_keys": [
+        "museum",
+        "aerial_photo",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68197314%2C36.36020996%2C120.68364453%2C36.36156173&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "原四角体量分别以整张平面收口，中部仅一块浅色16米短天窗。",
+      "v4_model": "四角各有独立约20×20米浅凹屋面、正交肋线和周边女儿墙；中央保留约20×19.3米的网格采光顶，东西低翼单独压顶；四角细部嵌回41.7米控制高程。"
+    },
+    {
+      "key": "zhensheng",
+      "name": "振声苑",
+      "reference_keys": [
+        "aerial_photo",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68078089%2C36.36193121%2C120.68263056%2C36.36342717&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "四翼在旧模型中都以0.2米窄脊收顶，丢失四翼内的浅色长槽。",
+      "v4_model": "四条连续围坡内设置窄低台、纵边翻口与少量设备；中间的树庭从天空一直开敞到庭院步道。"
+    },
+    {
+      "key": "huagang",
+      "name": "华岗苑",
+      "reference_keys": [
+        "aerial_photo",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68079203%2C36.36373357%2C120.68264170%2C36.36522953&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "红屋顶的南北翼与东西翼被做成同一种脊顶。",
+      "v4_model": "正射可见东西两翼具有狭长平顶，南北两翼保持完整瓦坡；中部庭院开放。"
+    },
+    {
+      "key": "song_arena",
+      "name": "宋君复体育馆及东侧看台",
+      "reference_keys": [
+        "arena",
+        "track",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.67847437%2C36.35747038%2C120.68326569%2C36.36134545&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "原钢帆屋面局部只有外表面；十排侧高窗按单一中心高度横向拉伸并无端盖；遮棚下无台阶。",
+      "v4_model": "逐条沿实测屋壳曲面做10排闭合高侧窗，增设0.76米构造厚度的连续檐底和端缘；北侧蓝场东缘遮棚内设4段朝西的低台阶，其具体排数与级高按照片比例示意。"
+    },
+    {
+      "key": "blue_track",
+      "name": "蓝色田径场",
+      "reference_keys": [
+        "track",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.67882536%2C36.35997115%2C120.68126559%2C36.36194473&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "确认为露天球场；沿东侧的白色长檐属于体育馆连续钢帆。",
+      "v4_model": "中间球场及弯道维持露天，遮棚与看台在体育馆节点建造。"
+    },
+    {
+      "key": "east_track",
+      "name": "东田径场、周边独立运动场",
+      "reference_keys": [
+        "east_track",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68670318%2C36.35991708%2C120.68914340%2C36.36189066&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "现有影像没有支持在此处另建连续有顶看台。",
+      "v4_model": "保留现有露天场地；网球、篮球、排球等独立球场无永久屋盖。"
+    },
+    {
+      "key": "xiyuan",
+      "name": "曦园餐厅",
+      "reference_keys": [
+        "xiyuan",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68700403%2C36.35868247%2C120.68873113%2C36.36007929&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "旧长边屋坡各自封端，短边为独立锥顶，与实景四边围合的红瓦和下凹设备区不符。",
+      "v4_model": "屋面依外檐、转角斜脊、内檐三条环线缝合，四边瓦坡连续转向；内部保留约81.1×30.7米的设备屋面，低采光带和设备不遮满天井。该区有实底。"
+    },
+    {
+      "key": "assembly",
+      "name": "学生会堂 C1",
+      "reference_keys": [
+        "assembly",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68158872%2C36.37037075%2C120.68420723%2C36.37248852&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "原均分三个120度扇区，半径约35米的小院与影像不符；原可见薄壳面法向朝下。",
+      "v4_model": "以正射估读屋面约160×164米、透空院约121×120米，重定三处径向间隙，分别起拱并封合内外檐口与端墙；三瓣控制高度据设计形态估计，不作为竣工标高。"
+    },
+    {
+      "key": "west_gate",
+      "name": "西校门与双塔侧廊",
+      "reference_keys": [
+        "west_gate",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.67929335%2C36.36563055%2C120.68068617%2C36.36675703&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "双塔已有封合灰色四坡屋顶，两侧为压顶短廊。",
+      "v4_model": "验证原构造，双塔和连廊不跨封中轴道路。 将1022925330、1022925331两条与双塔重合的通用楼退役；侧廊伸至两端小石亭。"
+    },
+    {
+      "key": "north_gate",
+      "name": "北校门",
+      "reference_keys": [
+        "gate",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68226842%2C36.37636359%2C120.68354982%2C36.37739995&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "原塔顶平封存在，学校竣工实拍可清楚辨出分层收边。",
+      "v4_model": "主塔顶缘与内盖分层，保持竣工说明的16.2米；低侧传达室为5.18米平檐。"
+    },
+    {
+      "key": "coastal-pavilions",
+      "name": "滨海公园 · 五座白色球壳",
+      "reference_keys": [
+        "coast",
+        "tower",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68658061%2C36.37739995%2C120.68908769%2C36.37942760&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "v3仅有照片参照。5个相互独立的浅色圆壳，在弧桥南面与沿海大道、曲线步道、海岸平台均可对位。",
+      "v4_model": "按影像标定五个中心，半径6.3–8.2米。以照片重建开敞拱洞、回退玻璃、水平外走廊及栏杆；顶极点闭合。估读中心误差约±5米，高度与逐栋拱洞宽度未现场测量。"
+    },
+    {
+      "key": "coastal-red-tower",
+      "name": "滨海公园 · 红顶观景塔与曲廊",
+      "reference_keys": [
+        "coast",
+        "tower",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68658061%2C36.37739995%2C120.68908769%2C36.37942760&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "同帧位置在球壳组团以北，方形平台、长阴影和海岸阶梯提供定位。",
+      "v4_model": "重建白色桁架塔、架空圆形平台和向西伸出的红色低廊；塔基估读中心(522.5,-1487.8)，基座误差约±6米；约32.5米的塔高及26米的低廊伸长量依实拍比例示意。"
+    },
+    {
+      "key": "waterfront-overlook",
+      "name": "蓝谷人才公园弧形观海廊桥",
+      "reference_keys": [
+        "tower",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68737730%2C36.37995479%2C120.69016295%2C36.38220773&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "对照白色曲线桥面、红色铺装、桥下水面与两侧栏杆。该桥为敞开步桥，照片未见覆盖整桥的亭顶。",
+      "v4_model": "保留桥上的天空和桥下过水，无覆盖性顶盖。"
+    },
+    {
+      "key": "east_gate",
+      "name": "东校门",
+      "reference_keys": [
+        "four_gates",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68771715%2C36.36543229%2C120.68944425%2C36.36682912&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "三条OSM建筑轮廓此前分别生成为普通实心楼，正射显示其中一条主要为开放铺装，另一条包含敞开柱廊。",
+      "v4_model": "将1020621361、1020621362、1020621363归入同一校门。两座灰色方亭、北侧敞开扇形铺装与南侧约35米曲线石廊分开，车道露天。方亭纵高与内部窗格按比例估计。"
+    },
+    {
+      "key": "south_gate",
+      "name": "南校门",
+      "reference_keys": [
+        "four_gates",
+        "south_access",
+        "imagery"
+      ],
+      "orthophoto": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/export?bbox=120.68069576%2C36.35623495%2C120.68236715%2C36.35758672&bboxSR=4326&imageSR=3857&size=600%2C600&format=jpg&f=image",
+      "v3_observation": "底图已准确记载南门入口，完整模型未呈现该门东侧小值守亭。",
+      "v4_model": "保留敞开车道与广场，东侧以低矮约8.7×4.2米的赭色小坡顶建模；用途与高度按入口位置及影像估计。"
+    }
+  ],
+  "terrain_check": {
+    "shell_centres_xzr": [
+      [
+        536.6,
+        -1447.5,
+        8.2
+      ],
+      [
+        532.7,
+        -1431.8,
+        6.8
+      ],
+      [
+        535.1,
+        -1415.8,
+        6.5
+      ],
+      [
+        524.1,
+        -1400.9,
+        6.7
+      ],
+      [
+        525.3,
+        -1382.9,
+        6.3
+      ]
+    ],
+    "tower_centre_xz": [
+      522.5,
+      -1487.8
+    ],
+    "building_and_vegetation_reserve_to_walk_m": 12.935,
+    "reserve_to_still_shore_m": 33.071,
+    "reserve_inside_park": true
+  },
+  "geometry_measurement": {
+    "method": "对glTF实际展开的已索引三角形按重心坐标做射线求交；null表示从天空垂直贯通。v3取已交付的整校GLB，v4的isolated_export取相同构建函数创建的独立公共建筑glTF缓冲区。源代码入口可直接重新读取整校GLB。",
+    "reproduce": "python -B tools/qd_public_roofs.py 山东大学青岛校区.glb",
+    "v3_delivered_glb": {
+      "library": {
+        "triangles": 7384,
+        "max_y_m": 66.3,
+        "lantern_crown_m": 60.25,
+        "lantern_spring_m": 58.6998,
+        "inner_service_deck_m": 57.23,
+        "mansard_high_m": 66.3
+      },
+      "museum": {
+        "triangles": 6808,
+        "max_y_m": 41.7,
+        "central_rooflight_m": 39.74,
+        "upper_corner_infill_m": [
+          41.7,
+          41.7,
+          41.7,
+          41.7
+        ],
+        "upper_corner_parapets_m": [
+          41.7,
+          41.7,
+          41.7,
+          41.7
+        ],
+        "low_wing_m": 13.45
+      },
+      "zhensheng": {
+        "triangles": 6368,
+        "max_y_m": 21.05,
+        "court_sky_rays_near_ground_m": [
+          0.21,
+          0.21,
+          0.21,
+          0.2,
+          0.2
+        ],
+        "four_wing_roofs_m": [
+          19.2981,
+          19.2981,
+          21.05,
+          21.05
+        ]
+      },
+      "huagang": {
+        "triangles": 6372,
+        "max_y_m": 22.05,
+        "court_sky_rays_near_ground_m": [
+          0.21,
+          0.21,
+          0.21,
+          0.2,
+          0.2
+        ],
+        "four_wing_roofs_m": [
+          22.05,
+          22.05,
+          20.74,
+          20.74
+        ]
+      },
+      "west_gate": {
+        "triangles": 3300,
+        "max_y_m": 20.0,
+        "open_vehicle_axis": null,
+        "two_roof_peaks_m": [
+          20.0,
+          20.0
+        ]
+      },
+      "north_gate": {
+        "triangles": 983,
+        "max_y_m": 16.2,
+        "open_vehicle_axis": null,
+        "tower_m": 16.2,
+        "porter_roof_m": 5.18
+      },
+      "song_arena": {
+        "triangles": 2280,
+        "max_y_m": 35.884,
+        "spectator_canopy_m": 18.6084,
+        "main_vault_m": 34.6913,
+        "northern_eave_m": 15.588
+      },
+      "blue_track": {
+        "triangles": 2416,
+        "max_y_m": 2.785,
+        "open_playing_surface_m": 0.276
+      },
+      "east_track": {
+        "triangles": 2416,
+        "max_y_m": 2.785,
+        "open_playing_surface_m": 0.276
+      },
+      "xiyuan": {
+        "triangles": 2538,
+        "max_y_m": 15.84,
+        "service_deck_m": 13.19,
+        "tile_ridge_m": 15.645,
+        "inner_tile_eave_m": 13.5733,
+        "outside_tile_eave_m": 13.3169
+      },
+      "assembly": {
+        "triangles": 1740,
+        "max_y_m": 23.6,
+        "roof_orientation": {
+          "up_triangles": 144,
+          "down_triangles": 576
+        },
+        "court_rays_18_positions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          23.439,
+          null,
+          null,
+          null,
+          null,
+          null,
+          23.5412,
+          null,
+          null,
+          null,
+          null,
+          null,
+          23.4403
+        ],
+        "open_radial_slots": [
+          15.9603,
+          14.5479,
+          13.9343
+        ],
+        "three_shell_crests_m": [
+          19.4888,
+          20.0797,
+          19.4375
+        ]
+      }
+    },
+    "v4_isolated_export": {
+      "library": {
+        "triangles": 8568,
+        "max_y_m": 66.35,
+        "lantern_crown_m": 60.085,
+        "lantern_spring_m": 58.0901,
+        "inner_service_deck_m": 57.23,
+        "mansard_high_m": 66.35
+      },
+      "museum": {
+        "triangles": 8056,
+        "max_y_m": 41.7,
+        "central_rooflight_m": 39.26,
+        "upper_corner_infill_m": [
+          41.365,
+          41.365,
+          41.365,
+          41.365
+        ],
+        "upper_corner_parapets_m": [
+          41.7,
+          41.7,
+          41.7,
+          41.7
+        ],
+        "low_wing_m": 13.45
+      },
+      "zhensheng": {
+        "triangles": 6512,
+        "max_y_m": 21.05,
+        "court_sky_rays_near_ground_m": [
+          0.21,
+          0.21,
+          0.21,
+          0.2,
+          0.2
+        ],
+        "four_wing_roofs_m": [
+          20.36,
+          20.36,
+          21.05,
+          21.05
+        ]
+      },
+      "huagang": {
+        "triangles": 6468,
+        "max_y_m": 22.05,
+        "court_sky_rays_near_ground_m": [
+          0.21,
+          0.21,
+          0.21,
+          0.2,
+          0.2
+        ],
+        "four_wing_roofs_m": [
+          22.05,
+          22.05,
+          21.36,
+          21.36
+        ]
+      },
+      "west_gate": {
+        "triangles": 3792,
+        "max_y_m": 20.0,
+        "open_vehicle_axis": null,
+        "two_roof_peaks_m": [
+          19.991,
+          19.991
+        ]
+      },
+      "north_gate": {
+        "triangles": 1231,
+        "max_y_m": 16.2,
+        "open_vehicle_axis": null,
+        "tower_m": 16.2,
+        "porter_roof_m": 5.18
+      },
+      "east_gate": {
+        "triangles": 966,
+        "max_y_m": 10.4,
+        "open_roadway": null,
+        "paired_gate_roofs_m": [
+          10.4,
+          10.4
+        ],
+        "north_court_surface_m": 0.035,
+        "south_gallery_roof_m": 4.25
+      },
+      "south_gate": {
+        "triangles": 66,
+        "max_y_m": 3.8,
+        "open_roadway": null,
+        "east_side_kiosk_m": 3.8
+      },
+      "song_arena": {
+        "triangles": 3676,
+        "max_y_m": 35.834,
+        "spectator_canopy_m": 18.6084,
+        "main_vault_m": 33.7379,
+        "northern_eave_m": 15.588
+      },
+      "blue_track": {
+        "triangles": 2416,
+        "max_y_m": 2.785,
+        "open_playing_surface_m": 0.276
+      },
+      "east_track": {
+        "triangles": 2416,
+        "max_y_m": 2.785,
+        "open_playing_surface_m": 0.276
+      },
+      "xiyuan": {
+        "triangles": 2646,
+        "max_y_m": 16.07,
+        "service_deck_m": 13.19,
+        "tile_ridge_m": 16.065,
+        "inner_tile_eave_m": 13.52,
+        "outside_tile_eave_m": 13.2859
+      },
+      "assembly": {
+        "triangles": 8472,
+        "max_y_m": 26.7,
+        "roof_orientation": {
+          "up_triangles": 3808,
+          "down_triangles": 0
+        },
+        "court_rays_18_positions": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "open_radial_slots": [
+          null,
+          null,
+          null
+        ],
+        "three_shell_crests_m": [
+          23.8634,
+          26.5702,
+          22.9673
+        ]
+      },
+      "coastal-pavilion-1": {
+        "triangles": 6884,
+        "max_y_m": 15.744,
+        "crown_centre_m": 15.744,
+        "crown_ring_m": [
+          15.736,
+          15.736,
+          15.736,
+          15.736,
+          15.736,
+          15.736
+        ],
+        "open_arch_east_glazing_setback_m": 2.651
+      },
+      "coastal-pavilion-2": {
+        "triangles": 6884,
+        "max_y_m": 13.056,
+        "crown_centre_m": 13.056,
+        "crown_ring_m": [
+          13.048,
+          13.048,
+          13.048,
+          13.048,
+          13.048,
+          13.048
+        ],
+        "open_arch_east_glazing_setback_m": 2.188
+      },
+      "coastal-pavilion-3": {
+        "triangles": 6884,
+        "max_y_m": 12.48,
+        "crown_centre_m": 12.48,
+        "crown_ring_m": [
+          12.472,
+          12.472,
+          12.472,
+          12.472,
+          12.472,
+          12.472
+        ],
+        "open_arch_east_glazing_setback_m": 2.088
+      },
+      "coastal-pavilion-4": {
+        "triangles": 6884,
+        "max_y_m": 12.864,
+        "crown_centre_m": 12.864,
+        "crown_ring_m": [
+          12.856,
+          12.856,
+          12.856,
+          12.856,
+          12.856,
+          12.856
+        ],
+        "open_arch_east_glazing_setback_m": 2.155
+      },
+      "coastal-pavilion-5": {
+        "triangles": 6884,
+        "max_y_m": 12.096,
+        "crown_centre_m": 12.096,
+        "crown_ring_m": [
+          12.088,
+          12.088,
+          12.088,
+          12.088,
+          12.088,
+          12.088
+        ],
+        "open_arch_east_glazing_setback_m": 2.022
+      },
+      "coastal-red-tower": {
+        "triangles": 2434,
+        "max_y_m": 32.575,
+        "red_crown_m": 32.42,
+        "covered_walk_m": 4.35,
+        "open_east_side": null
+      }
+    },
+    "v4_final_glb": {
+      "sha256": "3fd726ac3c00964fbb48c52362bd638ecead2b6765c27bfb0f71b18b03810d16",
+      "bytes": 108449648,
+      "objects_checked": 19,
+      "source_vs_export_differences": [],
+      "retired_duplicate_objects_absent": [
+        "way-1022925330",
+        "way-1022925331",
+        "way-1020621361",
+        "way-1020621362",
+        "way-1020621363"
+      ],
+      "objects": {
+        "library": {
+          "triangles": 8568,
+          "max_y_m": 66.35,
+          "lantern_crown_m": 60.085,
+          "lantern_spring_m": 58.0901,
+          "inner_service_deck_m": 57.23,
+          "mansard_high_m": 66.35
+        },
+        "museum": {
+          "triangles": 8056,
+          "max_y_m": 41.7,
+          "central_rooflight_m": 39.26,
+          "upper_corner_infill_m": [
+            41.365,
+            41.365,
+            41.365,
+            41.365
+          ],
+          "upper_corner_parapets_m": [
+            41.7,
+            41.7,
+            41.7,
+            41.7
+          ],
+          "low_wing_m": 13.45
+        },
+        "zhensheng": {
+          "triangles": 6512,
+          "max_y_m": 21.05,
+          "court_sky_rays_near_ground_m": [
+            0.21,
+            0.21,
+            0.21,
+            0.2,
+            0.2
+          ],
+          "four_wing_roofs_m": [
+            20.36,
+            20.36,
+            21.05,
+            21.05
+          ]
+        },
+        "huagang": {
+          "triangles": 6468,
+          "max_y_m": 22.05,
+          "court_sky_rays_near_ground_m": [
+            0.21,
+            0.21,
+            0.21,
+            0.2,
+            0.2
+          ],
+          "four_wing_roofs_m": [
+            22.05,
+            22.05,
+            21.36,
+            21.36
+          ]
+        },
+        "west_gate": {
+          "triangles": 3792,
+          "max_y_m": 20.0,
+          "open_vehicle_axis": null,
+          "two_roof_peaks_m": [
+            19.991,
+            19.991
+          ]
+        },
+        "north_gate": {
+          "triangles": 1231,
+          "max_y_m": 16.2,
+          "open_vehicle_axis": null,
+          "tower_m": 16.2,
+          "porter_roof_m": 5.18
+        },
+        "east_gate": {
+          "triangles": 966,
+          "max_y_m": 10.4,
+          "open_roadway": null,
+          "paired_gate_roofs_m": [
+            10.4,
+            10.4
+          ],
+          "north_court_surface_m": 0.035,
+          "south_gallery_roof_m": 4.25
+        },
+        "south_gate": {
+          "triangles": 66,
+          "max_y_m": 3.8,
+          "open_roadway": null,
+          "east_side_kiosk_m": 3.8
+        },
+        "song_arena": {
+          "triangles": 3676,
+          "max_y_m": 35.834,
+          "spectator_canopy_m": 18.6084,
+          "main_vault_m": 33.7379,
+          "northern_eave_m": 15.588
+        },
+        "blue_track": {
+          "triangles": 2416,
+          "max_y_m": 2.785,
+          "open_playing_surface_m": 0.276
+        },
+        "east_track": {
+          "triangles": 2416,
+          "max_y_m": 2.785,
+          "open_playing_surface_m": 0.276
+        },
+        "xiyuan": {
+          "triangles": 2646,
+          "max_y_m": 16.07,
+          "service_deck_m": 13.19,
+          "tile_ridge_m": 16.065,
+          "inner_tile_eave_m": 13.52,
+          "outside_tile_eave_m": 13.2859
+        },
+        "assembly": {
+          "triangles": 8472,
+          "max_y_m": 26.7,
+          "roof_orientation": {
+            "up_triangles": 3808,
+            "down_triangles": 0
+          },
+          "court_rays_18_positions": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "open_radial_slots": [
+            null,
+            null,
+            null
+          ],
+          "three_shell_crests_m": [
+            23.8634,
+            26.5702,
+            22.9673
+          ]
+        },
+        "coastal-pavilion-1": {
+          "triangles": 6884,
+          "max_y_m": 15.744,
+          "crown_centre_m": 15.744,
+          "crown_ring_m": [
+            15.736,
+            15.736,
+            15.736,
+            15.736,
+            15.736,
+            15.736
+          ],
+          "open_arch_east_glazing_setback_m": 2.651
+        },
+        "coastal-pavilion-2": {
+          "triangles": 6884,
+          "max_y_m": 13.056,
+          "crown_centre_m": 13.056,
+          "crown_ring_m": [
+            13.048,
+            13.048,
+            13.048,
+            13.048,
+            13.048,
+            13.048
+          ],
+          "open_arch_east_glazing_setback_m": 2.188
+        },
+        "coastal-pavilion-3": {
+          "triangles": 6884,
+          "max_y_m": 12.48,
+          "crown_centre_m": 12.48,
+          "crown_ring_m": [
+            12.472,
+            12.472,
+            12.472,
+            12.472,
+            12.472,
+            12.472
+          ],
+          "open_arch_east_glazing_setback_m": 2.088
+        },
+        "coastal-pavilion-4": {
+          "triangles": 6884,
+          "max_y_m": 12.864,
+          "crown_centre_m": 12.864,
+          "crown_ring_m": [
+            12.856,
+            12.856,
+            12.856,
+            12.856,
+            12.856,
+            12.856
+          ],
+          "open_arch_east_glazing_setback_m": 2.155
+        },
+        "coastal-pavilion-5": {
+          "triangles": 6884,
+          "max_y_m": 12.096,
+          "crown_centre_m": 12.096,
+          "crown_ring_m": [
+            12.088,
+            12.088,
+            12.088,
+            12.088,
+            12.088,
+            12.088
+          ],
+          "open_arch_east_glazing_setback_m": 2.022
+        },
+        "coastal-red-tower": {
+          "triangles": 2434,
+          "max_y_m": 32.575,
+          "red_crown_m": 32.42,
+          "covered_walk_m": 4.35,
+          "open_east_side": null
+        }
+      }
+    }
+  },
+  "visual_check": "逐项对照校园实拍、局部正射影像和独立正交相机带深度缓冲的三角网斜视图。仅确证位置与外部构成，未获得竣工模型。照片和底图没有作为建筑贴图使用。"
+}

@@ -1,0 +1,241 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "buildings": {
+    "library": {
+      "triangles": 31900,
+      "max_y_m": 66.32,
+      "lantern_crown_m": 61.37,
+      "lantern_spring_m": 58.4286,
+      "inner_service_deck_m": 57.23,
+      "mansard_high_m": 57.12
+    },
+    "museum": {
+      "triangles": 12292,
+      "max_y_m": 41.7,
+      "central_rooflight_m": 39.26,
+      "upper_corner_infill_m": [
+        41.365,
+        39.615,
+        41.365,
+        41.365
+      ],
+      "upper_corner_parapets_m": [
+        41.7,
+        39.95,
+        41.7,
+        41.7
+      ],
+      "low_wing_m": 13.45
+    },
+    "zhensheng": {
+      "triangles": 20574,
+      "max_y_m": 21.318,
+      "court_sky_rays_near_ground_m": [
+        0.11,
+        0.11,
+        0.11,
+        0.11,
+        0.11
+      ],
+      "four_wing_roofs_m": [
+        19.75,
+        19.75,
+        19.75,
+        19.75
+      ]
+    },
+    "huagang": {
+      "triangles": 19988,
+      "max_y_m": 22.86,
+      "court_sky_rays_near_ground_m": [
+        0.11,
+        0.11,
+        0.11,
+        0.11,
+        0.11
+      ],
+      "four_wing_roofs_m": [
+        22.86,
+        22.86,
+        20.75,
+        20.75
+      ]
+    },
+    "west_gate": {
+      "triangles": 19820,
+      "max_y_m": 20.0,
+      "open_vehicle_axis": 0.98,
+      "two_roof_peaks_m": [
+        19.991,
+        19.991
+      ]
+    },
+    "north_gate": {
+      "triangles": 2433,
+      "max_y_m": 16.2,
+      "open_vehicle_axis": null,
+      "tower_m": 16.2,
+      "porter_roof_m": 5.18
+    },
+    "east_gate": {
+      "triangles": 2354,
+      "max_y_m": 16.6,
+      "open_roadway": null,
+      "north_tower_m": 16.6,
+      "south_pavilion_m": 7.5,
+      "paired_gate_roofs_m": [
+        16.6,
+        7.5
+      ],
+      "axial_green_island_top_m": 0.58,
+      "north_court_surface_m": 0.035,
+      "south_gallery_roof_m": 5.4525
+    },
+    "south_gate": {
+      "triangles": 9256,
+      "max_y_m": 13.4,
+      "open_roadway": null,
+      "east_side_kiosk_m": 3.8
+    },
+    "song_arena": {
+      "triangles": 28876,
+      "max_y_m": 35.834,
+      "spectator_canopy_m": 18.6084,
+      "main_vault_m": 33.7379,
+      "northern_eave_m": 15.588
+    },
+    "blue_track": {
+      "triangles": 2416,
+      "max_y_m": 2.785,
+      "open_playing_surface_m": 0.276
+    },
+    "east_track": {
+      "triangles": 3056,
+      "max_y_m": 2.785,
+      "open_playing_surface_m": 0.276
+    },
+    "xiyuan": {
+      "triangles": 2646,
+      "max_y_m": 16.07,
+      "service_deck_m": 13.19,
+      "tile_ridge_m": 16.065,
+      "inner_tile_eave_m": 13.52,
+      "outside_tile_eave_m": 13.2859
+    },
+    "assembly": {
+      "triangles": 8472,
+      "max_y_m": 26.7,
+      "roof_orientation": {
+        "up_triangles": 3808,
+        "down_triangles": 0
+      },
+      "court_rays_18_positions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "open_radial_slots": [
+        null,
+        null,
+        null
+      ],
+      "three_shell_crests_m": [
+        23.8634,
+        26.5702,
+        22.9673
+      ]
+    },
+    "coastal-pavilion-1": {
+      "triangles": 6884,
+      "max_y_m": 15.744,
+      "crown_centre_m": 15.744,
+      "crown_ring_m": [
+        15.736,
+        15.736,
+        15.736,
+        15.736,
+        15.736,
+        15.736
+      ],
+      "open_arch_east_glazing_setback_m": 2.651
+    },
+    "coastal-pavilion-2": {
+      "triangles": 6884,
+      "max_y_m": 13.056,
+      "crown_centre_m": 13.056,
+      "crown_ring_m": [
+        13.048,
+        13.048,
+        13.048,
+        13.048,
+        13.048,
+        13.048
+      ],
+      "open_arch_east_glazing_setback_m": 2.188
+    },
+    "coastal-pavilion-3": {
+      "triangles": 6884,
+      "max_y_m": 12.48,
+      "crown_centre_m": 12.48,
+      "crown_ring_m": [
+        12.472,
+        12.472,
+        12.472,
+        12.472,
+        12.472,
+        12.472
+      ],
+      "open_arch_east_glazing_setback_m": 2.088
+    },
+    "coastal-pavilion-4": {
+      "triangles": 6884,
+      "max_y_m": 12.864,
+      "crown_centre_m": 12.864,
+      "crown_ring_m": [
+        12.856,
+        12.856,
+        12.856,
+        12.856,
+        12.856,
+        12.856
+      ],
+      "open_arch_east_glazing_setback_m": 2.155
+    },
+    "coastal-pavilion-5": {
+      "triangles": 6884,
+      "max_y_m": 12.096,
+      "crown_centre_m": 12.096,
+      "crown_ring_m": [
+        12.088,
+        12.088,
+        12.088,
+        12.088,
+        12.088,
+        12.088
+      ],
+      "open_arch_east_glazing_setback_m": 2.022
+    },
+    "coastal-red-tower": {
+      "triangles": 2434,
+      "max_y_m": 32.575,
+      "red_crown_m": 32.42,
+      "covered_walk_m": 4.35,
+      "open_east_side": null
+    }
+  }
+}

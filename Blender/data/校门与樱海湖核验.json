@@ -1,0 +1,129 @@
+{
+  "viewerSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "stops": {
+    "west_gate": [
+      {
+        "mode": "facade",
+        "frame": "preview/校门与樱海湖/west_gate-facade.jpg",
+        "visibleCoverage": 0.07229
+      },
+      {
+        "mode": "inscription",
+        "frame": "preview/校门与樱海湖/west_gate-inscription.jpg",
+        "visibleCoverage": 0.4934
+      }
+    ],
+    "north_gate": [
+      {
+        "mode": "facade",
+        "frame": "preview/校门与樱海湖/north_gate-facade.jpg",
+        "visibleCoverage": 0.09942
+      },
+      {
+        "mode": "detail",
+        "frame": "preview/校门与樱海湖/north_gate-detail.jpg",
+        "visibleCoverage": 0.26989
+      }
+    ],
+    "east_gate": [
+      {
+        "mode": "facade",
+        "frame": "preview/校门与樱海湖/east_gate-facade.jpg",
+        "visibleCoverage": 0.08268
+      },
+      {
+        "mode": "detail",
+        "frame": "preview/校门与樱海湖/east_gate-detail.jpg",
+        "visibleCoverage": 0.16986
+      }
+    ],
+    "south_gate": [
+      {
+        "mode": "facade",
+        "frame": "preview/校门与樱海湖/south_gate-facade.jpg",
+        "visibleCoverage": 0.0651
+      },
+      {
+        "mode": "inscription",
+        "frame": "preview/校门与樱海湖/south_gate-inscription.jpg",
+        "visibleCoverage": 0.40838
+      }
+    ],
+    "lake": [
+      {
+        "mode": "facade",
+        "frame": "preview/校门与樱海湖/lake-facade.jpg",
+        "visibleCoverage": 0.13732,
+        "waterMovingPixelFraction": 0.83955,
+        "repeatPhaseMeanError": 0.0
+      },
+      {
+        "mode": "shore",
+        "frame": "preview/校门与樱海湖/lake-shore.jpg",
+        "visibleCoverage": 0.45769,
+        "waterMovingPixelFraction": 0.85826,
+        "repeatPhaseMeanError": 0.0
+      }
+    ]
+  },
+  "inscriptions": {
+    "west_gate": [
+      {
+        "projectedHeightPx": 96,
+        "projectedWidthPx": 93,
+        "inkPixels": 1641,
+        "medianInkBackgroundDifference": 210.4
+      },
+      {
+        "projectedHeightPx": 126,
+        "projectedWidthPx": 70,
+        "inkPixels": 3225,
+        "medianInkBackgroundDifference": 210.4
+      },
+      {
+        "projectedHeightPx": 98,
+        "projectedWidthPx": 90,
+        "inkPixels": 2228,
+        "medianInkBackgroundDifference": 210.6
+      },
+      {
+        "projectedHeightPx": 139,
+        "projectedWidthPx": 90,
+        "inkPixels": 4192,
+        "medianInkBackgroundDifference": 210.4
+      }
+    ],
+    "south_gate": [
+      {
+        "projectedHeightPx": 74,
+        "projectedWidthPx": 79,
+        "inkPixels": 1091,
+        "medianInkBackgroundDifference": 194.0
+      },
+      {
+        "projectedHeightPx": 97,
+        "projectedWidthPx": 59,
+        "inkPixels": 2107,
+        "medianInkBackgroundDifference": 193.8
+      },
+      {
+        "projectedHeightPx": 76,
+        "projectedWidthPx": 75,
+        "inkPixels": 1447,
+        "medianInkBackgroundDifference": 194.0
+      },
+      {
+        "projectedHeightPx": 107,
+        "projectedWidthPx": 75,
+        "inkPixels": 2719,
+        "medianInkBackgroundDifference": 193.9
+      }
+    ]
+  },
+  "browserErrors": []
+}

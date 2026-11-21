@@ -1,0 +1,234 @@
+{
+  "passed": true,
+  "sha256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "checks": {
+    "arenaDiamonds": {
+      "passed": true,
+      "independentGlassPanes": 720,
+      "fourSidedReveals": 720,
+      "recessAlongLocalXM": [
+        0.2,
+        0.2
+      ],
+      "frontSkinCoveringPaneCentres": 0
+    },
+    "arenaLightWells": {
+      "passed": true,
+      "deckHeightM": 5.16,
+      "soffitHeightM": 4.62,
+      "openings": [
+        {
+          "areaM2": 526.65,
+          "coreBlockedM2": 0.0,
+          "rimClosure": 1.0
+        },
+        {
+          "areaM2": 852.74,
+          "coreBlockedM2": 0.0,
+          "rimClosure": 1.0
+        }
+      ]
+    },
+    "westGate": {
+      "passed": true,
+      "greenIslandM2": 263.71,
+      "hedgeM2": 200.3,
+      "trimmedLevelsM": [
+        0.65,
+        0.75,
+        0.88,
+        0.98,
+        1.01,
+        1.04
+      ],
+      "modelSightVolumes": [
+        {
+          "clearWidthM": 3.77,
+          "heightIntervalM": [
+            0.88,
+            3.1
+          ],
+          "lengthM": 33.1,
+          "fullyTransparentTriangleCorners": 0,
+          "intersections": []
+        },
+        {
+          "clearWidthM": 3.77,
+          "heightIntervalM": [
+            0.88,
+            3.1
+          ],
+          "lengthM": 33.1,
+          "fullyTransparentTriangleCorners": 0,
+          "intersections": []
+        }
+      ]
+    },
+    "tennisCourts": {
+      "passed": true,
+      "courts": [
+        {
+          "sourceIndex": 0,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 4,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 5,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 6,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 7,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 8,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 9,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 10,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        },
+        {
+          "sourceIndex": 11,
+          "verticalFencePlanes": 3,
+          "uvRepeatsPerMetre": [
+            1.1364,
+            1.1364
+          ]
+        }
+      ],
+      "texture": {
+        "embeddedPixels": [
+          256,
+          256
+        ],
+        "transparentFraction": 0.7129,
+        "distinctTransparentCells": 144
+      }
+    },
+    "indoorHall": {
+      "passed": true,
+      "projectedRoofM2": 4028.79,
+      "planCoverage": 1.0,
+      "transverseProfiles": [
+        {
+          "stationFraction": 0.18,
+          "eaveM": 6.15,
+          "crownM": 14.4,
+          "riseM": 8.25
+        },
+        {
+          "stationFraction": 0.5,
+          "eaveM": 6.15,
+          "crownM": 14.4,
+          "riseM": 8.25
+        },
+        {
+          "stationFraction": 0.82,
+          "eaveM": 6.15,
+          "crownM": 14.4,
+          "riseM": 8.25
+        }
+      ],
+      "matchedGableEnds": 2
+    },
+    "redTrackStands": {
+      "passed": true,
+      "rows": [
+        {
+          "heightM": 0.39,
+          "grassSections": 3,
+          "stairAisles": 2,
+          "treadM2": 95.19
+        },
+        {
+          "heightM": 0.77,
+          "grassSections": 3,
+          "stairAisles": 2,
+          "treadM2": 97.46
+        },
+        {
+          "heightM": 1.15,
+          "grassSections": 3,
+          "stairAisles": 2,
+          "treadM2": 99.72
+        },
+        {
+          "heightM": 1.53,
+          "grassSections": 3,
+          "stairAisles": 2,
+          "treadM2": 101.99
+        }
+      ],
+      "redTrackM2": 16046.9
+    }
+  },
+  "input": "山东大学青岛校区.glb"
+}

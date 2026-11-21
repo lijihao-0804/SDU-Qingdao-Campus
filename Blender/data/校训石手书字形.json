@@ -1,0 +1,80 @@
+{
+  "text": "学无止境  气有浩然",
+  "building": "yuxian",
+  "article": "https://www.qdxq.sdu.edu.cn/info/1836/58443.htm",
+  "publisher": "山东大学（青岛）转载中国日报网",
+  "published": "2024-10-13",
+  "image": "https://www.qdxq.sdu.edu.cn/__local/F/21/EE/184DC465CFB636B118BCCD8D766_C7CCA9E3_2F1A7.png",
+  "source_png_sha256": "4e5dcf1e4157c2f2f208dad25bf030a02986adda403a7f918f57a3d6c222ae70",
+  "source_pixel_size": [
+    1518,
+    1012
+  ],
+  "local_face": "育贤广场校训石西面。面对图书馆从西往东看，学无止境在左，气有浩然在右。",
+  "rectified_native_quad_tl_tr_br_bl": [
+    [
+      270,
+      752
+    ],
+    [
+      571,
+      758.5
+    ],
+    [
+      571,
+      796.5
+    ],
+    [
+      270,
+      790
+    ]
+  ],
+  "full_crop_for_visual_check_xyxy": [
+    205,
+    724,
+    653,
+    829
+  ],
+  "character_source_x_intervals": [
+    [
+      271,
+      290
+    ],
+    [
+      305,
+      324
+    ],
+    [
+      340,
+      359
+    ],
+    [
+      372,
+      397
+    ],
+    [
+      440,
+      460
+    ],
+    [
+      477,
+      495
+    ],
+    [
+      506,
+      533
+    ],
+    [
+      547,
+      571
+    ]
+  ],
+  "method": "取上述四边形的逆向双线性采样，双倍网格。红色阈值 R-G>24、R-B>14.5、G<181、B<181、R>58；限定八个字的原始水平区间，去除小于6个二倍采样像素的孤点。右侧小号落款和印记在采样区域之外。保留两分句间的自然空隙。",
+  "mask_format": "逐行高位在前，末字节补零；zlib 压缩后 Base64；交由 qd_civic.relief 合并相邻像素段。",
+  "width": 602,
+  "height": 76,
+  "ink_pixels": 6644,
+  "nonempty_column_groups": 8,
+  "colour": "#ad3043",
+  "mask": "eNrt2LFu3DgQAFDxCCyvOBxbV6u7/zDCfEryByl9gGEquMLltunyIwdYgQuX9wsyXLjlIg2NKORJ4sxIM1rZSXmA1axXlp6o4XBIblW9HqePdz99h+ZfVUN/dRt3/L5pmZbTj4ipfu1PR42X0um38Gm5ZTJeoTM2zPAWOtkKegPbCaslK+Algb2bk3f+iBW5VVcX3MJn6bBlNVuWq0oE3SeIW7+ytuJlyKqF9Q+cTi9a+JddW+WEA6PGSw1atciJRN1Fsa+L4TctDJPj8ZqzKlNOkDXh+hkr8NyNFHp6W94ufZNEvMBSjdsYKiYnYblqOuNvoOlWWLp17WnLZnpb6HxXTX3s8R8mCqvzzWmrpm5Eqy5Wxn9oMcZM8MI4I4sCCYGxils05O1DB5Zo1zlZFEgIthHWHI7H0sEhi368pHjNgwksDVZYhbZ0cFxZF7IfDQRb61wtrZ3oprV1gdFYWTuTmGVetP4iK4uBubORWy23TPQ9t96j9X22ys27MkRmK/CH2eiTyHfMnicMPll+6lk/W2fsghy2LHOcLcjFcovHnDDhkl3wjPWwaUEZtyGxupvvs4iXjZjMa6svdQ2+23th3QpL3YBV36Jlyr3a5OkMWfVjYlPGYPERQTOG+xstVe41hzw9lyyHWQOWvRb5RZYvI6YyDVj28DjdTPHya4vXQh3BvkSrhdJrD3eTkrNroIhza2g4r4UKrQjWME+5koqfr0drGFtXODBEu+ZyAEcolgorK9sxUsMbR5wQkrREAXkPVodWV7ky3Iql822E7qViDf1qRaoODSofrSHLLy2TrwOkHYYarP3K+hPi1YA1XFieP7zjv0O8TK6x8Ir5cV/Jev8h8JWFaRVZh+GUTQ7n9cSXN/t3vj0Zr4UFKWezOTTjGIPm0NyG1psPvvtBC1YttktoQVa3syXq6lFYuoUFYqn2lfmI1jfMHrBcJ9cTT1uWKtYvCq2vZIUtK25YtLZE66FDK6El1kzSMl82LHdHVrnSrdYmUVq3Cqw9n433MA+pWJMlxmPshXVX4dwhZ/aWxnhbLLGeUCcs0dXnfHmt0fJtfsnKUCfWq5eerA4ssdWKV2uLTwlv+FKKrPxxNaX5HduBjFaC9pzzfUcWls4r67O0oAE+lBZhhKHAbVs2OoggWMOCH3Ix937a3VE1KCj1YzYi9ibalVVGjRqtsetotnEvWcFsWMPy0KtIUy9rV3PS0mRpssq+Rn9PTsd5SVBBGVVY96+MnNOOX4TVQ7zMU9qPC5d5UZz5ZufM1KIWHjuwFFklKW1MlekXliILmyOtr7h7WFiw7Luc1Bpv1T0WWFroB7V4S3V/DLjPL/cMG7dSlsb3c5OF+YWrmLRIqGXLjlSjIY+GrqsbvNX3i60e7rfnIWYyW518e6JvUNkiFK5xEh57jGZU3bJtXLGWPenjW2FdVL+V711pl5Gz8xxxac21qsaQ/lo+/hifNId8HnZtJXY7ck8/XLPeDU6VLG7+nqPEInMOnjqxqQzP/9CUfuZHqfb1p7zX439z/AdBpUTh"
+}

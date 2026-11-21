@@ -1,0 +1,439 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "objectsVerified": 72,
+  "triangles": 898301,
+  "entries": [
+    {
+      "key": "library",
+      "name": "青岛校区图书馆",
+      "triangles": 31900,
+      "meshHash": "1a207659948a56fa2734d0ac43e52b5620e9b90b88b528c4ba18d2205d874661"
+    },
+    {
+      "key": "museum",
+      "name": "山东大学博物馆（青岛）",
+      "triangles": 12292,
+      "meshHash": "8a19013ae1d96951489ef4aecb8a71fcaf35b4545b68aaabd3c5b810fcd22aab"
+    },
+    {
+      "key": "zhensheng",
+      "name": "振声苑",
+      "triangles": 20574,
+      "meshHash": "2983e215fa6b60c0d19408577af4e62e0a99650c7b2bf7d3d972aadb5bf73e7f"
+    },
+    {
+      "key": "huagang",
+      "name": "华岗苑",
+      "triangles": 19988,
+      "meshHash": "9109af0f9200f2e6608bce8aa8a8400e759c9c04a1cc5ada874a84e076e934c7"
+    },
+    {
+      "key": "way-982199336",
+      "name": "风雨操场",
+      "triangles": 2730,
+      "meshHash": "4c33f90cfba239a7ae9ec1661968bcd71f8cac53288d1672ff178f6dc21fa6df"
+    },
+    {
+      "key": "west_gate",
+      "name": "西门（礼仪正门）",
+      "triangles": 19820,
+      "meshHash": "0a0d9a7de821b70e95766953530b96a4d373ca0278ed7d36fee812924548c778"
+    },
+    {
+      "key": "north_gate",
+      "name": "北校门",
+      "triangles": 2433,
+      "meshHash": "afc33e6da0bc968f6dfc28758b9d4e2ac0a457ad6f73cfc0a460a19c674cd9db"
+    },
+    {
+      "key": "east_gate",
+      "name": "东校门",
+      "triangles": 2354,
+      "meshHash": "a111aab14e61c8f8ae8c24b0ed7dc604405f00fee32875ef5f51c50a76b34c3e"
+    },
+    {
+      "key": "south_gate",
+      "name": "南校门",
+      "triangles": 9256,
+      "meshHash": "3d5f97220c3627753542e41f697db2f08a8fa13d9a9bc677e568d7d85d686c40"
+    },
+    {
+      "key": "song_arena",
+      "name": "宋君复体育馆",
+      "triangles": 28876,
+      "meshHash": "392e34d85f9bbbbe3c8573799b6b55a8f3dd5e173a5824efe12089e4098d198c"
+    },
+    {
+      "key": "blue_track",
+      "name": "蓝色田径场",
+      "triangles": 2416,
+      "meshHash": "c71cbb24786fa8234a3be302e8bee1ac48f6b9ac9729da69d46c67b8e2473089"
+    },
+    {
+      "key": "east_track",
+      "name": "东田径场",
+      "triangles": 3056,
+      "meshHash": "bcef16ced07d830be56c07f4f2774ccbcc352ccfe7d483d8cb5f28692762fdcd"
+    },
+    {
+      "key": "xiyuan",
+      "name": "曦园餐厅",
+      "triangles": 2646,
+      "meshHash": "73528c910b7127d6abb6e1f87ae90d3f673a18c2df821458a0c05020b23f8b75"
+    },
+    {
+      "key": "yuxian",
+      "name": "育贤广场",
+      "triangles": 1709,
+      "meshHash": "311d2b3f7ba223452d112370370f008c962120859ac1892f8fddfdd164a5697a"
+    },
+    {
+      "key": "way-868015914",
+      "name": "创新创业中心",
+      "triangles": 18366,
+      "meshHash": "6d64be7f0aad8cfc6c578e0149c8431d52ebae8558eb6eb089de9e40711d6a54"
+    },
+    {
+      "key": "way-868015915",
+      "name": "淦昌苑D座",
+      "triangles": 10624,
+      "meshHash": "909d5e6f84f3c59d1cb746473182d0d1b8f358488a990fe609c49c4d5a82f4a5"
+    },
+    {
+      "key": "way-868015916",
+      "name": "第周苑D座",
+      "triangles": 19766,
+      "meshHash": "13b4d8a0e98632d5e122021a824989001d2bf6c975833787295fac51bf4ba20e"
+    },
+    {
+      "key": "way-868015918",
+      "name": "第周苑C座",
+      "triangles": 16695,
+      "meshHash": "59492d7e361443f84bfeb9e0205c826888c6e4d747dfebf53e646fac78181da7"
+    },
+    {
+      "key": "way-868015919",
+      "name": "第周苑A座",
+      "triangles": 19278,
+      "meshHash": "2165f429197bd6a9e3141a1c3c31cff22e5f006fa2014394a7ae4f77d74c6c1c"
+    },
+    {
+      "key": "way-868015920",
+      "name": "第周苑B座",
+      "triangles": 19882,
+      "meshHash": "e993178b535857dbbd2dbee6f016ad9ec96b84a7556ea4b7bbd0bfbe8f8f348c"
+    },
+    {
+      "key": "way-868015921",
+      "name": "第周苑F座",
+      "triangles": 12952,
+      "meshHash": "7cd09befd30deb24d12449a166c8c028610827df064cb887fbbe67ebb3d2a8e3"
+    },
+    {
+      "key": "way-970257667",
+      "name": "淦昌苑C座",
+      "triangles": 10269,
+      "meshHash": "5d89f7014639c06c4688ccd1ba616ac8f1765181157cee8cc1110b79921f4d37"
+    },
+    {
+      "key": "way-970257668",
+      "name": "淦昌苑F座",
+      "triangles": 11920,
+      "meshHash": "84906886839c24ba975e4f706f106d95b41024cd1de0c7afbf81f2c9f3275952"
+    },
+    {
+      "key": "way-970257669",
+      "name": "淦昌苑E座",
+      "triangles": 9508,
+      "meshHash": "f35bfa5d8d2c771814543c4f9ec384e4f3d31229b9728372b1fd35325077d8ff"
+    },
+    {
+      "key": "way-970257670",
+      "name": "淦昌苑A座",
+      "triangles": 9965,
+      "meshHash": "ea3cddc3d612db4d43ed07663f4cf3e0fdd3df24a55253d0035b5f974382d7ea"
+    },
+    {
+      "key": "way-970257671",
+      "name": "第周苑E座",
+      "triangles": 15805,
+      "meshHash": "e0869bcdb75c0066d2af01b7efbe905ebc0b65d406c553cc53413a09fc3407c1"
+    },
+    {
+      "key": "way-970257672",
+      "name": "会文北楼",
+      "triangles": 12793,
+      "meshHash": "447dd39af7362a66345f4a7a1a83a4468f436ddd00e5fbe039ffcb6fb5e6ff6b"
+    },
+    {
+      "key": "way-970257673",
+      "name": "会文南楼",
+      "triangles": 11960,
+      "meshHash": "7300c0bc1a6e0a442cee75fdfacb8e7ef5e05820a86072200e4c652b43477579"
+    },
+    {
+      "key": "way-970257676",
+      "name": "凤凰居1号楼",
+      "triangles": 23346,
+      "meshHash": "969899a72595dc5d85214c6a82a5315bbcbf1fc434c5e0decc0bf8c9e7392b0a"
+    },
+    {
+      "key": "way-970257677",
+      "name": "凤凰居5号楼",
+      "triangles": 22580,
+      "meshHash": "28c6f96806e97a4801f48ea60384448e5597b9ca42c508a2b38de3fbb0243bae"
+    },
+    {
+      "key": "way-970257678",
+      "name": "凤凰居9号楼",
+      "triangles": 22598,
+      "meshHash": "d17658fef6cbd13e799a6048914a7f1c579f4433495699135800623b627168c5"
+    },
+    {
+      "key": "way-970257679",
+      "name": "凤凰居2号楼",
+      "triangles": 23452,
+      "meshHash": "ed7d121d80a1de96ce0dc554c4dd7883e80810341c973ce102d9df6e51c58a32"
+    },
+    {
+      "key": "way-970257680",
+      "name": "凤凰居6号楼",
+      "triangles": 22558,
+      "meshHash": "29c0676ba20c3123947ac3f9918d4709e40cb44a1fcb8eeaed0b11d24021c820"
+    },
+    {
+      "key": "way-970257681",
+      "name": "凤凰居10号楼",
+      "triangles": 22531,
+      "meshHash": "9aa8e2535398073b390c4cbd2dcb0996903ba415a4629d78500d6cd5b2cf37c2"
+    },
+    {
+      "key": "way-970257682",
+      "name": "校园建筑 way/970257682",
+      "triangles": 1239,
+      "meshHash": "f401b7c6e6966559ac7534c63d282ed90e787e62a076b6af72e9186a8e56384f"
+    },
+    {
+      "key": "way-970257683",
+      "name": "校园建筑 way/970257683",
+      "triangles": 1230,
+      "meshHash": "5bc0a2ffdff84f53d9a9e138691c47b51ee5069428e05ff8d1eeff8b4b9eef29"
+    },
+    {
+      "key": "way-970257684",
+      "name": "校园建筑 way/970257684",
+      "triangles": 1241,
+      "meshHash": "37ba641813484940f2684c13fb3af0581a1d93e43c1a2afe968d5f78abc7991b"
+    },
+    {
+      "key": "way-970257685",
+      "name": "校园建筑 way/970257685",
+      "triangles": 1139,
+      "meshHash": "d288d39731b93738c8078e457efa273f4c2a4f1c5f013ab899298f17910e166e"
+    },
+    {
+      "key": "way-970257686",
+      "name": "专家公寓3号楼",
+      "triangles": 16479,
+      "meshHash": "59de4038ce751e750ef70346566700fcf7754f5a996ef5db1dd39439e9d1fd86"
+    },
+    {
+      "key": "way-970257687",
+      "name": "专家公寓2号楼",
+      "triangles": 16530,
+      "meshHash": "ad669d4cd68b0cf13e223b700d5784bb8f430ce3178d77c7faba7ece3f898f3c"
+    },
+    {
+      "key": "way-970257688",
+      "name": "专家公寓1号楼",
+      "triangles": 16904,
+      "meshHash": "efcaa8f7ffd64f28d6f2d7afdcd777f59b2eae37a69d2f5dfb76bbd74e26ad97"
+    },
+    {
+      "key": "way-982180796",
+      "name": "校园建筑 way/982180796",
+      "triangles": 5698,
+      "meshHash": "dcdeee055ba2eb8100ea7de98b1ab29c330f6bfc8c73fc3f226b7da9ad90d600"
+    },
+    {
+      "key": "way-982180797",
+      "name": "校园建筑 way/982180797",
+      "triangles": 5410,
+      "meshHash": "94556a2e04093777336c6d986e78f94a9dc7a0071eeb80a7d1bc9a0c381a3385"
+    },
+    {
+      "key": "way-982180798",
+      "name": "校园建筑 way/982180798",
+      "triangles": 4690,
+      "meshHash": "c7b0e926c8836ca2449b1818f023f9962242145fe41f27f86da7f0a1ec41c4dd"
+    },
+    {
+      "key": "way-982199358",
+      "name": "凤凰居11-13号楼",
+      "triangles": 14279,
+      "meshHash": "a142f33738cb8714d4455a3ed34e3a47e8a8095cb4761c471a4c578d3a04b8cf"
+    },
+    {
+      "key": "way-982199360",
+      "name": "校园建筑 way/982199360",
+      "triangles": 6418,
+      "meshHash": "887f60951f80734dc725c745f9f0f62dec3e35f12fe7a70d814c0ed3dc646e2f"
+    },
+    {
+      "key": "way-982199361",
+      "name": "校园建筑 way/982199361",
+      "triangles": 946,
+      "meshHash": "66fd6f5549eca1807ab6c06541614400a436f8e69b657c488947f2ed793de679"
+    },
+    {
+      "key": "way-985076862",
+      "name": "校园建筑 way/985076862",
+      "triangles": 7018,
+      "meshHash": "a450a7b71515077ceb5ffea083e2c3e89cc111033fe824f0c6840aa303de7ef5"
+    },
+    {
+      "key": "way-1018848586",
+      "name": "淦昌苑B座",
+      "triangles": 10879,
+      "meshHash": "d52a2fed462dad30701748745928af69f862c13d3f8e4ea05c59533a36f134ec"
+    },
+    {
+      "key": "way-1020621360",
+      "name": "校园建筑 way/1020621360",
+      "triangles": 2264,
+      "meshHash": "2e642134cb0069700c9fa13ff62bd84481465a740a2cc066db7477d2bc6f25ed"
+    },
+    {
+      "key": "way-1022925323",
+      "name": "校园建筑 way/1022925323",
+      "triangles": 1234,
+      "meshHash": "b367654b7587421220ba11fee5d3d02fae21fce6bf10b5c635d1b2666972a94a"
+    },
+    {
+      "key": "s2-b1",
+      "name": "阅海居 B1",
+      "triangles": 35334,
+      "meshHash": "95e29ba4975fa1021a9695534c93ba853af49d07d8c23272cb0ac434e5fb4e37"
+    },
+    {
+      "key": "s2-b2",
+      "name": "阅海居 B2",
+      "triangles": 10626,
+      "meshHash": "3c7bb4f05d06dbc858a59787a737efc2a0eee77db49fd93bb0ead62b8828f7d5"
+    },
+    {
+      "key": "s2-b5",
+      "name": "阅海居 B5",
+      "triangles": 10824,
+      "meshHash": "cfd2ca73341b10f9337c452b7eb08817042f4e8709a5e86b5888d90847f27e18"
+    },
+    {
+      "key": "s2-b6",
+      "name": "晨园餐厅",
+      "triangles": 11805,
+      "meshHash": "b9c080a5b61adb0e4ec77c24bdc21016ba8d13fa5a4a6fdbacd08bb5f5069284"
+    },
+    {
+      "key": "s2-b9",
+      "name": "阅海居 B9",
+      "triangles": 35736,
+      "meshHash": "0e51c636f55a27492684cf08c0fb1c9dfbfe375d3b5c46389562fb053b0791ae"
+    },
+    {
+      "key": "s2-b10",
+      "name": "阅海居 B10",
+      "triangles": 12318,
+      "meshHash": "c8eabc889ce7e90ed3108b857190f3731dfd230ae08976904d6cbdbde2046a18"
+    },
+    {
+      "key": "s2-south-t4",
+      "name": "专家公寓 T4",
+      "triangles": 14518,
+      "meshHash": "bf4a258d2becee61c5631d10a6fe6a42fa72bf123cd4460da8b1a22f5f219482"
+    },
+    {
+      "key": "s2-south-t5",
+      "name": "专家公寓 T5",
+      "triangles": 14518,
+      "meshHash": "bf4a258d2becee61c5631d10a6fe6a42fa72bf123cd4460da8b1a22f5f219482"
+    },
+    {
+      "key": "s2-south-t6",
+      "name": "专家公寓 T6",
+      "triangles": 16246,
+      "meshHash": "c0cf9b7f630882f75f4561dfa6d664ab2e31fa57430cce9c27397a82c19d397e"
+    },
+    {
+      "key": "s2-south-t7",
+      "name": "专家公寓 T7",
+      "triangles": 16246,
+      "meshHash": "c0cf9b7f630882f75f4561dfa6d664ab2e31fa57430cce9c27397a82c19d397e"
+    },
+    {
+      "key": "s2-south-t8",
+      "name": "专家公寓 T8",
+      "triangles": 14518,
+      "meshHash": "bf4a258d2becee61c5631d10a6fe6a42fa72bf123cd4460da8b1a22f5f219482"
+    },
+    {
+      "key": "assembly",
+      "name": "学生会堂 C1",
+      "triangles": 8472,
+      "meshHash": "e6895079b89072ee1a2703c4573ed01e4a0a9108a5d5ef98e6e6114ca83d6f2e"
+    },
+    {
+      "key": "s2-research-m",
+      "name": "工程技术研究院 M区",
+      "triangles": 26682,
+      "meshHash": "cfb729af5842805dc1d5b052ae736ea14611c9a91eefaa11b52352d22e40b97a"
+    },
+    {
+      "key": "s2-research-d1",
+      "name": "工程技术研究院 D1",
+      "triangles": 10608,
+      "meshHash": "975b52dee21dfb80a47c8137bffa43c6b64621ad174c02b4181fa70c4c048c1b"
+    },
+    {
+      "key": "s2-research-d5",
+      "name": "工程技术研究院 D5",
+      "triangles": 12500,
+      "meshHash": "4052d0f8e904b55817ac2a537be0e01834e8241a8b255c9ef37dec0e2037466e"
+    },
+    {
+      "key": "coastal-pavilion-1",
+      "name": "滨海公园 · 球壳观景建筑 1",
+      "triangles": 6884,
+      "meshHash": "d50d90461fd244ad3a5ac83f3952bfb635a8eede8eeb351d9fc75564dac8fbb8"
+    },
+    {
+      "key": "coastal-pavilion-2",
+      "name": "滨海公园 · 球壳观景建筑 2",
+      "triangles": 6884,
+      "meshHash": "3bb5499bb3b8bbff9d32ca1a6a2c4c50e0b2094d7f200b94ba0c262b14057ec6"
+    },
+    {
+      "key": "coastal-pavilion-3",
+      "name": "滨海公园 · 球壳观景建筑 3",
+      "triangles": 6884,
+      "meshHash": "331c7e21c9648a57bda8ac7ffef8fe485f391c94a037f648c32917da357a3c81"
+    },
+    {
+      "key": "coastal-pavilion-4",
+      "name": "滨海公园 · 球壳观景建筑 4",
+      "triangles": 6884,
+      "meshHash": "92f5e357674b5eb77d40e902e887cb6364aca345fa42cd431a626b7ad8283675"
+    },
+    {
+      "key": "coastal-pavilion-5",
+      "name": "滨海公园 · 球壳观景建筑 5",
+      "triangles": 6884,
+      "meshHash": "5b67153ede00074d432d2619ab9e6098cfa832901f8e622212eb2668fa5358f2"
+    },
+    {
+      "key": "coastal-red-tower",
+      "name": "滨海公园 · 红顶观景塔与曲廊",
+      "triangles": 2434,
+      "meshHash": "fd05e847e9827f3903eb05a301bc9ad58b47614fdb0d920c569a345235b79cd9"
+    }
+  ]
+}

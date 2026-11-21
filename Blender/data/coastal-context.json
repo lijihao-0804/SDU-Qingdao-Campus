@@ -1,0 +1,38 @@
+{
+  "xmin": -10000,
+  "zmin": -10000,
+  "xmax": 10000,
+  "zmax": 10000,
+  "width": 2000,
+  "height": 2000,
+  "metres_per_pixel": 10,
+  "origin": {
+    "lon": 120.68204,
+    "lat": 36.36559,
+    "crs": "WGS84"
+  },
+  "orientation": "north up, +X east, +Z south",
+  "registration": "Bounds are OUTER pixel edges. Pixel(row,column) centre = (-10000+(column+0.5)*10, -10000+(row+0.5)*10).",
+  "texture": "assets/海岸环境.jpg",
+  "mask": "assets/海陆掩膜.png",
+  "mask_values": {
+    "255": "Sea and connected estuaries",
+    "0": "Land, islands, and disconnected inland water"
+  },
+  "source": "S2B_51STA_20261007_0_L2A",
+  "item_url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_51STA_20261007_0_L2A",
+  "date": "2026-10-07T02:57:37.919000Z",
+  "scene_cloud_cover_percent": 0.0064,
+  "native_crs": "EPSG:32651 (WGS 84 / UTM zone 51N)",
+  "source_assets": {
+    "rgb": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/51/S/TA/2026/10/S2B_51STA_20261007_0_L2A/TCI.tif",
+    "green": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/51/S/TA/2026/10/S2B_51STA_20261007_0_L2A/B03.tif",
+    "nir": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/51/S/TA/2026/10/S2B_51STA_20261007_0_L2A/B08.tif"
+  },
+  "attribution": "Contains modified Copernicus Sentinel data 2026.",
+  "terms": "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice",
+  "colour": "True-colour TCI, mildly desaturated with lifted shadows. Blue-green water tint preserves relative nearshore texture. RGB is colour graded for a 3D distant backdrop.",
+  "mask_method": "Connected component seeded on eastern open-water edge; (B03-B08)/(B03+B08)>-0.04 and B08 DN<1400. Three-pixel morphological closing. Coast is approximate at the 10 m pixel scale.",
+  "mask_ocean_fraction": 0.44708,
+  "product": "Copernicus Sentinel-2B level-2A / Element 84 Earth Search"
+}

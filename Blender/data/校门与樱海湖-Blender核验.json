@@ -1,0 +1,35 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "blendSHA256": "05cd9a371833e8447179cd147e234ec67d54c7c31ddad6e60c5b332e7feb329c",
+  "cameraNames": {
+    "west_gate": [
+      "西门（礼仪正门） · 西门外观",
+      "西门（礼仪正门） · 校名题字"
+    ],
+    "north_gate": [
+      "北校门 · 北门外观",
+      "北校门 · 石塔近景"
+    ],
+    "south_gate": [
+      "南校门 · 南门外观",
+      "南校门 · 校名题字"
+    ],
+    "east_gate": [
+      "东校门 · 东门外观",
+      "东校门 · 南侧门亭与弧廊"
+    ],
+    "lake": [
+      "樱海湖 · 湖面全景",
+      "樱海湖 · 湖畔近景"
+    ]
+  },
+  "nativeFrames": {
+    "west_gate": "preview/校门与樱海湖/Blender-west_gate.jpg",
+    "south_gate": "preview/校门与樱海湖/Blender-south_gate.jpg",
+    "lake": "preview/校门与樱海湖/Blender-lake.jpg"
+  },
+  "lakeVertices": 2196,
+  "lakeAnimation": "樱海湖 · 微风起伏",
+  "lakeImage": "樱海湖 · 36米微风波纹法线",
+  "packed": true
+}

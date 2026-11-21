@@ -1,0 +1,316 @@
+{
+  "sha256": "b200162295fc97890ae52ecd90e9d3e520d2be397e701e22e769b97837243ad4",
+  "sceneSHA256": "0a9d3ff43a4ec437794565440fe5f1ac4d709de76e60a2a216e70e0802a7042f",
+  "planSHA256": "2319009f3769a0a88bcd1b0233fb5b1f88edb2df82b4f81a06b6e580859ea76d",
+  "stream": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 3840,
+    "height": 2160,
+    "pix_fmt": "yuv420p",
+    "level": 52,
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "time_base": "1/60000",
+    "duration_ts": 7890000,
+    "nb_frames": "7890"
+  },
+  "decoded": {
+    "frames": 7890,
+    "uniqueFrames": 7854,
+    "adjacentDuplicates": [
+      7660,
+      7661,
+      7662,
+      7663,
+      7669,
+      7673,
+      7676,
+      7678,
+      7690,
+      7692,
+      7693,
+      7701,
+      7705,
+      7718,
+      7726,
+      7751,
+      7752,
+      7754,
+      7759,
+      7760,
+      7772,
+      7774,
+      7776,
+      7782,
+      7786,
+      7787,
+      7797,
+      7808,
+      7839,
+      7846,
+      7847,
+      7855,
+      7859,
+      7861,
+      7862,
+      7870
+    ],
+    "holdStartFrame": 7650,
+    "unexpectedAdjacentDuplicates": []
+  },
+  "renderer": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Laptop GPU (0x00002560) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "scope": "core",
+    "coverage": {
+      "sea": {
+        "total": 1,
+        "visible": 0
+      },
+      "surfWater": {
+        "total": 1,
+        "visible": 1
+      }
+    },
+    "glSize": [
+      3840,
+      2160
+    ],
+    "samples": 4,
+    "pixelRatio": 1,
+    "renderer": {
+      "frame": 258,
+      "calls": 3093,
+      "triangles": 42345581,
+      "points": 0,
+      "lines": 0
+    },
+    "encoderConfig": {
+      "codec": "avc1.640034",
+      "width": 3840,
+      "height": 2160,
+      "framerate": 60,
+      "bitrate": 80000000,
+      "latencyMode": "realtime",
+      "hardwareAcceleration": "no-preference",
+      "avc": {
+        "format": "annexb"
+      }
+    },
+    "method": "WebGL renderPose + WebCodecs H.264 + ffmpeg stream copy"
+  },
+  "durationSeconds": 131.5,
+  "elapsedSeconds": 964.406,
+  "labels": [
+    {
+      "title": "西门",
+      "start": 0,
+      "end": 208,
+      "visibleFramesAboveQuarterOpacity": 195
+    },
+    {
+      "title": "育贤广场",
+      "start": 312,
+      "end": 394,
+      "visibleFramesAboveQuarterOpacity": 69
+    },
+    {
+      "title": "青岛校区图书馆",
+      "start": 560,
+      "end": 902,
+      "visibleFramesAboveQuarterOpacity": 329
+    },
+    {
+      "title": "振声苑",
+      "start": 1482,
+      "end": 1732,
+      "visibleFramesAboveQuarterOpacity": 237
+    },
+    {
+      "title": "山东大学博物馆",
+      "start": 2012,
+      "end": 2204,
+      "visibleFramesAboveQuarterOpacity": 179
+    },
+    {
+      "title": "宋君复体育馆",
+      "start": 2580,
+      "end": 2810,
+      "visibleFramesAboveQuarterOpacity": 217
+    },
+    {
+      "title": "创新创业中心",
+      "start": 3176,
+      "end": 3414,
+      "visibleFramesAboveQuarterOpacity": 225
+    },
+    {
+      "title": "凤凰居学生宿舍 · 9号楼",
+      "start": 3592,
+      "end": 3784,
+      "visibleFramesAboveQuarterOpacity": 179
+    },
+    {
+      "title": "凤凰居中轴花园",
+      "start": 3858,
+      "end": 3934,
+      "visibleFramesAboveQuarterOpacity": 63
+    },
+    {
+      "title": "第周苑 D 座",
+      "start": 4530,
+      "end": 4852,
+      "visibleFramesAboveQuarterOpacity": 309
+    },
+    {
+      "title": "鳌山湾 · 滨海沙滩",
+      "start": 5334,
+      "end": 5492,
+      "visibleFramesAboveQuarterOpacity": 145
+    },
+    {
+      "title": "红顶观景塔",
+      "start": 5736,
+      "end": 5888,
+      "visibleFramesAboveQuarterOpacity": 139
+    },
+    {
+      "title": "球壳观景建筑",
+      "start": 5900,
+      "end": 6072,
+      "visibleFramesAboveQuarterOpacity": 159
+    },
+    {
+      "title": "阅海居",
+      "start": 6524,
+      "end": 6776,
+      "visibleFramesAboveQuarterOpacity": 239
+    },
+    {
+      "title": "学生会堂",
+      "start": 6858,
+      "end": 7002,
+      "visibleFramesAboveQuarterOpacity": 131
+    },
+    {
+      "title": "淦昌苑A座",
+      "start": 1010,
+      "end": 1176,
+      "visibleFramesAboveQuarterOpacity": 153
+    }
+  ],
+  "lowerThirds": [
+    {
+      "key": "west_gate",
+      "title": "西门",
+      "caption": "两座石塔分立路旁，向东正对图书馆。",
+      "start": 0,
+      "end": 240,
+      "visibleFramesAboveQuarterOpacity": 233
+    },
+    {
+      "key": "yuxian",
+      "title": "育贤广场",
+      "caption": "广场西端的校训石上刻着“学无止境，气有浩然”。",
+      "start": 296,
+      "end": 552,
+      "visibleFramesAboveQuarterOpacity": 249
+    },
+    {
+      "key": "library",
+      "title": "青岛校区图书馆",
+      "caption": "面向育贤广场的五道拱门，构成图书馆的主入口。",
+      "start": 560,
+      "end": 916,
+      "visibleFramesAboveQuarterOpacity": 349
+    },
+    {
+      "key": "zhensheng",
+      "title": "振声苑",
+      "caption": "四座教学楼围合成院，楼翼之间以连廊相接。",
+      "start": 1466,
+      "end": 1746,
+      "visibleFramesAboveQuarterOpacity": 273
+    },
+    {
+      "key": "museum",
+      "title": "山东大学博物馆",
+      "caption": "建筑取形于“鼎”字，四角的铜板仿照竹简。",
+      "start": 1996,
+      "end": 2240,
+      "visibleFramesAboveQuarterOpacity": 237
+    },
+    {
+      "key": "song_arena",
+      "title": "宋君复体育馆",
+      "caption": "银白色屋顶像一张船帆，北端的长棚伸向田径场。",
+      "start": 2564,
+      "end": 2858,
+      "visibleFramesAboveQuarterOpacity": 287
+    },
+    {
+      "key": "way-868015914",
+      "title": "创新创业中心",
+      "caption": "钟楼立在前庭一侧，圆形钟面嵌在尖顶下方。",
+      "start": 3160,
+      "end": 3428,
+      "visibleFramesAboveQuarterOpacity": 261
+    },
+    {
+      "key": "way-970257678",
+      "title": "凤凰居学生宿舍 · 9号楼",
+      "caption": "九号楼坐落在五号楼南侧，红砖楼翼向东展开。",
+      "start": 3576,
+      "end": 3826,
+      "visibleFramesAboveQuarterOpacity": 243
+    },
+    {
+      "key": "way-868015916",
+      "title": "信息科学与工程学院",
+      "caption": "学院设在第周苑 D 座，院牌挂在西侧门廊。",
+      "start": 4514,
+      "end": 4866,
+      "visibleFramesAboveQuarterOpacity": 345
+    },
+    {
+      "key": "waterfront-beach",
+      "title": "鳌山湾沙滩",
+      "caption": "沿岸的石阶通向沙滩，浅浪一道道推上岸。",
+      "start": 5318,
+      "end": 5554,
+      "visibleFramesAboveQuarterOpacity": 229
+    },
+    {
+      "key": "coastal-red-tower",
+      "title": "青岛蓝谷人才公园",
+      "caption": "红顶塔立在海边，南侧是一组白色球壳建筑。",
+      "start": 5720,
+      "end": 6086,
+      "visibleFramesAboveQuarterOpacity": 359
+    },
+    {
+      "key": "s2-b1",
+      "title": "阅海居",
+      "caption": "北区学生公寓的红砖拱廊围出一方庭院。",
+      "start": 6508,
+      "end": 6790,
+      "visibleFramesAboveQuarterOpacity": 275
+    },
+    {
+      "key": "assembly",
+      "title": "学生会堂",
+      "caption": "阅海居以南，三组贝壳形建筑围合成学生会堂。",
+      "start": 6842,
+      "end": 7092,
+      "visibleFramesAboveQuarterOpacity": 243
+    },
+    {
+      "key": "overview",
+      "title": "山东大学青岛校区",
+      "caption": "从学生会堂上空回望，校园东侧是鳌山湾。",
+      "start": 7634,
+      "end": 7890,
+      "visibleFramesAboveQuarterOpacity": 249
+    }
+  ]
+}

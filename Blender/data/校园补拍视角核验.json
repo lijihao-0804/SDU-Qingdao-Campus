@@ -1,0 +1,238 @@
+{
+  "glb": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "viewer": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "frames": [
+    {
+      "key": "phoenix-connected-arcades",
+      "mode": "facade",
+      "title": "凤凰居 · 两翼与中间拱廊",
+      "frame": "preview/校园补拍/phoenix-connected-arcades-facade.jpg",
+      "sha256": "d2caf296fda38f3fcd64606b5474a9a450b49351b6d1c9b6e8cf35d06706be61"
+    },
+    {
+      "key": "phoenix-arcade-walk",
+      "mode": "facade",
+      "title": "凤凰居 · 廊下望五号楼",
+      "frame": "preview/校园补拍/phoenix-arcade-walk-facade.jpg",
+      "sha256": "68e104281a18c3aca1b0a976b5477871365ac127eb06459dbf13d73c9f1501fc"
+    },
+    {
+      "key": "library",
+      "mode": "sea",
+      "title": "图书馆东望大海",
+      "frame": "preview/校园补拍/library-sea.jpg",
+      "sha256": "133c229f1cf127be397522a748a2ebd4eaf68b7fca829fb0d5e4650f744f7bfd"
+    },
+    {
+      "key": "east_gate",
+      "mode": "facade",
+      "title": "东校门",
+      "frame": "preview/校园补拍/east_gate-facade.jpg",
+      "sha256": "b02bfc9a6bc1ee2568c5ef81753fa625b630d39f08e7a46158ab791850ea6a57"
+    },
+    {
+      "key": "innovation-forecourt",
+      "mode": "facade",
+      "title": "凤凰居望双创钟楼",
+      "frame": "preview/校园补拍/innovation-forecourt-facade.jpg",
+      "sha256": "e5430909fc5f242b1018d0cca81b1e1dd8a7354dd288005dd10584f96963bf32"
+    },
+    {
+      "key": "innovation-forecourt",
+      "mode": "inscription",
+      "title": "凤凰居11号的竖排题字",
+      "frame": "preview/校园补拍/innovation-forecourt-inscription.jpg",
+      "sha256": "513e0a672d410051d71667b29729e12e0eda86681afaba8e5093d40899914351"
+    },
+    {
+      "key": "way-868015914",
+      "mode": "clock",
+      "title": "双创钟塔",
+      "frame": "preview/校园补拍/way-868015914-clock.jpg",
+      "sha256": "ddc3ad585975519991493e225adaa133f56768c25bbf0e7abc385ea85608e2aa"
+    },
+    {
+      "key": "way-1020621360",
+      "mode": "garden",
+      "title": "凤凰居中轴",
+      "frame": "preview/校园补拍/way-1020621360-garden.jpg",
+      "sha256": "734c5b6bdc4113049196a348bdd2f51ddfe571aeb9403c8f3f09d7f89203cc70"
+    },
+    {
+      "key": "way-1020621360",
+      "mode": "facade",
+      "title": "凤凰居六角亭",
+      "frame": "preview/校园补拍/way-1020621360-facade.jpg",
+      "sha256": "463ad9ba69d8a8725e94afcab27cd08a4012f5459a8756140b5c96eb67ca01e8"
+    },
+    {
+      "key": "way-970257676",
+      "mode": "bow",
+      "title": "凤凰居弧形挑板",
+      "frame": "preview/校园补拍/way-970257676-bow.jpg",
+      "sha256": "ed1eb37b6e7c8a0895c89cd7c2a0f73d96a6270fa3b6ee83aea5a8962e6933e2"
+    },
+    {
+      "key": "way-970257676",
+      "mode": "porch",
+      "title": "凤凰居方形门廊",
+      "frame": "preview/校园补拍/way-970257676-porch.jpg",
+      "sha256": "2699a498e865bcf5b4aeec048b551357d2f0da7db170423ee0bb621721049f74"
+    },
+    {
+      "key": "museum-north-walk",
+      "mode": "facade",
+      "title": "从凤凰居去实验楼",
+      "frame": "preview/校园补拍/museum-north-walk-facade.jpg",
+      "sha256": "23beaf240f9bb18455a27d4f466163353e4a4c599048a3040667526a9ea575cd"
+    },
+    {
+      "key": "arena-flower-slope",
+      "mode": "facade",
+      "title": "体育馆南弯的花坡",
+      "frame": "preview/校园补拍/arena-flower-slope-facade.jpg",
+      "sha256": "fa676177890091358358c244671d566e795cbd43321cf72877886b4d9e6270a7"
+    },
+    {
+      "key": "ganchang-cherry-walk",
+      "mode": "facade",
+      "title": "淦昌苑双径樱花",
+      "frame": "preview/校园补拍/ganchang-cherry-walk-facade.jpg",
+      "sha256": "716527eea8f374117095c3ff111a506184db9f2cae903546f3c1a0ef10801835"
+    },
+    {
+      "key": "ganchang-cherry-south",
+      "mode": "facade",
+      "title": "沿着淦昌苑南径看花",
+      "frame": "preview/校园补拍/ganchang-cherry-south-facade.jpg",
+      "sha256": "7222e0191a8bd4be3a031ab62b6b157811e103229023f7f9b36d3d10cd36bbe3"
+    },
+    {
+      "key": "ganchang-cherry-walk",
+      "mode": "detail",
+      "title": "淦昌苑樱花近景",
+      "frame": "preview/校园补拍/ganchang-cherry-walk-detail.jpg",
+      "sha256": "bc7fc71bff4dd7e7012a1492129db8f602613826a3586431b418c1b1ece16284"
+    },
+    {
+      "key": "library-flower-court",
+      "mode": "facade",
+      "title": "图书馆旁的花园",
+      "frame": "preview/校园补拍/library-flower-court-facade.jpg",
+      "sha256": "7520fa65fbe2098815afe6a677446e95e189c3bf7d9eadbb2c4eb18bd753b09c"
+    },
+    {
+      "key": "library-flower-court",
+      "mode": "path",
+      "title": "方篱中的窄路",
+      "frame": "preview/校园补拍/library-flower-court-path.jpg",
+      "sha256": "587bb17f2fee9b94e242a6682fb7657c5425886f0d4c5edfc2a9108dfd4ab931"
+    },
+    {
+      "key": "sport-covered-hall",
+      "mode": "facade",
+      "title": "风雨操场馆内",
+      "frame": "preview/校园补拍/sport-covered-hall-facade.jpg",
+      "sha256": "a6e07d95c34b83de45f5c7cf2ec15c074787c3670b07301eb75f4b7f0b9bfdb4"
+    },
+    {
+      "key": "sport-east-courts",
+      "mode": "facade",
+      "title": "东侧室外运动区",
+      "frame": "preview/校园补拍/sport-east-courts-facade.jpg",
+      "sha256": "6496cb4788e70e392da080ff372e79cd0c365a24a60457c8d2d3fc6db682a8b0"
+    },
+    {
+      "key": "sport-east-athletics",
+      "mode": "facade",
+      "title": "东田径场南端",
+      "frame": "preview/校园补拍/sport-east-athletics-facade.jpg",
+      "sha256": "db2c95268898ab86150e22da09a04d5de00a4ebb16c8207ec3aea57b008cc58c"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "seams",
+      "title": "振声苑东侧 · 对称的楼翼交接",
+      "frame": "preview/校园补拍/zhensheng-seams.jpg",
+      "sha256": "69416f0d5451fd00afa10f32d373fe153bff51516ad86c82ebb2a9522359027d"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "through",
+      "title": "振声苑 · 由翼端通往内院",
+      "frame": "preview/校园补拍/zhensheng-through.jpg",
+      "sha256": "d5c82be6033dd6df8f8142563888806d5aa180cc0a938e5f91b66a6f1bb992ec"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "inside_passage",
+      "title": "振声苑 · 由内院回望校园路",
+      "frame": "preview/校园补拍/zhensheng-inside_passage.jpg",
+      "sha256": "0aa0869a9d9958deb5044c85504cdfbb91cd58cabc6f82cd95ce3adcff6fa727"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "end_porch",
+      "title": "振声苑 · 端楼方口与内凹窗",
+      "frame": "preview/校园补拍/zhensheng-end_porch.jpg",
+      "sha256": "d6912d7f3942884eb989e716280e9c73c11a8dce6d095a5b6efed46e76d7f716"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "north",
+      "title": "振声苑 · 北入口",
+      "frame": "preview/校园补拍/zhensheng-north.jpg",
+      "sha256": "33b7ccbb253511843b41bbef1f20b47e1d5fc9e5d67c5df2226d896bce0eb78f"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "east",
+      "title": "振声苑 · 东入口",
+      "frame": "preview/校园补拍/zhensheng-east.jpg",
+      "sha256": "ecfa49cf02854c3cb8b970f3d5c6bcd5a82bbd60f7497fdb28ed302ba1a7c575"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "south",
+      "title": "振声苑 · 南入口",
+      "frame": "preview/校园补拍/zhensheng-south.jpg",
+      "sha256": "bc038e1c511aa8ae2e3028e94ef4398022bdd8a5b862e71f2083b5f7995ca5ee"
+    },
+    {
+      "key": "zhensheng",
+      "mode": "west",
+      "title": "振声苑 · 西入口",
+      "frame": "preview/校园补拍/zhensheng-west.jpg",
+      "sha256": "2d8cb4f87cac6209154d19b6f24a98c391eb2f991eea948c35a5fe79f28c2f34"
+    },
+    {
+      "key": "huagang",
+      "mode": "north",
+      "title": "华岗苑 · 北入口",
+      "frame": "preview/校园补拍/huagang-north.jpg",
+      "sha256": "0043512b319a78173f715ca28f6c28d4c8fd978b4e4c34919cf3b22a6f5f66b0"
+    },
+    {
+      "key": "huagang",
+      "mode": "east",
+      "title": "华岗苑 · 东入口",
+      "frame": "preview/校园补拍/huagang-east.jpg",
+      "sha256": "96fd5c68c184c40c49ab46d0f57e74be6139f453c480626bd33fb314a9230e06"
+    },
+    {
+      "key": "huagang",
+      "mode": "south",
+      "title": "华岗苑 · 南入口",
+      "frame": "preview/校园补拍/huagang-south.jpg",
+      "sha256": "6487989bea3a985800b2f816b44bd5b76bc4af98b1569ea3f83a68085f63fd76"
+    },
+    {
+      "key": "huagang",
+      "mode": "west",
+      "title": "华岗苑 · 西入口",
+      "frame": "preview/校园补拍/huagang-west.jpg",
+      "sha256": "c997afba3f937da639199b3809052c0034bec9a7689f6cdcfee3bc43ac146816"
+    }
+  ],
+  "browserErrors": []
+}

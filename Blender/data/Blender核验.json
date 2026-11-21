@@ -1,0 +1,352 @@
+{
+  "v4_surface_materials": 256,
+  "residence_components": {
+    "way-970257676": {
+      "groups": 51,
+      "faces": 23346,
+      "total": 23346
+    },
+    "way-970257677": {
+      "groups": 48,
+      "faces": 22580,
+      "total": 22580
+    },
+    "way-970257678": {
+      "groups": 48,
+      "faces": 22598,
+      "total": 22598
+    },
+    "way-970257679": {
+      "groups": 51,
+      "faces": 23452,
+      "total": 23452
+    },
+    "way-970257680": {
+      "groups": 48,
+      "faces": 22558,
+      "total": 22558
+    },
+    "way-970257681": {
+      "groups": 48,
+      "faces": 22531,
+      "total": 22531
+    },
+    "way-970257682": {
+      "groups": 14,
+      "faces": 1239,
+      "total": 1239
+    },
+    "way-970257683": {
+      "groups": 14,
+      "faces": 1230,
+      "total": 1230
+    },
+    "way-970257684": {
+      "groups": 14,
+      "faces": 1241,
+      "total": 1241
+    },
+    "way-970257685": {
+      "groups": 14,
+      "faces": 1139,
+      "total": 1139
+    },
+    "way-982199358": {
+      "groups": 32,
+      "faces": 14279,
+      "total": 14279
+    },
+    "s2-b1": {
+      "groups": 54,
+      "faces": 35334,
+      "total": 35334
+    },
+    "s2-b2": {
+      "groups": 41,
+      "faces": 10626,
+      "total": 10626
+    },
+    "s2-b5": {
+      "groups": 41,
+      "faces": 10824,
+      "total": 10824
+    },
+    "s2-b6": {
+      "groups": 59,
+      "faces": 11805,
+      "total": 11805
+    },
+    "s2-b9": {
+      "groups": 46,
+      "faces": 35736,
+      "total": 35736
+    },
+    "s2-b10": {
+      "groups": 41,
+      "faces": 12318,
+      "total": 12318
+    }
+  },
+  "academic_components": {
+    "way-868015915": {
+      "groups": 60,
+      "faces": 10624,
+      "total": 10624
+    },
+    "way-868015916": {
+      "groups": 69,
+      "faces": 19766,
+      "total": 19766
+    },
+    "way-868015918": {
+      "groups": 70,
+      "faces": 16695,
+      "total": 16695
+    },
+    "way-868015919": {
+      "groups": 59,
+      "faces": 19278,
+      "total": 19278
+    },
+    "way-868015920": {
+      "groups": 58,
+      "faces": 19882,
+      "total": 19882
+    },
+    "way-868015921": {
+      "groups": 57,
+      "faces": 12952,
+      "total": 12952
+    },
+    "way-970257667": {
+      "groups": 68,
+      "faces": 10269,
+      "total": 10269
+    },
+    "way-970257668": {
+      "groups": 53,
+      "faces": 11920,
+      "total": 11920
+    },
+    "way-970257669": {
+      "groups": 65,
+      "faces": 9508,
+      "total": 9508
+    },
+    "way-970257670": {
+      "groups": 53,
+      "faces": 9965,
+      "total": 9965
+    },
+    "way-970257671": {
+      "groups": 69,
+      "faces": 15805,
+      "total": 15805
+    },
+    "way-970257672": {
+      "groups": 61,
+      "faces": 12793,
+      "total": 12793
+    },
+    "way-970257673": {
+      "groups": 55,
+      "faces": 11960,
+      "total": 11960
+    },
+    "way-1018848586": {
+      "groups": 52,
+      "faces": 10879,
+      "total": 10879
+    }
+  },
+  "blend": "山东大学青岛校区.blend",
+  "verified_bpy_version": "4.3.0",
+  "size": 130744191,
+  "source_sha256": "3087832aeb14e411409a6185d3d8c6a3d24600efea600d05435edf88eb7153da",
+  "mesh_objects": 18299,
+  "shared_mesh_datablocks": 594,
+  "tree_and_shrub_instances": 7634,
+  "tree_and_shrub_meshes": 53,
+  "landmark_component_groups": {
+    "library": [
+      80,
+      31900,
+      31900
+    ],
+    "museum": [
+      59,
+      12292,
+      12292
+    ],
+    "zhensheng": [
+      216,
+      20574,
+      20574
+    ],
+    "huagang": [
+      210,
+      19988,
+      19988
+    ],
+    "way-982199336": [
+      9,
+      2730,
+      2730
+    ],
+    "west_gate": [
+      38,
+      19820,
+      19820
+    ],
+    "north_gate": [
+      21,
+      2433,
+      2433
+    ],
+    "east_gate": [
+      44,
+      2354,
+      2354
+    ],
+    "south_gate": [
+      39,
+      9256,
+      9256
+    ],
+    "song_arena": [
+      31,
+      28876,
+      28876
+    ],
+    "blue_track": [
+      10,
+      2416,
+      2416
+    ],
+    "east_track": [
+      13,
+      3056,
+      3056
+    ],
+    "xiyuan": [
+      21,
+      2646,
+      2646
+    ],
+    "yuxian": [
+      8,
+      1709,
+      1709
+    ]
+  },
+  "surf_shape_keys": 5,
+  "packed_images": [
+    "南弯 · 露土与细枯茎",
+    "南弯地被 · 玫红花冠与春草",
+    "南弯地被 · 细花瓣与叶间凹隙",
+    "博物馆步道 · 灰色步道砖",
+    "园下草土 · spring_arena_orchard",
+    "园下草土 · spring_huagang_grove",
+    "园下草土 · spring_north_cherries",
+    "园下草土 · spring_student_farm",
+    "园下草土 · spring_yuehai_walk",
+    "图书馆方篱 · 近距叶片",
+    "夕照草坪 · 草皮纤维",
+    "屋面面层 · 微表面",
+    "屋面面层 · 色泽",
+    "干燥矿物饰面 · 亚毫米起伏",
+    "干燥矿物饰面 · 细砂色差",
+    "建筑石材 · 微表面",
+    "建筑石材 · 板面与细缝粗糙度",
+    "建筑石材 · 色泽",
+    "整地与施工通道 · 矿料颗粒",
+    "春日花序 · 五瓣花与细花梗",
+    "春梢 · 阔叶新梢",
+    "春草 · 修剪草皮",
+    "树皮 · 横向皮孔与浅痕",
+    "树皮 · 横向皮孔与浅痕法线",
+    "树皮 · 白干下的皮孔",
+    "树皮 · 白干下的皮孔法线",
+    "樱海湖 · 36米微风波纹法线",
+    "淦昌花径 · 错缝棕砖",
+    "球场围网 · 钢丝菱网",
+    "砖面 · 微表面",
+    "砖面 · 色泽",
+    "红陶墙板 · 接缝倒角",
+    "红陶墙板 · 细缝与板面",
+    "花岗岩 · 微表面",
+    "花岗岩 · 板面与细缝粗糙度",
+    "花岗岩 · 色泽",
+    "运动绳网 · 方孔与柔边",
+    "近景春草 · 纵脉与叶缘",
+    "近景春草 · 纵脉与叶缘法线",
+    "陶瓦 · 微表面",
+    "陶瓦 · 色泽",
+    "陶瓦 · 迎光凸棱与风化瓦沟",
+    "青岛沿海 · Sentinel-2",
+    "鳌山湾 · 循环浪沫与潮痕",
+    "鳌山湾 · 沙色与细砂",
+    "鳌山湾 · 泡孔细网",
+    "鳌山湾-夕照环境.hdr"
+  ],
+  "groundcover_instances": 9461,
+  "materials": 901,
+  "cameras": 195,
+  "collections": {
+    "乔木 · 共享网格": 4603,
+    "周边环境 · 山地、村落与外围路网": 93,
+    "地形与海岸": 30,
+    "地标建筑与校门": 12,
+    "外海 · 仅全景": 1,
+    "学院与生活区楼宇": 52,
+    "学院入口实物题字": 47,
+    "广场与景观设施": 353,
+    "建模区土层断面": 2,
+    "摄影机与日照": 196,
+    "水域": 2,
+    "滨海公园与潮岸": 530,
+    "灌木 · 共享网格": 3031,
+    "田径场与球场": 50,
+    "草叶与地被 · 共享网格": 9461,
+    "道路与步行系统": 32
+  },
+  "nearshoreScope": {
+    "offshoreFull": true,
+    "offshoreFocused": false,
+    "swashInBoth": true,
+    "sectionTriangles": 1791,
+    "surfShapeKeys": 5
+  },
+  "surroundingsObjects": 93,
+  "beachColourMapSHA256": "12cc9b7a543641276487835f0028e9c682c35831396d73273efed6c962be4523",
+  "surfaceDisplay": {
+    "materials": 900,
+    "packedSurfaceMaps": 3,
+    "zeroSpecularMaterials": 405
+  },
+  "sunsetRig": {
+    "glb": {
+      "name": "SDU_Sunset_Key",
+      "directionGLTF": [
+        -0.9402558207511902,
+        0.20791170001029968,
+        0.26961401104927063
+      ],
+      "linearRGB": [
+        1.0,
+        0.705,
+        0.465
+      ],
+      "intensity": 1.62,
+      "activeDirectionalLights": 1
+    },
+    "nativeDirectionalLights": 1,
+    "azimuthDeg": 254,
+    "elevationDeg": 12,
+    "environmentSHA256": "cfa740e381d97c08592bad0b072079d1922936895b059b618a45f50f8a6f8799",
+    "cameraKeys": [
+      "sunset-library",
+      "sunset-glaze"
+    ]
+  }
+}

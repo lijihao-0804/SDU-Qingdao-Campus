@@ -1,0 +1,31 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "views": [
+    "sunset-library",
+    "sun-yuxian-garden",
+    "sun-alumni-garden",
+    "sun-court",
+    "sun-orchard",
+    "sun-north",
+    "sun-assembly",
+    "sun-west-blocks",
+    "sun-library-tile",
+    "sun-huagang-tile",
+    "sun-sea"
+  ],
+  "tileSpecularPixels": 1390414,
+  "sameLightAndCameraTileComparison": [
+    {
+      "view": "sun-library-tile",
+      "brighterPixels": 651136,
+      "changedPixels": 651136,
+      "maxDifference": 60
+    },
+    {
+      "view": "sun-huagang-tile",
+      "brighterPixels": 739278,
+      "changedPixels": 739278,
+      "maxDifference": 58
+    }
+  ]
+}

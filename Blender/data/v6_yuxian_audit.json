@@ -1,0 +1,18 @@
+{
+  "sourceGLBSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "trees": {
+    "north": 43,
+    "south": 48
+  },
+  "designedLawnM2": 23752,
+  "hiddenUnderCeremonySlabM2": 8.03,
+  "visibleLawnM2": 23752,
+  "mappedWalkAndPavingOverlapM2": 0.0045,
+  "targetPlotVisibleLawnM2": 471,
+  "crownClearanceM": 0.356,
+  "catalogRays": {
+    "raysTested": 198,
+    "hits": []
+  },
+  "passed": true
+}

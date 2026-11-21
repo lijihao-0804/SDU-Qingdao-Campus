@@ -1,0 +1,323 @@
+{
+  "modelSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "pageSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "sand": {
+    "colourMapPixels": [
+      4096,
+      1024
+    ],
+    "surfaceM2": 70830.78,
+    "singleColumnTriangles": 23,
+    "singleColumnM2": 13.4,
+    "drySingleColumnM2": 0.0,
+    "specularFactor": 0.0
+  },
+  "views": [
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        367,
+        136,
+        529,
+        585
+      ],
+      "referenceEdges": 15636,
+      "meanLumaError": 1.4589999914169312,
+      "edgeLumaError": 6.219,
+      "key": "west_gate",
+      "mode": "inscription",
+      "feature": "西门四字的笔画与空隙",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        215,
+        143,
+        690,
+        494
+      ],
+      "referenceEdges": 32950,
+      "meanLumaError": 0.5519999861717224,
+      "edgeLumaError": 1.784,
+      "key": "zhensheng",
+      "mode": "end_porch",
+      "feature": "开间边缘、窗框和石缝",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        439,
+        260,
+        797,
+        585
+      ],
+      "referenceEdges": 29033,
+      "meanLumaError": 1.2339999675750732,
+      "edgeLumaError": 1.303,
+      "key": "sun-library-tile",
+      "mode": "facade",
+      "feature": "南坡的瓦棱与搭接",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        108,
+        410,
+        484,
+        592
+      ],
+      "referenceEdges": 17093,
+      "meanLumaError": 0.34299999475479126,
+      "edgeLumaError": 0.516,
+      "key": "waterfront-beach",
+      "mode": "facade",
+      "feature": "干湿沙过渡与回潮纹",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        90,
+        273,
+        788,
+        566
+      ],
+      "referenceEdges": 51107,
+      "meanLumaError": 3.0739998817443848,
+      "edgeLumaError": 7.581,
+      "key": "library-flower-court",
+      "mode": "path",
+      "feature": "小径两侧绿篱与花枝",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        896,
+        650
+      ],
+      "canvas": [
+        896,
+        650
+      ],
+      "ratio": 1,
+      "regionPx": [
+        206,
+        202,
+        699,
+        474
+      ],
+      "referenceEdges": 33521,
+      "meanLumaError": 2.003000020980835,
+      "edgeLumaError": 4.882,
+      "key": "film-library",
+      "mode": "facade",
+      "feature": "远景图书馆的窗格与柱间隙",
+      "screenDPR": 1,
+      "referenceRatio": 3
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        735,
+        273,
+        1057,
+        1170
+      ],
+      "referenceEdges": 37092,
+      "meanLumaError": 0.8870000243186951,
+      "edgeLumaError": 6.282,
+      "key": "west_gate",
+      "mode": "inscription",
+      "feature": "西门四字的笔画与空隙",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "west_gate.jpg"
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        430,
+        286,
+        1380,
+        988
+      ],
+      "referenceEdges": 88699,
+      "meanLumaError": 0.4129999876022339,
+      "edgeLumaError": 1.614,
+      "key": "zhensheng",
+      "mode": "end_porch",
+      "feature": "开间边缘、窗框和石缝",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "zhensheng.jpg"
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        878,
+        520,
+        1595,
+        1170
+      ],
+      "referenceEdges": 116335,
+      "meanLumaError": 0.5370000004768372,
+      "edgeLumaError": 0.763,
+      "key": "sun-library-tile",
+      "mode": "facade",
+      "feature": "南坡的瓦棱与搭接",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "sun-library-tile.jpg"
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        215,
+        819,
+        968,
+        1183
+      ],
+      "referenceEdges": 53277,
+      "meanLumaError": 0.32199999690055847,
+      "edgeLumaError": 0.442,
+      "key": "waterfront-beach",
+      "mode": "facade",
+      "feature": "干湿沙过渡与回潮纹",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "waterfront-beach.jpg"
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        179,
+        546,
+        1577,
+        1131
+      ],
+      "referenceEdges": 204231,
+      "meanLumaError": 2.3450000286102295,
+      "edgeLumaError": 6.181,
+      "key": "library-flower-court",
+      "mode": "path",
+      "feature": "小径两侧绿篱与花枝",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "library-flower-court.jpg"
+    },
+    {
+      "nativeScreen": [
+        1792,
+        1300
+      ],
+      "canvas": [
+        1792,
+        1300
+      ],
+      "ratio": 2,
+      "regionPx": [
+        412,
+        403,
+        1398,
+        949
+      ],
+      "referenceEdges": 134550,
+      "meanLumaError": 1.3910000324249268,
+      "edgeLumaError": 4.302,
+      "key": "film-library",
+      "mode": "facade",
+      "feature": "远景图书馆的窗格与柱间隙",
+      "screenDPR": 2,
+      "referenceRatio": 3,
+      "image": "film-library.jpg"
+    }
+  ]
+}

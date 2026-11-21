@@ -1,0 +1,120 @@
+{
+  "name": "山东大学青岛校区东侧 · 青岛蓝谷人才公园鳌山湾岸段",
+  "references": [
+    {
+      "files": [
+        "实景参照/春日海岸/01_鳌山湾弧桥与沙泥滩.jpg"
+      ],
+      "source": "https://www.qingdaonews.com/app/content/2021-05/30/content_22735430.htm",
+      "image_source": "https://www.qingdaonews.com/app/pic/2021-05/30/512a3900-191e-4a8e-b0eb-5195e4314338.jpeg.2",
+      "desc": "青岛日报社·观海新闻 2021-05-30；北段弧桥内湾与外侧滩宽。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/02_浅水面和裸露滩地.jpg"
+      ],
+      "source": "https://www.qingdaonews.com/app/content/2021-05/30/content_22735430.htm",
+      "image_source": "https://www.qingdaonews.com/app/pic/2021-05/30/1c5692a9-3bcc-41ec-af02-12d60e181507.jpeg.2",
+      "desc": "青岛日报社·观海新闻；退潮后低反光、平缓滩面。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/03_四月临海绿道.jpg"
+      ],
+      "source": "https://qingdao.dzwww.com/qingdaonews/202304/t20230412_11684485.htm",
+      "image_source": "https://appimg.dzwww.com/share/2023/04/12/4033095-54f2b6e0_750.PNG",
+      "desc": "大众网 2023-04-12；草坪、曲线护岸和蜿蜒近岸带。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/04_临海公园航拍与暖色湿沙.jpg"
+      ],
+      "source": "https://qingdao.dzwww.com/qingdaonews/202304/t20230412_11684485.htm",
+      "image_source": "https://appimg.dzwww.com/share/2023/04/12/40330967ae7f9c0_750.PNG",
+      "desc": "大众网；春季园路、水陆方向及岸外沙色。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/05_五月潮痕与浅水池.jpg"
+      ],
+      "source": "https://m.dzplus.dzng.com/share/general/0/NEWS3350275KSZBMSXTKMGZL",
+      "image_source": "https://image.dzplus.dzng.com/2026/05/02/1777681999edd25u7u56jimage.png?imageView2/2/w/1080",
+      "desc": "大众新闻·半岛新闻 华敬方 2026-05-02；退潮留下的深浅湿斑、水膜与曲折排水纹。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/06_五月沙泥滩近景.jpg"
+      ],
+      "source": "https://m.dzplus.dzng.com/share/general/0/NEWS3350275KSZBMSXTKMGZL",
+      "image_source": "https://image.dzplus.dzng.com/2026/05/02/1777682001k32fncclm2nimage.png?imageView2/2/w/1080",
+      "desc": "大众新闻·半岛新闻；浅水透明度、泥沙色及细窄暗纹。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/07_观海构筑与整段退潮带.jpg"
+      ],
+      "source": "https://m.dzplus.dzng.com/share/general/0/NEWS3350275KSZBMSXTKMGZL",
+      "image_source": "https://image.dzplus.dzng.com/2026/05/02/17776820116x0prbntxdcimage.png?imageView2/2/w/1080",
+      "desc": "大众新闻·半岛新闻；鳌山湾临校侧岸段，低幅海况。"
+    },
+    {
+      "files": [
+        "实景参照/春日海岸/08_弧形岸线和分段亲水设施.jpg"
+      ],
+      "source": "https://m.dzplus.dzng.com/share/general/0/NEWS3350275KSZBMSXTKMGZL",
+      "image_source": "https://image.dzplus.dzng.com/2026/05/02/177768201119hcjg9oi7nimage.png?imageView2/2/w/1080",
+      "desc": "大众新闻·半岛新闻；岸阶、有限浅水及植被边缘。"
+    }
+  ],
+  "official_context": [
+    {
+      "title": "市园林和林业局正式公园名录",
+      "source": "https://www.qingdao.gov.cn/zwgk/xxgk/ylly/gkml/gwfg/202507/t20250718_9872267.shtml"
+    },
+    {
+      "title": "山大新闻网早期实地走访确认东侧鳌山湾与背山格局",
+      "source": "https://www.view.sdu.edu.cn/info/1003/2158.htm"
+    },
+    {
+      "title": "山大新闻网对临校沿海约1.5公里公园及海堤的实拍介绍",
+      "source": "https://www.view.sdu.edu.cn/info/1003/76465.htm"
+    },
+    {
+      "title": "记者现场采访转述管理部门说明为浅滩",
+      "source": "https://m.guanhai.com.cn/p/266006.html"
+    }
+  ],
+  "interpretation": "4月、5月同园实拍显示浅滩平缓、湿沙泥沙有深浅潮痕，临岸浅水带的反光断续，强涌浪/长串白浪未占主导。采用温和风况，近岸短浪平行弯曲岸线向岸推进，内部湾和直立护岸减弱。",
+  "parameters": {
+    "model_loop_s": 11.2,
+    "primary_period_s": 5.6,
+    "secondary_period_s": 3.7333333333,
+    "maximum_swash_excursion_m": 0.61,
+    "foam_active_width_m": 21.3,
+    "outer_colour_transition_m": 108,
+    "precision": "波高、二个周期、波距、白沫频度为可视化估值，未使用本站实测波浪时序，整段动画采用固定潮位背景。"
+  },
+  "rights": "照片保留摄影者与媒体权利，本地比对参照；没有作为建模纹理或打包进GLB。",
+  "viewpoint": {
+    "eye": [
+      477,
+      2.9,
+      -923
+    ],
+    "target": [
+      490,
+      -5.55,
+      -957
+    ],
+    "fov": 48,
+    "title": "鳌山湾浅浪近景",
+    "coordinate_system": "模型按米的绝对坐标，X东、Y高、Z南。"
+  },
+  "tidal_detail": {
+    "photographic_basis": "对照观海新闻当地浅水面，以及大众新闻·半岛新闻5月2日实拍的湿滩、小潮沟与水膜。潮线在开放沙段的瞬时位置和泡孔为示意，硬岸、原步道与内湾仍由地图约束。",
+    "shoreline": "开放沙段以约3.15米细分，微弯振幅由1.24、0.46、0.27米三个分量组成，沿测绘线法向移动；临步道9米内关闭，北侧硬护岸关闭。",
+    "foam": "11.2秒闭环，48帧向岸碎浪包络叠加可平铺细胞孔隙纹理，按米制采样、与浪同步漂动。",
+    "sand": "退水细沟、细砂颗粒和随离岸距离变化的沙色表现干湿过渡。潮间带和潮下沙底采用完全哑光的漫反射材质。",
+    "water": "岸外108米处与远海共用材质参数和配色端点，沿本段岸线连续过渡到蓝灰青色。"
+  }
+}

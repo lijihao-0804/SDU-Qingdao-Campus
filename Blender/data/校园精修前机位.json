@@ -1,0 +1,90 @@
+{
+  "viewerSHA256": "4c4e28351fa83df31f6ea2e9e5d58bc91ad22bc910e3233a4db56b668c8712c4",
+  "frames": [
+    {
+      "key": "contact-dining",
+      "title": "曦园 · 坡侧基脚",
+      "eye": [
+        450.5,
+        9.15,
+        645.5
+      ],
+      "target": [
+        464.0,
+        8.75,
+        657.0
+      ],
+      "fov": 52,
+      "image": "preview/校园精修/contact-dining-before.jpg",
+      "sha256": "752c5b3dca77a16abc63b81b39b6c02e6c256eeb349fe546f99bfe5a65baad00"
+    },
+    {
+      "key": "contact-phoenix",
+      "title": "凤凰居五号楼 · 转角基脚",
+      "eye": [
+        286.5,
+        13.35,
+        771.8
+      ],
+      "target": [
+        274.0,
+        12.58,
+        785.2
+      ],
+      "fov": 50,
+      "image": "preview/校园精修/contact-phoenix-before.jpg",
+      "sha256": "348060d5feb7658485d3d796d7b37a667af34ea9b47877f4efb4bbdb92cc3cf7"
+    },
+    {
+      "key": "botanic-cherry",
+      "title": "淦昌苑 · 枝头花序",
+      "eye": [
+        195.354,
+        0.774,
+        113.628
+      ],
+      "target": [
+        197.594,
+        1.314,
+        115.036
+      ],
+      "fov": 32,
+      "image": "preview/校园精修/botanic-cherry-before.jpg",
+      "sha256": "a81547a50f88934542de99c27d89cd2c40c763721fab7a95e71becfe4f1cb99b"
+    },
+    {
+      "key": "botanic-grass",
+      "title": "育贤广场 · 草丛叶鞘",
+      "eye": [
+        31.75,
+        -2.16,
+        -146.306
+      ],
+      "target": [
+        32.763,
+        -2.302,
+        -145.759
+      ],
+      "fov": 37,
+      "image": "preview/校园精修/botanic-grass-before.jpg",
+      "sha256": "06d1abb0d39ea059b7682435926c45bc6c4a4f0b1e18e42de47c012c69f7119a"
+    },
+    {
+      "key": "botanic-hedge",
+      "title": "图书馆花园 · 方篱嫩梢",
+      "eye": [
+        131.326,
+        -0.86,
+        29.133
+      ],
+      "target": [
+        130.659,
+        -1.206,
+        27.172
+      ],
+      "fov": 39,
+      "image": "preview/校园精修/botanic-hedge-before.jpg",
+      "sha256": "92d436c7921504c994f671053e5f4887b14066438845e5e5df409dd37ef13328"
+    }
+  ]
+}

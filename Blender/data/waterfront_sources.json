@@ -1,0 +1,206 @@
+{
+  "title": "青岛蓝谷人才公园（滨海公园）与鳌山湾岸线",
+  "geometry_coordinate_system": "WGS 84，原点经度120.68204、纬度36.36559。局部米制 X 东、Y 高、Z 南。",
+  "references": [
+    {
+      "key": "waterfront-entrance",
+      "files": [
+        "实景参照/滨海公园/06_青岛晚报_公园鸟瞰.jpg",
+        "实景参照/滨海公园/01_山大实拍_海岸坐阶与岸线灯.jpg"
+      ],
+      "source": "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm",
+      "desc": "校方确认东门紧邻滨海公园。照片展示公园整体与铺装语言；东门至听海路以 OSM 有向道路定位，听海路以东至南端步道间按 10 m 卫星影像拟合，未核实过街标线。"
+    },
+    {
+      "key": "waterfront-promenade",
+      "files": [
+        "实景参照/滨海公园/01_山大实拍_海岸坐阶与岸线灯.jpg",
+        "实景参照/滨海公园/03_山大实拍_岸线步道和观景塔.jpg",
+        "实景参照/滨海公园/07_青岛晚报_沿湾望向弯道与平台.jpg"
+      ],
+      "source": "https://www.view.sdu.edu.cn/info/1003/76465.htm",
+      "desc": "实景可见临海曲线铺装、白色球头灯、面海台阶及绿带。主步道 OSM 982447347 长 2019.68 m，学校相邻约 1.5 km，其余向北延伸；北支路 982447348 长139.68 m。"
+    },
+    {
+      "key": "waterfront-beach",
+      "files": [
+        "实景参照/滨海公园/05_青岛晚报_滨海护岸剖面.jpg",
+        "实景参照/滨海公园/01_山大实拍_海岸坐阶与岸线灯.jpg",
+        "实景参照/滨海公园/07_青岛晚报_沿湾望向弯道与平台.jpg"
+      ],
+      "source": "https://ggzy.qingdao.gov.cn/PortalQDManage/ShareResources/CorpAchievementInfo?keyValue=a36eb7ca-4cfe-4f5d-b67c-263317dc8789",
+      "desc": "二期二标竣工记录有直立护岸（含斜坡道）985.03 m、台阶式护岸583.69 m、雨水花园护岸104 m及人行桥一座；仅用于护岸种类判读。沙滩表现单一示意潮位，台阶、座椅与坡道的位置、高程、间距为近似值。"
+    },
+    {
+      "key": "waterfront-overlook",
+      "files": [
+        "实景参照/滨海公园/04_青岛晚报_观海弧桥航拍.jpg",
+        "实景参照/滨海公园/06_青岛晚报_公园鸟瞰.jpg",
+        "实景参照/滨海公园/02_山大实拍_球壳建筑与阶梯广场.jpg",
+        "实景参照/滨海公园/07_青岛晚报_沿湾望向弯道与平台.jpg"
+      ],
+      "source": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "desc": "当地记者航拍有清晰白色曲线桥和内侧潮汐湾，和 OSM 1022936686/1022936687、10 m 海陆掩膜交叉定位。桥宽、桥高、分色、墩距与栏杆构造作概化。v4 以照片和正射交叉定位白色球壳建筑和红顶塔，坐标和估算范围见 data/v4_public_roofs.json。"
+    }
+  ],
+  "photo_index": [
+    {
+      "file": "实景参照/滨海公园/01_山大实拍_海岸坐阶与岸线灯.jpg",
+      "source": "https://www.view.sdu.edu.cn/info/1003/76465.htm",
+      "image": "https://www.view.sdu.edu.cn/__local/8/6D/E5/25ED26626F857C4BD03799D0F9E_4000A474_A21F.jpg",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/02_山大实拍_球壳建筑与阶梯广场.jpg",
+      "source": "https://www.view.sdu.edu.cn/info/1003/76465.htm",
+      "image": "https://www.view.sdu.edu.cn/__local/0/14/FD/01A049B631490D622524B074D38_8D84A6F7_8BEE.jpg",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/03_山大实拍_岸线步道和观景塔.jpg",
+      "source": "https://www.view.sdu.edu.cn/info/1003/76465.htm",
+      "image": "https://www.view.sdu.edu.cn/__local/8/08/F2/8C32A4AAEBCC0A9D3225C947273_B6A54D92_87B5.jpg",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/04_青岛晚报_观海弧桥航拍.jpg",
+      "source": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "image": "http://news.qingdaonews.com/images/2019-11/14/27417714-afc6-4104-a32d-5618adf252f2.jpg.2",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/05_青岛晚报_滨海护岸剖面.jpg",
+      "source": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "image": "http://news.qingdaonews.com/images/2019-11/14/32f16465-b877-4ed2-ab4b-57b8dcb849ff.jpg.2",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/06_青岛晚报_公园鸟瞰.jpg",
+      "source": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "image": "http://news.qingdaonews.com/images/2019-11/14/7aa1e0a0-5abf-4674-bc1d-87f0b6246cd5.jpg.2",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    },
+    {
+      "file": "实景参照/滨海公园/07_青岛晚报_沿湾望向弯道与平台.jpg",
+      "source": "https://news.qingdaonews.com/wap/2019-11/14/content_20888356.htm",
+      "image": "http://news.qingdaonews.com/images/2019-11/14/3ee9df34-bd1e-41dd-8e18-3053785faea8.jpg.2",
+      "rights": "山东大学新闻网 / 青岛晚报原摄影；本地实景参照，未嵌入模型。"
+    }
+  ],
+  "viewpoints": [
+    {
+      "key": "waterfront-entrance",
+      "name": "东门望向鳌山湾",
+      "eye": [
+        -133,
+        16,
+        7
+      ],
+      "target": [
+        70,
+        1,
+        -17
+      ],
+      "fov": 49
+    },
+    {
+      "key": "waterfront-promenade",
+      "name": "临校带与连续海滨步道",
+      "eye": [
+        129,
+        79,
+        160
+      ],
+      "target": [
+        -12,
+        0,
+        -72
+      ],
+      "fov": 49
+    },
+    {
+      "key": "waterfront-beach",
+      "name": "潮间带与坐阶",
+      "eye": [
+        41,
+        9,
+        46
+      ],
+      "target": [
+        -6,
+        1,
+        -17
+      ],
+      "fov": 53
+    },
+    {
+      "key": "waterfront-overlook",
+      "name": "北段弧桥与潮汐湾",
+      "eye": [
+        89,
+        46,
+        84
+      ],
+      "target": [
+        -14,
+        -1,
+        -14
+      ],
+      "fov": 51
+    }
+  ],
+  "viewpoint_units": "eye/target 为相对地点中心 [东,高,南] 米，fov 为垂直角度。",
+  "map_sources": [
+    {
+      "title": "法定园名，市园林和林业局青林字〔2025〕36号",
+      "source": "https://www.qingdao.gov.cn/zwgk/xxgk/ylly/gkml/gwfg/202507/t20250718_9872267.shtml"
+    },
+    {
+      "title": "原始开放街图，园界、海岸线、天然海滩、主径及支路",
+      "files": [
+        "data/map/osm-source.json",
+        "data/map/waterfront-osm.json"
+      ],
+      "sources": [
+        "https://www.openstreetmap.org/way/548365000",
+        "https://www.openstreetmap.org/way/258503874",
+        "https://www.openstreetmap.org/way/739121633",
+        "https://www.openstreetmap.org/way/982447347",
+        "https://www.openstreetmap.org/way/982447348",
+        "https://www.openstreetmap.org/way/1022936686",
+        "https://www.openstreetmap.org/way/1022936687",
+        "https://www.openstreetmap.org/way/659714388",
+        "https://www.openstreetmap.org/way/659714390"
+      ],
+      "attribution": "© OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright"
+    },
+    {
+      "title": "实景航拍核对临校段及全园空间关系",
+      "source": "https://qingdao.dzwww.com/qingdaonews/202304/t20230412_11684485.htm"
+    },
+    {
+      "title": "青岛蓝谷管理局二期二标竣工资料",
+      "source": "https://ggzy.qingdao.gov.cn/PortalQDManage/ShareResources/CorpAchievementInfo?keyValue=a36eb7ca-4cfe-4f5d-b67c-263317dc8789"
+    },
+    {
+      "title": "2026-10-07 Copernicus Sentinel-2 B，10 m，检测北段弧桥内潮汐湾及园地范围",
+      "files": [
+        "data/coastal-context.json",
+        "assets/海岸环境.jpg",
+        "assets/海陆掩膜.png"
+      ],
+      "source": "https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2"
+    },
+    {
+      "title": "设计方一期实景图和总平面说明（转载）",
+      "source": "https://www.sohu.com/a/299268835_120050988"
+    }
+  ],
+  "scope": "东门至北段观海廊桥一带，覆盖约2.02 km沿园主道，48 m量级远海轮廓与20 km摄影背景延续。面向全园的报道为约5 km、49.5 ha，OSM单一园界28.54 ha，二者空间口径不同。",
+  "accuracy": {
+    "ground_truth": "没有现场地面测量点或建设竣工坐标。道路使用 OSM WGS 84 坐标；北段潮汐湾内缘按已有10 m开放影像估读，位置约1–2像元，其他岸线为原OSM常态概化线。",
+    "engineering": "岸阶、坡道、景观灯、坐凳、林带和入口联系段按实景构成表达。其精确位置及标高未实测，桥型据实，构造为估算。为了和校园 DEM 共用高度基准，海面取绝对参考高程 -0.02 m，非潮位站实测。",
+    "limitations": "不推断东门斑马线、灯控或地下通道；北段球壳和红顶塔按正射与照片估位，海洋雕塑的精确落位待核。照片按原摄影著作权标注，作为本地资料，不混入模型纹理。",
+    "sand_material": "干湿过渡用连续距离场控制顶点色和程序生成细砂纹理。所有相邻网格共用同一色值与过渡参数；水线位置仍由来源岸线控制。沙色为实景观感调色，未做现场光谱测量。"
+  }
+}

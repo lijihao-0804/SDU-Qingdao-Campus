@@ -1,0 +1,103 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "view": "phoenix-connected-arcades",
+  "baselineGLBSHA256": null,
+  "clearHeightTestedM": [
+    0.08,
+    0.35,
+    1.2,
+    1.75,
+    2.1
+  ],
+  "galleries": [
+    {
+      "key": "way-970257682",
+      "ends": [
+        {
+          "host": "凤凰居1号楼",
+          "originalWallGapM": 9.446,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 3.138,
+          "newProjectedGapM": 0.0
+        },
+        {
+          "host": "凤凰居5号楼",
+          "originalWallGapM": 4.409,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 3.725,
+          "newProjectedGapM": 0.0
+        }
+      ],
+      "clearWalkingRays": 120,
+      "pavingToGardenBedsM": 16.06,
+      "pavingToMappedPathsM": 12.63
+    },
+    {
+      "key": "way-970257683",
+      "ends": [
+        {
+          "host": "凤凰居2号楼",
+          "originalWallGapM": 11.425,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 3.15,
+          "newProjectedGapM": 0.0
+        },
+        {
+          "host": "凤凰居6号楼",
+          "originalWallGapM": 3.566,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 5.86,
+          "newProjectedGapM": 0.0
+        }
+      ],
+      "clearWalkingRays": 120,
+      "pavingToGardenBedsM": 14.59,
+      "pavingToMappedPathsM": 11.21
+    },
+    {
+      "key": "way-970257684",
+      "ends": [
+        {
+          "host": "凤凰居5号楼",
+          "originalWallGapM": 5.861,
+          "coveredReturnInsideWingM2": 6.289,
+          "actualMasonryAtSoffitContactM": 3.406,
+          "newProjectedGapM": 0.0
+        },
+        {
+          "host": "凤凰居9号楼",
+          "originalWallGapM": 4.474,
+          "coveredReturnInsideWingM2": 6.297,
+          "actualMasonryAtSoffitContactM": 4.337,
+          "newProjectedGapM": 0.0
+        }
+      ],
+      "clearWalkingRays": 120,
+      "pavingToGardenBedsM": 13.94,
+      "pavingToMappedPathsM": 10.54
+    },
+    {
+      "key": "way-970257685",
+      "ends": [
+        {
+          "host": "凤凰居6号楼",
+          "originalWallGapM": 5.07,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 2.964,
+          "newProjectedGapM": 0.0
+        },
+        {
+          "host": "凤凰居10号楼",
+          "originalWallGapM": 5.148,
+          "coveredReturnInsideWingM2": 6.29,
+          "actualMasonryAtSoffitContactM": 2.801,
+          "newProjectedGapM": 0.0
+        }
+      ],
+      "clearWalkingRays": 105,
+      "pavingToGardenBedsM": 13.59,
+      "pavingToMappedPathsM": 10.21
+    }
+  ],
+  "clearWalkingRays": 465
+}

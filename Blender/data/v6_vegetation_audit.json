@@ -1,0 +1,79 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "ground": {
+    "vertices": 86097,
+    "triangles": 164135,
+    "p05ToP95LinearColorSpan": {
+      "北区": [
+        0.4198,
+        0.2206,
+        0.2567
+      ],
+      "科研及生态区": [
+        0.3687,
+        0.2333,
+        0.2634
+      ],
+      "图书馆与学院区": [
+        0.3063,
+        0.2047,
+        0.2092
+      ],
+      "运动与生活区": [
+        0.3259,
+        0.1756,
+        0.2391
+      ]
+    },
+    "maxMetricUVError": 0.0,
+    "embeddedTextureBytes": 89962
+  },
+  "planting": {
+    "treeZoneCounts": {
+      "学生会堂环庭": 23,
+      "学院轴线疏列": 4,
+      "北区林缘": 97,
+      "体育场西侧幼林": 120,
+      "校园疏林草地": 7,
+      "樱海湖岸林": 9
+    },
+    "nurseryShrubs": 559,
+    "minimumNewTreeSpacingM": 8.74,
+    "minimumNewTreeToExistingFloraM": 7.241,
+    "minimumCrownToHardSurfaceM": 0.832,
+    "minimumCrownToCampusPerimeterM": 3.685,
+    "maximumNurseryRowOffsetM": 0.254,
+    "hardSurfaceConflicts": [],
+    "exportedHardParcelMeshes": 14,
+    "catalogViews": {
+      "raysTested": 198,
+      "hits": []
+    }
+  },
+  "checks": {
+    "v6Source": true,
+    "embeddedRepeatingTurf": true,
+    "groundMeshCounts": true,
+    "metricUV": true,
+    "normalAndColorRanges": true,
+    "variedTurf/北区": true,
+    "variedTurf/科研及生态区": true,
+    "variedTurf/图书馆与学院区": true,
+    "variedTurf/运动与生活区": true,
+    "v6FloraInstances": true,
+    "treeZoneCounts": true,
+    "hallAndShoreTrees": true,
+    "nurseryCount": true,
+    "treeSpacing": true,
+    "allRootsInCampus": true,
+    "exportedHardParcelsIncluded": true,
+    "newCrownsClearHardSurfaces": true,
+    "newCrownsInsideCampus": true,
+    "hallCanopiesInsideBuildingOpening": true,
+    "nurseryInMappedPlot": true,
+    "nurseryRows": true,
+    "catalogViewRaysClear": true,
+    "placementReport": true
+  },
+  "passed": true
+}

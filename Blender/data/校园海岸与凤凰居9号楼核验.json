@@ -1,0 +1,391 @@
+{
+  "sha256": {
+    "山东大学青岛校区.glb": "3087832aeb14e411409a6185d3d8c6a3d24600efea600d05435edf88eb7153da",
+    "山东大学青岛校区.blend": "e3524859f7416d91bc41d0c71c6536bf40b32c6f8b8cceb5dde6e2dd425adc6d",
+    "打开青岛校区.html": "0a9d3ff43a4ec437794565440fe5f1ac4d709de76e60a2a216e70e0802a7042f",
+    "tools/flight_route.py": "6d5df41a74299e8304a9eb05c650914fedd4aba0068ba45d1219e50774394faf",
+    "data/海岸航线.json": "a5056683fd3674c1bb8c180de39655255706e735486aeadb80127a41d4874fd7",
+    "data/海岸航线解说.json": "b580cb285d389f0489477066800084d87373dd8c07bbf1d188080c7dbf93d30a"
+  },
+  "baselineViewerSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "before": {
+    "campus_to_park": {
+      "drySamples": 11369,
+      "missingCore": 8016,
+      "sectionsWithCuts": 246
+    },
+    "north_park_road": {
+      "drySamples": 1946,
+      "missingCore": 1024,
+      "sectionsWithCuts": 139
+    }
+  },
+  "after": {
+    "campus_to_park": {
+      "rows": 251,
+      "drySamples": 11369,
+      "waterSamplesExcluded": 0,
+      "missingCore": 0,
+      "missingFull": 0,
+      "coreRoadSamples": 4580,
+      "fullRoadSamples": 4580,
+      "landOverSourceWater": 0,
+      "sectionsWithCuts": 0,
+      "maxCoreFullSurfaceDifferenceM": 0.0,
+      "largestOneMetreCoreHeightChange": [
+        0.2207,
+        [
+          636.96,
+          -140.0
+        ]
+      ],
+      "missingExamples": [],
+      "cutExamples": [],
+      "witnesses": [
+        {
+          "z": -1260.0,
+          "x": [
+            301.79,
+            349.32
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -1200.0,
+          "x": [
+            300.13,
+            346.61
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -1100.0,
+          "x": [
+            304.18,
+            346.59
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -700.0,
+          "x": [
+            392.3,
+            430.7
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -410.0,
+          "x": [
+            487.97,
+            537.98
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -310.0,
+          "x": [
+            530.02,
+            581.8
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -100.0,
+          "x": [
+            639.69,
+            673.82
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -65.0,
+          "x": [
+            654.83,
+            689.15
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -45.0,
+          "x": [
+            663.49,
+            697.92
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -30.0,
+          "x": [
+            669.32,
+            720.43
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -26.0,
+          "x": [
+            670.25,
+            818.81
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        }
+      ]
+    },
+    "north_park_road": {
+      "rows": 139,
+      "drySamples": 1946,
+      "waterSamplesExcluded": 0,
+      "missingCore": 0,
+      "missingFull": 0,
+      "coreRoadSamples": 535,
+      "fullRoadSamples": 535,
+      "landOverSourceWater": 0,
+      "sectionsWithCuts": 0,
+      "maxCoreFullSurfaceDifferenceM": 0.0,
+      "largestOneMetreCoreHeightChange": [
+        0.21,
+        [
+          355.55,
+          -1370.0
+        ]
+      ],
+      "missingExamples": [],
+      "cutExamples": [],
+      "witnesses": [
+        {
+          "z": -1960.0,
+          "x": [
+            478.12,
+            490.12
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -1800.0,
+          "x": [
+            443.48,
+            455.48
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        },
+        {
+          "z": -1500.0,
+          "x": [
+            378.53,
+            390.53
+          ],
+          "missingCoreX": [],
+          "missingFullX": [],
+          "cutWallX": []
+        }
+      ]
+    },
+    "shoreWitnesses": [
+      {
+        "x": 765.0,
+        "z": -310.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      },
+      {
+        "x": 708.0,
+        "z": -410.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      },
+      {
+        "x": 552.0,
+        "z": -800.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      },
+      {
+        "x": 501.0,
+        "z": -1100.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      },
+      {
+        "x": 498.0,
+        "z": -1200.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      },
+      {
+        "x": 630.0,
+        "z": -1500.0,
+        "referenceWater": true,
+        "water": true,
+        "coreLand": false,
+        "fullLand": false
+      }
+    ],
+    "shoreWaterBand": {
+      "originalWetSamples": 16315,
+      "missingWater": 0,
+      "newCoreLandAboveWater": 0,
+      "newFullLandAboveWater": 0,
+      "examples": [],
+      "pitchXZ": [
+        2,
+        5
+      ]
+    }
+  },
+  "flight": {
+    "frames30": 3555,
+    "frames60": 7110,
+    "holdStart": 114.0,
+    "duration": 118.5,
+    "allCommonSamplesIdentical": true,
+    "allOtherLabelsChaptersCuesIdentical": true,
+    "firstAndLastChanged30": [
+      1472,
+      1752
+    ],
+    "boundsSeconds": [
+      49.05348837209302,
+      58.42325581395349
+    ],
+    "boundary": [
+      {
+        "time": 49.05348837209302,
+        "speedMps": 38.736370643446485,
+        "derivativeDiff": 0.000644302531327412
+      },
+      {
+        "time": 58.42325581395349,
+        "speedMps": 40.02602927293822,
+        "derivativeDiff": 0.003245571633669897
+      }
+    ],
+    "peakLocalSpeedMps": 163.14400196957087,
+    "peakLocalAngularDegS": 25.426518530401452,
+    "peakDormAngularDegS": 25.426518530401452,
+    "anchorPixels1080p": [
+      [
+        528.2965157535627,
+        410.9907424156234
+      ],
+      [
+        1531.0736934185315,
+        832.9388400825335
+      ]
+    ],
+    "anchorDepthM": [
+      50.124260343490796,
+      144.30097775178615
+    ],
+    "labelFrames30": [
+      1596,
+      1695
+    ],
+    "labelFrames60": [
+      3192,
+      3390
+    ],
+    "sourceHashes": {
+      "tools\\flight_route.py": "6d5df41a74299e8304a9eb05c650914fedd4aba0068ba45d1219e50774394faf",
+      "data\\海岸航线解说.json": "b580cb285d389f0489477066800084d87373dd8c07bbf1d188080c7dbf93d30a",
+      "data\\海岸航线.json": "a5056683fd3674c1bb8c180de39655255706e735486aeadb80127a41d4874fd7"
+    }
+  },
+  "visibility": {
+    "buildingKey": "way-970257678",
+    "cameraFrames60": [
+      3192,
+      3390
+    ],
+    "anchorFirstHitCounts": {
+      "凤凰居9号楼": 198
+    },
+    "centerEverySixthFrame": {
+      "凤凰居9号楼": 33
+    },
+    "centerSamples": {
+      "3192": "凤凰居9号楼",
+      "3198": "凤凰居9号楼",
+      "3204": "凤凰居9号楼",
+      "3210": "凤凰居9号楼",
+      "3216": "凤凰居9号楼",
+      "3222": "凤凰居9号楼",
+      "3228": "凤凰居9号楼",
+      "3234": "凤凰居9号楼",
+      "3240": "凤凰居9号楼",
+      "3246": "凤凰居9号楼",
+      "3252": "凤凰居9号楼",
+      "3258": "凤凰居9号楼",
+      "3264": "凤凰居9号楼",
+      "3270": "凤凰居9号楼",
+      "3276": "凤凰居9号楼",
+      "3282": "凤凰居9号楼",
+      "3288": "凤凰居9号楼",
+      "3294": "凤凰居9号楼",
+      "3300": "凤凰居9号楼",
+      "3306": "凤凰居9号楼",
+      "3312": "凤凰居9号楼",
+      "3318": "凤凰居9号楼",
+      "3324": "凤凰居9号楼",
+      "3330": "凤凰居9号楼",
+      "3336": "凤凰居9号楼",
+      "3342": "凤凰居9号楼",
+      "3348": "凤凰居9号楼",
+      "3354": "凤凰居9号楼",
+      "3360": "凤凰居9号楼",
+      "3366": "凤凰居9号楼",
+      "3372": "凤凰居9号楼",
+      "3378": "凤凰居9号楼",
+      "3384": "凤凰居9号楼"
+    }
+  },
+  "unchangedGeometry": {
+    "counts": {
+      "sea": 1,
+      "water": 2,
+      "landmark": 14,
+      "building": 52,
+      "signage": 47,
+      "surfWater": 1
+    },
+    "changed": []
+  },
+  "preview": "preview/校园海岸与凤凰居9号楼.jpg",
+  "videoRendered": false
+}

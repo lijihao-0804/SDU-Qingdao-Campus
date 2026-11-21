@@ -1,0 +1,1067 @@
+{
+  "method": "实际 GLB 世界坐标三角面与铅垂射线求交。单位米。结构沿外沿分段，测两端与中点，检查实导出侧墙的顶边相接与底边埋入；植株逐实例以最低根部的中心近点与 X/Z 两轴极值顶点测离地，五点均高于容差才校正。",
+  "tolerancesM": {
+    "building": 0.055,
+    "coastalBuilding": 0.055,
+    "serviceBuilding": 0.055,
+    "settlement": 0.075,
+    "retainingWall": 0.055,
+    "arcadePier": 0.055,
+    "sportsBase": 0.06,
+    "bridgePier": 0.05,
+    "bridgeAbutment": 0.05,
+    "stairs": 0.055,
+    "paving": 0.06,
+    "regionalRoad": 0.075,
+    "furniture": 0.05,
+    "tree": 0.045,
+    "shrub": 0.055,
+    "groundcover": 0.065,
+    "coastalGrass": 0.055,
+    "roadsideTrunk": 0.065,
+    "parkingWheels": 0.055
+  },
+  "edgeSamplingM": {
+    "default": 1.5,
+    "paving": 3.0,
+    "regionalRoad": 5.0,
+    "settlement": 3.0
+  },
+  "horizontalTileToleranceM": 0.001,
+  "tidalApronReachM": 1.25,
+  "before": {
+    "triangles": 499583,
+    "candidateNodes": {
+      "paving": 54,
+      "building": 60,
+      "sportsBase": 2,
+      "arcadePier": 4,
+      "tree": 4603,
+      "parkingWheels": 178,
+      "shrub": 3031,
+      "groundcover": 9461,
+      "stairs": 1,
+      "bridgePier": 1,
+      "coastalGrass": 437,
+      "furniture": 85,
+      "coastalBuilding": 6,
+      "regionalRoad": 1,
+      "roadsideTrunk": 1,
+      "settlement": 52,
+      "serviceBuilding": 9,
+      "retainingWall": 1
+    },
+    "categories": {
+      "building": {
+        "nodes": 60,
+        "stations": 14200,
+        "uncovered": 0,
+        "overLimit": 1361,
+        "worstGapM": 1.1462,
+        "examples": [
+          {
+            "node": 52,
+            "name": "曦园餐厅",
+            "gapM": 1.1462,
+            "xyzM": [
+              463.769,
+              8.961,
+              652.394
+            ]
+          },
+          {
+            "node": 108,
+            "name": "凤凰居5号楼",
+            "gapM": 0.9505,
+            "xyzM": [
+              278.098,
+              12.788,
+              785.037
+            ]
+          },
+          {
+            "node": 54,
+            "name": "创新创业中心",
+            "gapM": 0.788,
+            "xyzM": [
+              407.18,
+              15.037,
+              1015.755
+            ]
+          },
+          {
+            "node": 109,
+            "name": "凤凰居9号楼",
+            "gapM": 0.7237,
+            "xyzM": [
+              273.627,
+              15.263,
+              910.316
+            ]
+          },
+          {
+            "node": 146,
+            "name": "学生会堂 C1",
+            "gapM": 0.7205,
+            "xyzM": [
+              76.13,
+              -5.581,
+              -731.017
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "coastalBuilding": {
+        "nodes": 6,
+        "stations": 168,
+        "uncovered": 0,
+        "overLimit": 60,
+        "worstGapM": 0.3485,
+        "examples": [
+          {
+            "node": 8673,
+            "name": "滨海公园 · 球壳观景建筑 1",
+            "gapM": 0.3485,
+            "xyzM": [
+              531.562,
+              -4.925,
+              -1444.807
+            ]
+          },
+          {
+            "node": 8674,
+            "name": "滨海公园 · 球壳观景建筑 2",
+            "gapM": 0.2961,
+            "xyzM": [
+              528.167,
+              -5.429,
+              -1430.425
+            ]
+          },
+          {
+            "node": 8678,
+            "name": "滨海公园 · 红顶观景塔与曲廊",
+            "gapM": 0.2005,
+            "xyzM": [
+              519.945,
+              -4.999,
+              -1490.37
+            ]
+          },
+          {
+            "node": 8675,
+            "name": "滨海公园 · 球壳观景建筑 3",
+            "gapM": 0.2,
+            "xyzM": [
+              530.594,
+              -5.58,
+              -1415.356
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "serviceBuilding": {
+        "nodes": 9,
+        "stations": 462,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "settlement": {
+        "nodes": 52,
+        "stations": 181067,
+        "uncovered": 0,
+        "overLimit": 2150,
+        "worstGapM": 2.2153,
+        "examples": [
+          {
+            "node": 8684,
+            "name": "鳌山卫校外围街区 · -4,-2",
+            "gapM": 2.2153,
+            "xyzM": [
+              -5698.475,
+              27.921,
+              -1983.013
+            ]
+          },
+          {
+            "node": 8712,
+            "name": "鳌山卫校外围街区 · -1,1",
+            "gapM": 1.1691,
+            "xyzM": [
+              -879.275,
+              -0.453,
+              1633.282
+            ]
+          },
+          {
+            "node": 8682,
+            "name": "鳌山卫校外围街区 · -5,-1",
+            "gapM": 1.1479,
+            "xyzM": [
+              -6342.833,
+              40.998,
+              -538.158
+            ]
+          },
+          {
+            "node": 8685,
+            "name": "鳌山卫校外围街区 · -4,-1",
+            "gapM": 1.0179,
+            "xyzM": [
+              -5120.286,
+              21.099,
+              -1040.232
+            ]
+          },
+          {
+            "node": 8721,
+            "name": "鳌山卫校外围街区 · 0,2",
+            "gapM": 0.9956,
+            "xyzM": [
+              519.413,
+              22.883,
+              3135.719
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "retainingWall": {
+        "nodes": 1,
+        "stations": 170,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0247,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "arcadePier": {
+        "nodes": 4,
+        "stations": 186,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "sportsBase": {
+        "nodes": 2,
+        "stations": 660,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.01,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "bridgePier": {
+        "nodes": 1,
+        "stations": 168,
+        "uncovered": 120,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 120,
+        "waterOnlySubmergenceM": [
+          0.327,
+          0.349
+        ]
+      },
+      "bridgeAbutment": {
+        "nodes": 1,
+        "stations": 8,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "stairs": {
+        "nodes": 1,
+        "stations": 342,
+        "uncovered": 0,
+        "overLimit": 212,
+        "worstGapM": 0.2876,
+        "examples": [
+          {
+            "node": 7514,
+            "name": "亲水设施 · 台阶坐凳、下滩坡道",
+            "gapM": 0.2876,
+            "xyzM": [
+              570.47,
+              -5.297,
+              -1440.65
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0,
+        "tidalApronStations": 7
+      },
+      "paving": {
+        "nodes": 54,
+        "stations": 128949,
+        "uncovered": 0,
+        "overLimit": 81822,
+        "worstGapM": 3.9976,
+        "examples": [
+          {
+            "node": 11,
+            "name": "车道路缘",
+            "gapM": 3.9976,
+            "xyzM": [
+              -152.182,
+              11.847,
+              994.814
+            ]
+          },
+          {
+            "node": 14,
+            "name": "振声苑·西侧入院道路",
+            "gapM": 0.685,
+            "xyzM": [
+              -90.072,
+              0.939,
+              318.154
+            ]
+          },
+          {
+            "node": 15,
+            "name": "振声苑·南侧入院道路",
+            "gapM": 0.685,
+            "xyzM": [
+              -32.967,
+              0.939,
+              389.616
+            ]
+          },
+          {
+            "node": 16,
+            "name": "振声苑·北侧入院道路",
+            "gapM": 0.685,
+            "xyzM": [
+              -35.824,
+              0.938,
+              245.922
+            ]
+          },
+          {
+            "node": 18,
+            "name": "振声苑·东北端楼方门侧入院道路",
+            "gapM": 0.685,
+            "xyzM": [
+              35.929,
+              0.939,
+              264.133
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "regionalRoad": {
+        "nodes": 1,
+        "stations": 26924,
+        "uncovered": 0,
+        "overLimit": 26420,
+        "worstGapM": 0.145,
+        "examples": [
+          {
+            "node": 8679,
+            "name": "滨海公路与外围道路 · 地形贴合路面",
+            "gapM": 0.145,
+            "xyzM": [
+              2440.981,
+              42.346,
+              2495.478
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "furniture": {
+        "nodes": 85,
+        "stations": 1332,
+        "uncovered": 0,
+        "overLimit": 414,
+        "worstGapM": 0.2619,
+        "examples": [
+          {
+            "node": 7985,
+            "name": "向海坐凳 11",
+            "gapM": 0.2619,
+            "xyzM": [
+              469.355,
+              -4.963,
+              -776.011
+            ]
+          },
+          {
+            "node": 7980,
+            "name": "滨海球头灯 18",
+            "gapM": 0.2196,
+            "xyzM": [
+              514.298,
+              -4.952,
+              -661.891
+            ]
+          },
+          {
+            "node": 7994,
+            "name": "向海坐凳 14",
+            "gapM": 0.205,
+            "xyzM": [
+              425.437,
+              -4.948,
+              -998.535
+            ]
+          },
+          {
+            "node": 7974,
+            "name": "滨海球头灯 14",
+            "gapM": 0.1724,
+            "xyzM": [
+              580.99,
+              -4.882,
+              -526.229
+            ]
+          },
+          {
+            "node": 8030,
+            "name": "向海坐凳 26",
+            "gapM": 0.1673,
+            "xyzM": [
+              566.071,
+              -4.837,
+              -1873.979
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "tree": {
+        "nodes": 4603,
+        "stations": 4603,
+        "uncovered": 0,
+        "overLimit": 56,
+        "worstGapM": 0.1654,
+        "examples": [
+          {
+            "node": 8531,
+            "name": "滨海绿带 500",
+            "gapM": 0.1654,
+            "xyzM": [
+              563.647,
+              -5.003,
+              -556.971
+            ]
+          },
+          {
+            "node": 8640,
+            "name": "滨海绿带 609",
+            "gapM": 0.1653,
+            "xyzM": [
+              711.667,
+              -2.329,
+              -168.738
+            ]
+          },
+          {
+            "node": 1481,
+            "name": "育贤广场行道树15",
+            "gapM": 0.1604,
+            "xyzM": [
+              5.303,
+              -1.719,
+              -94.034
+            ]
+          },
+          {
+            "node": 1488,
+            "name": "育贤广场行道树22",
+            "gapM": 0.1604,
+            "xyzM": [
+              90.121,
+              -1.719,
+              -98.569
+            ]
+          },
+          {
+            "node": 1492,
+            "name": "育贤广场行道树26",
+            "gapM": 0.1604,
+            "xyzM": [
+              -121.509,
+              -1.719,
+              -31.186
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "shrub": {
+        "nodes": 3031,
+        "stations": 3031,
+        "uncovered": 0,
+        "overLimit": 2,
+        "worstGapM": 0.1092,
+        "examples": [
+          {
+            "node": 8312,
+            "name": "滨海灌丛 281",
+            "gapM": 0.1092,
+            "xyzM": [
+              517.429,
+              -4.996,
+              -1532.902
+            ]
+          },
+          {
+            "node": 8316,
+            "name": "滨海灌丛 285",
+            "gapM": 0.1029,
+            "xyzM": [
+              510.974,
+              -5.102,
+              -1565.266
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "groundcover": {
+        "nodes": 9461,
+        "stations": 9461,
+        "uncovered": 0,
+        "overLimit": 92,
+        "worstGapM": 0.2636,
+        "examples": [
+          {
+            "node": 6149,
+            "name": "草叶地被 78",
+            "gapM": 0.2636,
+            "xyzM": [
+              -47.026,
+              -1.696,
+              -57.622
+            ]
+          },
+          {
+            "node": 6079,
+            "name": "草叶地被 8",
+            "gapM": 0.2634,
+            "xyzM": [
+              -57.703,
+              -1.696,
+              -77.741
+            ]
+          },
+          {
+            "node": 6129,
+            "name": "草叶地被 58",
+            "gapM": 0.2631,
+            "xyzM": [
+              -3.918,
+              -1.697,
+              -61.543
+            ]
+          },
+          {
+            "node": 6158,
+            "name": "草叶地被 87",
+            "gapM": 0.2631,
+            "xyzM": [
+              -66.792,
+              -1.697,
+              -71.358
+            ]
+          },
+          {
+            "node": 6100,
+            "name": "草叶地被 29",
+            "gapM": 0.263,
+            "xyzM": [
+              -31.159,
+              -1.697,
+              -57.579
+            ]
+          }
+        ],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "coastalGrass": {
+        "nodes": 437,
+        "stations": 437,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0356,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "roadsideTrunk": {
+        "nodes": 1,
+        "stations": 8175,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0339,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "parkingWheels": {
+        "nodes": 178,
+        "stations": 178,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0429,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      }
+    },
+    "glbSha256": "ca77508ad5e46d6de967aa2abd08e23a6094ac1cc259867a0efba546a4134b20"
+  },
+  "after": {
+    "triangles": 510696,
+    "candidateNodes": {
+      "paving": 56,
+      "building": 60,
+      "sportsBase": 2,
+      "arcadePier": 4,
+      "tree": 4603,
+      "parkingWheels": 178,
+      "shrub": 3031,
+      "groundcover": 9461,
+      "stairs": 1,
+      "bridgePier": 1,
+      "coastalGrass": 437,
+      "furniture": 85,
+      "coastalBuilding": 6,
+      "regionalRoad": 1,
+      "roadsideTrunk": 1,
+      "settlement": 52,
+      "serviceBuilding": 9,
+      "retainingWall": 1
+    },
+    "categories": {
+      "building": {
+        "nodes": 60,
+        "stations": 14200,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0546,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "coastalBuilding": {
+        "nodes": 6,
+        "stations": 168,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0544,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "serviceBuilding": {
+        "nodes": 9,
+        "stations": 462,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "settlement": {
+        "nodes": 52,
+        "stations": 179882,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0748,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "retainingWall": {
+        "nodes": 1,
+        "stations": 170,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0247,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "arcadePier": {
+        "nodes": 4,
+        "stations": 186,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "sportsBase": {
+        "nodes": 2,
+        "stations": 660,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.01,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "bridgePier": {
+        "nodes": 1,
+        "stations": 168,
+        "uncovered": 120,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 120,
+        "waterOnlySubmergenceM": [
+          0.327,
+          0.349
+        ]
+      },
+      "bridgeAbutment": {
+        "nodes": 1,
+        "stations": 8,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "stairs": {
+        "nodes": 1,
+        "stations": 342,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0531,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0,
+        "tidalApronStations": 7
+      },
+      "paving": {
+        "nodes": 56,
+        "stations": 132832,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.06,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "regionalRoad": {
+        "nodes": 1,
+        "stations": 26924,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0679,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "furniture": {
+        "nodes": 85,
+        "stations": 1332,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0499,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "tree": {
+        "nodes": 4603,
+        "stations": 4603,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0445,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "shrub": {
+        "nodes": 3031,
+        "stations": 3031,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0467,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "groundcover": {
+        "nodes": 9461,
+        "stations": 9461,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0183,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "coastalGrass": {
+        "nodes": 437,
+        "stations": 437,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0356,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "roadsideTrunk": {
+        "nodes": 1,
+        "stations": 4995,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      },
+      "parkingWheels": {
+        "nodes": 178,
+        "stations": 178,
+        "uncovered": 0,
+        "overLimit": 0,
+        "worstGapM": 0.0429,
+        "examples": [],
+        "noSampleNodes": [],
+        "waterOnlyStations": 0
+      }
+    },
+    "glbSha256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38"
+  },
+  "designedClearances": [
+    "观海桥的桥面中跨和栏杆、拱廊与门洞、建筑屋檐和挑板允许离地，仅测支承构件。",
+    "地被在坡上的个别叶片、树冠和花枝、汽车底盘均允许悬起。停车车辆单列测轮底，以五点中首个触地点判定。",
+    "涂漆标线、网球网、灯具上部与海面波浪分别以路面、立柱、杆身和水域为载体。"
+  ],
+  "coverageLimits": [
+    "观海廊桥下部分水域未建海床。waterOnlyStations 单独记录桥墩底低于实际导出水面（初始动态帧）的站数及浸没深度，水深与承载地层未知。伸入潮水而距离既有潮下沙底不超过1.25m的末级台阶，侧趾斜落到沙面。",
+    "这是沿实模边缘有限间距的采样，最窄裂缝可位于采点之间。基础以最低结构层为准；分层楼身上方由本体支撑，不逐片检查窗台、挑檐与装饰。",
+    "树丛内部无独立节点的花朵、混合园林造景与球网柱等专用设施未逐件追踪。运动标线、网柱等保留原专项检查。",
+    "仅纳入模型可辨识的地形、铺装与有高度筛选的种植池；卫星背景仅用于项目地形缺失处。底部完全埋藏与地面短程相交不作为悬空。"
+  ],
+  "comparison": {
+    "building": {
+      "overLimit": [
+        1361,
+        0
+      ],
+      "worstGapM": [
+        1.1462,
+        0.0546
+      ]
+    },
+    "coastalBuilding": {
+      "overLimit": [
+        60,
+        0
+      ],
+      "worstGapM": [
+        0.3485,
+        0.0544
+      ]
+    },
+    "serviceBuilding": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0,
+        0.0
+      ]
+    },
+    "settlement": {
+      "overLimit": [
+        2150,
+        0
+      ],
+      "worstGapM": [
+        2.2153,
+        0.0748
+      ]
+    },
+    "retainingWall": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0247,
+        0.0247
+      ]
+    },
+    "arcadePier": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0,
+        0.0
+      ]
+    },
+    "sportsBase": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.01,
+        0.01
+      ]
+    },
+    "bridgePier": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0,
+        0.0
+      ]
+    },
+    "bridgeAbutment": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0,
+        0.0
+      ]
+    },
+    "stairs": {
+      "overLimit": [
+        212,
+        0
+      ],
+      "worstGapM": [
+        0.2876,
+        0.0531
+      ]
+    },
+    "paving": {
+      "overLimit": [
+        81822,
+        0
+      ],
+      "worstGapM": [
+        3.9976,
+        0.06
+      ]
+    },
+    "regionalRoad": {
+      "overLimit": [
+        26420,
+        0
+      ],
+      "worstGapM": [
+        0.145,
+        0.0679
+      ]
+    },
+    "furniture": {
+      "overLimit": [
+        414,
+        0
+      ],
+      "worstGapM": [
+        0.2619,
+        0.0499
+      ]
+    },
+    "tree": {
+      "overLimit": [
+        56,
+        0
+      ],
+      "worstGapM": [
+        0.1654,
+        0.0445
+      ]
+    },
+    "shrub": {
+      "overLimit": [
+        2,
+        0
+      ],
+      "worstGapM": [
+        0.1092,
+        0.0467
+      ]
+    },
+    "groundcover": {
+      "overLimit": [
+        92,
+        0
+      ],
+      "worstGapM": [
+        0.2636,
+        0.0183
+      ]
+    },
+    "coastalGrass": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0356,
+        0.0356
+      ]
+    },
+    "roadsideTrunk": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0339,
+        0.0
+      ]
+    },
+    "parkingWheels": {
+      "overLimit": [
+        0,
+        0
+      ],
+      "worstGapM": [
+        0.0429,
+        0.0429
+      ]
+    }
+  }
+}

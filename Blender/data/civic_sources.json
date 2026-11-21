@@ -1,0 +1,196 @@
+{
+  "dataset": "山东大学青岛校区公共建筑与学生生活场地",
+  "checked": "2026-11-19",
+  "coordinates": "WGS 84，经纬度为道路口门或场地几何锚点；馆体依据独立屋面轮廓重新定心。",
+  "map_sources": [
+    {
+      "publisher": "山东大学（青岛）后勤管理处",
+      "title": "校园地图（2023-06-19）",
+      "url": "https://hq.qd.sdu.edu.cn/info/1053/1824.htm"
+    },
+    {
+      "publisher": "OpenStreetMap contributors",
+      "title": "校园与周边开放地图；ODbL",
+      "url": "https://www.openstreetmap.org/way/548364981"
+    },
+    {
+      "publisher": "Esri World Imagery",
+      "title": "公开地图影像：南区体育馆屋面、蓝色运动场、东田径场、餐厅庭院和各门位置目视核对（影像拍摄年月未载于该图层查询）",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
+    }
+  ],
+  "landmarks": [
+    {
+      "key": "west_gate",
+      "name": "西门（礼仪正门）",
+      "lon": 120.679993,
+      "lat": 36.366198,
+      "anchors": [
+        "https://www.openstreetmap.org/node/9083815754",
+        "https://www.openstreetmap.org/node/9083815755"
+      ],
+      "observed": "正对图书馆与育贤广场。两方形石塔隔路相望，灰色四坡顶、下部拱窗、外侧短柱廊。由校外向东，南侧（右手）塔有浅色底竖排墨迹“山东大学”和红色圆校徽；门牌位置和四字相对间距按照片定位，四字和圆徽轮廓采用校方标准矢量标志。",
+      "approximated": "门柱高度、廊柱距及石材尺寸由正、侧照及影像比例估计。",
+      "sources": [
+        "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm",
+        "https://culture.sdu.edu.cn/sdyx/qdxq/6.htm",
+        "https://culture.sdu.edu.cn/images/hangpaishanda01.jpg",
+        "https://www.qdxq.sdu.edu.cn/__local/F/21/EE/184DC465CFB636B118BCCD8D766_C7CCA9E3_2F1A7.png",
+        "https://www.qdxq.sdu.edu.cn/info/1836/58443.htm",
+        "https://www.sdu.edu.cn/images/logo.svg"
+      ]
+    },
+    {
+      "key": "north_gate",
+      "name": "北校门",
+      "lon": 120.682914,
+      "lat": 36.376878,
+      "anchors": [
+        "https://www.openstreetmap.org/node/9105066919"
+      ],
+      "observed": "校方竣工接管记录：校门宽47.5米；西侧塔高16.2米，东侧为高5.18米的传达室。实拍所见为浅石材、圆角收分高塔、平檐、拱形窗等。 验收照与另一张基建实拍可见塔身正面有狭长棕色竖格栅及粗石分缝。照片所示朝外一面不见可辨认的校名题字。",
+      "approximated": "塔身曲率和门窗间隔由竣工照片估计。",
+      "sources": [
+        "https://jjc.qd.sdu.edu.cn/info/1022/1925.htm",
+        "https://jjc.qd.sdu.edu.cn/__local/5/35/20/E451A4F1F6E15C2B6974C515535_56D88C5F_863D7.jpg",
+        "https://www.qdxq.sdu.edu.cn/info/1819/56912.htm",
+        "https://www.qdxq.sdu.edu.cn/__local/4/81/BD/DE876A9039E3B23EE0DF158FE7D_80E7953F_852D8.jpg"
+      ]
+    },
+    {
+      "key": "song_arena",
+      "name": "宋君复体育馆",
+      "lon": 120.680864,
+      "lat": 36.359405,
+      "anchors": [
+        "https://www.openstreetmap.org/way/982199335"
+      ],
+      "observed": "竣工航拍可明确分辨银白色月牙帆形屋盖、向北延伸至蓝跑道东畔的狭长罩棚与斜撑、屋顶锯齿状采光脊和分层幕墙。2023年报道的主建筑南北投影约162米、东西87米、高35米。",
+      "approximated": "模型包络包含显著长于主建筑的悬挑及罩棚，用正射图与卫星影像描出整体约109×430米的平面；各断面拱度、屋檐、采光窗间距为插值估计。",
+      "sources": [
+        "https://www.qdxq.sdu.edu.cn/info/1836/52034.htm",
+        "https://www.qdxq.sdu.edu.cn/__local/9/24/15/4DF604E41BCCAC6DC2E33271792_430762E6_142089.png",
+        "https://www.qdxq.sdu.edu.cn/__local/D/4A/B0/FAECCC5EED6DFCA456EDA4C3732_098B47DF_7940E.jpg",
+        "https://www.qdxq.sdu.edu.cn/info/1819/64729.htm"
+      ]
+    },
+    {
+      "key": "blue_track",
+      "name": "蓝色田径场",
+      "lon": 120.680044,
+      "lat": 36.360962,
+      "anchors": [
+        "https://www.openstreetmap.org/way/996232451"
+      ],
+      "observed": "位于体育馆北侧；蓝跑道、人工草坪和标准足球场中心标识在校方实拍可见。",
+      "approximated": "跑道与球场线宽、球门尺寸按标准比例简化，外侧用地按地图足迹。",
+      "sources": [
+        "https://www.qdxq.sdu.edu.cn/info/1720/51566.htm",
+        "https://tyb.qd.sdu.edu.cn/info/1041/1585.htm",
+        "https://www.qdxq.sdu.edu.cn/info/1836/52034.htm"
+      ]
+    },
+    {
+      "key": "east_track",
+      "name": "东田径场",
+      "lon": 120.687923,
+      "lat": 36.360907,
+      "anchors": [
+        "https://www.openstreetmap.org/way/970257666",
+        "https://www.openstreetmap.org/way/970257649"
+      ],
+      "observed": "南区东南部，曦园北面；外圈为红色跑道与弯道，中心足球场按校园图和地理配准影像定位。",
+      "approximated": "跑道分道、足球门及白线作可编辑比例表达，未做场地测绘。",
+      "sources": [
+        "https://tyb.qd.sdu.edu.cn/info/1041/1118.htm",
+        "https://hq.qd.sdu.edu.cn/info/1053/1824.htm"
+      ]
+    },
+    {
+      "key": "xiyuan",
+      "name": "曦园餐厅",
+      "lon": 120.687865,
+      "lat": 36.359384,
+      "anchors": [
+        "https://www.openstreetmap.org/way/868015917"
+      ],
+      "observed": "一期三层学生食堂。照片中入口为暖赭石墙、玻璃拱门、台阶，“曦园 DINING HALL”立体店招，正射影像显示连续坡顶围合内侧设备屋面。",
+      "approximated": "楼高、门窗数量、内庭的窗与设备简化；竖向尺度由楼层数与照片推定。",
+      "sources": [
+        "https://hq.qd.sdu.edu.cn/info/1020/1910.htm",
+        "https://www.chem.sdu.edu.cn/info/1066/21255.htm",
+        "https://www.chem.sdu.edu.cn/__local/4/06/E9/996CE564ABCD26FBB7B1FE02CDB_D93550F2_F5EB0.png",
+        "https://www.qdxq.sdu.edu.cn/__local/F/97/B3/C25672259E6B2054779157E5728_43A38612_5BEF2.pdf"
+      ]
+    },
+    {
+      "key": "yuxian",
+      "name": "育贤广场",
+      "lon": 120.681746,
+      "lat": 36.366175,
+      "anchors": [
+        "https://www.openstreetmap.org/way/981132252"
+      ],
+      "observed": "图书馆西侧，西门内侧。东西向的长方形草坪、两侧步道及行道树组成中央视廊。广场靠西的浅色长石上有红色“学无止境 气有浩然”校训。",
+      "approximated": "模型重点刻画中央草坪和校训石，石材纹理、树种、树距、石上的书体作简化。",
+      "sources": [
+        "https://culture.sdu.edu.cn/images/hangpaishanda01.jpg",
+        "https://www.qdxq.sdu.edu.cn/__local/F/21/EE/184DC465CFB636B118BCCD8D766_C7CCA9E3_2F1A7.png",
+        "https://www.qdxq.sdu.edu.cn/info/1836/64665.htm",
+        "https://hq.qd.sdu.edu.cn/info/1053/1824.htm"
+      ]
+    },
+    {
+      "key": "south_gate",
+      "name": "南校门",
+      "lon": 120.68153145,
+      "lat": 36.35691084,
+      "observed": "2016年齐鲁网记者拍摄并明确标注为南校门，西侧为有拱窗的方塔，红色坡顶、圆校徽和白底竖排“山东大学”，塔东侧是低红顶岗亭。校方2024年迎新报道再次拍到同一门面。对照卫星影像可见东西两侧门体与斜交路口。 2016年现场图还能辨出低岗亭临车道的石拱窗、浅檐和檐柱，塔座周围为浅色石铺前坪，门外设斑马线。",
+      "approximated": "塔中心、宽度、高13.4米及牌面尺度按影像比例估计。题名及圆徽采用校方矢量轮廓。 车道局部宽与两侧前坪界线依据俯视影像和底图中储才路、山大南路、诚信大道的中心线配准。",
+      "sources": [
+        "https://news.ifeng.com/c/7fbnahCCS8l",
+        "https://www.qdxq.sdu.edu.cn/info/1836/58105.htm",
+        "https://www.qdxq.sdu.edu.cn/__local/2/57/FA/F07BB9ACD4FF5335471C2A8DF9D_B694A75E_80A75.jpg",
+        "https://www.sdu.edu.cn/images/logo.svg",
+        "https://www.google.com/maps/@36.35691084,120.68153145,105m/data=!3m1!1e3"
+      ]
+    },
+    {
+      "key": "east_gate",
+      "name": "东校门",
+      "lon": 120.6885807,
+      "lat": 36.36613071,
+      "observed": "图书馆向东俯拍，画面左侧是北塔。北塔底部三联拱洞之上为通高竖向分带和小灰坡顶，画面右侧的南亭为低矮三联拱窗与宽石檐，向南衔接开放弧廊。中间两条车道之间为规整的狭长绿岛。",
+      "approximated": "沿用地图与卫星影像的平面定位和两建筑中心约45.18米的间距，按用户照片表观比例估计北塔16.6米、南亭7.5米，弧廊石檐约5.36米。侧墙细部、尺度与绿篱高度为估计，照片中无法辨认门上文字。",
+      "sources": [
+        "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm",
+        "https://www.google.com/maps/@36.36613071,120.68858070,130m/data=!3m1!1e3"
+      ],
+      "photo_evidence": {
+        "image": "实景参照/校门/东门-图书馆朝海-用户图3局部.jpg",
+        "role": "用户图3，图书馆向东拍摄，建筑朝海的一面不在照片中。",
+        "original_pixels": [
+          2273,
+          1279
+        ],
+        "original_sha256": "8518a81b6836eba049abdf85b6b898a75649208bba9dae9d8596a18d41e279c9",
+        "crop_xyxy": [
+          305,
+          572,
+          799,
+          703
+        ]
+      }
+    }
+  ],
+  "name_check": {
+    "query": "北大楼",
+    "result": "南京大学鼓楼校区的北大楼为金陵大学原行政楼，位于鼓楼校区中轴线北端。本次核过的山东大学青岛校区校园图和校方地标资料中未发现同名楼。",
+    "sources": [
+      "https://www.nju.edu.cn/info/4041/422051.htm",
+      "https://historymuseum.nju.edu.cn/info/1201/10711.htm",
+      "https://zcc.nju.edu.cn/DFS/file/2024/09/20/20240920103404667kkasuw.pdf",
+      "https://hq.qd.sdu.edu.cn/info/1053/1824.htm"
+    ]
+  }
+}

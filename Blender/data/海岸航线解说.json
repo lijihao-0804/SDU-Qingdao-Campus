@@ -1,0 +1,104 @@
+{
+  "west_gate": {
+    "title": "西门",
+    "caption": "两座石塔分立路旁，向东正对图书馆。",
+    "sources": [
+      "https://jjc.qd.sdu.edu.cn/info/1022/1051.htm"
+    ]
+  },
+  "yuxian": {
+    "title": "育贤广场",
+    "caption": "广场西端的校训石上刻着“学无止境，气有浩然”。",
+    "sources": [
+      "https://hq.qd.sdu.edu.cn/info/1053/1824.htm"
+    ]
+  },
+  "library": {
+    "title": "青岛校区图书馆",
+    "caption": "面向育贤广场的五道拱门，构成图书馆的主入口。",
+    "sources": [
+      "https://library.sdu.edu.cn/branch/view/17.html"
+    ]
+  },
+  "zhensheng": {
+    "title": "振声苑",
+    "caption": "四座教学楼围合成院，楼翼之间以连廊相接。",
+    "sources": [
+      "data/landmarks_sources.json"
+    ]
+  },
+  "museum": {
+    "title": "山东大学博物馆",
+    "caption": "建筑取形于“鼎”字，四角的铜板仿照竹简。",
+    "sources": [
+      "https://museum.sdu.edu.cn/info/1009/6878.htm"
+    ]
+  },
+  "song_arena": {
+    "title": "宋君复体育馆",
+    "caption": "银白色屋顶像一张船帆，北端的长棚伸向田径场。",
+    "sources": [
+      "https://www.qdxq.sdu.edu.cn/info/1836/52034.htm"
+    ]
+  },
+  "way-868015914": {
+    "title": "创新创业中心",
+    "caption": "钟楼立在前庭一侧，圆形钟面嵌在尖顶下方。",
+    "sources": [
+      "实景参照/校园补拍/双创与凤凰居十一号.jpg"
+    ]
+  },
+  "way-970257678": {
+    "title": "凤凰居学生宿舍 · 9号楼",
+    "caption": "九号楼坐落在五号楼南侧，红砖楼翼向东展开。",
+    "sources": [
+      "https://www.view.sdu.edu.cn/info/1102/49513.htm",
+      "https://www.nc.sdu.edu.cn/info/1107/1784.htm"
+    ]
+  },
+  "way-868015916": {
+    "title": "信息科学与工程学院",
+    "caption": "学院设在第周苑 D 座，院牌挂在西侧门廊。",
+    "sources": [
+      "https://www.ise.sdu.edu.cn/info/1075/16921.htm",
+      "https://qdxqyxb.sdu.edu.cn/info/1096/4468.htm"
+    ]
+  },
+  "waterfront-beach": {
+    "title": "鳌山湾沙滩",
+    "caption": "沿岸的石阶通向沙滩，浅浪一道道推上岸。",
+    "sources": [
+      "https://www.view.sdu.edu.cn/info/1003/76465.htm"
+    ]
+  },
+  "coastal-red-tower": {
+    "title": "青岛蓝谷人才公园",
+    "caption": "红顶塔立在海边，南侧是一组白色球壳建筑。",
+    "sources": [
+      "https://www.view.sdu.edu.cn/info/1003/76465.htm"
+    ],
+    "through": "coastal-pavilion-1"
+  },
+  "s2-b1": {
+    "title": "阅海居",
+    "caption": "北区学生公寓的红砖拱廊围出一方庭院。",
+    "sources": [
+      "https://www.qdxq.sdu.edu.cn/info/1819/57064.htm",
+      "https://www.qdxq.sdu.edu.cn/info/1820/58554.htm"
+    ]
+  },
+  "assembly": {
+    "title": "学生会堂",
+    "caption": "阅海居以南，三组贝壳形建筑围合成学生会堂。",
+    "sources": [
+      "https://www.qdxq.sdu.edu.cn/info/1820/54168.htm"
+    ]
+  },
+  "overview": {
+    "title": "山东大学青岛校区",
+    "caption": "从学生会堂上空回望，校园东侧是鳌山湾。",
+    "sources": [
+      "https://www.view.sdu.edu.cn/info/1003/76465.htm"
+    ]
+  }
+}

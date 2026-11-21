@@ -1,0 +1,378 @@
+{
+  "title": "会文南北楼、淦昌苑六座的实景与建模依据",
+  "revision": "学院与滨海精修-v2",
+  "axes": "米制，建筑局部原点为底图row.center，X朝东、Z朝南。normal以[nx,nz]记录。",
+  "attribution": "摄影及报道权利归相应作者和学校/媒体。存档为本地建模对照；原图和裁切不作为建筑纹理。",
+  "precision": "院楼外轮廓据现有OSM足迹。靠网球场的第一排是第周苑；2021南望北的照片中，淦昌在中景，会文为图书馆东面背景。墙体色、窗格和屋面灰红关系按实拍概括。四层、各层高度、建筑绝对高度、柱径、屋面坡度、玻璃分格和门牌物理尺寸均为按照片估计。近照中可辨的英文照录。E座小校徽及中文书法笔形未逐笔复制。",
+  "photo_sources": [
+    {
+      "year": 2024,
+      "author": "山东大学环境科学与工程学院",
+      "article": "https://www.huanke.sdu.edu.cn/info/1065/5655.htm",
+      "image": "https://www.huanke.sdu.edu.cn/__local/8/11/0E/E027125E740A101BC5B725210B5_B09C8C59_1750B4.png",
+      "title": "校党委书记任友群到环境科学与工程学院调研座谈",
+      "type": "任友群一行在E座外台阶合影，学院实拍",
+      "file": "实景参照/会文与淦昌/2024_环境学院_E座入口.png"
+    },
+    {
+      "year": 2024,
+      "author": "山东大学（青岛）",
+      "article": "https://www.qdxq.sdu.edu.cn/info/1872/58724.htm",
+      "image": "https://www.qdxq.sdu.edu.cn/__local/1/C0/33/AC68E284A813935859E5186614D_BF6C8EBD_2478E.jpg",
+      "title": "青岛校区毕业季 | 省优秀毕业生邢勤旺：内驱力是我迎难而上的武器",
+      "type": "海洋研究院外墙毕业合影，年份为报道发表时间",
+      "file": "实景参照/会文与淦昌/2024_海洋研究院_C座入口.jpg"
+    },
+    {
+      "year": 2021,
+      "author": "环境学院2020级硕士研究生 李小康",
+      "article": "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+      "image": "https://www.sdrj.sdu.edu.cn/__local/8/D1/6E/6D5B3CCF426BCC980396F4EFCC8_23D52F11_E68C7.jpg",
+      "title": "【百廿校庆作品征集】李小康",
+      "type": "作者自述校区实拍，航拍/穿越机摄影，非规划效果图",
+      "file": "实景参照/会文与淦昌/2021_李小康_从南向北航拍.jpg"
+    },
+    {
+      "year": 2019,
+      "author": "周青先",
+      "article": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "image": "http://house.qingdaonews.com/gb/images/2019-09/16/b6c601e4-8dc3-488c-bc1d-3e33e689bb52.jpg.2",
+      "type": "带摄影署名的实名新闻航拍；经已有校区本地实景库交叉比对",
+      "file": "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png"
+    }
+  ],
+  "written_primary": {
+    "date": "2019-07-05",
+    "author": "青岛校区楼体字标识项目主管 徐长平",
+    "url": "https://www.sdrj.sdu.edu.cn/info/1002/17675.htm",
+    "observed": "亲见南门已安装“会文楼，南楼A区”。未找到能定位具体门及字形载体的照片，此条只用来说明南门方向，未制作实体字。"
+  },
+  "buildings": [
+    {
+      "key": "way-970257672",
+      "osm": 970257672,
+      "name": "会文北楼",
+      "home": "会文广场北侧，东西长楼，H4。西翼开学初曾设临时图书馆。",
+      "local_door": {
+        "x": -64,
+        "z": 20.128,
+        "normal": [
+          -0.01146,
+          0.99993
+        ]
+      },
+      "entrance_evidence": "南向会文广场。2019斜俯视可定位长楼和广场侧凸翼；取西段凸翼中部作观察入口。门洞开间、层窗细分及局部横瓦脊为推定。北楼户外字样未辨读。",
+      "facade": "西端大凸翼和东西错位屋顶与南楼相对。模型保留长条体量，西段四根窄竖窗，长立面四层分段窗列。",
+      "physical_lines": [],
+      "sources": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+        "https://www.view.sdu.edu.cn/info/1003/46267.htm"
+      ]
+    },
+    {
+      "key": "way-970257673",
+      "osm": 970257673,
+      "name": "会文南楼",
+      "home": "会文广场南侧，H5。A区、B区有不同使用者。校方就业指导中心在A区东半区办公。",
+      "local_door": {
+        "x": 18.002,
+        "z": 20.231,
+        "normal": [
+          -0.02378,
+          0.99972
+        ]
+      },
+      "entrance_evidence": "楼体字项目主管亲见A区南门的会文楼和南楼A区中英文楼体字。缺少能定位具体开间并核对字体载体的门区实拍，模型保留南门几何，实物题字留空。朝南的中段开间为推定。",
+      "facade": "保留东西错动屋面和向北侧广场的三段凸翼；南门三扇上层窗、石挑檐。",
+      "physical_lines": [],
+      "sources": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1002/17675.htm",
+        "https://www.job.sdu.edu.cn/info/1136/29643.htm"
+      ]
+    },
+    {
+      "key": "way-970257670",
+      "osm": 970257670,
+      "name": "淦昌苑A座",
+      "home": "六座组团西端，南北长轴，K1。校方记录光热辐射研究中心的设备，以及微生物技术研究院使用楼层。",
+      "local_door": {
+        "x": 8.955,
+        "z": -0.001,
+        "normal": [
+          0.99983,
+          -0.01827
+        ]
+      },
+      "entrance_evidence": "院心朝东，U形敞口和端翼位置由足迹及2019航拍交叉定位。东向观察入口开间按凹段中央推定，未取得正对门楣照片。",
+      "facade": "东面两端伸长、中央内退。内院沿四层玻璃开间立浅色竖墩，平檐下四根竖向门厅构件。",
+      "physical_lines": [],
+      "sources": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+        "https://hq.qd.sdu.edu.cn/info/1070/2866.htm",
+        "https://qddx.qd.sdu.edu.cn/shebei_list.jsp?info=aqXpHYHgHxFAbJDKuCN5kQ&type=wbeditor&urltype=tree.TreeTempUrl&wbtreeid=1003"
+      ]
+    },
+    {
+      "key": "way-1018848586",
+      "osm": 1018848586,
+      "name": "淦昌苑B座",
+      "home": "院落北排西栋，K2，公共（创新）实验教学中心。",
+      "local_door": {
+        "x": -1.8,
+        "z": 18.435,
+        "normal": [
+          -0.01027,
+          0.99995
+        ]
+      },
+      "entrance_evidence": "南面朝院心，足迹可见中央浅凸与两端小凸；镜头朝中央浅凸。门洞、窗口节距取同组体量比例。",
+      "facade": "整体更平直，按原轮廓保留南窗列五次错进，中央小凸体、玻璃山花、手工安置横脊。",
+      "physical_lines": [],
+      "sources": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+        "https://www.bgxx.qd.sdu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=6860&wbtreeid=1004"
+      ]
+    },
+    {
+      "key": "way-970257667",
+      "osm": 970257667,
+      "name": "淦昌苑C座",
+      "home": "北排东栋，K3，海洋研究院。",
+      "local_door": {
+        "x": -2,
+        "z": 9.231,
+        "normal": [
+          -0.00477,
+          0.99999
+        ]
+      },
+      "entrance_evidence": "2024校方实拍证实面向入口左侧为粗面石墙，墙装金属横牌、右侧玻璃洞口；下部牌宽和高度依合影身高估算。选院内南向凹段，对向红坡顶反射和组团航拍与之相符；照片没有罗盘，具体开间未实测。",
+      "facade": "南侧U形翼包围中央凹段；正面石块错缝、侧扶手，粗面石墙左横牌，后部及侧翼保留连续窗带和短端翼。",
+      "physical_lines": [
+        "山东大学",
+        "海洋研究院",
+        "INSTITUTE OF MARINE SCIENCE AND TECHNOLOGY"
+      ],
+      "sources": [
+        "https://www.qdxq.sdu.edu.cn/info/1872/58724.htm",
+        "https://www.imst.sdu.edu.cn/yjygk/zhfwjg.htm",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-868015915",
+      "osm": 868015915,
+      "name": "淦昌苑D座",
+      "home": "组团东端，南北长轴，K4，网络空间安全学院。",
+      "local_door": {
+        "x": -18.614,
+        "z": 2.75,
+        "normal": [
+          -0.99997,
+          -0.00773
+        ]
+      },
+      "entrance_evidence": "西侧朝院心且有多段深浅不一的凸翼，观察入口选择西侧中央凸段。各系办公室地址证实D座归属；实体字面及门洞边界未取得近照。",
+      "facade": "东西侧不对称，西侧三组错动翼，保留东面主要长窗列，入口较平直，三根宽石墩与A座四竖墩作区分。",
+      "physical_lines": [],
+      "sources": [
+        "https://cst.qd.sdu.edu.cn/info/1042/3107.htm",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257669",
+      "osm": 970257669,
+      "name": "淦昌苑E座",
+      "home": "院落南排东栋，K5，环境科学与工程学院。",
+      "local_door": {
+        "x": -1.5,
+        "z": 19.571,
+        "normal": [
+          -0.00497,
+          0.99999
+        ]
+      },
+      "entrance_evidence": "学院2024实拍给出两根圆柱、双层石门框、灰台阶、黑框玻璃和门两侧实牌。入口置南侧长面中部；2021正南航拍该座的南向入口山花及近照对向红瓦反射支持选择，具体开间和板材尺寸按人像比例推定。",
+      "facade": "北侧凹进，南侧长面；窄圆柱内门框、入墙石套、大玻璃中轴，两侧门牌按原照片的左右及长宽比。在台阶上正面观看时，左为横牌，右为竖牌。",
+      "physical_lines": [
+        "山东大学",
+        "环境科学与工程学院",
+        "SCHOOL OF ENVIRONMENTAL SCIENCE AND ENGINEERING",
+        "淦昌苑",
+        "GANCHANG COURTYARD",
+        "E"
+      ],
+      "sources": [
+        "https://www.huanke.sdu.edu.cn/info/1065/5655.htm",
+        "https://www.huanke.sdu.edu.cn/xygk/zzjg1.htm",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257668",
+      "osm": 970257668,
+      "name": "淦昌苑F座",
+      "home": "南排西栋，K6。校方仪器目录同时列出环境研究院与国家糖工程技术研究中心的设备。",
+      "local_door": {
+        "x": -2,
+        "z": 9.231,
+        "normal": [
+          -0.00477,
+          0.99999
+        ]
+      },
+      "entrance_evidence": "足迹朝南敞开，2019斜俯视可见凹段和两个南端翼。将观察入口放在南凹段中心；实体铭牌以及各单位的门牌原文未核实。",
+      "facade": "双端翼形成凹面，左右端头的浅色体块包围双层深窗，保留横向红脊、内平顶及门厅玻璃。",
+      "physical_lines": [],
+      "sources": [
+        "https://qddx.qd.sdu.edu.cn/shebei_list.jsp?PAGENUM=16&totalpage=48&urltype=tree.TreeTempUrl&wbtreeid=1003",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "key": "way-970257672",
+      "name": "会文北楼",
+      "files": [
+        "实景参照/会文与淦昌/2019_会文广场双楼_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png",
+        "实景参照/会文与淦昌/2021_李小康_从南向北航拍.jpg"
+      ],
+      "source": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "desc": "西端大凸翼和东西错位屋顶与南楼相对。模型保留长条体量，西段四根窄竖窗，长立面四层分段窗列。 南向会文广场。2019斜俯视可定位长楼和广场侧凸翼；取西段凸翼中部作观察入口。门洞开间、层窗细分及局部横瓦脊为推定。北楼户外字样未辨读。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257673",
+      "name": "会文南楼",
+      "files": [
+        "实景参照/会文与淦昌/2019_会文广场双楼_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png",
+        "实景参照/会文与淦昌/2021_李小康_从南向北航拍.jpg"
+      ],
+      "source": "https://www.sdrj.sdu.edu.cn/info/1002/17675.htm",
+      "desc": "保留东西错动屋面和向北侧广场的三段凸翼；南门三扇上层窗、石挑檐。 楼体字项目主管亲见A区南门的会文楼和南楼A区中英文楼体字。缺少能定位具体开间并核对字体载体的门区实拍，模型保留南门几何，实物题字留空。朝南的中段开间为推定。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257670",
+      "name": "淦昌苑A座",
+      "files": [
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png",
+        "实景参照/会文与淦昌/2021_李小康_从南向北航拍.jpg"
+      ],
+      "source": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "desc": "东面两端伸长、中央内退。内院沿四层玻璃开间立浅色竖墩，平檐下四根竖向门厅构件。 院心朝东，U形敞口和端翼位置由足迹及2019航拍交叉定位。东向观察入口开间按凹段中央推定，未取得正对门楣照片。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-1018848586",
+      "name": "淦昌苑B座",
+      "files": [
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2021_淦昌前后院楼_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png"
+      ],
+      "source": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "desc": "整体更平直，按原轮廓保留南窗列五次错进，中央小凸体、玻璃山花、手工安置横脊。 南面朝院心，足迹可见中央浅凸与两端小凸；镜头朝中央浅凸。门洞、窗口节距取同组体量比例。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257667",
+      "name": "淦昌苑C座",
+      "files": [
+        "实景参照/会文与淦昌/2024_海洋研究院_C座入口.jpg",
+        "实景参照/会文与淦昌/2024_C座_横牌与粗石墙细部.png",
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2021_淦昌前后院楼_原图裁切.png"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1872/58724.htm",
+      "desc": "南侧U形翼包围中央凹段；正面石块错缝、侧扶手，粗面石墙左横牌，后部及侧翼保留连续窗带和短端翼。 2024校方实拍证实面向入口左侧为粗面石墙，墙装金属横牌、右侧玻璃洞口；下部牌宽和高度依合影身高估算。选院内南向凹段，对向红坡顶反射和组团航拍与之相符；照片没有罗盘，具体开间未实测。",
+      "photo_pages": [
+        "https://www.qdxq.sdu.edu.cn/info/1872/58724.htm",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-868015915",
+      "name": "淦昌苑D座",
+      "files": [
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png",
+        "实景参照/会文与淦昌/2021_李小康_从南向北航拍.jpg"
+      ],
+      "source": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "desc": "东西侧不对称，西侧三组错动翼，保留东面主要长窗列，入口较平直，三根宽石墩与A座四竖墩作区分。 西侧朝院心且有多段深浅不一的凸翼，观察入口选择西侧中央凸段。各系办公室地址证实D座归属；实体字面及门洞边界未取得近照。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    },
+    {
+      "key": "way-970257669",
+      "name": "淦昌苑E座",
+      "files": [
+        "实景参照/会文与淦昌/2024_环境学院_E座入口.png",
+        "实景参照/会文与淦昌/2024_E座_两侧题牌细部.png",
+        "实景参照/会文与淦昌/2021_淦昌前后院楼_原图裁切.png",
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png"
+      ],
+      "source": "https://www.huanke.sdu.edu.cn/info/1065/5655.htm",
+      "desc": "北侧凹进，南侧长面；窄圆柱内门框、入墙石套、大玻璃中轴，两侧门牌按原照片的左右及长宽比。在台阶上正面观看时，左为横牌，右为竖牌。 学院2024实拍给出两根圆柱、双层石门框、灰台阶、黑框玻璃和门两侧实牌。入口置南侧长面中部；2021正南航拍该座的南向入口山花及近照对向红瓦反射支持选择，具体开间和板材尺寸按人像比例推定。",
+      "photo_pages": [
+        "https://www.huanke.sdu.edu.cn/info/1065/5655.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm",
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm"
+      ]
+    },
+    {
+      "key": "way-970257668",
+      "name": "淦昌苑F座",
+      "files": [
+        "实景参照/会文与淦昌/2019_淦昌六座_原图裁切.png",
+        "实景参照/会文与淦昌/2019_周青先_会文与淦昌斜俯视.png",
+        "实景参照/会文与淦昌/2021_淦昌前后院楼_原图裁切.png"
+      ],
+      "source": "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+      "desc": "双端翼形成凹面，左右端头的浅色体块包围双层深窗，保留横向红脊、内平顶及门厅玻璃。 足迹朝南敞开，2019斜俯视可见凹段和两个南端翼。将观察入口放在南凹段中心；实体铭牌以及各单位的门牌原文未核实。",
+      "photo_pages": [
+        "https://house.qingdaonews.com/wap/2019-09/16/content_20763146.htm",
+        "https://www.sdrj.sdu.edu.cn/info/1004/25361.htm"
+      ]
+    }
+  ],
+  "square_axis": {
+    "reference": "用户图3，从图书馆朝海拍摄；会文广场2019航拍与俯视影像辅助地面轴线定位。",
+    "map": "https://www.google.com/maps/@36.36615,120.68665,370m/data=!3m1!1e3",
+    "model": "两侧原有椭圆弧路与中心矩形横道保留。图书馆一侧的蓝灰椭圆作为齐地铺面，具体使用功能未确认。横道与弧形路切开中央长草带。",
+    "segmented_axis_lawn_count": 7,
+    "axial_lawn_area_m2": 1249.39,
+    "blue_oval_area_m2": 1123.41,
+    "scale_accuracy": "铺装与绿带边界按影像概化。"
+  }
+}

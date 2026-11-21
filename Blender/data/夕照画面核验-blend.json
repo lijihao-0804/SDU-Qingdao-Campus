@@ -1,0 +1,157 @@
+{
+  "settings": "鳌山湾 · 西南偏西斜阳",
+  "canvas": [
+    1200,
+    675
+  ],
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "captures": {
+    "sunset-library": {
+      "lumaP01P10P50P90P99": [
+        21.6,
+        57.7,
+        121.3,
+        199.0,
+        206.8
+      ],
+      "lumaBelow12Percent": 0.14,
+      "lumaAbove245Percent": 0.008,
+      "centerMedianSRGB": [
+        68,
+        63,
+        64
+      ]
+    },
+    "sunset-glaze": {
+      "lumaP01P10P50P90P99": [
+        12.3,
+        54.5,
+        112.2,
+        160.0,
+        167.5
+      ],
+      "lumaBelow12Percent": 0.959,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        174,
+        103,
+        80
+      ]
+    },
+    "film-bay": {
+      "lumaP01P10P50P90P99": [
+        42.0,
+        76.3,
+        136.3,
+        186.9,
+        191.6
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        184,
+        164,
+        146
+      ]
+    },
+    "film-library": {
+      "lumaP01P10P50P90P99": [
+        26.7,
+        77.1,
+        175.5,
+        188.8,
+        193.6
+      ],
+      "lumaBelow12Percent": 0.08,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        200,
+        179,
+        162
+      ]
+    },
+    "film-roof": {
+      "lumaP01P10P50P90P99": [
+        20.4,
+        79.7,
+        139.5,
+        185.9,
+        191.4
+      ],
+      "lumaBelow12Percent": 0.174,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        121,
+        141,
+        157
+      ]
+    },
+    "film-ridge": {
+      "lumaP01P10P50P90P99": [
+        30.6,
+        66.9,
+        141.1,
+        197.2,
+        205.0
+      ],
+      "lumaBelow12Percent": 0.039,
+      "lumaAbove245Percent": 0.012,
+      "centerMedianSRGB": [
+        146,
+        135,
+        129
+      ]
+    },
+    "west-sun": {
+      "lumaP01P10P50P90P99": [
+        189.2,
+        192.8,
+        198.9,
+        207.5,
+        216.0
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.091,
+      "centerMedianSRGB": [
+        255,
+        255,
+        249
+      ]
+    },
+    "east-sky": {
+      "lumaP01P10P50P90P99": [
+        170.3,
+        173.7,
+        178.4,
+        183.2,
+        184.5
+      ],
+      "lumaBelow12Percent": 0.0,
+      "lumaAbove245Percent": 0.0,
+      "centerMedianSRGB": [
+        167,
+        179,
+        192
+      ]
+    }
+  },
+  "world": "鳌山湾 · 夕照天空",
+  "sunDirectionENU": [
+    -0.940255880355835,
+    -0.2696138620376587,
+    0.20791170001029968
+  ],
+  "sunRGB": [
+    1.0,
+    0.7049999833106995,
+    0.4650000035762787
+  ],
+  "worldImagePacked": true,
+  "environmentSHA256": "cfa740e381d97c08592bad0b072079d1922936895b059b618a45f50f8a6f8799",
+  "packedHdrSHA256": "cfa740e381d97c08592bad0b072079d1922936895b059b618a45f50f8a6f8799",
+  "renderAssetSHA256": "05cd9a371833e8447179cd147e234ec67d54c7c31ddad6e60c5b332e7feb329c",
+  "device": "GPU",
+  "samples": 16,
+  "directionalLightCount": 1,
+  "passed": true
+}

@@ -1,0 +1,87 @@
+{
+  "after": {
+    "shoreLengthM": 3393.89,
+    "checkedGroundNodes": [
+      "会文广场 · 十字步道与中心铺石",
+      "会文广场 · 园块与修剪绿篱",
+      "会文广场 · 坐凳与庭院灯",
+      "停车位与绿岛 · way/974012796",
+      "停车铺面",
+      "听海路 · 公园侧道路延续",
+      "园内春日草本 · 低矮曲线花境",
+      "外围地表 · 校园及滨海地形",
+      "外围地表 · 车道路缘",
+      "外围地表 · 连续沥青路面",
+      "学院区道路两侧人行道",
+      "学院门前石材步道",
+      "校园及滨海地形",
+      "步行道",
+      "滨海公园 · 球壳观景建筑 1",
+      "滨海公园 · 球壳观景建筑 2",
+      "滨海公园 · 球壳观景建筑 3",
+      "滨海公园 · 球壳观景建筑 4",
+      "滨海公园 · 球壳观景建筑 5",
+      "滨海公园 · 红顶观景塔与曲廊",
+      "滨海公园 · 绿带与岸上地形",
+      "滨海公路与外围道路 · 地形贴合路面",
+      "蓝谷人才公园 · 海滨步道及入园游线",
+      "车道路缘",
+      "连续沥青路面",
+      "鳌山湾 · 干湿沙滩与潮间带",
+      "鳌山湾沿岸 · 卫星地形背景"
+    ],
+    "terrain": {
+      "faces": 164745,
+      "invalidFaces": 0,
+      "excludedOverlapM2": 0.0
+    },
+    "offshoreGround": [],
+    "sand": {
+      "鳌山湾 · 湿沙至干沙": {
+        "roughness": 1.0,
+        "metallic": 0.0,
+        "specular": 0.0,
+        "ior": 1.0,
+        "coat": 0,
+        "roughnessMap": false
+      },
+      "#a99c81": {
+        "roughness": 1.0,
+        "metallic": 0.0,
+        "specular": 0.0,
+        "ior": 1.0,
+        "coat": 0,
+        "roughnessMap": false
+      }
+    },
+    "passed": true
+  },
+  "assets": {
+    "modelGLB": "山东大学青岛校区.glb",
+    "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+    "webPage": "打开青岛校区.html",
+    "pageSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+    "embeddedGLBSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+    "matches": true
+  },
+  "afterView": {
+    "image": "preview/海岸地形与砂面/after-beach.jpg",
+    "obstructionMask": "preview/海岸地形与砂面/after-obstruction.jpg",
+    "visibleWaterPixels": 66570,
+    "obscuredByTerrainPixels": 0,
+    "obscuredFraction": 0.0,
+    "camera": {
+      "eye": [
+        510,
+        55,
+        -468
+      ],
+      "target": [
+        656,
+        -6,
+        -482
+      ],
+      "fov": 49
+    }
+  }
+}

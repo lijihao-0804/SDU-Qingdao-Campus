@@ -1,0 +1,16 @@
+{
+  "outdoorMappedCourts": 34,
+  "indoorBasketballCourts": 4,
+  "hoops": 40,
+  "competitionNets": {
+    "tennis": 12,
+    "volleyball": 2,
+    "badminton": 2
+  },
+  "footballGoalNets": 8,
+  "eastHighJumpPads": 1,
+  "eastLongJumpPits": 1,
+  "minimumBasketballPaintSeparationMetres": 0.024,
+  "minimumSlabClearanceOverTerrainMetres": 0.077,
+  "terrainSamples": 306
+}

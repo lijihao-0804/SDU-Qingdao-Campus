@@ -1,0 +1,867 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "flowerMeshes": [
+    {
+      "mesh": "凤凰居 · 深粉花木2",
+      "instances": 77,
+      "opaquePetalTriangles": 1488,
+      "physicalStamens": 48,
+      "stamenLengthP50mm": 11.69,
+      "previousCount": 1200,
+      "addedCount": 288
+    },
+    {
+      "mesh": "凤凰居 · 深粉花木1",
+      "instances": 97,
+      "opaquePetalTriangles": 1416,
+      "physicalStamens": 36,
+      "stamenLengthP50mm": 7.74,
+      "previousCount": 1200,
+      "addedCount": 216
+    },
+    {
+      "mesh": "凤凰居 · 黄色花灌丛2",
+      "instances": 180,
+      "opaquePetalTriangles": 656,
+      "physicalStamens": 24,
+      "stamenLengthP50mm": 10.72,
+      "previousCount": 512,
+      "addedCount": 144
+    },
+    {
+      "mesh": "凤凰居 · 黄色花灌丛1",
+      "instances": 207,
+      "opaquePetalTriangles": 656,
+      "physicalStamens": 24,
+      "stamenLengthP50mm": 9.97,
+      "previousCount": 512,
+      "addedCount": 144
+    },
+    {
+      "mesh": "凤凰居 · 浅粉小乔木1",
+      "instances": 67,
+      "opaquePetalTriangles": 1416,
+      "physicalStamens": 36,
+      "stamenLengthP50mm": 10.39,
+      "previousCount": 1200,
+      "addedCount": 216
+    },
+    {
+      "mesh": "凤凰居 · 浅粉小乔木2",
+      "instances": 85,
+      "opaquePetalTriangles": 1488,
+      "physicalStamens": 48,
+      "stamenLengthP50mm": 11.04,
+      "previousCount": 1200,
+      "addedCount": 288
+    },
+    {
+      "mesh": "淦昌粉白樱 · 分叉与花序 1",
+      "instances": 28,
+      "opaquePetalTriangles": 34312,
+      "physicalStamens": 1052,
+      "stamenLengthP50mm": 10.77,
+      "previousCount": 25200,
+      "addedCount": 9112
+    },
+    {
+      "mesh": "淦昌粉白樱 · 分叉与花序 2",
+      "instances": 32,
+      "opaquePetalTriangles": 34816,
+      "physicalStamens": 1136,
+      "stamenLengthP50mm": 10.75,
+      "previousCount": 25200,
+      "addedCount": 9616
+    },
+    {
+      "mesh": "淦昌粉白樱 · 分叉与花序 3",
+      "instances": 28,
+      "opaquePetalTriangles": 34744,
+      "physicalStamens": 1124,
+      "stamenLengthP50mm": 10.45,
+      "previousCount": 25200,
+      "addedCount": 9544
+    },
+    {
+      "mesh": "图书馆花木 · 多干重瓣粉花 1",
+      "instances": 8,
+      "opaquePetalTriangles": 41506,
+      "physicalStamens": 976,
+      "stamenLengthP50mm": 9.88,
+      "previousCount": 35650,
+      "addedCount": 5856
+    },
+    {
+      "mesh": "图书馆花木 · 多干重瓣粉花 2",
+      "instances": 8,
+      "opaquePetalTriangles": 41554,
+      "physicalStamens": 984,
+      "stamenLengthP50mm": 9.49,
+      "previousCount": 35650,
+      "addedCount": 5904
+    },
+    {
+      "mesh": "图书馆花木 · 多干重瓣粉花 3",
+      "instances": 8,
+      "opaquePetalTriangles": 41818,
+      "physicalStamens": 1028,
+      "stamenLengthP50mm": 9.51,
+      "previousCount": 35650,
+      "addedCount": 6168
+    }
+  ],
+  "grassMeshes": [
+    {
+      "mesh": "春草 · 空地疏草1",
+      "instances": 1189,
+      "blades": 265,
+      "bladeWidthP10P90mm": [
+        25.38,
+        39.26
+      ],
+      "radiusM": 5.25623,
+      "hasMetricRibUV": true,
+      "previousCount": 265,
+      "addedCount": 0,
+      "radiusChangeM": 0.0
+    },
+    {
+      "mesh": "春草 · 空地疏草2",
+      "instances": 1114,
+      "blades": 266,
+      "bladeWidthP10P90mm": [
+        25.25,
+        38.84
+      ],
+      "radiusM": 5.38851,
+      "hasMetricRibUV": true,
+      "previousCount": 266,
+      "addedCount": 0,
+      "radiusChangeM": 0.0
+    },
+    {
+      "mesh": "春草 · 路边长草1",
+      "instances": 1836,
+      "blades": 209,
+      "bladeWidthP10P90mm": [
+        12.44,
+        31.34
+      ],
+      "radiusM": 2.33967,
+      "hasMetricRibUV": true,
+      "previousCount": 182,
+      "addedCount": 27,
+      "radiusChangeM": 0.0
+    },
+    {
+      "mesh": "春草 · 路边长草2",
+      "instances": 1916,
+      "blades": 199,
+      "bladeWidthP10P90mm": [
+        12.92,
+        32.03
+      ],
+      "radiusM": 2.08988,
+      "hasMetricRibUV": true,
+      "previousCount": 172,
+      "addedCount": 27,
+      "radiusChangeM": 0.0
+    },
+    {
+      "mesh": "春草 · 近景短草1",
+      "instances": 200,
+      "blades": 478,
+      "bladeWidthP10P90mm": [
+        8.72,
+        24.49
+      ],
+      "radiusM": 1.45697,
+      "hasMetricRibUV": true,
+      "previousCount": 368,
+      "addedCount": 110,
+      "radiusChangeM": 0.0
+    },
+    {
+      "mesh": "春草 · 近景短草2",
+      "instances": 176,
+      "blades": 460,
+      "bladeWidthP10P90mm": [
+        8.81,
+        25.13
+      ],
+      "radiusM": 1.42242,
+      "hasMetricRibUV": true,
+      "previousCount": 350,
+      "addedCount": 110,
+      "radiusChangeM": 0.0
+    }
+  ],
+  "arenaFlowerEyes": [
+    {
+      "mesh": "南弯匍匐花垫 · 116",
+      "instances": 116,
+      "raisedCentres": 11,
+      "throatToCentreP50mm": 4.65
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 117",
+      "instances": 137,
+      "raisedCentres": 14,
+      "throatToCentreP50mm": 4.22
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 118",
+      "instances": 132,
+      "raisedCentres": 16,
+      "throatToCentreP50mm": 4.61
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 119",
+      "instances": 112,
+      "raisedCentres": 18,
+      "throatToCentreP50mm": 4.12
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 120",
+      "instances": 130,
+      "raisedCentres": 12,
+      "throatToCentreP50mm": 3.87
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 121",
+      "instances": 120,
+      "raisedCentres": 14,
+      "throatToCentreP50mm": 3.93
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 122",
+      "instances": 111,
+      "raisedCentres": 16,
+      "throatToCentreP50mm": 3.71
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 123",
+      "instances": 106,
+      "raisedCentres": 19,
+      "throatToCentreP50mm": 4.07
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 124",
+      "instances": 129,
+      "raisedCentres": 12,
+      "throatToCentreP50mm": 4.27
+    },
+    {
+      "mesh": "南弯匍匐花垫 · 125",
+      "instances": 112,
+      "raisedCentres": 14,
+      "throatToCentreP50mm": 4.36
+    }
+  ],
+  "hedgeSprouts": [
+    {
+      "node": "图书馆南侧花园 · 修剪矮篱",
+      "shoots": 914,
+      "pairedLeaves": 3656,
+      "triangles": 15538,
+      "verticesOutsidePlantBeds": 0
+    }
+  ],
+  "plantSurfaceMaps": {
+    "#725c56": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#846c5d": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#715e50": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#dad9ca": {
+      "role": "whitewashedBark",
+      "base": {
+        "name": "树皮 · 白干下的皮孔",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            196,
+            252
+          ],
+          [
+            196,
+            251
+          ],
+          [
+            195,
+            250
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 白干下的皮孔法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#887565": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#c7c7bc": {
+      "role": "whitewashedBark",
+      "base": {
+        "name": "树皮 · 白干下的皮孔",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            196,
+            252
+          ],
+          [
+            196,
+            251
+          ],
+          [
+            195,
+            250
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 白干下的皮孔法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#77756e": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#d9d9c9": {
+      "role": "whitewashedBark",
+      "base": {
+        "name": "树皮 · 白干下的皮孔",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            196,
+            252
+          ],
+          [
+            196,
+            251
+          ],
+          [
+            195,
+            250
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 白干下的皮孔法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#9a9686": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "校园春草 · 叶鞘与渐浅叶尖": {
+      "role": "grassBlade",
+      "base": {
+        "name": "近景春草 · 纵脉与叶缘",
+        "size": [
+          64,
+          192
+        ],
+        "rgbRange": [
+          [
+            228,
+            250
+          ],
+          [
+            229,
+            250
+          ],
+          [
+            227,
+            248
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "近景春草 · 纵脉与叶缘法线",
+        "size": [
+          64,
+          192
+        ],
+        "rgbRange": [
+          [
+            115,
+            139
+          ],
+          [
+            127,
+            127
+          ],
+          [
+            254,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#deded0": {
+      "role": "whitewashedBark",
+      "base": {
+        "name": "树皮 · 白干下的皮孔",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            196,
+            252
+          ],
+          [
+            196,
+            251
+          ],
+          [
+            195,
+            250
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 白干下的皮孔法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    },
+    "#696256": {
+      "role": "cherryBark",
+      "base": {
+        "name": "树皮 · 横向皮孔与浅痕",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            147,
+            255
+          ],
+          [
+            147,
+            254
+          ],
+          [
+            146,
+            253
+          ]
+        ],
+        "minFilter": 9987
+      },
+      "normal": {
+        "name": "树皮 · 横向皮孔与浅痕法线",
+        "size": [
+          384,
+          384
+        ],
+        "rgbRange": [
+          [
+            85,
+            175
+          ],
+          [
+            47,
+            220
+          ],
+          [
+            214,
+            254
+          ]
+        ],
+        "minFilter": 9987
+      }
+    }
+  },
+  "springBlossomAtlas": {
+    "name": "春日花序 · 五瓣花与细花梗",
+    "size": [
+      1024,
+      1024
+    ],
+    "rgbRange": [
+      [
+        177,
+        255
+      ],
+      [
+        156,
+        254
+      ],
+      [
+        119,
+        255
+      ]
+    ],
+    "minFilter": 9987,
+    "alpha": "MASK",
+    "threshold": 0.32
+  },
+  "previousGLBSHA256": "ca77508ad5e46d6de967aa2abd08e23a6094ac1cc259867a0efba546a4134b20",
+  "photoReferences": [
+    "实景参照/校园补拍/淦昌苑樱花及石拱.jpg",
+    "实景参照/春日花木/2023_北区樱花林_枝上花序.jpg",
+    "实景参照/校园补拍/图书馆旁粉花与方格矮篱.jpg",
+    "实景参照/校园补拍/体育馆南弯花坡02.jpg"
+  ]
+}

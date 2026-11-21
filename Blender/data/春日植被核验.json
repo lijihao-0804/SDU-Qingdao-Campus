@@ -1,0 +1,109 @@
+{
+  "newEntranceViews": {
+    "s2-b6": {
+      "rays": 27,
+      "vegetationBlockers": []
+    },
+    "s2-b1": {
+      "rays": 18,
+      "vegetationBlockers": []
+    }
+  },
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "floraTested": 7634,
+  "intersections": {
+    "buildings": [],
+    "pitches": [],
+    "water": [],
+    "parking": [],
+    "roads": []
+  },
+  "springInstances": 255,
+  "sites": {
+    "spring_arena_orchard": {
+      "cherry": 24,
+      "pear": 16,
+      "chestnut": 15,
+      "crabapple": 8,
+      "violet": 6,
+      "herb": 19
+    },
+    "spring_huagang_grove": {
+      "apricot": 6,
+      "chestnut": 4,
+      "violet": 4,
+      "herb": 9
+    },
+    "spring_north_cherries": {
+      "sakura": 38,
+      "sakuraWhite": 26,
+      "ukon": 1,
+      "violet": 11,
+      "herb": 20
+    },
+    "spring_yuehai_walk": {
+      "streetWhite": 5,
+      "violet": 4,
+      "herb": 2
+    },
+    "spring_student_farm": {
+      "peach": 6,
+      "blueberry": 17,
+      "violet": 6,
+      "herb": 8
+    }
+  },
+  "springCanopiesClear": true,
+  "phoenixGardenPlants": 773,
+  "phoenixGardenBeds": 6,
+  "sharedSpringMeshes": 22,
+  "treeAndShrubSources": 53,
+  "lawnMaterials": {
+    "texturedLawnPrimitives": 15,
+    "grassTileMetres": 2.24,
+    "leafAtlasPixels": 512,
+    "wallPanelMaterials": 3,
+    "glazingColours": 2,
+    "orchardFloorPixels": {
+      "spring_arena_orchard": [
+        1460,
+        1600
+      ],
+      "spring_huagang_grove": [
+        494,
+        900
+      ],
+      "spring_north_cherries": [
+        1502,
+        1306
+      ],
+      "spring_yuehai_walk": [
+        157,
+        692
+      ],
+      "spring_student_farm": [
+        550,
+        536
+      ]
+    },
+    "plazaPavingFinishes": 2,
+    "finishBuildings": 69,
+    "architecturalMaterials": 256,
+    "rawArchitecturalMaterials": 264,
+    "surfaceAtlasPairs": 5
+  },
+  "groundcover": {
+    "patches": 1437,
+    "grassBlades": 508862,
+    "groundcoverLeaves": 16120,
+    "triangles": 1591066,
+    "sharedMeshes": 9,
+    "squarePatches": 92,
+    "mappedGrassPatches": 240,
+    "landmarkPatches": 310,
+    "understoryPatches": 155,
+    "meadowPatches": 480,
+    "huiwenPatches": 160
+  },
+  "interpretation": "检查最终GLB株心与平面楼体、道路、车位、场地及水面位置；春日专题植株另用其实际冠幅半径复核上述边界。"
+}

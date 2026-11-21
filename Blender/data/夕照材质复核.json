@@ -1,0 +1,225 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "viewerSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "lighting": {
+    "az": 254,
+    "alt": 12,
+    "exposure": 0.93
+  },
+  "views": [
+    {
+      "key": "coast-sandline",
+      "mode": "facade",
+      "title": "鳌山湾 · 岸边步道与潮线",
+      "role": "sand",
+      "pose": {
+        "eye": [
+          510,
+          55,
+          -468
+        ],
+        "target": [
+          656,
+          -6,
+          -482
+        ],
+        "fov": 49
+      },
+      "image": "preview/夕照材质/coast-sandline-after.jpg",
+      "sha256": "b1a9297f5f6a99f0489b2b179974d190731f6ecefde005cad42243b487425e00",
+      "materials": 2,
+      "specularLumaSum": 0.0,
+      "visibleSpecularPixels": 0,
+      "conspicuousSpecularPixels": 0,
+      "changedPixelFraction": 0.275063
+    },
+    {
+      "key": "sun-library-tile",
+      "mode": "facade",
+      "title": "图书馆 · 迎光瓦面",
+      "role": "clay",
+      "pose": {
+        "eye": [
+          200.64,
+          62.77,
+          -22.96
+        ],
+        "target": [
+          179.02,
+          57.11,
+          -28.37
+        ],
+        "fov": 48
+      },
+      "image": "preview/夕照材质/sun-library-tile-after.jpg",
+      "sha256": "5a689b7f0664bbac2441c7331e6324770f5984a6659bc136eb9feb7ff246b7c2",
+      "materials": 25,
+      "specularLumaSum": 2582732.17,
+      "visibleSpecularPixels": 189241,
+      "conspicuousSpecularPixels": 34266,
+      "changedPixelFraction": 0.712265
+    },
+    {
+      "key": "sun-huagang-tile",
+      "mode": "facade",
+      "title": "华岗苑 · 陶瓦与檐口",
+      "role": "clay",
+      "pose": {
+        "eye": [
+          -24.67,
+          24.01,
+          179.71
+        ],
+        "target": [
+          -46.3,
+          16.41,
+          181.59
+        ],
+        "fov": 48
+      },
+      "image": "preview/夕照材质/sun-huagang-tile-after.jpg",
+      "sha256": "3268626d42015cb26d2cd7acc161e4840f0e517a03354fd0938506879d17477a",
+      "materials": 25,
+      "specularLumaSum": 3694275.04,
+      "visibleSpecularPixels": 335574,
+      "conspicuousSpecularPixels": 40833,
+      "changedPixelFraction": 0.733536
+    },
+    {
+      "key": "zhensheng",
+      "mode": "end_porch",
+      "title": "振声苑 · 石墩与内凹窗",
+      "role": "glass",
+      "pose": {
+        "eye": [
+          39.3435,
+          5.1292,
+          380.6663
+        ],
+        "target": [
+          27.2435,
+          7.4292,
+          377.3663
+        ],
+        "fov": 69
+      },
+      "image": "preview/夕照材质/zhensheng-after.jpg",
+      "sha256": "671e21e927fefd7607d5c4aaa72b16a61e43dcdb1183aaa6553b94ef6e5e3de7",
+      "materials": 104,
+      "specularLumaSum": 1445162.62,
+      "visibleSpecularPixels": 147917,
+      "conspicuousSpecularPixels": 5432,
+      "changedPixelFraction": 0.158058
+    },
+    {
+      "key": "library",
+      "mode": "facade",
+      "title": "图书馆 · 石墙与玻璃",
+      "role": "stone",
+      "pose": {
+        "eye": [
+          -8,
+          38,
+          -41
+        ],
+        "target": [
+          169,
+          26,
+          -65
+        ],
+        "fov": 45
+      },
+      "image": "preview/夕照材质/library-after.jpg",
+      "sha256": "f5d2d8e643a7b39c14c72d7b01c47b3240cfa54fb48be40344a8a23f5c585d72",
+      "materials": 265,
+      "specularLumaSum": 0.0,
+      "visibleSpecularPixels": 0,
+      "conspicuousSpecularPixels": 0,
+      "changedPixelFraction": 0.237658
+    },
+    {
+      "key": "spring_phoenix_garden",
+      "mode": "facade",
+      "title": "凤凰居 · 花园和宿舍楼",
+      "role": "glass",
+      "pose": {
+        "eye": [
+          310.0,
+          31.524,
+          961.4
+        ],
+        "target": [
+          311.0,
+          13.209,
+          891.0
+        ],
+        "fov": 44
+      },
+      "image": "preview/夕照材质/spring_phoenix_garden-after.jpg",
+      "sha256": "c72bc6eeeb7788eebc50ceadf61789001b58259269699cd313e0d777fbf2acc0",
+      "materials": 104,
+      "specularLumaSum": 368464.87,
+      "visibleSpecularPixels": 32201,
+      "conspicuousSpecularPixels": 4714,
+      "changedPixelFraction": 0.250803
+    },
+    {
+      "key": "lake",
+      "mode": "shore",
+      "title": "樱海湖 · 岸边倒影",
+      "role": "lake",
+      "pose": {
+        "eye": [
+          41.0,
+          8.4992,
+          -1179.0
+        ],
+        "target": [
+          -70.0,
+          -5.4008,
+          -1146.0
+        ],
+        "fov": 38
+      },
+      "image": "preview/夕照材质/lake-after.jpg",
+      "sha256": "667e5762c0174240ec9f0adb8710a2b37ff9c73c385e879d02d24476d1f752f0",
+      "materials": 1,
+      "specularLumaSum": 37381359.71,
+      "visibleSpecularPixels": 475822,
+      "conspicuousSpecularPixels": 448222,
+      "changedPixelFraction": 0.577326
+    },
+    {
+      "key": "library-flower-court",
+      "mode": "path",
+      "title": "图书馆南侧 · 花木与绿篱",
+      "role": "flora",
+      "pose": {
+        "eye": [
+          132.08,
+          -0.254,
+          35.45
+        ],
+        "target": [
+          132.08,
+          -0.027,
+          14.0
+        ],
+        "fov": 50
+      },
+      "image": "preview/夕照材质/library-flower-court-after.jpg",
+      "sha256": "28bb8345f2ae1c74422985fb2ab2e511795bb4e4baee9717dc8a6dbbe6e47cf5",
+      "materials": 72,
+      "specularLumaSum": 195847.54,
+      "visibleSpecularPixels": 1936,
+      "conspicuousSpecularPixels": 0,
+      "changedPixelFraction": 0.19815
+    }
+  ],
+  "features": {
+    "probes": 6,
+    "lake": true
+  },
+  "browserErrors": [],
+  "contactSheet": "preview/夕照材质/潮线与红瓦.jpg"
+}

@@ -1,0 +1,84 @@
+{
+  "glbSHA256": "6ab3a88f076f21a3eaf46c8a96e9be3a5aa97cb3854b09f07ba3030f1643baee",
+  "viewerSHA256": "0114b263bb2e0453a247f7cd6c5e7b4f4e101835283e54bd1b42e28e04faa943",
+  "geometry": {
+    "shoreLengthM": 3393.89,
+    "checkedGroundNodes": [
+      "会文广场 · 十字步道与中心铺石",
+      "会文广场 · 园块与修剪绿篱",
+      "会文广场 · 坐凳与庭院灯",
+      "停车位与绿岛 · way/974012796",
+      "停车铺面",
+      "听海路 · 公园侧道路延续",
+      "园内春日草本 · 低矮曲线花境",
+      "学院区道路两侧人行道",
+      "学院门前石材步道",
+      "校园及滨海地形",
+      "步行道",
+      "滨海公园 · 球壳观景建筑 1",
+      "滨海公园 · 球壳观景建筑 2",
+      "滨海公园 · 球壳观景建筑 3",
+      "滨海公园 · 球壳观景建筑 4",
+      "滨海公园 · 球壳观景建筑 5",
+      "滨海公园 · 红顶观景塔与曲廊",
+      "滨海公园 · 绿带与岸上地形",
+      "滨海公路与外围道路 · 地形贴合路面",
+      "蓝谷人才公园 · 海滨步道及入园游线",
+      "车道路缘",
+      "连续沥青路面",
+      "鳌山湾 · 干湿沙滩与潮间带",
+      "鳌山湾沿岸 · 卫星地形背景"
+    ],
+    "terrain": {
+      "faces": 164752,
+      "invalidFaces": 6,
+      "excludedOverlapM2": 25600.00003
+    },
+    "offshoreGround": [
+      {
+        "node": "鳌山湾沿岸 · 卫星地形背景",
+        "triangles": 4,
+        "areaM2": 12481.97061
+      }
+    ],
+    "sand": {
+      "鳌山湾 · 湿沙至干沙": {
+        "roughness": 1,
+        "metallic": 0,
+        "specular": 1,
+        "ior": 1.5,
+        "coat": 0,
+        "roughnessMap": true
+      },
+      "#a99c81": {
+        "roughness": 0.81,
+        "metallic": 0,
+        "specular": 1,
+        "ior": 1.5,
+        "coat": 0,
+        "roughnessMap": false
+      }
+    },
+    "passed": false
+  },
+  "view": {
+    "image": "preview/海岸地形与砂面/before-beach.jpg",
+    "obstructionMask": "preview/海岸地形与砂面/before-obstruction.jpg",
+    "visibleWaterPixels": 66572,
+    "obscuredByTerrainPixels": 46681,
+    "obscuredFraction": 0.701211,
+    "camera": {
+      "eye": [
+        510,
+        55,
+        -468
+      ],
+      "target": [
+        656,
+        -6,
+        -482
+      ],
+      "fov": 49
+    }
+  }
+}

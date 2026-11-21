@@ -1,0 +1,594 @@
+{
+  "passed": true,
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "embeddedGLBSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "viewerSHA256": "2ac04d450cfdacaa8eb29ac7e22ee83c2639cb2dcf86e64781e0668eab5df11f",
+  "beforeViewerSHA256": "434d2962cf14d385f7f297d593c81957a96e4ad08a84daf993c3ddd6ef8d0637",
+  "beforeEmbeddedGLBSHA256": "31b4b584a4117a98e42d00bd24a5e4a0b05618dcad51da6f7bdd6938528a289f",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "animationPhaseSeconds": 0.75,
+  "comparisons": [
+    {
+      "key": "zhensheng",
+      "mode": "seams",
+      "title": "振声苑 · 翼楼与连廊",
+      "note": "从东面看南北两端的墙面退进与空中连廊。",
+      "pose": {
+        "eye": [
+          113.0435,
+          31.8292,
+          331.7163
+        ],
+        "target": [
+          22.0435,
+          8.8292,
+          322.7163
+        ],
+        "fov": 52
+      },
+      "viewerLink": "打开青岛校区.html?view=zhensheng&mode=seams",
+      "before": "preview/花木与翼楼/zhensheng-seams-before.jpg",
+      "beforeSHA256": "c23110011874270cb93719cdbf07629fa02585a0527b6de0fdd92ecbf3b140ae",
+      "after": "preview/花木与翼楼/zhensheng-seams-after.jpg",
+      "afterSHA256": "6acdb38710c3a65c3afd6964e2fa3fb9546aeaaa0a70ba81dedaed1e532306f3",
+      "changedPixelFraction": 0.244055
+    },
+    {
+      "key": "zhensheng",
+      "mode": "through",
+      "title": "振声苑 · 穿廊入院",
+      "note": "从翼端望进内院，比较底层开口、廊柱和通道尽头的景物。",
+      "pose": {
+        "eye": [
+          33.8435,
+          2.6092,
+          362.2963
+        ],
+        "target": [
+          2.1435,
+          2.5692,
+          361.4663
+        ],
+        "fov": 57
+      },
+      "viewerLink": "打开青岛校区.html?view=zhensheng&mode=through",
+      "before": "preview/花木与翼楼/zhensheng-through-before.jpg",
+      "beforeSHA256": "50cfdf96e4944b644c8da7ec7406873fd089e38f19b94d2fbceabfdd00f7b997",
+      "after": "preview/花木与翼楼/zhensheng-through-after.jpg",
+      "afterSHA256": "57ea2f2395df3b16763bae992020b31577f2d3c5a12b5f27808c4a1879861fec",
+      "changedPixelFraction": 0.833904
+    },
+    {
+      "key": "zhensheng",
+      "mode": "end_porch",
+      "title": "振声苑 · 端楼门廊",
+      "note": "从端楼看方洞和内凹窗，上方屋盖遮住左右两座石墩的顶部。",
+      "pose": {
+        "eye": [
+          39.3435,
+          5.1292,
+          380.6663
+        ],
+        "target": [
+          27.2435,
+          7.4292,
+          377.3663
+        ],
+        "fov": 69
+      },
+      "viewerLink": "打开青岛校区.html?view=zhensheng&mode=end_porch",
+      "before": "preview/花木与翼楼/zhensheng-end_porch-before.jpg",
+      "beforeSHA256": "5fab6552dfdb311ca52aa246596ab9f9e17ec4b4ce9d6986f05597ab3e60712e",
+      "after": "preview/花木与翼楼/zhensheng-end_porch-after.jpg",
+      "afterSHA256": "6ed57b369b25fd1028c1bbc9e0254522f1716a5b3260ce334553d0316884ef67",
+      "changedPixelFraction": 0.793199
+    },
+    {
+      "key": "ganchang-ce-cherries",
+      "mode": "path",
+      "title": "淦昌苑 C、E 座之间",
+      "note": "从 C 座侧人行道看樱花树与两栋楼的相对位置。",
+      "pose": {
+        "eye": [
+          335.018,
+          0.057,
+          117.428
+        ],
+        "target": [
+          356.353,
+          0.961,
+          123.012
+        ],
+        "fov": 48
+      },
+      "viewerLink": "打开青岛校区.html?view=ganchang-ce-cherries&mode=path",
+      "before": "preview/花木与翼楼/ganchang-ce-cherries-path-before.jpg",
+      "beforeSHA256": "6092be8dfe6b3a7be60f68b6e159762a7ef6e0f6f1901e74e7ffb2403959774c",
+      "after": "preview/花木与翼楼/ganchang-ce-cherries-path-after.jpg",
+      "afterSHA256": "2a70d2bbf2bab2832f2f3723735a18e3bbf1af3feec7d6c7eaa1ac680b16a329",
+      "changedPixelFraction": 0.477956
+    },
+    {
+      "key": "ganchang-cherry-walk",
+      "mode": "detail",
+      "title": "淦昌苑 A、B 座花径",
+      "note": "走近枝梢，可看到浅粉白花簇的花心、花瓣和枝条之间的留空。",
+      "pose": {
+        "eye": [
+          192.824,
+          0.036,
+          112.142
+        ],
+        "target": [
+          198.792,
+          1.473,
+          115.892
+        ],
+        "fov": 41
+      },
+      "viewerLink": "打开青岛校区.html?view=ganchang-cherry-walk&mode=detail",
+      "before": "preview/花木与翼楼/ganchang-cherry-walk-detail-before.jpg",
+      "beforeSHA256": "6ad3a69ef924760b50bcaba5aad4168d90dbccd965bd15d757cdd935cf6586e2",
+      "after": "preview/花木与翼楼/ganchang-cherry-walk-detail-after.jpg",
+      "afterSHA256": "11bcabfbb601e1d3c0334ac5ea5b72bfbed2b3dbe8be65ef4a66669f4bd2e750",
+      "changedPixelFraction": 0.155512
+    },
+    {
+      "key": "library-flower-court",
+      "mode": "path",
+      "title": "图书馆南侧方格花园",
+      "note": "沿矮篱间的路看粉花树冠和近处的花枝。",
+      "pose": {
+        "eye": [
+          132.08,
+          -0.254,
+          35.45
+        ],
+        "target": [
+          132.08,
+          -0.027,
+          14.0
+        ],
+        "fov": 50
+      },
+      "viewerLink": "打开青岛校区.html?view=library-flower-court&mode=path",
+      "before": "preview/花木与翼楼/library-flower-court-path-before.jpg",
+      "beforeSHA256": "f9db57d0b40b0568389827e3a9e937599e122da5c6b7134d6185b87bb1fd6007",
+      "after": "preview/花木与翼楼/library-flower-court-path-after.jpg",
+      "afterSHA256": "57e08693330efa4e535b986e42ebace651d759bcd31d7fbb04fd8c8d01e73c4d",
+      "changedPixelFraction": 0.214901
+    },
+    {
+      "key": "arena-flower-slope",
+      "mode": "facade",
+      "title": "体育馆南弯花坡",
+      "note": "沿坡顶望向下沉车道，比较花丛起伏、土隙和路缘的细草。",
+      "pose": {
+        "eye": [
+          -170.359,
+          6.396,
+          893.33
+        ],
+        "target": [
+          -156.899,
+          3.243,
+          858.847
+        ],
+        "fov": 55
+      },
+      "viewerLink": "打开青岛校区.html?view=arena-flower-slope&mode=facade",
+      "before": "preview/花木与翼楼/arena-flower-slope-facade-before.jpg",
+      "beforeSHA256": "1eb878ca96a3966dbe03cfa86c6cc1d013709cbac6fec7f35daa7fee65f572b4",
+      "after": "preview/花木与翼楼/arena-flower-slope-facade-after.jpg",
+      "afterSHA256": "dba8c5cecd940d18d7508056401382f38118e6da48f04da223c7e60760b3f4ef",
+      "changedPixelFraction": 0.624037
+    },
+    {
+      "key": "grass_relief",
+      "mode": "facade",
+      "title": "育贤广场北园草坪",
+      "note": "从接近草尖的高度看叶鞘与弯曲叶片，再进入模型沿园路查看。",
+      "pose": {
+        "eye": [
+          30.595845656893548,
+          -1.7849582447938,
+          -146.85096099969516
+        ],
+        "target": [
+          34.02784565689355,
+          -2.2667421447127016,
+          -144.99846099969514
+        ],
+        "fov": 54
+      },
+      "viewerLink": "打开青岛校区.html?view=grass_relief&mode=facade",
+      "before": "preview/花木与翼楼/grass_relief-facade-before.jpg",
+      "beforeSHA256": "8c778ffa3f3916cf2b8e23915615bb7f90f1e632a9e5fdd195f8f1307f65fe71",
+      "after": "preview/花木与翼楼/grass_relief-facade-after.jpg",
+      "afterSHA256": "2a40bc63039188582cf5b5f3bf8c02c1654b6871a3fc3e56e68b19af56f0b718",
+      "changedPixelFraction": 0.27432
+    }
+  ],
+  "geometry": {
+    "passed": true,
+    "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+    "treeSites": {
+      "spring_phoenix_garden": {
+        "trees": 713,
+        "sharedMeshIDs": [
+          250,
+          251,
+          254,
+          255,
+          258,
+          259
+        ],
+        "opaquePetalTriangles": 727152
+      },
+      "ganchang-cherry-walk": {
+        "trees": 32,
+        "sharedMeshIDs": [
+          415,
+          416,
+          417
+        ],
+        "opaquePetalTriangles": 1108352
+      },
+      "ganchang-cherry-south": {
+        "trees": 32,
+        "sharedMeshIDs": [
+          415,
+          416,
+          417
+        ],
+        "opaquePetalTriangles": 1108352
+      },
+      "ganchang-ce-cherries": {
+        "trees": 24,
+        "sharedMeshIDs": [
+          415,
+          416,
+          417
+        ],
+        "opaquePetalTriangles": 830976
+      },
+      "library-flower-court": {
+        "trees": 24,
+        "sharedMeshIDs": [
+          418,
+          419,
+          420
+        ],
+        "opaquePetalTriangles": 999024
+      }
+    },
+    "treeMeshMeasurements": {
+      "250": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 1488
+      },
+      "251": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 1416
+      },
+      "254": {
+        "cupDepthRatio": 0.2228,
+        "opaquePetalTriangles": 656
+      },
+      "255": {
+        "cupDepthRatio": 0.2228,
+        "opaquePetalTriangles": 656
+      },
+      "258": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 1416
+      },
+      "259": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 1488
+      },
+      "415": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 34312
+      },
+      "416": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 34816
+      },
+      "417": {
+        "cupDepthRatio": 0.2209,
+        "opaquePetalTriangles": 34744
+      },
+      "418": {
+        "cupDepthRatio": 0.2161,
+        "opaquePetalTriangles": 41506
+      },
+      "419": {
+        "cupDepthRatio": 0.2161,
+        "opaquePetalTriangles": 41554
+      },
+      "420": {
+        "cupDepthRatio": 0.2161,
+        "opaquePetalTriangles": 41818
+      }
+    },
+    "arena": {
+      "cushions": [
+        {
+          "material": "体育馆南弯 · 低矮玫红地被",
+          "vertices": 27342,
+          "triangles": 50505
+        }
+      ],
+      "exposedSoil": [
+        {
+          "material": "南弯裸土 · 枯草壤土",
+          "vertices": 9150,
+          "triangles": 3050
+        }
+      ],
+      "shoots": [
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 96,
+          "triangles": 96
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 220,
+          "triangles": 176
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 440,
+          "triangles": 330,
+          "lobeDepthRatio": 0.0506
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 99,
+          "triangles": 99
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 120,
+          "triangles": 120
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 280,
+          "triangles": 224
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 560,
+          "triangles": 420,
+          "lobeDepthRatio": 0.0426
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 126,
+          "triangles": 126
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 138,
+          "triangles": 138
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 320,
+          "triangles": 256
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 640,
+          "triangles": 480,
+          "lobeDepthRatio": 0.0475
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 144,
+          "triangles": 144
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 156,
+          "triangles": 156
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 360,
+          "triangles": 288
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 720,
+          "triangles": 540,
+          "lobeDepthRatio": 0.0437
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 162,
+          "triangles": 162
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 102,
+          "triangles": 102
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 240,
+          "triangles": 192
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 480,
+          "triangles": 360,
+          "lobeDepthRatio": 0.0386
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 108,
+          "triangles": 108
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 120,
+          "triangles": 120
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 280,
+          "triangles": 224
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 560,
+          "triangles": 420,
+          "lobeDepthRatio": 0.0492
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 126,
+          "triangles": 126
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 138,
+          "triangles": 138
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 320,
+          "triangles": 256
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 640,
+          "triangles": 480,
+          "lobeDepthRatio": 0.0469
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 144,
+          "triangles": 144
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 162,
+          "triangles": 162
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 380,
+          "triangles": 304
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 760,
+          "triangles": 570,
+          "lobeDepthRatio": 0.0465
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 171,
+          "triangles": 171
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 102,
+          "triangles": 102
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 240,
+          "triangles": 192
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 480,
+          "triangles": 360,
+          "lobeDepthRatio": 0.0352
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 108,
+          "triangles": 108
+        },
+        {
+          "material": "南弯草花 · 分枝与花梗",
+          "vertices": 120,
+          "triangles": 120
+        },
+        {
+          "material": "南弯草花 · 对生针叶",
+          "vertices": 280,
+          "triangles": 224
+        },
+        {
+          "material": "南弯草花 · 五裂花冠",
+          "vertices": 560,
+          "triangles": 420,
+          "lobeDepthRatio": 0.0529
+        },
+        {
+          "material": "南弯草花 · 深红花眼",
+          "vertices": 126,
+          "triangles": 126
+        }
+      ],
+      "grasses": [
+        {
+          "material": "南弯花隙 · 春草与枯草",
+          "vertices": 45,
+          "triangles": 36
+        },
+        {
+          "material": "南弯花隙 · 春草与枯草",
+          "vertices": 35,
+          "triangles": 28
+        },
+        {
+          "material": "南弯花隙 · 春草与枯草",
+          "vertices": 50,
+          "triangles": 40
+        },
+        {
+          "material": "南弯花隙 · 春草与枯草",
+          "vertices": 50,
+          "triangles": 40
+        },
+        {
+          "material": "南弯花隙 · 春草与枯草",
+          "vertices": 45,
+          "triangles": 36
+        }
+      ]
+    },
+    "grass": {
+      "patches": 6431,
+      "sharedMeshes": 6,
+      "triangles": 4658931,
+      "blades": 1552977,
+      "patchesByTier": {
+        "field": 2303,
+        "verge": 3752,
+        "detail": 376
+      },
+      "patchesByDistrict": {
+        "北区": 1677,
+        "科研及生态区": 1173,
+        "图书馆与学院区": 1443,
+        "运动与生活区": 2138
+      },
+      "instancesWithLeafVerticesOnMappedHardGroundOrWater": 0
+    }
+  },
+  "browserErrors": [],
+  "pixelDifferenceThreshold": 12
+}

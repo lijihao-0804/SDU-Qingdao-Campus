@@ -1,0 +1,81 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "passages": {
+    "zhensheng": [
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "西北",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "西南",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "东北",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "东南",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      }
+    ],
+    "huagang": [
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "西北",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "西南",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "东北",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      },
+      {
+        "plinthReturnM": 0.055,
+        "endPorticoClearRays": 10,
+        "end": "东南",
+        "horizontalClearRays": 20,
+        "soffitM": 4.65,
+        "skyGaps": 2,
+        "pavementSamples": 3
+      }
+    ]
+  }
+}

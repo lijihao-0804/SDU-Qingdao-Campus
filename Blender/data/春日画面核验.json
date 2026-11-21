@@ -1,0 +1,31 @@
+{
+  "fixedTimeMaxError": 0.0,
+  "loopMaxError": 0.0,
+  "changedPixelFractions": [
+    0.20950416666666666,
+    0.26203333333333334
+  ],
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "viewpoints": [
+    "spring_arena_orchard",
+    "spring_huagang_grove",
+    "spring_north_cherries",
+    "spring_yuehai_walk",
+    "spring_student_farm",
+    "spring_phoenix_garden",
+    "arena-flower-slope",
+    "ganchang-cherry-walk",
+    "ganchang-cherry-south",
+    "ganchang-ce-cherries",
+    "way-970257678",
+    "s2-b1",
+    "s2-b6",
+    "yuehai-north-inscription",
+    "spring_surf"
+  ],
+  "canvas": [
+    1600,
+    900
+  ],
+  "errors": []
+}

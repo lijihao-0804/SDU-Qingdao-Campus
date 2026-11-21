@@ -1,0 +1,1157 @@
+{
+  "satinTileMaterials": 18,
+  "method": "同楼组采用统一的材质族。实景取样记录光照下的像素；渲染底色依构件避开阴影与天空色偏，由照片目视校准。校门及未有逐栋近照的楼沿用同组资料估配。 专家公寓的暖黄墙、陶红色坡瓦及灰色设备带参照八栋正射；研究院完工屋面颜色缺少逐栋实拍。 M区外墙及窄幅坡带依基建处设计图配色，D1、D5保留近似色。 v5图书馆主墙按V2 00:18.50多角度日光校正，馆顶与博物馆玻璃另作分色。",
+  "samples": [
+    {
+      "photo": "实景参照/地标/图书馆西立面局部.png",
+      "surface": "主墙",
+      "box": [
+        154,
+        88,
+        160,
+        95
+      ],
+      "observedSRGB": "#9e7161"
+    },
+    {
+      "photo": "实景参照/地标/图书馆西立面局部.png",
+      "surface": "大屋顶",
+      "box": [
+        217,
+        55,
+        223,
+        62
+      ],
+      "observedSRGB": "#5c0f18"
+    },
+    {
+      "photo": "实景参照/地标/博物馆外景.png",
+      "surface": "立方体白墙",
+      "box": [
+        270,
+        208,
+        277,
+        217
+      ],
+      "observedSRGB": "#d0d2d9"
+    },
+    {
+      "photo": "实景参照/地标/博物馆外景.png",
+      "surface": "铜绿色饰面",
+      "box": [
+        251,
+        144,
+        258,
+        153
+      ],
+      "observedSRGB": "#445e63"
+    },
+    {
+      "photo": "实景参照/地标/振声苑南楼.png",
+      "surface": "石柱",
+      "box": [
+        244,
+        185,
+        251,
+        195
+      ],
+      "observedSRGB": "#d4c1a5"
+    },
+    {
+      "photo": "实景参照/地标/振声苑南楼.png",
+      "surface": "坡瓦",
+      "box": [
+        437,
+        138,
+        444,
+        148
+      ],
+      "observedSRGB": "#aa695c"
+    },
+    {
+      "photo": "实景参照/第周苑/D-2026-入口全景.jpg",
+      "surface": "石材门套",
+      "box": [
+        1871,
+        466,
+        1899,
+        498
+      ],
+      "observedSRGB": "#dad1cc"
+    },
+    {
+      "photo": "实景参照/第周苑/D-2026-入口全景.jpg",
+      "surface": "墙带",
+      "box": [
+        1829,
+        103,
+        1857,
+        134
+      ],
+      "observedSRGB": "#d1c8c3"
+    },
+    {
+      "photo": "实景参照/会文与淦昌/2024_环境学院_E座入口.png",
+      "surface": "灰色门脸",
+      "box": [
+        1067,
+        357,
+        1083,
+        375
+      ],
+      "observedSRGB": "#bcbbc1"
+    },
+    {
+      "photo": "实景参照/会文与淦昌/2024_环境学院_E座入口.png",
+      "surface": "玻璃反射",
+      "box": [
+        436,
+        154,
+        452,
+        172
+      ],
+      "observedSRGB": "#8eb0d0"
+    },
+    {
+      "photo": "实景参照/会文与淦昌/2019_会文广场双楼_原图裁切.png",
+      "surface": "远景屋瓦",
+      "box": [
+        132,
+        31,
+        136,
+        34
+      ],
+      "observedSRGB": "#775c5f"
+    },
+    {
+      "photo": "实景参照/春日建筑/凤凰居-2025年中央花圃与两翼.jpg",
+      "surface": "翼端陶板",
+      "box": [
+        1032,
+        2036,
+        1080,
+        2099
+      ],
+      "observedSRGB": "#d69478"
+    },
+    {
+      "photo": "实景参照/春日建筑/凤凰居-2025年中央花圃与两翼.jpg",
+      "surface": "红瓦",
+      "box": [
+        2856,
+        979,
+        2904,
+        1042
+      ],
+      "observedSRGB": "#f3672c"
+    },
+    {
+      "photo": "实景参照/春日建筑/阅海居-2022年内庭.jpg",
+      "surface": "内庭红墙",
+      "box": [
+        323,
+        270,
+        335,
+        285
+      ],
+      "observedSRGB": "#a96055"
+    },
+    {
+      "photo": "实景参照/春日建筑/阅海居-2022年内庭.jpg",
+      "surface": "中央窗带",
+      "box": [
+        430,
+        211,
+        442,
+        226
+      ],
+      "observedSRGB": "#606b8d"
+    },
+    {
+      "photo": "实景参照/春日建筑/晨园-校方入口近照.jpg",
+      "surface": "拱肩陶板",
+      "box": [
+        166,
+        370,
+        177,
+        385
+      ],
+      "observedSRGB": "#a86842"
+    },
+    {
+      "photo": "实景参照/春日建筑/晨园-校方入口近照.jpg",
+      "surface": "金属封檐",
+      "box": [
+        385,
+        100,
+        397,
+        115
+      ],
+      "observedSRGB": "#486477"
+    },
+    {
+      "photo": "实景参照/春日花木/2025_体育馆西侧_馆体与绿地.jpg",
+      "surface": "馆身外皮",
+      "box": [
+        756,
+        207,
+        770,
+        225
+      ],
+      "observedSRGB": "#ceced0"
+    },
+    {
+      "photo": "实景参照/春日花木/2025_体育馆西侧_馆体与绿地.jpg",
+      "surface": "横向窗带",
+      "box": [
+        708,
+        351,
+        722,
+        370
+      ],
+      "observedSRGB": "#798b96"
+    },
+    {
+      "photo": "实景参照/第周苑/A-2025-屋顶主楼.jpg",
+      "surface": "主屋红瓦",
+      "box": [
+        3461,
+        1282,
+        3523,
+        1363
+      ],
+      "observedSRGB": "#de5e46"
+    },
+    {
+      "photo": "实景参照/第周苑/A-2025-屋顶主楼.jpg",
+      "surface": "浅色墙肢",
+      "box": [
+        2163,
+        1506,
+        2225,
+        1587
+      ],
+      "observedSRGB": "#e8e3de"
+    },
+    {
+      "photo": "实景参照/校园补拍/双创与凤凰居十一号.jpg",
+      "surface": "双创钟塔砖身",
+      "box": [
+        1101,
+        529,
+        1129,
+        561
+      ],
+      "observedSRGB": "#443e4a"
+    },
+    {
+      "photo": "实景参照/校园补拍/双创与凤凰居十一号.jpg",
+      "surface": "双创钟楼锥顶",
+      "box": [
+        1101,
+        308,
+        1129,
+        339
+      ],
+      "observedSRGB": "#696778"
+    },
+    {
+      "photo": "实景参照/校园补拍/双创与凤凰居十一号.jpg",
+      "surface": "上层浅暖外墙",
+      "box": [
+        419,
+        640,
+        447,
+        671
+      ],
+      "observedSRGB": "#424143"
+    },
+    {
+      "photo": "实景参照/校园补拍/凤凰居中轴.jpg",
+      "surface": "六角亭主屋面",
+      "box": [
+        896,
+        845,
+        924,
+        876
+      ],
+      "observedSRGB": "#cd9e7b"
+    },
+    {
+      "photo": "实景参照/校园补拍/凤凰居中轴.jpg",
+      "surface": "亭顶小楼",
+      "box": [
+        896,
+        813,
+        924,
+        845
+      ],
+      "observedSRGB": "#c99f7b"
+    }
+  ],
+  "buildings": [
+    {
+      "key": "library",
+      "name": "青岛校区图书馆",
+      "family": "图书馆",
+      "roles": {
+        "stone": 4,
+        "metal": 2,
+        "glass": 6,
+        "granite": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "museum",
+      "name": "山东大学博物馆（青岛）",
+      "family": "博物馆",
+      "roles": {
+        "stone": 6,
+        "glass": 11,
+        "metal": 7
+      }
+    },
+    {
+      "key": "zhensheng",
+      "name": "振声苑",
+      "family": "公共教学苑",
+      "roles": {
+        "granite": 10,
+        "stone": 4,
+        "clay": 2,
+        "metal": 2,
+        "glass": 6
+      }
+    },
+    {
+      "key": "huagang",
+      "name": "华岗苑",
+      "family": "公共教学苑",
+      "roles": {
+        "granite": 10,
+        "stone": 4,
+        "clay": 2,
+        "metal": 2,
+        "glass": 6
+      }
+    },
+    {
+      "key": "way-982199336",
+      "name": "风雨操场",
+      "family": "训练馆",
+      "roles": {
+        "metal": 10,
+        "glass": 2
+      }
+    },
+    {
+      "key": "west_gate",
+      "name": "西门（礼仪正门）",
+      "family": "校门",
+      "roles": {
+        "stone": 2,
+        "glass": 2,
+        "metal": 1,
+        "ink": 2
+      }
+    },
+    {
+      "key": "north_gate",
+      "name": "北校门",
+      "family": "校门",
+      "roles": {
+        "stone": 2,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "east_gate",
+      "name": "东校门",
+      "family": "校门",
+      "roles": {
+        "metal": 1,
+        "stone": 2
+      }
+    },
+    {
+      "key": "south_gate",
+      "name": "南校门",
+      "family": "校门",
+      "roles": {
+        "ink": 2,
+        "stone": 2,
+        "glass": 1,
+        "clay": 1
+      }
+    },
+    {
+      "key": "song_arena",
+      "name": "宋君复体育馆",
+      "family": "体育馆",
+      "roles": {
+        "metal": 15,
+        "granite": 2,
+        "glass": 6
+      }
+    },
+    {
+      "key": "xiyuan",
+      "name": "曦园餐厅",
+      "family": "曦园",
+      "roles": {
+        "granite": 1,
+        "brick": 3,
+        "glass": 4,
+        "stone": 2,
+        "clay": 1,
+        "metal": 2
+      }
+    },
+    {
+      "key": "way-868015914",
+      "name": "创新创业中心",
+      "family": "双创中心",
+      "roles": {
+        "brick": 1,
+        "stone": 2,
+        "deck": 1,
+        "glass": 1,
+        "metal": 2,
+        "clay": 2,
+        "ink": 2
+      }
+    },
+    {
+      "key": "way-868015915",
+      "name": "淦昌苑D座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 6
+      }
+    },
+    {
+      "key": "way-868015916",
+      "name": "第周苑D座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-868015918",
+      "name": "第周苑C座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-868015919",
+      "name": "第周苑A座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-868015920",
+      "name": "第周苑B座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-868015921",
+      "name": "第周苑F座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-970257667",
+      "name": "淦昌苑C座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 2,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 6
+      }
+    },
+    {
+      "key": "way-970257668",
+      "name": "淦昌苑F座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "glass": 5
+      }
+    },
+    {
+      "key": "way-970257669",
+      "name": "淦昌苑E座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 2,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 7
+      }
+    },
+    {
+      "key": "way-970257670",
+      "name": "淦昌苑A座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 6
+      }
+    },
+    {
+      "key": "way-970257671",
+      "name": "第周苑E座",
+      "family": "第周苑",
+      "roles": {
+        "stone": 4,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "granite": 2,
+        "glass": 2
+      }
+    },
+    {
+      "key": "way-970257672",
+      "name": "会文北楼",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 5
+      }
+    },
+    {
+      "key": "way-970257673",
+      "name": "会文南楼",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 2,
+        "metal": 3,
+        "deck": 1,
+        "glass": 5
+      }
+    },
+    {
+      "key": "way-970257676",
+      "name": "凤凰居1号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257677",
+      "name": "凤凰居5号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257678",
+      "name": "凤凰居9号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257679",
+      "name": "凤凰居2号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "stone": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257680",
+      "name": "凤凰居6号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "stone": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257681",
+      "name": "凤凰居10号楼",
+      "family": "凤凰居",
+      "roles": {
+        "glass": 2,
+        "metal": 2,
+        "panel": 2,
+        "stone": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "way-970257682",
+      "name": "校园建筑 way/970257682",
+      "family": "凤凰居",
+      "roles": {
+        "panel": 1,
+        "stone": 1,
+        "deck": 1,
+        "clay": 1
+      }
+    },
+    {
+      "key": "way-970257683",
+      "name": "校园建筑 way/970257683",
+      "family": "凤凰居",
+      "roles": {
+        "panel": 1,
+        "stone": 1,
+        "deck": 1,
+        "clay": 1
+      }
+    },
+    {
+      "key": "way-970257684",
+      "name": "校园建筑 way/970257684",
+      "family": "凤凰居",
+      "roles": {
+        "panel": 1,
+        "stone": 1,
+        "deck": 1,
+        "clay": 1
+      }
+    },
+    {
+      "key": "way-970257685",
+      "name": "校园建筑 way/970257685",
+      "family": "凤凰居",
+      "roles": {
+        "panel": 1,
+        "stone": 1,
+        "deck": 1,
+        "clay": 1
+      }
+    },
+    {
+      "key": "way-970257686",
+      "name": "专家公寓3号楼",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "way-970257687",
+      "name": "专家公寓2号楼",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "way-970257688",
+      "name": "专家公寓1号楼",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "way-982180796",
+      "name": "校园建筑 way/982180796",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-982180797",
+      "name": "校园建筑 way/982180797",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-982180798",
+      "name": "校园建筑 way/982180798",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-982199358",
+      "name": "凤凰居11-13号楼",
+      "family": "凤凰居",
+      "roles": {
+        "panel": 2,
+        "glass": 2,
+        "metal": 1,
+        "stone": 1,
+        "clay": 2
+      }
+    },
+    {
+      "key": "way-982199360",
+      "name": "校园建筑 way/982199360",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-982199361",
+      "name": "校园建筑 way/982199361",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-985076862",
+      "name": "校园建筑 way/985076862",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "way-1018848586",
+      "name": "淦昌苑B座",
+      "family": "会文与淦昌",
+      "roles": {
+        "stone": 3,
+        "granite": 1,
+        "clay": 1,
+        "metal": 3,
+        "deck": 1,
+        "glass": 5
+      }
+    },
+    {
+      "key": "way-1020621360",
+      "name": "校园建筑 way/1020621360",
+      "family": "凤凰居六角亭",
+      "roles": {
+        "stone": 3,
+        "metal": 2,
+        "panel": 1,
+        "clay": 2,
+        "brick": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "way-1022925323",
+      "name": "校园建筑 way/1022925323",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "stone": 1,
+        "deck": 1,
+        "glass": 1,
+        "metal": 1
+      }
+    },
+    {
+      "key": "s2-b1",
+      "name": "阅海居 B1",
+      "family": "阅海居",
+      "roles": {
+        "glass": 6,
+        "metal": 3,
+        "panel": 2,
+        "stone": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-b2",
+      "name": "阅海居 B2",
+      "family": "阅海居",
+      "roles": {
+        "glass": 6,
+        "metal": 3,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-b5",
+      "name": "阅海居 B5",
+      "family": "阅海居",
+      "roles": {
+        "glass": 6,
+        "metal": 3,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-b6",
+      "name": "晨园餐厅",
+      "family": "晨园",
+      "roles": {
+        "metal": 3,
+        "panel": 2,
+        "glass": 2,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-b9",
+      "name": "阅海居 B9",
+      "family": "阅海居",
+      "roles": {
+        "glass": 6,
+        "metal": 3,
+        "panel": 2,
+        "stone": 1,
+        "clay": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-b10",
+      "name": "阅海居 B10",
+      "family": "阅海居",
+      "roles": {
+        "glass": 6,
+        "metal": 3,
+        "panel": 2,
+        "clay": 1,
+        "stone": 1,
+        "deck": 1
+      }
+    },
+    {
+      "key": "s2-south-t4",
+      "name": "专家公寓 T4",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-south-t5",
+      "name": "专家公寓 T5",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-south-t6",
+      "name": "专家公寓 T6",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-south-t7",
+      "name": "专家公寓 T7",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-south-t8",
+      "name": "专家公寓 T8",
+      "family": "专家公寓",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "assembly",
+      "name": "学生会堂 C1",
+      "family": "会堂",
+      "roles": {
+        "metal": 3,
+        "granite": 1,
+        "glass": 1,
+        "stone": 2
+      }
+    },
+    {
+      "key": "s2-research-m",
+      "name": "工程技术研究院 M区",
+      "family": "研究院M区",
+      "roles": {
+        "stone": 2,
+        "granite": 1,
+        "metal": 2,
+        "clay": 1,
+        "deck": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-research-d1",
+      "name": "工程技术研究院 D1",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "metal": 2,
+        "deck": 2,
+        "stone": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "s2-research-d5",
+      "name": "工程技术研究院 D5",
+      "family": "其他建筑",
+      "roles": {
+        "brick": 1,
+        "granite": 1,
+        "metal": 2,
+        "deck": 2,
+        "stone": 1,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-pavilion-1",
+      "name": "滨海公园 · 球壳观景建筑 1",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 2,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-pavilion-2",
+      "name": "滨海公园 · 球壳观景建筑 2",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 2,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-pavilion-3",
+      "name": "滨海公园 · 球壳观景建筑 3",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 2,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-pavilion-4",
+      "name": "滨海公园 · 球壳观景建筑 4",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 2,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-pavilion-5",
+      "name": "滨海公园 · 球壳观景建筑 5",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 2,
+        "glass": 1
+      }
+    },
+    {
+      "key": "coastal-red-tower",
+      "name": "滨海公园 · 红顶观景塔与曲廊",
+      "family": "海滨构筑",
+      "roles": {
+        "metal": 5,
+        "granite": 1
+      }
+    }
+  ],
+  "materials": 256,
+  "roles": [
+    "stone",
+    "granite",
+    "clay",
+    "brick",
+    "panel",
+    "deck",
+    "metal",
+    "glass",
+    "ink"
+  ],
+  "embeddedPairs": [
+    "stone",
+    "granite",
+    "clay",
+    "deck",
+    "brick"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "baselineGLBSHA256": "ca77508ad5e46d6de967aa2abd08e23a6094ac1cc259867a0efba546a4134b20",
+  "baselinePageSHA256": "4c4e28351fa83df31f6ea2e9e5d58bc91ad22bc910e3233a4db56b668c8712c4",
+  "conditions": "同一初始模型，用 Chrome 离线固定相机，从 2 倍屏幕采集，与 3 倍超采样参照比较。控制组仅更换绘制分辨率、各向异性采样和沙面色彩图及坐标。",
+  "baselineSand": {
+    "colourMapPixels": [
+      384,
+      512
+    ],
+    "surfaceM2": 70830.78,
+    "singleColumnTriangles": 1112,
+    "singleColumnM2": 7357.83,
+    "specularFactor": 0.0
+  },
+  "views": [
+    {
+      "key": "west_gate",
+      "label": "西门四字的笔画与空隙",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 8.349,
+      "adjustedEdgeError": 6.282,
+      "reductionPercent": 24.8
+    },
+    {
+      "key": "zhensheng",
+      "label": "开间边缘、窗框和石缝",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 2.182,
+      "adjustedEdgeError": 1.614,
+      "reductionPercent": 26.0
+    },
+    {
+      "key": "sun-library-tile",
+      "label": "南坡的瓦棱与搭接",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 1.426,
+      "adjustedEdgeError": 0.763,
+      "reductionPercent": 46.5
+    },
+    {
+      "key": "waterfront-beach",
+      "label": "干湿沙过渡与回潮纹",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 0.633,
+      "adjustedEdgeError": 0.442,
+      "reductionPercent": 30.2
+    },
+    {
+      "key": "library-flower-court",
+      "label": "小径两侧绿篱与花枝",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 7.37,
+      "adjustedEdgeError": 6.032,
+      "reductionPercent": 18.2
+    },
+    {
+      "key": "film-library",
+      "label": "远景图书馆的窗格与柱间隙",
+      "originalCanvas": [
+        1433,
+        1040
+      ],
+      "adjustedCanvas": [
+        1792,
+        1300
+      ],
+      "originalEdgeError": 5.668,
+      "adjustedEdgeError": 4.301,
+      "reductionPercent": 24.1
+    }
+  ]
+}

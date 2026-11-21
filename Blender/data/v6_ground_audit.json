@@ -1,0 +1,298 @@
+{
+  "glbSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "cellWidthM": 0.5,
+  "checkedInteriorPixels": 7410753,
+  "uncoveredInteriorPixels": 0,
+  "method": "检查校界内缩0.5米的半米栅格基面。另按导出场景的米制三角面核对停车标线、车辆、北区场地、球网、工程用房和补植。",
+  "architecturalOptics": {
+    "materialsByFinish": {
+      "stone": 41,
+      "metal": 77,
+      "glass": 64,
+      "granite": 25,
+      "clay": 18
+    },
+    "rawMaterialsByFinish": {
+      "glass": 23,
+      "matte": 224,
+      "metal": 10,
+      "clay": 7
+    },
+    "packedProfiles": {
+      "stone": {
+        "textureIndex": 26,
+        "roughnessP05P50P95": [
+          0.871,
+          0.906,
+          0.945
+        ]
+      },
+      "granite": {
+        "textureIndex": 29,
+        "roughnessP05P50P95": [
+          0.8,
+          0.855,
+          0.914
+        ]
+      },
+      "clay": {
+        "textureIndex": 36,
+        "roughnessP05P50P95": [
+          0.604,
+          0.741,
+          0.8
+        ],
+        "glazeMaskAbove30PercentFraction": 0.1245
+      }
+    },
+    "metalTypes": [
+      "bare",
+      "coated"
+    ],
+    "identifiedSourceParts": {
+      "metal": 8,
+      "plant": 7,
+      "matte": 281,
+      "clay": 100,
+      "glass": 33
+    }
+  },
+  "satinMaterials": 18,
+  "tiledBuildings": 47,
+  "parking": [
+    {
+      "id": "way/974012796",
+      "area": 10596,
+      "stalls": 181,
+      "vehicles": 42,
+      "islands": 10,
+      "exportedDividerStripes": 362,
+      "exportedEndStripes": 181,
+      "paintTriangleCentresVisible": 3256,
+      "paintTriangleCentresTested": 3256,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 42
+    },
+    {
+      "id": "way/974012797",
+      "area": 7512,
+      "stalls": 178,
+      "vehicles": 42,
+      "islands": 8,
+      "exportedDividerStripes": 356,
+      "exportedEndStripes": 178,
+      "paintTriangleCentresVisible": 2886,
+      "paintTriangleCentresTested": 2886,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 42
+    },
+    {
+      "id": "way/974012803",
+      "area": 6136,
+      "stalls": 129,
+      "vehicles": 37,
+      "islands": 9,
+      "exportedDividerStripes": 258,
+      "exportedEndStripes": 129,
+      "paintTriangleCentresVisible": 2114,
+      "paintTriangleCentresTested": 2114,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 37
+    },
+    {
+      "id": "way/982199354",
+      "area": 699,
+      "stalls": 18,
+      "vehicles": 4,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 350,
+      "paintTriangleCentresTested": 350,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 4
+    },
+    {
+      "id": "way/982199355",
+      "area": 1103,
+      "stalls": 31,
+      "vehicles": 7,
+      "islands": 0,
+      "exportedDividerStripes": 62,
+      "exportedEndStripes": 31,
+      "paintTriangleCentresVisible": 280,
+      "paintTriangleCentresTested": 280,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 7
+    },
+    {
+      "id": "way/982199356",
+      "area": 1374,
+      "stalls": 47,
+      "vehicles": 11,
+      "islands": 0,
+      "exportedDividerStripes": 94,
+      "exportedEndStripes": 47,
+      "paintTriangleCentresVisible": 452,
+      "paintTriangleCentresTested": 452,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 11
+    },
+    {
+      "id": "way/982199357",
+      "area": 531,
+      "stalls": 22,
+      "vehicles": 3,
+      "islands": 0,
+      "exportedDividerStripes": 44,
+      "exportedEndStripes": 22,
+      "paintTriangleCentresVisible": 569,
+      "paintTriangleCentresTested": 569,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 3
+    },
+    {
+      "id": "way/1022925318",
+      "area": 226,
+      "stalls": 12,
+      "vehicles": 4,
+      "islands": 0,
+      "exportedDividerStripes": 24,
+      "exportedEndStripes": 12,
+      "paintTriangleCentresVisible": 130,
+      "paintTriangleCentresTested": 130,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 4
+    },
+    {
+      "id": "way/1022925324",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 5,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 204,
+      "paintTriangleCentresTested": 204,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 5
+    },
+    {
+      "id": "way/1022925325",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 5,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 182,
+      "paintTriangleCentresTested": 182,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 5
+    },
+    {
+      "id": "way/1022925326",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 1,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 170,
+      "paintTriangleCentresTested": 170,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 1
+    },
+    {
+      "id": "way/1022925327",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 6,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 172,
+      "paintTriangleCentresTested": 172,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 6
+    },
+    {
+      "id": "way/1022925328",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 6,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 180,
+      "paintTriangleCentresTested": 180,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 6
+    },
+    {
+      "id": "way/1022925329",
+      "area": 307,
+      "stalls": 18,
+      "vehicles": 5,
+      "islands": 0,
+      "exportedDividerStripes": 36,
+      "exportedEndStripes": 18,
+      "paintTriangleCentresVisible": 214,
+      "paintTriangleCentresTested": 214,
+      "fullyHiddenStripes": 0,
+      "exportedVehicleCount": 5
+    }
+  ],
+  "northernFacilities": {
+    "exportedAreasM2": {
+      "阅海居西侧 · 球场边带": 5550.0,
+      "阅海居运动场 · 东侧入口": 10.72,
+      "学生会堂建设用地 · 外圈整地面": 12092.44,
+      "学生会堂建设用地 · 浅色通道": 3784.37,
+      "浩然大道两侧 · 工程用房院地": 6711.0,
+      "研究院 M、D 区 · 整地施工范围": 37801.25,
+      "会堂东侧 · 种植地行间通道": 2064.69
+    },
+    "blueZoneAreasM2": [
+      2775.8,
+      2440.51
+    ],
+    "exportedCabins": 9,
+    "courtsWithPlayingPaintAndNet": 6,
+    "exportedVegetationByZone": {
+      "学生会堂环庭": 23,
+      "学院轴线疏列": 4,
+      "北区林缘": 97,
+      "体育场西侧幼林": 120,
+      "校园疏林草地": 7,
+      "樱海湖岸林": 9,
+      "会堂东侧种植地": 559
+    }
+  },
+  "plazaGardens": {
+    "育贤广场北翼": {
+      "measuredAreaM2": 1176.0,
+      "remainingCommonPavingFraction": 0.2656
+    },
+    "育贤广场南翼": {
+      "measuredAreaM2": 8319.0,
+      "remainingCommonPavingFraction": 0.2081
+    },
+    "博物馆东侧校友文化林": {
+      "measuredAreaM2": 27850.2,
+      "remainingCommonPavingFraction": 0.0
+    }
+  },
+  "alumniGarden": {
+    "exportedAreasM2": {
+      "lawn": 17462.1,
+      "beds": 8651.05,
+      "paths": 1237.11
+    },
+    "exportedPlants": {
+      "trees": 148,
+      "shrubs": 136
+    },
+    "legacyPavingOnGreenM2": 0
+  }
+}

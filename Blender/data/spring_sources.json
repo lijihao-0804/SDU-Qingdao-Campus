@@ -1,0 +1,296 @@
+{
+  "title": "山东大学青岛校区春日果树、樱花和低草本的实景依据",
+  "coordinates": "校园米制坐标，东为 X 正，南为 Z 正。校方资料提供片区与物种，模型中的点位、株距、树姿及同屏花期为复原推定。",
+  "phenology": "复合春季展示。取沿海春季不同时间可见的花与嫩叶，减淡个体间整齐同步开花的效果。板栗用春季嫩叶，蓝莓采用米白小钟状花，郁金樱为浅黄绿而带嫩粉。",
+  "sites": [
+    {
+      "key": "spring_arena_orchard",
+      "name": "宋君复体育馆西侧果树林",
+      "sources": [
+        "arena25",
+        "arena24"
+      ],
+      "accuracy": "体育馆西侧已证。树位依绿地、原场地便道、硬质铺装与入口让位推定。截取代表性树组。",
+      "species": [
+        "樱桃",
+        "秋月梨",
+        "板栗",
+        "垂丝海棠"
+      ],
+      "evidence": "2025年3月校方记录樱桃100、秋月梨50、板栗50、垂丝海棠30及夏橡等，照片可辨馆体与新植树林。2024年秋冬绿化报道记录体育场西侧开荒植绿。"
+    },
+    {
+      "key": "spring_huagang_grove",
+      "name": "华岗苑西侧果树林",
+      "sources": [
+        "huagang26"
+      ],
+      "accuracy": "有明确西侧方位。两片树林合计28株，校方没有拆分株数及树种。选择西侧铺装与车位之外的一块现有林地，种植量模型抽样。",
+      "species": [
+        "杏",
+        "板栗"
+      ],
+      "evidence": "后勤处记录华岗苑西侧树林和校友林接收十年生杏树、板栗。原图可见修剪后的稀疏树形、三角支撑与新叶前状态。"
+    },
+    {
+      "key": "spring_north_cherries",
+      "name": "北区樱花林",
+      "sources": [
+        "north23",
+        "north24"
+      ],
+      "accuracy": "仅北区片区确证。北区残存绿地内选一组有间隙的树列重建，组团和郁金樱单株均为示意。樱海湖与樱花林是学校通知分别列出的两处地点。",
+      "species": [
+        "观赏樱花（普通品种未细分）",
+        "郁金樱"
+      ],
+      "evidence": "实地观察者记录北区5000多株樱花，2021年发现3株郁金樱，至2023年辨认到第4株。图片可见稀疏行列、春叶、花束与林地间隙。"
+    },
+    {
+      "key": "spring_student_farm",
+      "name": "大学生实验农场·青青果园",
+      "sources": [
+        "farm24",
+        "farm23",
+        "farm21"
+      ],
+      "accuracy": "北区实验农场、法学院四个板块之一的青青果园可证。校方没有果园经纬度或分界测量，按北区现有未建地中的小块展示桃和低矮蓝莓。",
+      "species": [
+        "桃",
+        "蓝莓"
+      ],
+      "evidence": "法学院2024年材料明确青青果园有桃树和蓝莓。北区整个实验农场约7.5亩，校方有春种和师生耕作实景。"
+    },
+    {
+      "key": "spring_yuehai_walk",
+      "name": "阅海居1号楼花带",
+      "sources": [
+        "yuehai25"
+      ],
+      "accuracy": "在第37幅原图的右楼上可辨“阅海居① / YUEHAI HALL”，路旁有连续粉白花树。图中未注品种、方向和树位；模型取1号楼与2号楼之间道路旁能容纳冠幅的一段西侧绿带。",
+      "species": [
+        "粉白春花树（种未定）"
+      ],
+      "evidence": "建筑名与开花季相来自同一张校方实景。树列所选路段依公寓 footprint 与通行空间选取。"
+    }
+  ],
+  "sources": [
+    {
+      "key": "arena25",
+      "date": "2025-03-13",
+      "title": "青岛校区组织开展植树节系列活动",
+      "publisher": "山东大学（青岛）",
+      "url": "https://www.qdxq.sdu.edu.cn/info/1820/60382.htm",
+      "credit": "摄影 王维栋"
+    },
+    {
+      "key": "arena24",
+      "date": "2024-12-10",
+      "title": "后勤管理处积极开展秋冬绿化工作，打造校园生态新画卷",
+      "publisher": "山东大学（青岛）后勤管理处",
+      "url": "https://hq.qd.sdu.edu.cn/info/1017/2436.htm",
+      "credit": "王维栋"
+    },
+    {
+      "key": "huagang26",
+      "date": "2026-04-07",
+      "title": "青岛校区微公交驾驶员李德良为学校捐赠28棵果树",
+      "publisher": "山东大学（青岛）后勤管理处",
+      "url": "https://hq.qd.sdu.edu.cn/info/1017/2805.htm",
+      "credit": "作者 焦鑫悦、张文超；配图摄影未单列"
+    },
+    {
+      "key": "north23",
+      "date": "2023-04-26",
+      "title": "青岛校区郁金樱关注者 任朝霞",
+      "publisher": "山东大学·山大日记",
+      "url": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "credit": "作者 任朝霞；随文图片"
+    },
+    {
+      "key": "north24",
+      "date": "2024-04-18",
+      "title": "关于2024年春季树木喷洒药物的通知",
+      "publisher": "山东大学（青岛）办公信息网",
+      "url": "https://www.bgxx.qd.sdu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=6761&wbtreeid=1004"
+    },
+    {
+      "key": "farm24",
+      "date": "2024-05-06",
+      "title": "法学院获评青岛校区SDU“劳动+”农场环境美化和文化建设评比一等奖",
+      "publisher": "山东大学法学院",
+      "url": "https://www.law.sdu.edu.cn/info/1093/13665.htm",
+      "credit": "摄影 叶妍汐、李尚"
+    },
+    {
+      "key": "farm23",
+      "date": "2023-04-14",
+      "title": "青岛校区举行大学生实验农场2023年春种仪式",
+      "publisher": "山东大学（青岛）",
+      "url": "https://www.qdxq.sdu.edu.cn/info/1819/57147.htm"
+    },
+    {
+      "key": "farm21",
+      "date": "2021-07-22",
+      "title": "青岛校区大学生实验农场开工建设",
+      "publisher": "山东大学（青岛）",
+      "url": "https://www.qdxq.sdu.edu.cn/info/1722/49754.htm",
+      "scope": "仅采用约7.5亩的建设规模；效果图不作为实景。"
+    },
+    {
+      "key": "ground21",
+      "date": "2021-04-01",
+      "title": "春天到底是啥颜色？观海君带你逛山东大学青岛校区找答案！",
+      "publisher": "观海新闻／山东大学青岛校区供图文",
+      "url": "https://www.guanhai.com.cn/p/74744.html",
+      "scope": "校区可见紫色堇菜。小型地被的逐处面积和位置没有实物采样，模型仅在局部草隙零星配置。"
+    },
+    {
+      "key": "greening24",
+      "date": "2024-03-27",
+      "title": "不负好春光 绿化养护忙——后勤管理处有序推进春季绿化养护工作",
+      "publisher": "山东大学（青岛）",
+      "url": "https://www.qdxq.sdu.edu.cn/info/1820/54877.htm",
+      "scope": "育贤广场、樱海湖、生态轴等区域的综合养护，不推断逐地点树种。"
+    },
+    {
+      "key": "yuehai25",
+      "date": "2025-04-08",
+      "title": "山大送你一场海边的春和景明！",
+      "publisher": "山东大学（青岛）",
+      "credit": "青岛校区融媒体中心 摄",
+      "url": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm"
+    }
+  ],
+  "references": [
+    {
+      "key": "spring_arena_orchard",
+      "files": [
+        "实景参照/春日花木/2025_体育馆西侧_馆体与绿地.jpg",
+        "实景参照/春日花木/2025_体育馆西侧_植树.jpg",
+        "实景参照/春日花木/2025_体育馆西侧_幼树.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1820/60382.htm",
+      "desc": "馆体方向、种植活动与幼树"
+    },
+    {
+      "key": "spring_huagang_grove",
+      "files": [
+        "实景参照/春日花木/2026_春植_果树与支撑.jpg"
+      ],
+      "source": "https://hq.qd.sdu.edu.cn/info/1017/2805.htm",
+      "desc": "移植后树干、林间土草地与木撑"
+    },
+    {
+      "key": "spring_north_cherries",
+      "files": [
+        "实景参照/春日花木/2023_北区樱花林_郁金樱初花.jpg",
+        "实景参照/春日花木/2023_北区樱花林_枝上花序.jpg",
+        "实景参照/春日花木/2023_北区樱花林_疏密与树形.jpg",
+        "实景参照/春日花木/2023_北区樱花林_晚期花色.jpg"
+      ],
+      "source": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "desc": "郁金樱花色递变、花枝与行树空间"
+    },
+    {
+      "key": "spring_student_farm",
+      "files": [
+        "实景参照/春日花木/2024_实验农场_青青法睦园地.png",
+        "实景参照/春日花木/2024_实验农场_现场劳作.jpg"
+      ],
+      "source": "https://www.law.sdu.edu.cn/info/1093/13665.htm",
+      "desc": "法学院劳动园地实景"
+    },
+    {
+      "key": "spring_student_farm",
+      "files": [
+        "实景参照/春日花木/2023_北区实验农场_耕作行列.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1819/57147.htm",
+      "desc": "北区实验农场春种实景"
+    },
+    {
+      "key": "spring_yuehai_walk",
+      "files": [
+        "实景参照/春日花木/2025_阅海居1号楼_沿路粉白花树.jpg"
+      ],
+      "source": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "desc": "图37，右侧阅海居①楼名可辨，路旁行道花树的颜色、尺度与路幅。"
+    }
+  ],
+  "photos": [
+    {
+      "id": "R_1",
+      "file": "实景参照/春日花木/2025_体育馆西侧_馆体与绿地.jpg",
+      "page": "https://www.qdxq.sdu.edu.cn/info/1820/60382.htm",
+      "url": "https://www.qdxq.sdu.edu.cn/__local/A/3F/7C/047B57956FCD4DBC9B4015017FA_CA473239_1E24B.jpeg"
+    },
+    {
+      "id": "R_2",
+      "file": "实景参照/春日花木/2025_体育馆西侧_植树.jpg",
+      "page": "https://www.qdxq.sdu.edu.cn/info/1820/60382.htm",
+      "url": "https://www.qdxq.sdu.edu.cn/__local/6/09/32/36C9FAA324AEA5D60EBE6EB67E4_DAD9AFD9_38B25.jpeg"
+    },
+    {
+      "id": "R_4",
+      "file": "实景参照/春日花木/2025_体育馆西侧_幼树.jpg",
+      "page": "https://www.qdxq.sdu.edu.cn/info/1820/60382.htm",
+      "url": "https://www.qdxq.sdu.edu.cn/__local/3/BB/AC/FBF9C4066585E65D453E28702EE_3EA6A18B_20A03.jpeg"
+    },
+    {
+      "id": "A_1",
+      "file": "实景参照/春日花木/2026_春植_果树与支撑.jpg",
+      "page": "https://hq.qd.sdu.edu.cn/info/1017/2805.htm",
+      "url": "https://hq.qd.sdu.edu.cn/__local/4/50/AE/089F26F26C36CC7E360A6E1F6A8_B83CB5A1_1C302D.jpg"
+    },
+    {
+      "id": "L_1",
+      "file": "实景参照/春日花木/2023_北区樱花林_郁金樱初花.jpg",
+      "page": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "url": "https://www.sdrj.sdu.edu.cn/__local/4/37/FC/EDC469F77D1E04009B68F2237CA_7246588E_61AE1.jpg"
+    },
+    {
+      "id": "L_5",
+      "file": "实景参照/春日花木/2023_北区樱花林_枝上花序.jpg",
+      "page": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "url": "https://www.sdrj.sdu.edu.cn/__local/4/EC/5F/92C39443696DA4A5C0BC8580D02_C943E405_AB689.jpg"
+    },
+    {
+      "id": "L_7",
+      "file": "实景参照/春日花木/2023_北区樱花林_疏密与树形.jpg",
+      "page": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "url": "https://www.sdrj.sdu.edu.cn/__local/0/D4/7A/11DC270A4531F1F9F124AE3C0FF_BF47423F_B4E4B.jpg"
+    },
+    {
+      "id": "L_8",
+      "file": "实景参照/春日花木/2023_北区樱花林_晚期花色.jpg",
+      "page": "https://www.sdrj.sdu.edu.cn/info/1003/34230.htm",
+      "url": "https://www.sdrj.sdu.edu.cn/__local/7/D5/A7/AFF34AD0A3CEC86F84CB0A8732D_559F2916_81397.jpg"
+    },
+    {
+      "id": "F_1",
+      "file": "实景参照/春日花木/2024_实验农场_青青法睦园地.png",
+      "page": "https://www.law.sdu.edu.cn/info/1093/13665.htm",
+      "url": "https://www.law.sdu.edu.cn/__local/A/89/5C/127496268F369C9350E1D681853_D90A6484_1053D2.png"
+    },
+    {
+      "id": "F_2",
+      "file": "实景参照/春日花木/2024_实验农场_现场劳作.jpg",
+      "page": "https://www.law.sdu.edu.cn/info/1093/13665.htm",
+      "url": "https://www.law.sdu.edu.cn/__local/C/74/E8/45DBB064CF9C4D34A7930928B2D_930D4B47_24C8C.jpg"
+    },
+    {
+      "id": "Z_4",
+      "file": "实景参照/春日花木/2023_北区实验农场_耕作行列.jpg",
+      "page": "https://www.qdxq.sdu.edu.cn/info/1819/57147.htm",
+      "url": "https://www.qdxq.sdu.edu.cn/__local/A/93/CC/FD17F95B892F1B2D03CAB3DA139_FD7395F5_81431.jpg"
+    },
+    {
+      "id": "YW_37",
+      "file": "实景参照/春日花木/2025_阅海居1号楼_沿路粉白花树.jpg",
+      "page": "https://www.qdxq.sdu.edu.cn/info/1831/60590.htm",
+      "url": "https://www.qdxq.sdu.edu.cn/__local/4/97/23/002472D4CC66D289F56B929D88E_EE56382B_16A9CF.jpg"
+    }
+  ],
+  "rights": "公开校方网页配图保留原始文件，仅作本机建模查照。原图著作权归拍摄者及原发布方。"
+}

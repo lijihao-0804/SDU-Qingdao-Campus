@@ -1,0 +1,57 @@
+{
+  "verified": true,
+  "modelSHA256": "6ba1320b8e02276d775c2f4a69df961b0164dfc3abf57a1ec5d0c021dca7ef38",
+  "profiles": [
+    {
+      "station": 41,
+      "upperPathM": 5.739,
+      "lowerRoadM": 1.623,
+      "reliefM": 4.115
+    },
+    {
+      "station": 59,
+      "upperPathM": 5.265,
+      "lowerRoadM": 1.15,
+      "reliefM": 4.115
+    },
+    {
+      "station": 77,
+      "upperPathM": 4.597,
+      "lowerRoadM": 0.482,
+      "reliefM": 4.115
+    },
+    {
+      "station": 93,
+      "upperPathM": 4.597,
+      "lowerRoadM": 0.482,
+      "reliefM": 4.115
+    },
+    {
+      "station": 109,
+      "upperPathM": 4.597,
+      "lowerRoadM": 0.482,
+      "reliefM": 4.115
+    }
+  ],
+  "clearRoadWidthSampledM": 5.3,
+  "arenaBaseDifferenceM": 0.005,
+  "geometricPlanting": {
+    "floweringCushionInstances": 1205,
+    "grassTuftInstances": 388,
+    "meshPrototypes": 17,
+    "fiveLobedFlowers": 17468,
+    "petalLobes": 87340,
+    "needleLeaves": 69872,
+    "grassBlades": 3468,
+    "stemSegments": 25002,
+    "storedTriangles": 63019,
+    "instancedTriangles": 1178179,
+    "cushionReliefP05P50P95Metres": [
+      0.044,
+      0.12,
+      0.204
+    ],
+    "reliefSamples": 365,
+    "plantVerticesOnAccessRoutes": 0
+  }
+}
